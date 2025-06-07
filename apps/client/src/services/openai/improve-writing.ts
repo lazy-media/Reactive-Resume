@@ -20,7 +20,7 @@ export const improveWriting = async (text: string) => {
 
   const { model, maxTokens } = useOpenAiStore.getState();
 
-  const result = await openai().chat.completions.create({
+  const result = await openai().chat.generate.create({
     messages: [{ role: "user", content: prompt }],
     model: model ?? DEFAULT_MODEL,
     max_tokens: maxTokens ?? DEFAULT_MAX_TOKENS,
