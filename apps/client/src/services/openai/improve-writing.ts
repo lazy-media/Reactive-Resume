@@ -27,6 +27,7 @@ export const improveWriting = async (text: string) => {
     temperature: 0,
     stop: ['"""'],
     n: 1,
+    stream: false,
   });
 
   if (result.choices.length === 0) {

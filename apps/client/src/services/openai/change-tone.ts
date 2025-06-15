@@ -29,16 +29,12 @@ export const changeTone = async (text: string, mood: Mood) => {
     temperature: 0.5,
     stop: ['"""'],
     n: 1,
-    stream: false, // Explicitly set to false for compatibility
+    stream: false,
   });
 
   if (result.choices.length === 0) {
     throw new Error(t`OpenAI did not return any choices for your text.`);
   }
 
-  // Handle both OpenAI and OpenWebUI response formats
-  const responseContent = result.choices[0].message?.content ?? 
-                         result.choices[0]?.message?.content ?? 
-                         text;
-  return responseContent;
+  return result.choices[0].message.content ?? text;
 };
