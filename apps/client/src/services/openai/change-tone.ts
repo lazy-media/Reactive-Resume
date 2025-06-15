@@ -22,20 +22,23 @@ export const changeTone = async (text: string, mood: Mood) => {
 
   const { model, maxTokens } = useOpenAiStore.getState();
 
-  const options = {
+  const result = await openai().chat.completions.create({
     messages: [{ role: "user", content: prompt }],
     model: model ?? DEFAULT_MODEL,
     max_tokens: maxTokens ?? DEFAULT_MAX_TOKENS,
     temperature: 0.5,
     stop: ['"""'],
     n: 1,
-  };
-
-  const result = await openai().chat.completions.create(options);
+    stream: false, // Explicitly set to false for compatibility
+  });
 
   if (result.choices.length === 0) {
     throw new Error(t`OpenAI did not return any choices for your text.`);
   }
 
-  return result.choices[0].message.content ?? text;
+  // Handle both OpenAI and OpenWebUI response formats
+  const responseContent = result.choices[0].message?.content ?? 
+                         result.choices[0]?.message?.content ?? 
+                         text;
+  return responseContent;
 };
