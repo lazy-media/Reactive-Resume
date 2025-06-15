@@ -39,10 +39,10 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Lint
-        run: pnpm run lint --fix=true
+        run: pnpm run lint
 
       - name: Format
-        run: pnpm run format
+        run: pnpm run format --force
 
       - name: Test
         run: pnpm run test

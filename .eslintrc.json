@@ -84,6 +84,9 @@
         "@typescript-eslint/consistent-type-definitions": ["error", "type"],
         "@typescript-eslint/no-unnecessary-type-assertion": ["off"],
         "@typescript-eslint/prefer-optional-chain": ["off"],
+        "@typescript-eslint/prefer-nullish-coalescing": "on",
+        "@typescript-eslint/no-unnecessary-boolean-literal-compare": "true",
+        "@typescript-eslint/no-unnecessary-condition": "on",
 
         // unicorn
         "unicorn/no-null": "off",
