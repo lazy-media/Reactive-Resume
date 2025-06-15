@@ -22,7 +22,7 @@ export const changeTone = async (text: string, mood: Mood) => {
 
   const { model, maxTokens } = useOpenAiStore.getState();
 
-  const result = await openai().api.generate.create({
+  const result = await openai().chat.completions.create({
     messages: [{ role: "user", content: prompt }],
     model: model ?? DEFAULT_MODEL,
     max_tokens: maxTokens ?? DEFAULT_MAX_TOKENS,
