@@ -29,7 +29,6 @@ export const changeTone = async (text: string, mood: Mood) => {
     temperature: 0.5,
     stop: ['"""'],
     n: 1,
-    stream: false,
   });
 
   if (result.choices.length === 0) {
