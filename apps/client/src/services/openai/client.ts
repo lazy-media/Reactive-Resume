@@ -13,7 +13,7 @@ export const openai = () => {
   }
 
   let endpoint = "/chat/completions"; // Default to OpenAI endpoint
-  if (baseURL && baseURL.includes("localhost:11434")) {
+  if (baseURL && baseURL.includes("${baseURL}:11434")) {
     endpoint = "/api/generate"; // Use OpenWebUI endpoint for local integration
   }
 
