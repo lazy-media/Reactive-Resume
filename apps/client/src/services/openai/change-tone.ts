@@ -19,39 +19,13 @@ type Mood = "casual" | "professional" | "confident" | "friendly";
 
 export const changeTone = async (text: string, mood: Mood) => {
   const prompt = PROMPT.replace("{mood}", mood).replace("{input}", text);
-  const { model, maxTokens, apiType, apiKey, baseUrl } = useOpenAiStore.getState();
 
-  if (apiType === "openwebui") {
-    try {
-      const response = await fetch(`${baseUrl}/api/chat/completions`, {
-        method: "POST",
-        headers: {
-          "Authorization": `Bearer ${apiKey}`,
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          model: model ?? DEFAULT_MODEL,
-          messages: [{ role: "user", content: prompt }],
-          max_tokens: maxTokens ?? DEFAULT_MAX_TOKENS,
-          temperature: 0.5,
-          stop: ['"""'],
-        })
-      });
+  const { model, maxTokens } = useOpenAiStore.getState();
 
-      if (!response.ok) {
-        throw new Error(t`API request failed with status ${response.status}`);
-      }
-
-      const result = await response.json();
-      return result.choices?.[0]?.message?.content ?? text;
-    } catch (error) {
-      console.error("OpenWebUI API error:", error);
-      throw new Error(t`Failed to process text with OpenWebUI`);
-    }
-  } else {
-    // Original OpenAI implementation
-    try {
-      const result = await openai().chat.completions.create({
+  try {
+    // For OpenWebUI compatibility
+    if (openai().baseURL.includes('localhost') || openai().baseURL.includes('openwebui')) {
+      const response = await openai().chat.completions.create({
         messages: [{ role: "user", content: prompt }],
         model: model ?? DEFAULT_MODEL,
         max_tokens: maxTokens ?? DEFAULT_MAX_TOKENS,
@@ -60,14 +34,31 @@ export const changeTone = async (text: string, mood: Mood) => {
         n: 1,
       });
 
-      if (result.choices.length === 0) {
+      if (response.choices.length === 0) {
         throw new Error(t`API did not return any choices for your text.`);
       }
 
-      return result.choices[0].message.content ?? text;
-    } catch (error) {
-      console.error("OpenAI API error:", error);
-      throw new Error(t`Failed to process text with OpenAI`);
+      return response.choices[0].message.content ?? text;
+    } 
+    // For OpenAI compatibility
+    else {
+      const response = await openai().chat.completions.create({
+        messages: [{ role: "user", content: prompt }],
+        model: model ?? DEFAULT_MODEL,
+        max_tokens: maxTokens ?? DEFAULT_MAX_TOKENS,
+        temperature: 0.5,
+        stop: ['"""'],
+        n: 1,
+      });
+
+      if (response.choices.length === 0) {
+        throw new Error(t`OpenAI did not return any choices for your text.`);
+      }
+
+      return response.choices[0].message.content ?? text;
     }
+  } catch (error) {
+    console.error("Error in changeTone:", error);
+    throw error;
   }
 };
