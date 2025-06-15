@@ -22,43 +22,20 @@ export const changeTone = async (text: string, mood: Mood) => {
 
   const { model, maxTokens } = useOpenAiStore.getState();
 
-  try {
-    // For OpenWebUI compatibility
-    if (openai().baseURL.includes('localhost') || openai().baseURL.includes('openwebui')) {
-      const response = await openai().chat.completions.create({
-        messages: [{ role: "user", content: prompt }],
-        model: model ?? DEFAULT_MODEL,
-        max_tokens: maxTokens ?? DEFAULT_MAX_TOKENS,
-        temperature: 0.5,
-        stop: ['"""'],
-        n: 1,
-      });
+  const options = {
+    messages: [{ role: "user", content: prompt }],
+    model: model ?? DEFAULT_MODEL,
+    max_tokens: maxTokens ?? DEFAULT_MAX_TOKENS,
+    temperature: 0.5,
+    stop: ['"""'],
+    n: 1,
+  };
 
-      if (response.choices.length === 0) {
-        throw new Error(t`API did not return any choices for your text.`);
-      }
+  const result = await openai().chat.completions.create(options);
 
-      return response.choices[0].message.content ?? text;
-    } 
-    // For OpenAI compatibility
-    else {
-      const response = await openai().chat.completions.create({
-        messages: [{ role: "user", content: prompt }],
-        model: model ?? DEFAULT_MODEL,
-        max_tokens: maxTokens ?? DEFAULT_MAX_TOKENS,
-        temperature: 0.5,
-        stop: ['"""'],
-        n: 1,
-      });
-
-      if (response.choices.length === 0) {
-        throw new Error(t`OpenAI did not return any choices for your text.`);
-      }
-
-      return response.choices[0].message.content ?? text;
-    }
-  } catch (error) {
-    console.error("Error in changeTone:", error);
-    throw error;
+  if (result.choices.length === 0) {
+    throw new Error(t`OpenAI did not return any choices for your text.`);
   }
+
+  return result.choices[0].message.content ?? text;
 };
