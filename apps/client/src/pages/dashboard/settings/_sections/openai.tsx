@@ -117,7 +117,7 @@ export const OpenAISettings = () => {
             You can integrate with OpenWebUI to use with your local AI. This
             requires an HTTPS connection. 1) Get an API/Access Token from
             OpenWebUI 2) Input the token in the appropriate field 3) Set the
-            OpenWebUI URL as either: - `https://openwebui.example.com/api` -
+            OpenWebUI URL as either: (a) `https://openwebui.example.com/api` (b)
             `https://localhost:11434/api` 4) Select your preferred model (e.g.,
             llama3:latest) 5) Configure max tokens and other parameters as
             needed
