@@ -25,7 +25,6 @@
     "format": "prettier --check .",
     "format:write": "prettier --write .",
     "format:fix": "pnpm exec prettier -w --log-level error .",
-//    "format": "pnpm exec prettier -c --log-level error .",
     "crowdin:sync": "crowdin push && crowdin pull",
     "prisma:generate": "pnpm exec prisma generate",
     "prisma:migrate": "pnpm exec prisma migrate deploy",
