@@ -23,7 +23,7 @@
     "lint": "nx run-many -t lint",
     "lint:fix": "nx run-many -t lint --fix",
     "format": "prettier --check .",
-    "format:write": "prettier --write",
+    "format:write": "prettier --write .",
     "format:fix": "pnpm exec prettier -w --log-level error .",
     "format": "pnpm exec prettier -c --log-level error .",
     "crowdin:sync": "crowdin push && crowdin pull",
