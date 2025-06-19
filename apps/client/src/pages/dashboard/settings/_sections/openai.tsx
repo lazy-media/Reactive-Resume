@@ -37,8 +37,16 @@ const formSchema = z.object({
 type FormValues = z.infer<typeof formSchema>;
 
 export const OpenAISettings = () => {
-  const { apiKey, setApiKey, baseURL, setBaseURL, model, setModel, maxTokens, setMaxTokens } =
-    useOpenAiStore();
+  const {
+    apiKey,
+    setApiKey,
+    baseURL,
+    setBaseURL,
+    model,
+    setModel,
+    maxTokens,
+    setMaxTokens,
+  } = useOpenAiStore();
 
   const isEnabled = !!apiKey;
 
@@ -70,7 +78,12 @@ export const OpenAISettings = () => {
     setBaseURL(null);
     setModel(DEFAULT_MODEL);
     setMaxTokens(DEFAULT_MAX_TOKENS);
-    form.reset({ apiKey: "", baseURL: "", model: DEFAULT_MODEL, maxTokens: DEFAULT_MAX_TOKENS });
+    form.reset({
+      apiKey: "",
+      baseURL: "",
+      model: DEFAULT_MODEL,
+      maxTokens: DEFAULT_MAX_TOKENS,
+    });
   };
 
   return (
@@ -93,28 +106,30 @@ export const OpenAISettings = () => {
             >
               obtain your own OpenAI API key
             </a>
-            . This key empowers you to leverage the API as you see fit. Alternatively, if you wish
-            to disable the AI features in Reactive Resume altogether, you can simply remove the key
-            from your settings.
+            . This key empowers you to leverage the API as you see fit.
+            Alternatively, if you wish to disable the AI features in Reactive
+            Resume altogether, you can simply remove the key from your settings.
           </Trans>
         </p>
 
         <p>
           <Trans>
-            You can integrate with OpenWebUI to use with your local AI. This requires an HTTPS connection.
-            1) Get an API/Access Token from OpenWebUI
-            2) Input the token in the appropriate field
-            3) Set the OpenWebUI URL as either:
-             - `https://openwebui.example.com/api`
-             - `https://localhost:11434/api`
-            4) Select your preferred model (e.g., llama3:latest)
-            5) Configure max tokens and other parameters as needed
+            You can integrate with OpenWebUI to use with your local AI. This
+            requires an HTTPS connection. 1) Get an API/Access Token from
+            OpenWebUI 2) Input the token in the appropriate field 3) Set the
+            OpenWebUI URL as either: - `https://openwebui.example.com/api` -
+            `https://localhost:11434/api` 4) Select your preferred model (e.g.,
+            llama3:latest) 5) Configure max tokens and other parameters as
+            needed
           </Trans>
         </p>
       </div>
 
       <Form {...form}>
-        <form className="grid gap-6 sm:grid-cols-2" onSubmit={form.handleSubmit(onSubmit)}>
+        <form
+          className="grid gap-6 sm:grid-cols-2"
+          onSubmit={form.handleSubmit(onSubmit)}
+        >
           <FormField
             name="apiKey"
             control={form.control}
@@ -135,7 +150,11 @@ export const OpenAISettings = () => {
               <FormItem>
                 <FormLabel>{t`Base URL`}</FormLabel>
                 <FormControl>
-                  <Input type="text" placeholder="http://localhost:11434/v1" {...field} />
+                  <Input
+                    type="text"
+                    placeholder="http://localhost:11434/v1"
+                    {...field}
+                  />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -193,9 +212,10 @@ export const OpenAISettings = () => {
       <div className="prose prose-sm prose-zinc max-w-full dark:prose-invert">
         <p>
           <Trans>
-            Your API key is securely stored in the browser's local storage and is only utilized when
-            making requests to OpenAI via their official SDK. Rest assured that your key is not
-            transmitted to any external server except when interacting with OpenAI's services.
+            Your API key is securely stored in the browser's local storage and
+            is only utilized when making requests to OpenAI via their official
+            SDK. Rest assured that your key is not transmitted to any external
+            server except when interacting with OpenAI's services.
           </Trans>
         </p>
       </div>
@@ -220,9 +240,10 @@ export const OpenAISettings = () => {
             >
               privacy policy
             </a>{" "}
-            outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any
-            improper or unauthorized utilization of the service, and any resulting repercussions or
-            liabilities solely rest on the user.
+            outlined by OpenAI. Please note that Reactive Resume bears no
+            responsibility for any improper or unauthorized utilization of the
+            service, and any resulting repercussions or liabilities solely rest
+            on the user.
           </Trans>
         </div>
       </Alert>
