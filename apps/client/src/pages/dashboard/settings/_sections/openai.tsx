@@ -76,7 +76,7 @@ export const OpenAISettings = () => {
   return (
     <div className="space-y-6">
       <div>
-        <h3 className="text-2xl font-bold leading-relaxed tracking-tight">{t`OpenAI/OpenWebUI Integration`}</h3>
+        <h3 className="text-2xl font-bold leading-relaxed tracking-tight">{t`OpenAI/Ollama Integration`}</h3>
         <p className="leading-relaxed opacity-75">
           {t`You can make use of the OpenAI API to help you generate content, or improve your writing while composing your resume.`}
         </p>
@@ -120,7 +120,7 @@ export const OpenAISettings = () => {
             control={form.control}
             render={({ field }) => (
               <FormItem>
-                <FormLabel>{t`OpenAI/OpenWebUI API Key`}</FormLabel>
+                <FormLabel>{t`OpenAI/Ollama API Key`}</FormLabel>
                 <FormControl>
                   <Input type="password" placeholder="sk-..." {...field} />
                 </FormControl>
@@ -135,7 +135,7 @@ export const OpenAISettings = () => {
               <FormItem>
                 <FormLabel>{t`Base URL`}</FormLabel>
                 <FormControl>
-                  <Input type="text" placeholder="https://localhost:11434/api or https://ai.example.com/api" {...field} />
+                  <Input type="text" placeholder="http://localhost:11434/v1" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
