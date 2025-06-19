@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AmruthPillai/Reactive-Resume.git"
+    "url": "https://github.com/lazy-media/Reactive-Resume.git"
   },
   "scripts": {
     "dev": "nx run-many -t serve",
@@ -22,7 +22,7 @@
     "start": "node dist/apps/server/main",
     "lint": "nx run-many -t lint",
     "lint:fix": "nx run-many -t lint --fix",
-    "format": "pnpm prettier --check --log-level=silent .",
+    "format": "pnpm prettier --check .",
     "format:fix": "pnpm exec prettier --write --log-level error .",
     "crowdin:sync": "crowdin push && crowdin pull",
     "prisma:generate": "pnpm exec prisma generate",
