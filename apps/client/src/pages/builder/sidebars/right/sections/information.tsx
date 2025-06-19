@@ -60,7 +60,7 @@ const IssuesCard = () => (
     </CardContent>
     <CardFooter className="space-x-4">
       <a
-        href="https://github.com/AmruthPillai/Reactive-Resume/issues/new/choose"
+        href="https://github.com/lazy-media/Reactive-Resume/issues/new/choose"
         className={cn(buttonVariants({ size: "sm" }))}
         rel="noopener noreferrer nofollow"
         target="_blank"
