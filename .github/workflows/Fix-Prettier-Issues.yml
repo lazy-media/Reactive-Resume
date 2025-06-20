@@ -2,6 +2,10 @@ name: Run Prettier
 
 on:
   workflow_dispatch:
+  workflow_run:
+  workflows: ["CodeQL"]
+    types:
+      - completed
   push:
     branches: [main, master, test]
   pull_request:
