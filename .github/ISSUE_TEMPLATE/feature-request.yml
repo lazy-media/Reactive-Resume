@@ -10,17 +10,17 @@ body:
       label: Verification Checklist
       options:
         - label: I've searched existing issues and confirmed this is new
-          required: true
         - label: This benefits multiple users (not just my specific use case)
-          required: true
         - label: This is for the self-hosted version (not cloud)
-          required: true
+    validations:
+      required: true
 
   - type: textarea
     attributes:
       label: Feature Description
       description: What problem does this solve?
       placeholder: "Example: Add custom CSS support for templates"
+    validations:
       required: true
 
   - type: textarea
@@ -31,6 +31,7 @@ body:
         - Add CSS editor in template settings
         - Validate input for security
         - Save to user profile
+    validations:
       required: false
 
   - type: dropdown
@@ -40,10 +41,12 @@ body:
         - Low (nice-to-have)
         - Medium (improves core experience)
         - High (critical functionality)
+    validations:
       required: true
 
   - type: textarea
     attributes:
       label: Additional Context
       description: Mockups, references, or use cases
+    validations:
       required: false
