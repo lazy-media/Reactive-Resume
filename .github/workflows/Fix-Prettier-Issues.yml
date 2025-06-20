@@ -1,6 +1,7 @@
 name: Run Prettier
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main, master, test ]
   pull_request:
