@@ -1,10 +1,10 @@
 blank_issues_enabled: false
 contact_links:
   - name: Bug Report
-    url: bug-report.yml
+    url: ./bug-report.yml
     about: Submit Bug Reports here
   - name: Feature Requests
-    url: feature-request.yml
+    url: ./feature-request.yml
     about: Submit Feature Requests here
   - name: GitHub Community Support
     url: https://github.com/orgs/community/discussions
