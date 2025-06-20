@@ -3,19 +3,18 @@ name: Run Prettier
 on:
   workflow_dispatch:
   push:
-    branches: [ main, master, test ]
+    branches: [main, master, test]
   pull_request:
-    branches: [ main, master, test ]
+    branches: [main, master, test]
 
 permissions:
   contents: write
-  pull-requests: write  # Needed to create PRs
+  pull-requests: write # Needed to create PRs
 
 jobs:
   prettier:
     runs-on: ubuntu-latest
     steps:
-
       - name: Checkout Repository
         uses: actions/checkout@v4.2.2
         with:
@@ -47,4 +46,4 @@ jobs:
           git add .
           git diff --quiet && git diff --staged --quiet || (git commit -m "style: run prettier" && git push origin HEAD && gh pr create --title "Prettier Formatting Fix" --body "Automated Prettier fixes" --head "$(git branch --show-current)" --base main)
         env:
-          GH_TOKEN: ${{ github.token }}  # GitHub automatically provides this
+          GH_TOKEN: ${{ github.token }} # GitHub automatically provides this
