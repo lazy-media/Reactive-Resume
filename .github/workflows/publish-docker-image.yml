@@ -5,6 +5,10 @@ on:
   push:
     tags:
       - "*"
+  workflow_run:
+    workflows: ["Lint, Test & Build"]
+    types:
+      - completed
 
 concurrency:
   group: "${{ github.workflow }}-${{ github.ref }}"
