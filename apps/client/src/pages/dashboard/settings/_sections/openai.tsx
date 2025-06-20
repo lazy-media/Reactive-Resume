@@ -106,7 +106,8 @@ export const OpenAISettings = () => {
 
         <p>
           <Trans>
-            You can integrate with OpenWebUI to use with your local AI. This requires an HTTPS connection.
+            You can integrate with OpenWebUI to use with your local AI. This requires an HTTPS
+            connection.
             <br />
             1. Get an API/Access Token from OpenWebUI
             <br />
