@@ -5,14 +5,18 @@ concurrency:
   cancel-in-progress: true
 
 on:
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-      - test
-  pull_request:
-    branches:
-      - main
+#  workflow_dispatch:
+#  push:
+#    branches:
+#      - main
+#      - test
+#  pull_request:
+#    branches:
+#      - main
+  workflow_run:
+    workflows: ["Run Prettier Fix"]
+    types:
+      - completed
 
 jobs:
   main:

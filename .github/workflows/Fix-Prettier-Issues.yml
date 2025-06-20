@@ -1,0 +1,38 @@
+name: Run Prettier Fix
+
+on:
+  push:
+    branches: [ main, master, test ]
+  pull_request:
+    branches: [ main, master, test ]
+#  workflow_run:
+#    workflows: ["Sync Crowdin Translations"]
+#    types:
+#      - completed
+
+jobs:
+  prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Run Prettier
+        run: pnpm prettier --write .
+
+      - name: Commit changes (if any)
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "style: run prettier"
+          git push

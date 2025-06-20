@@ -1,10 +1,10 @@
 name: Publish Docker Image
 
 on:
-  workflow_dispatch:
-  push:
-    tags:
-      - "*"
+#  workflow_dispatch:
+#  push:
+#    tags:
+#      - "*"
   workflow_run:
     workflows: ["Lint, Test & Build"]
     types:
