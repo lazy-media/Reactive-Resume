@@ -79,7 +79,9 @@ Start creating your standout resume with Reactive Resume today!
 Reactive Resume is packaged and distributed using the [MIT License](/LICENSE.md) which allows for commercial use, distribution, modification and private use provided that all copies of the software contain the same license and copyright.
 
 _By the community, for the community._  
-A passion project by [Amruth Pillai](https://www.lazy-media.com/)
+A passion project by [Amruth Pillai](https://www.amruthpillai.com/)
+
+Forked and currently maintained by [Lazy Media](https://github.com/sponsors/lazy-media)
 
 <p>
   <a href="https://www.digitalocean.com/?utm_medium=opensource&utm_source=Reactive-Resume">
