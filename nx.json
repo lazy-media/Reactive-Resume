@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "nxCloudAccessToken": "ZDRlODUzNjAtYmQyNy00Y2UyLWE2NGMtODRhMDMwMjI4OGZj",
+  "nxCloudAccessToken": "!{ secrets.NX_CLOUD_ACCESS_TOKEN }",
   "targetDefaults": {
     "build": { "cache": true, "dependsOn": ["^build"], "inputs": ["production", "^production"] },
     "lint": {
