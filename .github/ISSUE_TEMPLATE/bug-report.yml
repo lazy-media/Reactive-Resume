@@ -11,27 +11,33 @@ body:
       description: Please confirm you've completed these steps
       options:
         - label: I've searched existing issues and confirmed this is new
-          required: true
+          validations:
+            required: true
         - label: I've tested on multiple browsers/devices
-          required: true
+          validations:
+            required: true
         - label: I've attempted troubleshooting (cache clearing, etc.)
-          required: true
+          validations:
+            required: true
         - label: This occurs in the self-hosted version (not cloud)
-          required: true
+          validations:
+            required: true
 
   - type: textarea
     attributes:
       label: Current Behavior
       description: What is happening?
       placeholder: "Example: PDF export fails with 'Network Error'"
-      required: true
+      validations:
+        required: true
 
   - type: textarea
     attributes:
       label: Expected Behavior
       description: What should happen instead?
       placeholder: "Example: PDF should export successfully"
-      required: true
+      validations:
+        required: true
 
   - type: textarea
     attributes:
@@ -42,7 +48,8 @@ body:
         2. Click on '...'
         3. Scroll to '...'
         4. See error
-      required: true
+      validations:
+        required: true
 
   - type: dropdown
     attributes:
@@ -55,7 +62,8 @@ body:
         - Edge
         - Brave
         - Other (specify below)
-      required: true
+      validations:
+        required: true
 
   - type: dropdown
     attributes:
@@ -68,7 +76,8 @@ body:
         - Gengar
         - (other templates...)
         - Not template-specific
-      required: false
+      validations:
+        required: false
 
   - type: textarea
     attributes:
@@ -76,4 +85,5 @@ body:
       description: |
         System info, screenshots, or error logs
         (Drag files here to attach)
-      required: false
+      validations:
+        required: false
