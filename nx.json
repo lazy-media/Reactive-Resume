@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "nxCloudAccessToken": "${{ secrets.NX_CLOUD_ACCESS_TOKEN }}",
+  "nxCloudAccessToken": "${ secrets.NX_CLOUD_ACCESS_TOKEN }",
   "targetDefaults": {
     "build": {
       "cache": true,
