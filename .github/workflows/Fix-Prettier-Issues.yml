@@ -18,11 +18,24 @@ jobs:
   prettier:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4.2.2
+        with:
+          fetch-depth: 2
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4.0.0
+        with:
+          version: latest
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4.1.0
+        with:
+          cache: "pnpm"
+          node-version: 22
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
       - name: Install dependencies
         run: pnpm prebuild
