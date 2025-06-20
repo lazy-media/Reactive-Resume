@@ -2,13 +2,9 @@ name: Publish Docker Image
 
 on:
   workflow_dispatch:
-  #  push:
-  #    tags:
-  #      - "*"
-  workflow_run:
-    workflows: ["Lint, Test & Build"]
-    types:
-      - completed
+    push:
+      tags:
+        - "*"
 
 concurrency:
   group: "${{ github.workflow }}-${{ github.ref }}"
