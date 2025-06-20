@@ -1,7 +1,7 @@
 ![Reactive Resume](https://i.imgur.com/FFc4nyZ.jpg)
 
 ![App Version](https://img.shields.io/github/package-json/version/lazy-media/Reactive-Resume?label=version)
-[![Docker Pulls](https://img.shields.io/docker/pulls/lazy-media/reactive-resume)](https://hub.docker.com/repository/docker/lazy-media/reactive-resume)
+[![Docker Pulls](https://img.shields.io/docker/pulls/pickit420/reactive-resume)](https://hub.docker.com/repository/docker/pickit420/reactive-resume)
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/lazy-media)](https://github.com/sponsors/lazy-media)
 [![Discord](https://img.shields.io/discord/1173518977851473940?label=discord&link=https%3A%2F%2Flink.lazymedia%2Flazymedia-discord-promo-page)](https://link.lazymedia.media/lazymedia-discord-promo-page)
 
