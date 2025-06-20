@@ -14,7 +14,7 @@ on:
 #    branches:
 #      - main
   workflow_run:
-    workflows: ["Run Prettier Fix"]
+    workflows: ["Run Prettier Fix" "Sync Crowdin Translations"]
     types:
       - completed
 
