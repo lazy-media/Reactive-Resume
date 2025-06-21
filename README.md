@@ -74,6 +74,18 @@ Start creating your standout resume with Reactive Resume today!
 - GitHub/Google OAuth (for quickly authenticating users)
 - LinguiJS and Crowdin (for translation management and localization)
 
+## Ollama / OpenWebUI Instructions
+> The current documentation inside the UI for Reactive Resume is not accurate, follow these instructions to properly setup Ollama / OpenWebUI for local AI integration.
+
+You can integrate with OpenWebUI to use with your local AI. This requires an HTTPS connection.
+- 1) Get an API/Access Token from OpenWebUI
+- 2) Input the token in the appropriate field.
+- 3) Set the OpenWebUI URL as either:
+  - a) https://openwebui.example.com/api
+  - b) https://localhost:11434/api
+- 4) Select your preferred model (e.g., llama3:latest)
+- 5) Configure max tokens and other parameters as needed
+          
 ## License
 
 Reactive Resume is packaged and distributed using the [MIT License](/LICENSE.md) which allows for commercial use, distribution, modification and private use provided that all copies of the software contain the same license and copyright.
