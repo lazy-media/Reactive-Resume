@@ -5,7 +5,11 @@
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/lazy-media)](https://github.com/sponsors/lazy-media)
 [![Discord](https://img.shields.io/discord/1173518977851473940?label=discord&link=https%3A%2F%2Flink.lazymedia%2Flazymedia-discord-promo-page)](https://link.lazymedia.media/lazymedia-discord-promo-page)
 
-# Reactive Resume
+# Reactive Resume *(Community Forked Version)*
+
+> - *All main information still applies to this version as the main/original version. The only thing this project focuses on is the community / self hosted version.*
+> - *Please contribute to the project if you know what you are doing, as the current maintainer of this project currently relies on built-in AI and other built-in security measures to verify code integrity and malicious code injection.*
+> - *Current maintainer is currently trying to learn the languages required for this project, but it is a lot to learn...*
 
 A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.
 
@@ -40,7 +44,7 @@ Start creating your standout resume with Reactive Resume today!
 - **Free, forever** and open-source
 - No telemetry, user tracking or advertising
 - You can self-host the application in less than 30 seconds
-- **Available in multiple languages** ([help add/improve your language here](https://translate.rxresu.me/))
+- **Available in multiple languages** ([help add/improve your language here](https://crowdin.com/project/lazymedia-reactive-resume))
 - Use your email address (or a throw-away address, no problem) to create an account
 - You can also sign in with your GitHub or Google account, and even set up two-factor authentication for extra security
 - Create as many resumes as you like under a single account, optimising each resume for every job application based on its description for a higher ATS score
@@ -75,7 +79,9 @@ Start creating your standout resume with Reactive Resume today!
 - LinguiJS and Crowdin (for translation management and localization)
 
 ## Ollama / OpenWebUI Instructions
-> The current documentation inside the UI for Reactive Resume is not accurate, follow these instructions to properly setup Ollama / OpenWebUI for local AI integration.
+> The current documentation inside the UI for Reactive Resume is not accurate. Follow these instructions to properly setup Ollama / OpenWebUI for local AI integration.
+> *I cannot figure out how to change the UI information without getting an error code or random letters and numbers.*
+
 
 You can integrate with OpenWebUI to use with your local AI. This requires an HTTPS connection.
 - 1) Get an API/Access Token from OpenWebUI
