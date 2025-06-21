@@ -115,9 +115,9 @@ export const OpenAISettings = () => {
             <br />
             3. Set the OpenWebUI URL as either:
             <br />
-            &nbsp;&nbsp;a. https://openwebui.example.com/api
+            a. https://openwebui.example.com/api
             <br />
-            &nbsp;&nbsp;b. https://localhost:11434/api
+            b. https://localhost:11434/api
             <br />
             4. Select your preferred model (e.g., llama3:latest)
             <br />
