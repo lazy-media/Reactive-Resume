@@ -106,9 +106,10 @@ export const OpenAISettings = () => {
 
         <p>
           <Trans>
-            You can also integrate with OpenWebUI simply by setting an API key. Must be an HTTPS
-            Connection and endpoint of `/api` i.e. `https://localhost:8080/api`. You can also pick
-            and choose models and set the max tokens as per your preference.
+            You can also integrate with Ollama simply by setting the API key to
+            `sk-1234567890abcdef` and the Base URL to your Ollama URL, i.e.
+            `http://localhost:11434/v1`. You can also pick and choose models and set the max tokens
+            as per your preference.
           </Trans>
         </p>
       </div>
