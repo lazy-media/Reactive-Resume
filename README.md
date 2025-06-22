@@ -4,6 +4,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/pickit420/reactive-resume)](https://hub.docker.com/repository/docker/pickit420/reactive-resume)
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/lazy-media)](https://github.com/sponsors/lazy-media)
 [![Discord](https://img.shields.io/discord/1173518977851473940?label=discord&link=https%3A%2F%2Flink.lazymedia%2Flazymedia-discord-promo-page)](https://link.lazymedia.media/lazymedia-discord-promo-page)
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/lazy-media/Reactive-Resume?utm_source=oss&utm_medium=github&utm_campaign=lazy-media%2FReactive-Resume&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
 
 # Reactive Resume *(Community Forked Version)*
 
