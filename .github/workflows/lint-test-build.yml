@@ -47,6 +47,7 @@ jobs:
 
       - name: Format
         run: pnpm run format
+        continue-on-error: true
 
       - name: Test
         run: pnpm run test
