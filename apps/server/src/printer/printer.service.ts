@@ -137,8 +137,6 @@ export class PrinterService {
 
       const processPage = async (index: number) => {
         const pageElement = await page.$(`[data-page="${index}"]`);
-          throw new Error(`No element found for selector [data-page="${index}"]`);
-        }
         // eslint-disable-next-line unicorn/no-await-expression-member
         const width = (await (await pageElement?.getProperty("scrollWidth"))?.jsonValue()) ?? 0;
         // eslint-disable-next-line unicorn/no-await-expression-member
