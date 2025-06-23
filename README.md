@@ -98,7 +98,7 @@ You can integrate with OpenWebUI to use with your local AI. This requires an HTT
 
 - 1. Get an API/Access Token from OpenWebUI
 - 2. Input the token in the appropriate field.
-- 3. Set the OpenWebUI URL as either on of these examples:
+- 3. Set the OpenWebUI URL as either one of these examples:
   - a) https://openwebui.example.com/api
   - b) https://localhost:8080/api
     - _Make sure to change the port number if yours differs from the default OpenWebUI Port._
