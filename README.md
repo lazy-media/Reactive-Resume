@@ -24,7 +24,7 @@ A free and open-source resume builder that simplifies the process of creating, u
 
 ### [Go to App](https://rxresu.me/) | [Docs](https://docs.rxresu.me/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki)
 
-### Visit the [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki) to Learn how to Contribute or Submit an Issue
+### Visit the [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki) to learn how to *Contribute* or *Submit an Issue*
 
 ## Description
 
