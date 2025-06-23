@@ -35,6 +35,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - run: pnpm install
+      - run: pnpm prebuild
       - run: pnpm prettier --write .
 
       - name: Create branch, commit, and open PR (if changes)
