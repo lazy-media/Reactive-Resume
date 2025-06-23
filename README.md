@@ -14,7 +14,7 @@
 [![Publish Docker Image](https://github.com/lazy-media/Reactive-Resume/actions/workflows/publish-docker-image.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/publish-docker-image.yml)
 [![Sync Crowdin Translations](https://github.com/lazy-media/Reactive-Resume/actions/workflows/sync-crowdin-translations.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/sync-crowdin-translations.yml)
 
-# Reactive Resume _(Community Forked Version)_
+# Reactive Resume _(Self-Hosted Community Forked Version)_
 
 > - _All main information still applies to this version as the main/original version. The only thing this project focuses on is the community / self hosted version._
 > - _Please contribute to the project if you know what you are doing, as the current maintainer of this project currently relies on built-in AI and other built-in security measures to verify code integrity and malicious code injection._
