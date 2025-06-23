@@ -7,6 +7,12 @@
 ![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/lazy-media/Reactive-Resume?utm_source=oss&utm_medium=github&utm_campaign=lazy-media%2FReactive-Resume&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
 [![Crowdin](https://badges.crowdin.net/lazymedia-reactive-resume/localized.svg)](https://crowdin.com/project/lazymedia-reactive-resume)
 
+### Workflows
+[![CodeQL](https://github.com/lazy-media/Reactive-Resume/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/github-code-scanning/codeql)
+[![Lint, Test & Build](https://github.com/lazy-media/Reactive-Resume/actions/workflows/lint-test-build.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/lint-test-build.yml)
+[![Publish Docker Image](https://github.com/lazy-media/Reactive-Resume/actions/workflows/publish-docker-image.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/publish-docker-image.yml)
+[![Sync Crowdin Translations](https://github.com/lazy-media/Reactive-Resume/actions/workflows/sync-crowdin-translations.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/sync-crowdin-translations.yml)
+
 # Reactive Resume _(Community Forked Version)_
 
 > - _All main information still applies to this version as the main/original version. The only thing this project focuses on is the community / self hosted version._
