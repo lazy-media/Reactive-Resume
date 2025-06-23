@@ -1,15 +1,19 @@
 name: Run Prettier
 
+concurrency:
+  group: "${{ github.workflow }}-${{ github.ref }}"
+  cancel-in-progress: true
+
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-      - test
-  pull_request:
-    branches:
-      - main
-      - test
+    push:
+      branches:
+        - main
+        - test
+    pull_request:
+      branches:
+        - main
+        - test
 
 permissions:
   contents: write
