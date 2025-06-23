@@ -2,9 +2,9 @@ name: Publish Docker Image
 
 on:
   workflow_dispatch:
-    push:
-      tags:
-        - "*"
+  push:
+    tags:
+      - "*"
 
 concurrency:
   group: "${{ github.workflow }}-${{ github.ref }}"
