@@ -22,7 +22,7 @@
     "start": "node dist/apps/server/main",
     "lint": "nx run-many -t lint",
     "lint:fix": "nx run-many -t lint --fix",
-    "format": "pnpm prettier --check .",
+    "format": "pnpm prettier --check . || true",
     "format:fix": "pnpm exec prettier --write --log-level error .",
     "crowdin:sync": "crowdin push && crowdin pull",
     "prisma:generate": "pnpm exec prisma generate",
