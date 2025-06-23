@@ -1,4 +1,4 @@
-name: Run Prettier
+name: Run Prettier Fix
 
 concurrency:
   group: "${{ github.workflow }}-${{ github.ref }}"
@@ -47,7 +47,7 @@ jobs:
       - run: pnpm prettier --write .
 
       - name: Commit and push Prettier changes to main
-        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/test'
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
