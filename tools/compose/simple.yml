@@ -4,7 +4,6 @@
 
 #### THIS IS AN EXAMPLE OF A DOCKER COMPOSE FILE WITH AN .ENV FILE. THIS IS STILL IN TESTING. USE AT OWN RISK.
 
-
 services:
   # Database (Postgres)
   postgres:
