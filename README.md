@@ -91,7 +91,7 @@ You can integrate with OpenWebUI to use with your local AI. This requires an HTT
 - 3. Set the OpenWebUI URL as either on of these examples:
   - a) https://openwebui.example.com/api
   - b) https://localhost:8080/api
-    - *Make sure to change the port number if yours differs from the default OpenWebUI Port.*
+    - _Make sure to change the port number if yours differs from the default OpenWebUI Port._
 - 4. Select your preferred model (e.g., llama3:latest)
 - 5. Configure max tokens and other parameters as needed
 

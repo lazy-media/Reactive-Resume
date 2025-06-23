@@ -140,10 +140,7 @@ export class PrinterService {
       });
 
       // Determine format: default to 'A4' if not set
-      const format =
-        resume.data.metadata.pageFormat === "Letter"
-          ? "Letter"
-          : "A4";
+      const format = resume.data.metadata.pageFormat === "Letter" ? "Letter" : "A4";
 
       // Generate PDF using Puppeteer's built-in format option
       const pdfBuffer = await page.pdf({
