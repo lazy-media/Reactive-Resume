@@ -22,7 +22,9 @@
 
 A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.
 
-### [Go to App](https://rxresu.me/) | [Docs](https://docs.rxresu.me/)
+### [Go to App](https://rxresu.me/) | [Docs](https://docs.rxresu.me/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki)
+
+### Visit the [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki) to Learn how to Contribute or Submit an Issue
 
 ## Description
 
