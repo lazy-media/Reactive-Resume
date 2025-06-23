@@ -12,6 +12,7 @@ concurrency:
 
 env:
   IMAGE: pickit420/reactive-resume
+  GITH_IMAGE: lazy-media/reactive-resume
 
 permissions:
   packages: write
@@ -64,7 +65,7 @@ jobs:
           tags: type=semver,pattern={{version}},prefix=v,value=${{ steps.version.outputs.version }}
           images: |
             ${{ env.IMAGE }}
-            ghcr.io/${{ env.IMAGE }}
+            ghcr.io/${{ env.GITH_IMAGE }}
 
       - name: Prepare a unique name for Artifacts
         id: artifact_name
@@ -137,7 +138,7 @@ jobs:
           tags: type=semver,pattern={{version}},prefix=v,value=${{ needs.build.outputs.version }}
           images: |
             ${{ env.IMAGE }}
-            ghcr.io/${{ env.IMAGE }}
+            ghcr.io/${{ env.GITH_IMAGE }}
 
       - name: Create Docker Manifest List and Push
         working-directory: /tmp/digests
@@ -169,3 +170,4 @@ jobs:
           title: "Release `${{ steps.meta.outputs.version }}`"
           description: "A new version of Reactive Resume just dropped! 🚀"
           url: "https://github.com/lazy-media/Reactive-Resume"
+          url: "https://hub.docker.com/r/pickit420/reactive-resume"
