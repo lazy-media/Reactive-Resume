@@ -3,9 +3,13 @@ name: Run Prettier
 on:
   workflow_dispatch:
   push:
-    branches: [main, test]
+    branches:
+      - main
+      - test
   pull_request:
-    branches: [main, test]
+    branches:
+      - main
+      - test
 
 permissions:
   contents: write
