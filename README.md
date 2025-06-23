@@ -8,6 +8,7 @@
 [![Crowdin](https://badges.crowdin.net/lazymedia-reactive-resume/localized.svg)](https://crowdin.com/project/lazymedia-reactive-resume)
 
 ### Workflows
+
 [![CodeQL](https://github.com/lazy-media/Reactive-Resume/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/github-code-scanning/codeql)
 [![Lint, Test & Build](https://github.com/lazy-media/Reactive-Resume/actions/workflows/lint-test-build.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/lint-test-build.yml)
 [![Publish Docker Image](https://github.com/lazy-media/Reactive-Resume/actions/workflows/publish-docker-image.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/publish-docker-image.yml)
