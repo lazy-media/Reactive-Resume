@@ -38,13 +38,12 @@ jobs:
       - run: pnpm prebuild
       - run: pnpm prettier --write .
 
-      - name: Create branch, commit, and open PR (if changes)
-        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+      - name: Commit and push Prettier changes to main
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git checkout -b "prettier-fix-$(date +%s)"
           git add .
-          git diff --quiet && git diff --staged --quiet || (git commit -m "style: run prettier" && git push origin HEAD && gh pr create --title "Prettier Formatting Fix" --body "Automated Prettier fixes" --head "$(git branch --show-current)" --base main)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "style: run prettier" && git push origin main)
         env:
           GH_TOKEN: ${{ github.token }} # GitHub automatically provides this
