@@ -23,7 +23,7 @@ export const HeroSection = () => (
         whileInView={{ opacity: 1, x: 0 }}
       >
         <div className="hidden items-center gap-x-4 sm:flex">
-          <Badge>{`Version 1`}</Badge>
+          <Badge>{t`V 1`}</Badge>
 
           <a
             href="https://github.com/lazy-media/Reactive-Resume/releases"
