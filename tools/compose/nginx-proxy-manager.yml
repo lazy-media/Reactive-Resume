@@ -2,8 +2,7 @@ version: "3.8"
 
 # In this Docker Compose example, we use Nginx Proxy Manager to manage the reverse proxy and SSL certificates.
 # There's very little configuration to be made on the compose file itself, and most of it is done on the Nginx Proxy Manager UI.
-# All data gets persisted inside the folder where the docker compose file resides.
-# To change this and use docker volumes, remove `./` at the beginning of the volume for the app.
+# I recommend to persist data inside the folder where this docker compose file resides by adding `./` at the beginning of the volume for the minio and postgres.
 # I find, this is the best way to persist data in docker compose files.
 
 services:
@@ -12,7 +11,7 @@ services:
     image: postgres:16-alpine
     restart: ${{RESTART_POLICY:-unless-stopped}}
     volumes:
-      - ./postgres_data:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/data
     environment:
       POSTGRES_USER: ${{POSTGRES_USER:-postgres}}
       POSTGRES_PASSWORD: ${{POSTGRES_PASSWORD:-postgres}}
@@ -26,13 +25,13 @@ services:
   # Storage (for image uploads)
   minio:
     image: minio/minio:latest
-    restart: ${{RESTART_POLICY:-unless-stopped}}
+    restart: ${RESTART_POLICY:-unless-stopped}
     command: server /data
     volumes:
-      - ./minio_data:/data
+      - minio_data:/data
     environment:
-      MINIO_ROOT_USER: ${{MINIO_ROOT_USER:-minioadmin}}
-      MINIO_ROOT_PASSWORD: ${{MINIO_ROOT_PASSWORD:-minioadmin}}
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-minioadmin}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-minioadmin}
     labels:
       - traefik.enable=true
       - traefik.http.routers.storage.rule=Host(`storage.example.com`)
@@ -43,83 +42,83 @@ services:
   # Chrome Browser (for printing and previews)
   chrome:
     image: ghcr.io/browserless/chromium:latest
-    restart: ${{RESTART_POLICY:-unless-stopped}}
+    restart: ${RESTART_POLICY:-unless-stopped}
     environment:
       HEALTH: "true"
-      TOKEN: ${{CHROME_TOKEN:-chrome_token}}
+      TOKEN: ${CHROME_TOKEN:-chrome_token}
       PROXY_HOST: "printer.example.com"
       PROXY_PORT: 443
       PROXY_SSL: "true"
 
   app:
-    image: ${{IMAGE:-pickit420/reactive-resume}}:${{IMAGE_TAG:-latest}}
-    restart: ${{RESTART_POLICY:-unless-stopped}}
+    image: ${IMAGE:-pickit420/reactive-resume}:${IMAGE_TAG:-latest}
+    restart: ${RESTART_POLICY:-unless-stopped}
     depends_on:
       - postgres
       - minio
       - chrome
     environment:
       # -- Environment Variables --
-      PORT: ${{APP_PORT:-3000}}
-      NODE_ENV: ${{APP_NODE_ENV:-production}}
+      PORT: ${APP_PORT:-3000}
+      NODE_ENV: ${APP_NODE_ENV:-production}
 
       # -- URLs --
-      PUBLIC_URL: ${{PUBLIC_URL:-https://example.com}}
-      STORAGE_URL: ${{STORAGE_URL:-https://storage.example.com}}
+      PUBLIC_URL: ${PUBLIC_URL:-https://example.com}
+      STORAGE_URL: ${STORAGE_URL:-https://storage.example.com}
 
       # -- Printer (Chrome) --
-      CHROME_TOKEN: ${{CHROME_TOKEN:-chrome_token}}
-      CHROME_URL: ${{CHROME_URL:-wss://printer.example.com}}
+      CHROME_TOKEN: ${CHROME_TOKEN:-chrome_token}
+      CHROME_URL: ${CHROME_URL:-wss://printer.example.com}
 
       # -- Database (Postgres) --
-      DATABASE_URL: postgresql://${{POSTGRES_USER:-postgres}}:${{POSTGRES_PASSWORD:-postgres}}@postgres:5432/${{POSTGRES_DB:-postgres}}
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@postgres:5432/${POSTGRES_DB:-postgres}
 
       # -- Auth --
-      ACCESS_TOKEN_SECRET: ${{ACCESS_TOKEN_SECRET}}
-      REFRESH_TOKEN_SECRET: ${{REFRESH_TOKEN_SECRET}}
+      ACCESS_TOKEN_SECRET: ${ACCESS_TOKEN_SECRET}
+      REFRESH_TOKEN_SECRET: ${REFRESH_TOKEN_SECRET}
 
       # -- Emails --
-      MAIL_FROM: ${{MAIL_FROM}}
-      SMTP_URL: smtp://${{SMTP_USER}}:${{SMTP_PASS}}@${{SMTP_ADDR}}:%{{SMTP_PORT}} # Optional
+      MAIL_FROM: ${MAIL_FROM}
+      SMTP_URL: smtp://${SMTP_USER}:${SMTP_PASS}@${SMTP_ADDR}:${SMTP_PORT} # Optional
 
       # -- Storage (Minio) --
-      STORAGE_ENDPOINT: ${{STORAGE_ENDPOINT:-minioadmin}}
-      STORAGE_PORT: ${{STORAGE_PORT:-9000}}
-      STORAGE_REGION: ${{STORAGE_REGION:-us-east-1}} # Optional
-      STORAGE_BUCKET: ${{STORAGE_BUCKET:-default}}
-      STORAGE_ACCESS_KEY: ${{STORAGE_ACCESS_KEY:-minioadmin}}
-      STORAGE_SECRET_KEY: ${{STORAGE_SECRET_KEY:-minioadmin}}
-      STORAGE_USE_SSL: ${{STORAGE_USE_SSL}}
-      STORAGE_SKIP_BUCKET_CHECK: ${{STORAGE_SKIP_BUCKET_CHECK}}
+      STORAGE_ENDPOINT: ${STORAGE_ENDPOINT:-minioadmin}
+      STORAGE_PORT: ${STORAGE_PORT:-9000}
+      STORAGE_REGION: ${STORAGE_REGION:-us-east-1} # Optional
+      STORAGE_BUCKET: ${STORAGE_BUCKET:-default}
+      STORAGE_ACCESS_KEY: ${STORAGE_ACCESS_KEY:-minioadmin}
+      STORAGE_SECRET_KEY: ${STORAGE_SECRET_KEY:-minioadmin}
+      STORAGE_USE_SSL: ${STORAGE_USE_SSL}
+      STORAGE_SKIP_BUCKET_CHECK: ${STORAGE_SKIP_BUCKET_CHECK}
 
       # -- Crowdin (Optional) --
-      # CROWDIN_PROJECT_ID: ${{CROWDIN_PROJECT_ID}}
-      # CROWDIN_PERSONAL_TOKEN: ${{CROWDIN_PERSONAL_TOKEN}}
+      # CROWDIN_PROJECT_ID: ${CROWDIN_PROJECT_ID}
+      # CROWDIN_PERSONAL_TOKEN: ${CROWDIN_PERSONAL_TOKEN}
 
       # -- Feature Flags (Optional) --
-      # DISABLE_SIGNUPS: ${{DISABLE_SIGNUPS}}
-      # DISABLE_EMAIL_AUTH: ${{DISABLE_EMAIL_AUTH}}
+      # DISABLE_SIGNUPS: ${DISABLE_SIGNUPS}
+      # DISABLE_EMAIL_AUTH: ${DISABLE_EMAIL_AUTH}
 
       # -- GitHub (Optional) --
-      # GITHUB_CLIENT_ID: ${{GITHUB_CLIENT_ID}}
-      # GITHUB_CLIENT_SECRET: ${{GITHUB_CLIENT_SECRET}}
-      # GITHUB_CALLBACK_URL: ${{GITHUB_CALLBACK_URL}}
+      # GITHUB_CLIENT_ID: ${GITHUB_CLIENT_ID}
+      # GITHUB_CLIENT_SECRET: ${GITHUB_CLIENT_SECRET}
+      # GITHUB_CALLBACK_URL: ${GITHUB_CALLBACK_URL}
 
       # -- Google (Optional) --
-      # GOOGLE_CLIENT_ID: ${{GOOGLE_CLIENT_ID}}
-      # GOOGLE_CLIENT_SECRET: ${{GOOGLE_CLIENT_SECRET}}
-      # GOOGLE_CALLBACK_URL: ${{GOOGLE_CALLBACK_URL}}
+      # GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID}
+      # GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET}
+      # GOOGLE_CALLBACK_URL: ${GOOGLE_CALLBACK_URL}
 
       # -- OpenID (Optional) --
-      # VITE_OPENID_NAME: ${{VITE_OPENID_NAME:-OpenID}}
-      # OPENID_AUTHORIZATION_URL: ${{OPENID_AUTHORIZATION_URL}}
-      # OPENID_CALLBACK_URL: ${{OPENID_CALLBACK_URL}}
-      # OPENID_CLIENT_ID: ${{OPENID_CLIENT_ID}}
-      # OPENID_CLIENT_SECRET: ${{OPENID_CLIENT_SECRET}}
-      # OPENID_ISSUER: ${{OPENID_ISSUER}}
-      # OPENID_SCOPE: ${{OPENID_SCOPE}}
-      # OPENID_TOKEN_URL: ${{OPENID_TOKEN_URL}}
-      # OPENID_USER_INFO_URL: ${{OPENID_USER_INFO_URL}}
+      # VITE_OPENID_NAME: ${VITE_OPENID_NAME:-OpenID}
+      # OPENID_AUTHORIZATION_URL: ${OPENID_AUTHORIZATION_URL}
+      # OPENID_CALLBACK_URL: ${OPENID_CALLBACK_URL}
+      # OPENID_CLIENT_ID: ${OPENID_CLIENT_ID}
+      # OPENID_CLIENT_SECRET: ${OPENID_CLIENT_SECRET}
+      # OPENID_ISSUER: ${OPENID_ISSUER}
+      # OPENID_SCOPE: ${OPENID_SCOPE}
+      # OPENID_TOKEN_URL: ${OPENID_TOKEN_URL}
+      # OPENID_USER_INFO_URL: ${OPENID_USER_INFO_URL}
 
   nginx:
     image: jc21/nginx-proxy-manager
@@ -129,8 +128,8 @@ services:
       - "443:443"
       - "81:81" # Port 81 is used for Proxy Manager's Web UI
     volumes:
-      - ./nginx_data:/data
-      - ./letsencrypt_data:/etc/letsencrypt
+      - nginx_data:/data
+      - letsencrypt_data:/etc/letsencrypt
     environment:
       DISABLE_IPV6: "true"
 

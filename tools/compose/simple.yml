@@ -8,7 +8,7 @@ services:
     image: postgres:16-alpine
     restart: unless-stopped
     volumes:
-      - ./postgres_data:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/data
     environment:
       POSTGRES_DB: ${POSTGRES_DB}
       POSTGRES_USER: ${POSTGRES_USER}
@@ -25,9 +25,9 @@ services:
     restart: unless-stopped
     command: server /data
     ports:
-      - "${{STORAGE_PORT:-9000}}:9000"
+      - "${STORAGE_PORT:-9000}:9000"
     volumes:
-      - ./minio_data:/data
+      - minio_data:/data
     environment:
       MINIO_ROOT_USER: ${MINIO_ROOT_USER}
       MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
