@@ -6,17 +6,13 @@ concurrency:
 
 on:
   workflow_dispatch:
-    push:
-      branches:
-        - main
-        - test
-    pull_request:
-      branches:
-        - main
-#  workflow_run:
-#    workflows: ["Run Prettier Fix"]
-#    types:
-#      - completed
+  push:
+    branches:
+      - main
+      - test
+  pull_request:
+    branches:
+      - main
 
 jobs:
   main:
