@@ -106,7 +106,7 @@ export const OpenAISettings = () => {
 
         <p>
           <Trans>
-            You can also integrate with OpenWebUI simply by setting an API key such as
+            You can also integrate with OpenWebUI simply by setting an API key like
             `sk-1234567890abcdef` and the Base URL to your OpenWebUI URL over HTTPS, i.e.
             `https://localhost:8080/api`. You can also pick and choose models and set the max tokens
             as per your preference.
