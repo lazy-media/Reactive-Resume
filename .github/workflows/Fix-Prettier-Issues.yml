@@ -38,9 +38,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - run: pnpm install
-      - run: pnpm prebuild
-      - run: pnpm prettier --write .
+      - name: Run Prettier Fixes On Files
+        run: pnpm prettier --write .
 
       - name: Commit and push Prettier changes to main
         if: github.ref == 'refs/heads/main'
