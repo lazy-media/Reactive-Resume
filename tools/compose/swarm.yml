@@ -13,9 +13,9 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
     environment:
-      POSTGRES_DB: postgres
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: ${POSTGRES_DB:-postgres}
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U postgres -d postgres"]
       interval: 10s
@@ -24,7 +24,7 @@ services:
     deploy:
       replicas: 1
       restart_policy:
-        condition: on-failure
+        condition: ${RESTART_POLICY:-on-failure}
 
   # Storage (for image uploads)
   minio:
@@ -35,12 +35,12 @@ services:
     volumes:
       - minio_data:/data
     environment:
-      MINIO_ROOT_USER: minioadmin
-      MINIO_ROOT_PASSWORD: minioadmin
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-minioadmin}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-minioadmin}
     deploy:
       replicas: 1
       restart_policy:
-        condition: on-failure
+        condition: ${RESTART_POLICY:-on-failure}
       labels:
         - traefik.enable=true
         - traefik.http.routers.storage.rule=Host(`storage.example.com`)
@@ -55,7 +55,7 @@ services:
       - reactive_resume_network
     environment:
       HEALTH: "true"
-      TOKEN: chrome_token
+      TOKEN: ${CHROME_TOKEN:-chrome_token}
       PROXY_HOST: "printer.example.com"
       PROXY_PORT: 443
       PROXY_SSL: "true"
@@ -71,75 +71,75 @@ services:
         - traefik.http.services.printer.loadbalancer.server.port=3000
 
   app:
-    image: pickit420/reactive-resume:latest
+    image: ${IMAGE:-pickit420/reactive-resume}:${IMAGE_TAG:-latest}
     networks:
       - reactive_resume_network
     environment:
       # -- Environment Variables --
-      PORT: 3000
-      NODE_ENV: production
+      PORT: ${APP_PORT:-3000}
+      NODE_ENV: ${NODE_ENV:-production}
 
       # -- URLs --
-      PUBLIC_URL: https://example.com
-      STORAGE_URL: https://storage.example.com
+      PUBLIC_URL: ${PUBLIC_URL} # Example: https://resume.example.com
+      STORAGE_URL: ${STORAGE_URL} # Example: https://storage.example.com
 
       # -- Printer (Chrome) --
-      CHROME_TOKEN: chrome_token
-      CHROME_URL: wss://printer.example.com
+      CHROME_TOKEN: ${CHROME_TOKEN:-chrome_token}
+      CHROME_URL: ${CHROME_URL} # Example: wss://printer.example.com
 
       # -- Database (Postgres) --
-      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/postgres
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@postgres:5432/${POSTGRES_DB:-postgres}
 
       # -- Auth --
-      ACCESS_TOKEN_SECRET: access_token_secret
-      REFRESH_TOKEN_SECRET: refresh_token_secret
+      ACCESS_TOKEN_SECRET: ${ACCESS_TOKEN_SECRET:-access_token_secret}
+      REFRESH_TOKEN_SECRET: ${REFRESH_TOKEN_SECRET:-refresh_token_secret}
 
       # -- Emails --
-      MAIL_FROM: noreply@example.com
-      # SMTP_URL: smtp://user:pass@smtp:587 # Optional
+      MAIL_FROM: ${MAIL_FROM}
+      # SMTP_URL: smtp://${SMTP_USER}:${SMTP_PASS}@${SMTP_ADDR}:${SMTP_PORT} # Optional
 
       # -- Storage (Minio) --
-      STORAGE_ENDPOINT: minio
-      STORAGE_PORT: 9000
-      STORAGE_REGION: us-east-1 # Optional
-      STORAGE_BUCKET: default
-      STORAGE_ACCESS_KEY: minioadmin
-      STORAGE_SECRET_KEY: minioadmin
-      STORAGE_USE_SSL: "false"
-      STORAGE_SKIP_BUCKET_CHECK: "false"
+      STORAGE_ENDPOINT: ${STORAGE_ENDPOINT:-minio}
+      STORAGE_PORT: ${STORAGE_PORT:-9000}
+      STORAGE_REGION: ${STORAGE_REGION:-us-east-1} # Optional
+      STORAGE_BUCKET: ${STORAGE_BUCKET:-default}
+      STORAGE_ACCESS_KEY: ${STORAGE_ACCESS_KEY:-minioadmin}
+      STORAGE_SECRET_KEY: ${STORAGE_SECRET_KEY:-minioadmin}
+      STORAGE_USE_SSL: ${STORAGE_USE_SSL} # Default is "false" like in the .env file
+      STORAGE_SKIP_BUCKET_CHECK: ${STORAGE_SKIP_BUCKET_CHECK} # Default is "false" like in the .env file
 
       # -- Crowdin (Optional) --
-      # CROWDIN_PROJECT_ID:
-      # CROWDIN_PERSONAL_TOKEN:
+      # CROWDIN_PROJECT_ID: ${CROWDIN_PROJECT_ID}
+      # CROWDIN_PERSONAL_TOKEN: ${CROWDIN_PERSONAL_TOKEN}
 
       # -- Feature Flags (Optional) --
-      # DISABLE_SIGNUPS: "false"
-      # DISABLE_EMAIL_AUTH: "false"
+      # DISABLE_SIGNUPS: ${DISABLE_SIGNUPS} # Default is "true", but set to "false" in the .env file if you want to allow Signups
+      # DISABLE_EMAIL_AUTH: ${DISABLE_EMAIL_AUTH} # Default is "true", but set to "false" in the .env file if you want to force Email Verification Upon New User Signup
 
       # -- GitHub (Optional) --
-      # GITHUB_CLIENT_ID: github_client_id
-      # GITHUB_CLIENT_SECRET: github_client_secret
-      # GITHUB_CALLBACK_URL: https://example.com/api/auth/github/callback
+      # GITHUB_CLIENT_ID: ${GITHUB_CLIENT_ID}
+      # GITHUB_CLIENT_SECRET: ${GITHUB_CLIENT_SECRET}
+      # GITHUB_CALLBACK_URL: ${GITHUB_CALLBACK_URL}
 
       # -- Google (Optional) --
-      # GOOGLE_CLIENT_ID: google_client_id
-      # GOOGLE_CLIENT_SECRET: google_client_secret
-      # GOOGLE_CALLBACK_URL: https://example.com/api/auth/google/callback
+      # GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID}
+      # GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET}
+      # GOOGLE_CALLBACK_URL: ${GOOGLE_CALLBACK_URL}
 
       # -- OpenID (Optional) --
-      # VITE_OPENID_NAME: OpenID
-      # OPENID_AUTHORIZATION_URL:
-      # OPENID_CALLBACK_URL: https://example.com/api/auth/openid/callback
-      # OPENID_CLIENT_ID:
-      # OPENID_CLIENT_SECRET:
-      # OPENID_ISSUER:
-      # OPENID_SCOPE: openid profile email
-      # OPENID_TOKEN_URL:
-      # OPENID_USER_INFO_URL:
+      # VITE_OPENID_NAME: ${VITE_OPENID_NAME:-OpenID}
+      # OPENID_AUTHORIZATION_URL: ${OPENID_AUTHORIZATION_URL}
+      # OPENID_CALLBACK_URL: ${OPENID_CALLBACK_URL}
+      # OPENID_CLIENT_ID: ${OPENID_CLIENT_ID}
+      # OPENID_CLIENT_SECRET: ${OPENID_CLIENT_SECRET}
+      # OPENID_ISSUER: ${OPENID_ISSUER}
+      # OPENID_SCOPE: ${OPENID_SCOPE}
+      # OPENID_TOKEN_URL: ${OPENID_TOKEN_URL}
+      # OPENID_USER_INFO_URL: ${OPENID_USER_INFO_URL}
     deploy:
       replicas: 2
       restart_policy:
-        condition: on-failure
+        condition: ${RESTART_POLICY:-on-failure}
       labels:
         - traefik.enable=true
         - traefik.http.routers.app.rule=Host(`example.com`)
