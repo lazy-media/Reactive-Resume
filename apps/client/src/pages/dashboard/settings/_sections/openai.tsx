@@ -70,13 +70,18 @@ export const OpenAISettings = () => {
     setBaseURL(null);
     setModel(DEFAULT_MODEL);
     setMaxTokens(DEFAULT_MAX_TOKENS);
-    form.reset({ apiKey: "", baseURL: "", model: DEFAULT_MODEL, maxTokens: DEFAULT_MAX_TOKENS });
+    form.reset({
+      apiKey: "",
+      baseURL: "",
+      model: DEFAULT_MODEL,
+      maxTokens: DEFAULT_MAX_TOKENS,
+    });
   };
 
   return (
     <div className="space-y-6">
       <div>
-        <h3 className="text-2xl font-bold leading-relaxed tracking-tight">{t`OpenAI/OpenWebUI Integration`}</h3>
+        <h3 className="text-2xl font-bold leading-relaxed tracking-tight">{t`OpenAI/Ollama Integration`}</h3>
         <p className="leading-relaxed opacity-75">
           {t`You can make use of the OpenAI API to help you generate content, or improve your writing while composing your resume.`}
         </p>
@@ -101,14 +106,10 @@ export const OpenAISettings = () => {
 
         <p>
           <Trans>
-            You can integrate with OpenWebUI to use with your local AI. This requires an HTTPS connection.
-            1) Get an API/Access Token from OpenWebUI
-            3) Input the token in the appropriate field
-            3) Set the OpenWebUI URL as either:
-              - `https://openwebui.example.com/api`
-              - `https://localhost:11434/api`
-            4) Select your preferred model (e.g., llama3:latest)
-            5) Configure max tokens and other parameters as needed
+            You can also integrate with Ollama simply by setting the API key to
+            `sk-1234567890abcdef` and the Base URL to your Ollama URL, i.e.
+            `http://localhost:11434/v1`. You can also pick and choose models and set the max tokens
+            as per your preference.
           </Trans>
         </p>
       </div>
@@ -135,7 +136,7 @@ export const OpenAISettings = () => {
               <FormItem>
                 <FormLabel>{t`Base URL`}</FormLabel>
                 <FormControl>
-                  <Input type="text" placeholder="https://localhost:11434/api or https://ai.example.com/api" {...field} />
+                  <Input type="text" placeholder="https://localhost:8080/api" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>

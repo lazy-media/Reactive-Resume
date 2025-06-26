@@ -1,16 +1,30 @@
 ![Reactive Resume](https://i.imgur.com/FFc4nyZ.jpg)
 
-![App Version](https://img.shields.io/github/package-json/version/AmruthPillai/Reactive-Resume?label=version)
-[![Docker Pulls](https://img.shields.io/docker/pulls/amruthpillai/reactive-resume)](https://hub.docker.com/repository/docker/amruthpillai/reactive-resume)
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/AmruthPillai)](https://github.com/sponsors/AmruthPillai)
-[![Crowdin](https://badges.crowdin.net/reactive-resume/localized.svg)](https://crowdin.com/project/reactive-resume)
-[![Discord](https://img.shields.io/discord/1173518977851473940?label=discord&link=https%3A%2F%2Fdiscord.gg%2FhzwkZbyvUW)](https://discord.gg/hzwkZbyvUW)
+![App Version](https://img.shields.io/github/package-json/version/lazy-media/Reactive-Resume?label=version)
+[![Docker Pulls](https://img.shields.io/docker/pulls/pickit420/reactive-resume)](https://hub.docker.com/repository/docker/pickit420/reactive-resume)
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/lazy-media)](https://github.com/sponsors/lazy-media)
+[![Discord](https://img.shields.io/discord/1173518977851473940?label=discord&link=https%3A%2F%2Flink.lazymedia%2Flazymedia-discord-promo-page)](https://link.lazymedia.media/lazymedia-discord-promo-page)
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/lazy-media/Reactive-Resume?utm_source=oss&utm_medium=github&utm_campaign=lazy-media%2FReactive-Resume&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
+[![Crowdin](https://badges.crowdin.net/lazymedia-reactive-resume/localized.svg)](https://crowdin.com/project/lazymedia-reactive-resume)
 
-# Reactive Resume
+### Workflows
+
+[![CodeQL](https://github.com/lazy-media/Reactive-Resume/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/github-code-scanning/codeql)
+[![Lint, Test & Build](https://github.com/lazy-media/Reactive-Resume/actions/workflows/lint-test-build.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/lint-test-build.yml)
+[![Publish Docker Image](https://github.com/lazy-media/Reactive-Resume/actions/workflows/publish-docker-image.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/publish-docker-image.yml)
+[![Sync Crowdin Translations](https://github.com/lazy-media/Reactive-Resume/actions/workflows/sync-crowdin-translations.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/sync-crowdin-translations.yml)
+
+# Reactive Resume _(Self-Hosted Community Forked Version)_
+
+> - _All main information still applies to this version as the main/original version. The only thing this project focuses on is the community / self hosted version._
+> - _Please contribute to the project if you know what you are doing, as the current maintainer of this project currently relies on built-in AI and other built-in security measures to verify code integrity and malicious code injection._
+> - _Current maintainer is currently trying to learn the languages required for this project, but it is a lot to learn..._
 
 A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.
 
-### [Go to App](https://rxresu.me/) | [Docs](https://docs.rxresu.me/)
+### [Go to App](https://rxresu.me/) | [Docs](https://docs.rxresu.me/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki)
+
+### Visit the [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki#contributing) to learn how to _Contribute_ or _Submit an Issue_
 
 ## Description
 
@@ -41,7 +55,7 @@ Start creating your standout resume with Reactive Resume today!
 - **Free, forever** and open-source
 - No telemetry, user tracking or advertising
 - You can self-host the application in less than 30 seconds
-- **Available in multiple languages** ([help add/improve your language here](https://translate.rxresu.me/))
+- **Available in multiple languages** ([help add/improve your language here](https://crowdin.com/project/lazymedia-reactive-resume))
 - Use your email address (or a throw-away address, no problem) to create an account
 - You can also sign in with your GitHub or Google account, and even set up two-factor authentication for extra security
 - Create as many resumes as you like under a single account, optimising each resume for every job application based on its description for a higher ATS score
@@ -75,15 +89,21 @@ Start creating your standout resume with Reactive Resume today!
 - GitHub/Google OAuth (for quickly authenticating users)
 - LinguiJS and Crowdin (for translation management and localization)
 
-## Star History
+## Ollama / OpenWebUI Instructions
 
-<a href="https://star-history.com/#AmruthPillai/Reactive-Resume&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&type=Date" />
-  </picture>
-</a>
+> The current documentation inside the UI for Reactive Resume is not accurate. Follow these instructions to properly setup Ollama / OpenWebUI for local AI integration.
+> _Cannot figure out how to change the UI information without getting an error code or random letters and numbers._
+
+You can integrate with OpenWebUI to use with your local AI. This requires an HTTPS connection.
+
+- 1. Get an API/Access Token from OpenWebUI
+- 2. Input the token in the appropriate field.
+- 3. Set the OpenWebUI URL as either one of these examples:
+  - a) https://openwebui.example.com/api
+  - b) https://localhost:8080/api
+    - _Make sure to change the port number if yours differs from the default OpenWebUI Port._
+- 4. Select your preferred model (e.g., llama3:latest)
+- 5. Configure max tokens and other parameters as needed
 
 ## License
 
@@ -91,6 +111,8 @@ Reactive Resume is packaged and distributed using the [MIT License](/LICENSE.md)
 
 _By the community, for the community._  
 A passion project by [Amruth Pillai](https://www.amruthpillai.com/)
+
+Forked and currently maintained by [Lazy Media](https://github.com/sponsors/lazy-media)
 
 <p>
   <a href="https://www.digitalocean.com/?utm_medium=opensource&utm_source=Reactive-Resume">

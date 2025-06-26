@@ -1,12 +1,8 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "nxCloudAccessToken": "MTQ1OWFiOGUtODVjZC00YzI2LTliZTgtZDBlNWJmODc4NzM0fHJlYWQ=",
+  "nxCloudAccessToken": "NDBhYjE4YzgtMjdiNy00NTgxLTk0NjQtY2YyMzA0NGNkYmM1fHJlYWQ=",
   "targetDefaults": {
-    "build": {
-      "cache": true,
-      "dependsOn": ["^build"],
-      "inputs": ["production", "^production"]
-    },
+    "build": { "cache": true, "dependsOn": ["^build"], "inputs": ["production", "^production"] },
     "lint": {
       "cache": true,
       "inputs": [
@@ -38,20 +34,10 @@
   },
   "generators": {
     "@nx/react": {
-      "application": {
-        "style": "css",
-        "linter": "eslint",
-        "bundler": "vite",
-        "babel": true
-      },
-      "component": {
-        "style": "css"
-      },
-      "library": {
-        "style": "css",
-        "linter": "eslint",
-        "unitTestRunner": "vitest"
-      }
+      "application": { "style": "css", "linter": "eslint", "bundler": "vite", "babel": true },
+      "component": { "style": "css" },
+      "library": { "style": "css", "linter": "eslint", "unitTestRunner": "vitest" }
     }
-  }
+  },
+  "nxCloudId": "6854b02b2c3aa5b4a81a5162"
 }

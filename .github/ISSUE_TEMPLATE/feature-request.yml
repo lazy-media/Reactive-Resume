@@ -1,23 +1,52 @@
 name: ✨ Feature Request
-
-description: Suggest an feature or idea that you would like to see in Reactive Resume
-
-title: "[Feature] <title>"
-labels: [enhancement, v4, needs triage]
-assignees: "AmruthPillai"
+description: Suggest an enhancement for the self-hosted fork
+title: "[Feature] "
+labels: ["enhancement", "self-hosted", "needs triage"]
+assignees: "lazy-media"
 
 body:
   - type: checkboxes
     attributes:
-      label: Is there an existing issue for this feature?
-      description: Please search to see if an issue already exists for the feature you requested.
+      label: Verification Checklist
       options:
-        - label: Yes, I have searched the existing issues and it doesn't exist.
-          required: true
+        - label: I've searched existing issues and confirmed this is new
+        - label: This benefits multiple users (not just my specific use case)
+        - label: This is for the self-hosted version (not cloud)
+    validations:
+      required: true
 
   - type: textarea
     attributes:
       label: Feature Description
-      description: A concise description of what feature you would like to see in Reactive Resume.
+      description: What problem does this solve?
+      placeholder: "Example: Add custom CSS support for templates"
     validations:
       required: true
+
+  - type: textarea
+    attributes:
+      label: Proposed Solution
+      description: How should this feature work?
+      placeholder: |
+        - Add CSS editor in template settings
+        - Validate input for security
+        - Save to user profile
+    validations:
+      required: false
+
+  - type: dropdown
+    attributes:
+      label: Priority Level
+      options:
+        - Low (nice-to-have)
+        - Medium (improves core experience)
+        - High (critical functionality)
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: Mockups, references, or use cases
+    validations:
+      required: false

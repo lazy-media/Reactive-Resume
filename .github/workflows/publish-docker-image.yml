@@ -11,7 +11,8 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  IMAGE: amruthpillai/reactive-resume
+  IMAGE: pickit420/reactive-resume
+  GITH_IMAGE: lazy-media/reactive-resume
 
 jobs:
   build:
@@ -60,7 +61,7 @@ jobs:
           tags: type=semver,pattern={{version}},prefix=v,value=${{ steps.version.outputs.version }}
           images: |
             ${{ env.IMAGE }}
-            ghcr.io/${{ env.IMAGE }}
+            ghcr.io/${{ env.GITH_IMAGE }}
 
       - name: Prepare a unique name for Artifacts
         id: artifact_name
@@ -133,7 +134,7 @@ jobs:
           tags: type=semver,pattern={{version}},prefix=v,value=${{ needs.build.outputs.version }}
           images: |
             ${{ env.IMAGE }}
-            ghcr.io/${{ env.IMAGE }}
+            ghcr.io/${{ env.GITH_IMAGE }}
 
       - name: Create Docker Manifest List and Push
         working-directory: /tmp/digests
@@ -145,6 +146,8 @@ jobs:
         run: |
           docker buildx imagetools inspect ${{ env.IMAGE }}:${{ steps.meta.outputs.version }}
 
+      - uses: actions/checkout@v4
+
       - name: Update Repository Description
         uses: peter-evans/dockerhub-description@v4.0.0
         with:
@@ -152,16 +155,24 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_TOKEN }}
 
-      - name: Deploy the latest image on rxresu.me
-        run: curl -kX POST ${{ secrets.SERVICE_WEBHOOK }}
-
-      - name: Inform about the release on Discord
+      - name: Inform about the release on Admin Discord
         uses: sarisia/actions-status-discord@v1.14.3
         if: always()
         with:
-          username: ReleaseBot
+          username: Reactive Resume ReleaseBot
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
           status: ${{ job.status }}
           title: "Release `${{ steps.meta.outputs.version }}`"
           description: "A new version of Reactive Resume just dropped! 🚀"
-          url: "https://github.com/AmruthPillai/Reactive-Resume"
+          url: "https://github.com/lazy-media/Reactive-Resume"
+
+      - name: Inform about the release on Public Discord
+        uses: sarisia/actions-status-discord@v1.14.3
+        if: successful()
+        with:
+          username: Reactive Resume ReleaseBot
+          webhook: ${{ secrets.DISCORD_PUBLIC_WEBHOOK }}
+          status: ${{ job.status }}
+          title: "Release `${{ steps.meta.outputs.version }}`"
+          description: "A new version of Reactive Resume just dropped! 🚀"
+          url: "https://github.com/lazy-media/Reactive-Resume"

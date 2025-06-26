@@ -6,7 +6,7 @@ import { Quotes } from "@phosphor-icons/react";
 import { cn } from "@reactive-resume/utils";
 import { motion } from "framer-motion";
 
-const email = "hello@amruthpillai.com";
+const email = "support@lazymedia.media";
 
 type Testimonial = {
   quote: string;

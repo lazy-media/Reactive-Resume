@@ -14,7 +14,7 @@ export const SupportSection = () => (
 
       <div className="flex items-center gap-x-10">
         <a
-          href="https://github.com/sponsors/AmruthPillai"
+          href="https://github.com/sponsors/lazy-media"
           rel="noreferrer noopener nofollow"
           target="_blank"
         >

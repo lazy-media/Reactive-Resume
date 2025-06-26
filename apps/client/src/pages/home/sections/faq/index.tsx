@@ -10,7 +10,7 @@ import { useLanguages } from "@/client/services/resume/translation";
 const Question1 = () => (
   <AccordionItem value="1">
     <AccordionTrigger className="text-left leading-relaxed">
-      Who are you, and why did you build Reactive Resume?
+      (Original Creator) Who are you, and why did you build Reactive Resume?
     </AccordionTrigger>
     <AccordionContent className="prose max-w-none dark:prose-invert">
       <p>

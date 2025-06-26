@@ -50,3 +50,6 @@ stats.html
 # Lingui Compiled Messages
 apps/client/src/locales/_build/
 apps/client/src/locales/*/messages.*js
+
+.cursor/rules/nx-rules.mdc
+.github/instructions/nx.instructions.md

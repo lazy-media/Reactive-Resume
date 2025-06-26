@@ -23,10 +23,10 @@ export const HeroSection = () => (
         whileInView={{ opacity: 1, x: 0 }}
       >
         <div className="hidden items-center gap-x-4 sm:flex">
-          <Badge>{t`Version 4`}</Badge>
+          <Badge>{t`Version 1`}</Badge>
 
           <a
-            href="https://docs.rxresu.me/overview/features"
+            href="https://github.com/lazy-media/Reactive-Resume/releases"
             className={cn(buttonVariants({ variant: "link" }), "space-x-2 text-left")}
           >
             <p>{t`What's new in the latest version`}</p>

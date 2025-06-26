@@ -1,17 +1,17 @@
 {
   "name": "@reactive-resume/source",
   "description": "A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.",
-  "version": "4.4.6",
+  "version": "1.0.9",
   "license": "MIT",
   "private": true,
   "author": {
-    "name": "Amruth Pillai",
-    "url": "https://amruthpillai.com",
-    "email": "hello@amruthpillai.com"
+    "name": "Lazy Media",
+    "url": "https://www.lazymedia.media",
+    "email": "support@lazymedia.media"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AmruthPillai/Reactive-Resume.git"
+    "url": "https://github.com/lazy-media/Reactive-Resume.git"
   },
   "scripts": {
     "dev": "nx run-many -t serve",
@@ -22,8 +22,8 @@
     "start": "node dist/apps/server/main",
     "lint": "nx run-many -t lint",
     "lint:fix": "nx run-many -t lint --fix",
-    "format": "pnpm exec prettier -c --log-level error .",
-    "format:fix": "pnpm exec prettier -w --log-level error .",
+    "format": "pnpm prettier --check . || true",
+    "format:fix": "pnpm exec prettier --write --log-level error .",
     "crowdin:sync": "crowdin push && crowdin pull",
     "prisma:generate": "pnpm exec prisma generate",
     "prisma:migrate": "pnpm exec prisma migrate deploy",

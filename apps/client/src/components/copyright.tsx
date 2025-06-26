@@ -28,6 +28,7 @@ export const Copyright = ({ className }: Props) => (
     <span>
       <Trans>
         A passion project by <a href="https://www.amruthpillai.com/">Amruth Pillai</a>
+        Forked by <a href="https://www.lazymedia.media">Lazy Media</a>
       </Trans>
     </span>
 
