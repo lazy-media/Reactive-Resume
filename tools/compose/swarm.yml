@@ -43,7 +43,7 @@ services:
         condition: ${RESTART_POLICY:-on-failure}
       labels:
         - traefik.enable=true
-        - traefik.http.routers.storage.rule=Host(`storage.example.com`)
+        - traefik.http.routers.storage.rule=Host(`storage.example.com`) # Update this to your domain instead of example.com
         - traefik.http.routers.storage.entrypoints=websecure
         - traefik.http.routers.storage.tls.certresolver=letsencrypt
         - traefik.http.services.storage.loadbalancer.server.port=9000
@@ -65,7 +65,7 @@ services:
         condition: on-failure
       labels:
         - traefik.enable=true
-        - traefik.http.routers.printer.rule=Host(`printer.example.com`)
+        - traefik.http.routers.printer.rule=Host(`printer.example.com`) # Update this to your domain instead of example.com
         - traefik.http.routers.printer.entrypoints=websecure
         - traefik.http.routers.printer.tls.certresolver=letsencrypt
         - traefik.http.services.printer.loadbalancer.server.port=3000
@@ -85,10 +85,10 @@ services:
 
       # -- Printer (Chrome) --
       CHROME_TOKEN: ${CHROME_TOKEN:-chrome_token}
-      CHROME_URL: ${CHROME_URL} # Example: wss://printer.example.com
+      CHROME_URL: ${CHROME_URL}
 
       # -- Database (Postgres) --
-      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@postgres:5432/${POSTGRES_DB:-postgres}
+      DATABASE_URL: ${DATABASE_URL}
 
       # -- Auth --
       ACCESS_TOKEN_SECRET: ${ACCESS_TOKEN_SECRET:-access_token_secret}

@@ -77,7 +77,7 @@ services:
       CHROME_URL: ${CHROME_URL} # Set in .env file. Example: wss://printer.example.com
 
       # -- Database (Postgres) --
-      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@postgres:5432/${POSTGRES_DB:-postgres}
+      DATABASE_URL: ${DATABASE_URL}
 
       # -- Auth --
       ACCESS_TOKEN_SECRET: ${ACCESS_TOKEN_SECRET}
@@ -127,7 +127,7 @@ services:
       # OPENID_USER_INFO_URL: ${OPENID_USER_INFO_URL}
     labels:
       - traefik.enable=true
-      - traefik.http.routers.app.rule=Host(`example.com`)
+      - traefik.http.routers.app.rule=Host(`example.com`) # Update this to your domain instead of example.com
       - traefik.http.routers.app.entrypoints=websecure
       - traefik.http.routers.app.tls.certresolver=letsencrypt
       - traefik.http.services.app.loadbalancer.server.port=3000
@@ -141,7 +141,7 @@ services:
       - --entrypoints.web.address=:80
       - --entrypoints.websecure.address=:443
       - --certificatesresolvers.letsencrypt.acme.tlschallenge=true
-      - --certificatesresolvers.letsencrypt.acme.email=noreply@example.com
+      - --certificatesresolvers.letsencrypt.acme.email=noreply@example.com # Update this to your domain instead of example.com
       - --certificatesresolvers.letsencrypt.acme.storage=/letsencrypt/acme.json
 
       # Let's Encrypt Staging Server (for testing)
