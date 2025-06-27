@@ -44,4 +44,6 @@ ENV NODE_ENV=production
 
 EXPOSE 3000
 
+LABEL org.opencontainers.image.description DESCRIPTION
+
 CMD [ "dumb-init", "pnpm", "run", "start" ]
