@@ -45,5 +45,8 @@ ENV NODE_ENV=production
 EXPOSE 3000
 
 LABEL org.opencontainers.image.description DESCRIPTION
+LABEL org.opencontainers.image.source=https://github.com/lazy-media/Reactive-Resume
+LABEL org.opencontainers.image.licenses=MIT
+
 
 CMD [ "dumb-init", "pnpm", "run", "start" ]
