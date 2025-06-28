@@ -50,48 +50,88 @@ const Question1 = () => (
   </AccordionItem>
 );
 
-// How much does it cost to run Reactive Resume?
+// Who are you, and what's your deal with Reactive Resume?
 const Question2 = () => (
-  <AccordionItem value="2">
+  <AccordionItem value="1">
     <AccordionTrigger className="text-left leading-relaxed">
-      How much does it cost to run Reactive Resume?
+      (Community Maintainer) Who are you, and what's your deal with Reactive Resume?
     </AccordionTrigger>
     <AccordionContent className="prose max-w-none dark:prose-invert">
       <p>
-        It's not much honestly. <a href="https://pillai.xyz/digitalocean">DigitalOcean</a> has
-        graciously sponsored their infrastructure to allow me to host Reactive Resume on their
-        platform. There's only the fee I pay to dependent services to send emails, renew the domain,
-        etc.
+        I'm someone who apparently thought maintaining an open source project would be easier than
+        it looks. Spoiler: I was wrong. By day, I'm a normal person with a full-time job, and by
+        night (and weekends), I'm a GitHub newbie trying to fix things in Reactive Resume without
+        breaking them further.
       </p>
 
       <p>
-        I've spent countless hours and sleepless nights building the application though, and I
-        honestly do not expect anything in return but to hear from you on how the app has helped you
-        with your career.
+        After noticing the original repo had gone quiet for about a year while people were still
+        actively reporting issues, I decided to fork it and create a Community Self-Hosted Version.
+        Because nothing says "fun weekend project" like inheriting someone else's codebase when
+        you're not even a proper developer.
       </p>
 
       <p>
-        But if you do feel like supporting the developer and the future development of Reactive
-        Resume, please donate (<em>only if you have some extra money lying around</em>) on my{" "}
-        <a href="https://github.com/sponsors/AmruthPillai/">GitHub Sponsors page</a>. You can choose
-        to donate one-time or sponsor a recurring donation.
+        When I'm not accidentally creating new bugs while fixing old ones, you can find me playing
+        PC games - specifically racing, city builders, and factory sims. Because if I can't organize
+        my code properly, at least I can organize a virtual city or an overly complex factory line.
       </p>
 
       <p>
-        Alternatively, if you are in the US, or you are a part of a large educational institution or
-        corporate organization, you can{" "}
-        <a href="https://opencollective.com/reactive-resume">
-          support the project through Open Collective
-        </a>
-        . We are fiscally hosted through Open Collective Europe, which means your donations and
-        sponsorships could also be made tax-deductible.
+        My other hobby? Tinkering with random open source projects for my home lab. Because clearly
+        maintaining one project isn't enough chaos in my life. But hey, someone's got to keep the
+        lights on for Reactive Resume's community, even if that someone is learning as they go.
       </p>
+
+      <p>Professional disclaimer: No resumes were harmed in the making of this fork. Probably.</p>
     </AccordionContent>
   </AccordionItem>
 );
 
+// How much does it cost to run Reactive Resume?
+function Question3() {
+  return (
+    <AccordionItem value="2">
+      <AccordionTrigger className="text-left leading-relaxed">
+        How much does it cost to run Reactive Resume?
+      </AccordionTrigger>
+      <AccordionContent className="prose max-w-none dark:prose-invert">
+        <p>
+          It's not much honestly. <a href="https://pillai.xyz/digitalocean">DigitalOcean</a> has
+          graciously sponsored their infrastructure to allow me to host Reactive Resume on their
+          platform. There's only the fee I pay to dependent services to send emails, renew the
+          domain, etc.
+        </p>
+
+        <p>
+          I've spent countless hours and sleepless nights building the application though, and I
+          honestly do not expect anything in return but to hear from you on how the app has helped
+          you with your career.
+        </p>
+
+        <p>
+          But if you do feel like supporting the developer and the future development of Reactive
+          Resume, please donate (<em>only if you have some extra money lying around</em>) on my{" "}
+          <a href="https://github.com/sponsors/AmruthPillai/">GitHub Sponsors page</a>. You can
+          choose to donate one-time or sponsor a recurring donation.
+        </p>
+
+        <p>
+          Alternatively, if you are in the US, or you are a part of a large educational institution
+          or corporate organization, you can{" "}
+          <a href="https://opencollective.com/reactive-resume">
+            support the project through Open Collective
+          </a>
+          . We are fiscally hosted through Open Collective Europe, which means your donations and
+          sponsorships could also be made tax-deductible.
+        </p>
+      </AccordionContent>
+    </AccordionItem>
+  );
+}
+
 // Other than donating, how can I support you?
-const Question3 = () => (
+const Question4 = () => (
   <AccordionItem value="3">
     <AccordionTrigger className="text-left leading-relaxed">
       Other than donating, how can I support you?
@@ -132,7 +172,7 @@ const Question3 = () => (
 );
 
 // What languages are supported on Reactive Resume?
-const Question4 = () => {
+const Question5 = () => {
   const { languages } = useLanguages();
 
   return (
@@ -176,7 +216,11 @@ const Question4 = () => {
 
         <p>
           If you'd like to improve the translations for your language, please{" "}
-          <a href="https://crowdin.com/project/reactive-resume" rel="noreferrer" target="_blank">
+          <a
+            href="https://crowdin.com/project/lazymedia-reactive-resume"
+            rel="noreferrer"
+            target="_blank"
+          >
             sign up as a translator on Crowdin
           </a>{" "}
           and join the project. You can also choose to be notified of any new phrases that get added
@@ -193,7 +237,7 @@ const Question4 = () => {
 };
 
 // How does the OpenAI Integration work?
-const Question5 = () => (
+const Question6 = () => (
   <AccordionItem value="5">
     <AccordionTrigger className="text-left leading-relaxed">
       How does the OpenAI Integration work?
@@ -207,8 +251,8 @@ const Question5 = () => (
 
       <p>
         While most applications out there charge you a fee to use their AI services (rightfully so,
-        because it isn't cheap), you can choose to enter your own OpenAI API key on the Settings
-        page (under OpenAI Integration).{" "}
+        because it isn't cheap), you can choose to enter your own OpenAI or OpenWebUI API key on the
+        Settings page (under OpenAI Integration).{" "}
         <strong>The key is stored in your browser's local storage</strong>, which means that if you
         uninstall your browser, or even clear your data, the key is gone with it. All requests made
         to OpenAI are also sent directly to their service and does not hit the app servers at all.
@@ -247,6 +291,7 @@ export const FAQSection = () => (
           <Question3 />
           <Question4 />
           <Question5 />
+          <Question6 />
         </Accordion>
       </div>
     </div>
