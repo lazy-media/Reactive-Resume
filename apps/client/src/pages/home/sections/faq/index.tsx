@@ -52,7 +52,7 @@ const Question1 = () => (
 
 // Who are you, and what's your deal with Reactive Resume?
 const Question2 = () => (
-  <AccordionItem value="1">
+  <AccordionItem value="2">
     <AccordionTrigger className="text-left leading-relaxed">
       (Community Maintainer) Who are you, and what's your deal with Reactive Resume?
     </AccordionTrigger>
@@ -91,7 +91,7 @@ const Question2 = () => (
 // How much does it cost to run Reactive Resume?
 function Question3() {
   return (
-    <AccordionItem value="2">
+    <AccordionItem value="3">
       <AccordionTrigger className="text-left leading-relaxed">
         How much does it cost to run Reactive Resume?
       </AccordionTrigger>
@@ -132,7 +132,7 @@ function Question3() {
 
 // Other than donating, how can I support you?
 const Question4 = () => (
-  <AccordionItem value="3">
+  <AccordionItem value="4">
     <AccordionTrigger className="text-left leading-relaxed">
       Other than donating, how can I support you?
     </AccordionTrigger>
@@ -176,7 +176,7 @@ const Question5 = () => {
   const { languages } = useLanguages();
 
   return (
-    <AccordionItem value="4">
+    <AccordionItem value="5">
       <AccordionTrigger className="text-left leading-relaxed">
         What languages are supported on Reactive Resume?
       </AccordionTrigger>
@@ -238,7 +238,7 @@ const Question5 = () => {
 
 // How does the OpenAI Integration work?
 const Question6 = () => (
-  <AccordionItem value="5">
+  <AccordionItem value="6">
     <AccordionTrigger className="text-left leading-relaxed">
       How does the OpenAI Integration work?
     </AccordionTrigger>
