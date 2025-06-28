@@ -100,6 +100,9 @@ jobs:
     needs:
       - build
 
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4.1.4
@@ -145,8 +148,6 @@ jobs:
       - name: Inspect Image
         run: |
           docker buildx imagetools inspect ${{ env.IMAGE }}:${{ steps.meta.outputs.version }}
-
-      - uses: actions/checkout@v4
 
       - name: Update Repository Description
         uses: peter-evans/dockerhub-description@v4.0.0
