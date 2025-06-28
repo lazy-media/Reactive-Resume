@@ -3,7 +3,7 @@ name: Sync Crowdin Translations
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 0 * * * # everyday at midnight (UTC)
+    - cron: 0 0 * * 1 # everyday at midnight (UTC)
 #  workflow_dispatch:
 #  push:
 #    branches:
