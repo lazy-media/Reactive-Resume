@@ -4,14 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: 0 0 * * 1 # every Monday at midnight (UTC)
-#  workflow_dispatch:
-#  push:
-#    branches:
-#      - main
-#      - test
-#  pull_request:
-#    branches:
-#      - main
 
 jobs:
   sync:
