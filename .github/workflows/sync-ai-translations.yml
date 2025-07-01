@@ -9,43 +9,26 @@ on:
 jobs:
   translate:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
-      pull-requests: write
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-
-      - name: Install dependencies (torch and libretranslate)
+      - name: Run LibreTranslate in Docker
         run: |
-          pip install --extra-index-url https://download.pytorch.org/whl/cpu torch==2.0.1
-          pip install libretranslate==1.5.2
-
-      - name: Start libretranslate server in background
-        run: |
-          nohup libretranslate --host 0.0.0.0 --port 5000 > libretranslate.log 2>&1 &
+          docker run -d -p 1000:5000 --name libretranslate libretranslate/libretranslate
 
       - name: Wait for LibreTranslate to start
         run: |
           for i in {1..30}; do
             sleep 2
-            for host in 127.0.0.1 localhost 0.0.0.0; do
-              if curl -s "http://$host:5000/health" | grep -q "ok"; then
-                echo "LibreTranslate running on $host:5000"
-                exit 0
-              fi
-            done
+            if curl -s http://localhost:1000/health | grep -q "ok"; then
+              echo "LibreTranslate is running"
+              exit 0
+            fi
             echo "Waiting for LibreTranslate to start... ($i/30)"
           done
-          echo "::error::LibreTranslate did not start. Printing log:"
-          cat libretranslate.log
+          echo "::error::LibreTranslate did not start."
+          docker logs libretranslate
           exit 1
 
       - name: Translate empty msgstr in messages.po files
