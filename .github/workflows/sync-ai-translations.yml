@@ -36,14 +36,12 @@ jobs:
         run: |
           for i in {1..30}; do
             sleep 2
-            if curl -s http://127.0.0.1:5000/health | grep -q "ok"; then
-              echo "LibreTranslate is running on 127.0.0.1"
-              exit 0
-            fi
-            if curl -s http://localhost:5000/health | grep -q "ok"; then
-              echo "LibreTranslate is running on localhost"
-              exit 0
-            fi
+            for host in 127.0.0.1 localhost 0.0.0.0; do
+              if curl -s "http://$host:5000/health" | grep -q "ok"; then
+                echo "LibreTranslate running on $host:5000"
+                exit 0
+              fi
+            done
             echo "Waiting for LibreTranslate to start... ($i/30)"
           done
           echo "::error::LibreTranslate did not start. Printing log:"
