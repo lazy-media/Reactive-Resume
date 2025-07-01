@@ -18,7 +18,6 @@
 
 > - _All main information still applies to this version as the main/original version. The only thing this project focuses on is the community / self hosted version._
 > - _Please contribute to the project if you know what you are doing, as the current maintainer of this project currently relies on built-in AI and other built-in security measures to verify code integrity and malicious code injection._
-> - _Current maintainer is currently trying to learn the languages required for this project, but it is a lot to learn..._
 
 A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.
 
