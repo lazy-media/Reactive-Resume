@@ -23,9 +23,15 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install libretranslate
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies (torch and libretranslate)
         run: |
-          pip install libretranslate
+          pip install torch==2.0.1
+          pip install libretranslate==1.5.2
 
       - name: Start libretranslate server
         run: |
@@ -103,7 +109,7 @@ jobs:
       - name: Create Pull Request to main
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ github.token }}
           branch: l10n
           base: main
           title: "chore(l10n): Auto-fill missing translations in .po files"
