@@ -38,7 +38,7 @@ msgstr "<0>Am construit Reactive Resume în mare parte de unul singur, în timpu
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>Sunt sigur că aplicația nu este perfectă, dar aș vrea să fie. /0><1>Dacă v-ați confruntat cu probleme în timp ce creați reluarea, sau aveți o idee care v-ar ajuta pe voi și pe alți utilizatori să vă creați mai ușor reluarea, plasează o problemă în depozit sau trimite-mi un e-mail despre ea. /1>"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:201
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:206
 msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
 msgstr "<0>Notă: </0>Utilizând API-ul OpenAI, confirmaţi şi acceptaţi termenii de utilizare </1> şi <2>politica de confidenţialitate</2> subliniaţi de OpenAI. Vă rugăm să reţineţi că Resume Reactiv nu are nici o responsabilitate pentru utilizarea incorectă sau neautorizată a serviciului, şi orice repercusiuni sau pasive care decurg exclusiv din acestea sunt suportate de utilizator."
 
@@ -70,8 +70,8 @@ msgid "A link has been copied to your clipboard."
 msgstr "Un link a fost copiat în clipboard."
 
 #: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0>"
-msgstr "Un proiect pasional de <0>Amruth Pillai</0>"
+msgid "A passion project by <0>Amruth Pillai</0>Forked by <1>Lazy Media</1>"
+msgstr ""
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
@@ -217,7 +217,7 @@ msgstr "Cod de rezervă"
 msgid "Backup Codes may contain only lowercase letters or numbers, and must be exactly 10 characters."
 msgstr "Codurile de rezervă pot conține doar litere mici sau cifre și trebuie să aibă exact 10 caractere."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:132
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:137
 msgid "Base URL"
 msgstr "URL de bază"
 
@@ -597,7 +597,7 @@ msgstr "Variante de font"
 msgid "For example, information regarding which companies you sent this resume to or the links to the job descriptions can be noted down here."
 msgstr "De exemplu, informații cu privire la companiile cărora le-ați trimis acest CV sau link-urile către fișele posturilor pot fi notate aici."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:182
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:187
 msgid "Forget"
 msgstr "Uită"
 
@@ -942,7 +942,7 @@ msgstr "Martie 2023 - Prezent"
 msgid "Margin"
 msgstr "Margine"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:158
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:163
 msgid "Max Tokens"
 msgstr "Jetoane maxime"
 
@@ -950,7 +950,7 @@ msgstr "Jetoane maxime"
 msgid "MIT License"
 msgstr "Licență MIT"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:145
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:150
 msgid "Model"
 msgstr ""
 
@@ -1029,13 +1029,13 @@ msgstr "OpenAI nu a returnat nicio alegere pentru textul dvs."
 msgid "OpenAI Integration"
 msgstr "Integrare OpenAI"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:119
-msgid "OpenAI/Ollama API Key"
-msgstr "Cheie API OpenAI/Ollama"
-
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:79
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:84
 msgid "OpenAI/Ollama Integration"
 msgstr "Integrarea OpenAI/Ollama"
+
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:124
+msgid "OpenAI/OpenWebUI API Key"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:182
@@ -1155,7 +1155,7 @@ msgstr "Editor"
 msgid "Raise an issue"
 msgstr "Ridicați o problemă"
 
-#: apps/client/src/components/copyright.tsx:35
+#: apps/client/src/components/copyright.tsx:36
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55
@@ -1255,11 +1255,11 @@ msgstr "Rotunjit"
 msgid "Save Changes"
 msgstr "Salvează Modificările"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:176
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:181
 msgid "Save Locally"
 msgstr "Salvați la nivel local"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:176
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:181
 msgid "Saved"
 msgstr "Salvat"
 
@@ -1671,8 +1671,8 @@ msgid "Verify your email address"
 msgstr "Verificați-vă adresa de e-mail"
 
 #: apps/client/src/pages/home/sections/hero/index.tsx:26
-msgid "Version 4"
-msgstr "Versiunea 4"
+msgid "Version 1"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:51
 msgid "Views"
@@ -1723,11 +1723,11 @@ msgstr "Puteți adăuga mai multe cuvinte cheie separându-le cu o virgulă sau 
 msgid "You can also enter your username."
 msgstr "Poți, de asemenea, să introduci numele de utilizator."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:103
-msgid "You can also integrate with Ollama simply by setting the API key to `sk-1234567890abcdef` and the Base URL to your Ollama URL, i.e. `http://localhost:11434/v1`. You can also pick and choose models and set the max tokens as per your preference."
-msgstr "De asemenea, vă puteți integra cu Ollama prin simpla setare a cheii API la `sk-1234567890abcdef` și a URL-ului de bază la URL-ul Ollama, adică `http://localhost:11434/v1`. De asemenea, puteți alege modelele și puteți seta numărul maxim de jetoane în funcție de preferințele dvs."
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:108
+msgid "You can also integrate with OpenWebUI simply by setting an API key such as `sk-1234567890abcdef` and the Base URL to your OpenWebUI URL, i.e. `https://localhost:8080/api`. This must connect over HTTPS and to OpenWebUI, not Ollama. You can also pick and choose models and set the max tokens as per your preference."
+msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:81
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:86
 msgid "You can make use of the OpenAI API to help you generate content, or improve your writing while composing your resume."
 msgstr "Puteți folosi API-ul OpenAI pentru a vă ajuta să generați conținut sau să vă îmbunătățiți scrisul în timp ce vă compuneți CV-ul."
 
@@ -1739,7 +1739,7 @@ msgstr "Puteți urmări numărul de vizualizări pe care le-a primit CV-ul dvs. 
 msgid "You don't have permission to access this page."
 msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:87
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:92
 msgid "You have the option to <0>obtain your own OpenAI API key</0>. This key empowers you to leverage the API as you see fit. Alternatively, if you wish to disable the AI features in Reactive Resume altogether, you can simply remove the key from your settings."
 msgstr "Aveți opțiunea de a vă obține propria cheie API OpenAI. Această cheie vă permite să utilizați API-ul după cum doriți. Alternativ, dacă doriţi să dezactivaţi caracteristicile AI în Reactiv Resume complet, puteţi pur şi simplu elimina cheia din setări."
 
@@ -1756,7 +1756,7 @@ msgstr "Ai primit e-mail!"
 msgid "Your account and all your data has been deleted successfully. Goodbye!"
 msgstr "Contul și toate datele dvs. au fost șterse cu succes. La revedere!"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:191
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:196
 msgid "Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services."
 msgstr "API-ul dvs. este stocat în siguranță în spațiul de stocare local al browser-ului și este utilizat numai atunci când faceți cereri către OpenAI prin intermediul SDK-ului lor oficial. Asigurați-vă că cheia dvs. nu este transmisă către niciun server extern cu excepția cazului în care interacționați cu serviciile OpenAI."
 
@@ -1779,4 +1779,3 @@ msgstr "Mărire în"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:118
 msgid "Zoom Out"
 msgstr "Micșorare"
-

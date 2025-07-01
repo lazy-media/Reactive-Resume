@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'apps/client/src/locales/**/messages.po'
+      - "apps/client/src/locales/**/messages.po"
 
 jobs:
   translate:

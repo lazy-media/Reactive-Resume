@@ -38,7 +38,7 @@ msgstr "<0>我花費了自己大量的業餘時間開發了 Reactive Resume，�
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>我相信這隻應用程式還不夠完美，但希望它能夠與日俱進。</0><1>如果您在創建簡歷時遇到任何問題，或者有其他可以幫助您和其他人的想法讓使用者可以更輕鬆地創建履歷，請在 Repository 發送 issue 或將相關問題的 email 寄送給我。</1>"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:201
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:206
 msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
 msgstr "<0>注意：</0>使用 OpenAI API 即表示您承認並接受<1>使用條款</1>和<2>隱私權政策</2>OpenAI 概述。請注意，Reactive Resume 對任何不當或未經授權的服務使用不承擔任何責任，由此產生的任何影響或責任僅由使用者承擔。"
 
@@ -70,8 +70,8 @@ msgid "A link has been copied to your clipboard."
 msgstr "連接已複製到您的剪貼簿。"
 
 #: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0>"
-msgstr "一個由 <0>Amruth Pillai</0> 的熱血專案"
+msgid "A passion project by <0>Amruth Pillai</0>Forked by <1>Lazy Media</1>"
+msgstr ""
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
@@ -217,7 +217,7 @@ msgstr "備份代碼"
 msgid "Backup Codes may contain only lowercase letters or numbers, and must be exactly 10 characters."
 msgstr "備份碼只能包含小寫字母或數字，且必須正好為 10 個字元。"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:132
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:137
 msgid "Base URL"
 msgstr "網站網址:"
 
@@ -597,7 +597,7 @@ msgstr "字型變體"
 msgid "For example, information regarding which companies you sent this resume to or the links to the job descriptions can be noted down here."
 msgstr "例如，您將這份履歷寄給哪些公司的相關資訊，或是工作說明的連結，都可以在這裡記下來。"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:182
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:187
 msgid "Forget"
 msgstr "略過"
 
@@ -942,7 +942,7 @@ msgstr "2023 年 3 月至今"
 msgid "Margin"
 msgstr "邊界"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:158
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:163
 msgid "Max Tokens"
 msgstr "最大 Token"
 
@@ -950,7 +950,7 @@ msgstr "最大 Token"
 msgid "MIT License"
 msgstr "MIT 授權"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:145
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:150
 msgid "Model"
 msgstr "模型"
 
@@ -1029,13 +1029,13 @@ msgstr "OpenAI 沒有為您的文字傳回任何選項。"
 msgid "OpenAI Integration"
 msgstr "OpenAI 整合"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:119
-msgid "OpenAI/Ollama API Key"
-msgstr "OpenAI/Ollama API 金鑰"
-
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:79
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:84
 msgid "OpenAI/Ollama Integration"
 msgstr "OpenAI/Ollama 整合"
+
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:124
+msgid "OpenAI/OpenWebUI API Key"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:182
@@ -1155,7 +1155,7 @@ msgstr "發行者"
 msgid "Raise an issue"
 msgstr "提出問題"
 
-#: apps/client/src/components/copyright.tsx:35
+#: apps/client/src/components/copyright.tsx:36
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55
@@ -1255,11 +1255,11 @@ msgstr "圓角"
 msgid "Save Changes"
 msgstr "儲存變更"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:176
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:181
 msgid "Save Locally"
 msgstr "儲存至本機"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:176
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:181
 msgid "Saved"
 msgstr "已儲存"
 
@@ -1671,8 +1671,8 @@ msgid "Verify your email address"
 msgstr "確認你的電子郵件地址"
 
 #: apps/client/src/pages/home/sections/hero/index.tsx:26
-msgid "Version 4"
-msgstr "版本 4"
+msgid "Version 1"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:51
 msgid "Views"
@@ -1723,11 +1723,11 @@ msgstr "你可以使用逗號或Enter鍵隔開，新增多個關鍵詞。"
 msgid "You can also enter your username."
 msgstr "您也可以輸入您的使用者名稱。"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:103
-msgid "You can also integrate with Ollama simply by setting the API key to `sk-1234567890abcdef` and the Base URL to your Ollama URL, i.e. `http://localhost:11434/v1`. You can also pick and choose models and set the max tokens as per your preference."
-msgstr "您也可以與 Ollama 整合，只要將 API key 設定為「sk-1234567890abcdef」，並將 Base URL 設定為您的 Ollama URL，即「http://localhost:11434/v1」。您也可以依您的喜好挑選模型並設定最大的 tokens。"
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:108
+msgid "You can also integrate with OpenWebUI simply by setting an API key such as `sk-1234567890abcdef` and the Base URL to your OpenWebUI URL, i.e. `https://localhost:8080/api`. This must connect over HTTPS and to OpenWebUI, not Ollama. You can also pick and choose models and set the max tokens as per your preference."
+msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:81
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:86
 msgid "You can make use of the OpenAI API to help you generate content, or improve your writing while composing your resume."
 msgstr "您可以利用 OpenAI API 協助您生成內容，或在撰寫履歷時改善您的文筆。"
 
@@ -1739,7 +1739,7 @@ msgstr "您可以追蹤履歷的檢視次數，或透過啟用公開分享功能
 msgid "You don't have permission to access this page."
 msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:87
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:92
 msgid "You have the option to <0>obtain your own OpenAI API key</0>. This key empowers you to leverage the API as you see fit. Alternatively, if you wish to disable the AI features in Reactive Resume altogether, you can simply remove the key from your settings."
 msgstr "您可以選擇 <0>取得自己的 OpenAI API 金鑰</0> 。此金鑰可讓您隨心所欲地使用 API。或者，如果您想要完全停用 Reactive Resume 中的 AI 功能，您可以直接從設定中移除金鑰。"
 
@@ -1756,7 +1756,7 @@ msgstr "你有新郵件"
 msgid "Your account and all your data has been deleted successfully. Goodbye!"
 msgstr "您的帳戶和所有資料已成功刪除。再見"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:191
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:196
 msgid "Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services."
 msgstr "您的 API 密鑰會安全地儲存在瀏覽器的本機儲存空間中，並且僅會在透過官方 SDK 向 OpenAI 提出請求時使用。請放心，除了與 OpenAI 的服務互動時，您的金鑰不會傳送到任何外部伺服器。"
 
@@ -1779,4 +1779,3 @@ msgstr "放大"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:118
 msgid "Zoom Out"
 msgstr "缩小"
-

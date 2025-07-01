@@ -38,7 +38,7 @@ msgstr "<0>Създадох Reactive Resume предимно сам през с�
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>Сигурен съм, че приложението не е съвършено, но бих искал да бъде.</0><1>Ако сте се сблъскали с някакви проблеми при създаването на автобиографията си или имате идея, която би помогнала на вас и на други потребители да създадете по-лесно автобиографията си, напишете въпрос в хранилището или ми изпратете имейл за това.</1>"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:201
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:206
 msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
 msgstr "<0>Забележка: </0>Използвайки API на OpenAI, вие потвърждавате и приемате <1>условията за използване</1> и <2>политиката за поверителност,</2> описани от OpenAI. Моля, обърнете внимание, че Reactive Resume не носи отговорност за неправилно или неразрешено използване на услугата и всички произтичащи от това последствия или отговорности са единствено за сметка на потребителя."
 
@@ -70,8 +70,8 @@ msgid "A link has been copied to your clipboard."
 msgstr "Връзката е копирана във вашия клипборд."
 
 #: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0>"
-msgstr "Страстен проект на <0>Amruth Pillai</0>"
+msgid "A passion project by <0>Amruth Pillai</0>Forked by <1>Lazy Media</1>"
+msgstr ""
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
@@ -217,7 +217,7 @@ msgstr "Код за резервно копие"
 msgid "Backup Codes may contain only lowercase letters or numbers, and must be exactly 10 characters."
 msgstr "Кодовете за архивиране могат да съдържат само малки букви или цифри и трябва да са точно 10 символа."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:132
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:137
 msgid "Base URL"
 msgstr "Базов URL адрес"
 
@@ -597,7 +597,7 @@ msgstr "Варианти на шрифта"
 msgid "For example, information regarding which companies you sent this resume to or the links to the job descriptions can be noted down here."
 msgstr "Например тук може да се запише информация за компаниите, на които сте изпратили автобиографията, или връзки към описанията на длъжностите."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:182
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:187
 msgid "Forget"
 msgstr "Забравете"
 
@@ -942,7 +942,7 @@ msgstr "март 2023 - Настояще"
 msgid "Margin"
 msgstr "Марж"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:158
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:163
 msgid "Max Tokens"
 msgstr "Максимален брой жетони"
 
@@ -950,7 +950,7 @@ msgstr "Максимален брой жетони"
 msgid "MIT License"
 msgstr "Лиценз MIT"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:145
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:150
 msgid "Model"
 msgstr "Модел"
 
@@ -1029,13 +1029,13 @@ msgstr "OpenAI не върна никакви варианти за вашия �
 msgid "OpenAI Integration"
 msgstr "Интеграция на OpenAI"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:119
-msgid "OpenAI/Ollama API Key"
-msgstr "Ключ за API на OpenAI/Ollama"
-
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:79
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:84
 msgid "OpenAI/Ollama Integration"
 msgstr "Интеграция на OpenAI/Ollama"
+
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:124
+msgid "OpenAI/OpenWebUI API Key"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:182
@@ -1155,7 +1155,7 @@ msgstr "Издател"
 msgid "Raise an issue"
 msgstr "Повдигане на въпрос"
 
-#: apps/client/src/components/copyright.tsx:35
+#: apps/client/src/components/copyright.tsx:36
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55
@@ -1255,11 +1255,11 @@ msgstr "Заоблени"
 msgid "Save Changes"
 msgstr "Запазване на промените"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:176
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:181
 msgid "Save Locally"
 msgstr "Запазване на местно ниво"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:176
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:181
 msgid "Saved"
 msgstr "Запазено"
 
@@ -1671,8 +1671,8 @@ msgid "Verify your email address"
 msgstr "Потвърдете имейл адреса си"
 
 #: apps/client/src/pages/home/sections/hero/index.tsx:26
-msgid "Version 4"
-msgstr "Версия 4"
+msgid "Version 1"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:51
 msgid "Views"
@@ -1723,11 +1723,11 @@ msgstr "Можете да добавите няколко ключови дум�
 msgid "You can also enter your username."
 msgstr "Можете да въведете и потребителското си име."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:103
-msgid "You can also integrate with Ollama simply by setting the API key to `sk-1234567890abcdef` and the Base URL to your Ollama URL, i.e. `http://localhost:11434/v1`. You can also pick and choose models and set the max tokens as per your preference."
-msgstr "Можете също така да се интегрирате с Ollama, като просто зададете API ключа на `sk-1234567890abcdef`, а базовия URL адрес - на вашия URL адрес на Ollama, т.е. `http://localhost:11434/v1`. Можете също така да избирате модели и да задавате максималните токени според предпочитанията си."
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:108
+msgid "You can also integrate with OpenWebUI simply by setting an API key such as `sk-1234567890abcdef` and the Base URL to your OpenWebUI URL, i.e. `https://localhost:8080/api`. This must connect over HTTPS and to OpenWebUI, not Ollama. You can also pick and choose models and set the max tokens as per your preference."
+msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:81
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:86
 msgid "You can make use of the OpenAI API to help you generate content, or improve your writing while composing your resume."
 msgstr "Можете да използвате приложния програмен интерфейс на OpenAI, за да генерирате съдържание, или да подобрите писането, докато съставяте автобиографията си."
 
@@ -1739,7 +1739,7 @@ msgstr "Можете да проследите броя на прегледит�
 msgid "You don't have permission to access this page."
 msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:87
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:92
 msgid "You have the option to <0>obtain your own OpenAI API key</0>. This key empowers you to leverage the API as you see fit. Alternatively, if you wish to disable the AI features in Reactive Resume altogether, you can simply remove the key from your settings."
 msgstr "Имате възможност да <0>получите собствен API ключ на OpenAI</0>. Този ключ ви дава възможност да използвате API по ваша преценка. Ако желаете да деактивирате функциите на изкуствения интелект в Reactive Resume, можете просто да премахнете ключа от настройките си."
 
@@ -1756,7 +1756,7 @@ msgstr "Имате поща!"
 msgid "Your account and all your data has been deleted successfully. Goodbye!"
 msgstr "Вашият акаунт и всички ваши данни са изтрити успешно. Сбогом!"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:191
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:196
 msgid "Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services."
 msgstr "Вашият API ключ се съхранява по сигурен начин в локалното хранилище на браузъра и се използва само при извършване на заявки към OpenAI чрез официалния им SDK. Бъдете сигурни, че вашият ключ не се предава на външен сървър, освен при взаимодействие с услугите на OpenAI."
 
@@ -1779,4 +1779,3 @@ msgstr "Увеличаване на мащаба"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:118
 msgid "Zoom Out"
 msgstr "Увеличаване на мащаба"
-

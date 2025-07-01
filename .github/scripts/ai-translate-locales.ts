@@ -4,10 +4,7 @@ import polib from "polib";
 import { execSync } from "child_process";
 
 // 1. List all locales in the locales directory
-const localesDir = path.resolve(
-  process.cwd(),
-  "apps/client/src/locales"
-);
+const localesDir = path.resolve(process.cwd(), "apps/client/src/locales");
 
 const locales = fs
   .readdirSync(localesDir, { withFileTypes: true })

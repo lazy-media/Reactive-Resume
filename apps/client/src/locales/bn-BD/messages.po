@@ -38,7 +38,7 @@ msgstr "</0>অন্যান্য মহান ওপেন-সোর্স �
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>আমি নিশ্চিত যে অ্যাপটি নিখুঁত নয়, তবে আমি চাই এটি নিখুঁত হোক।</0><1>আপনার জীবনবৃত্তান্ত তৈরি করার সময় আপনি যদি কোনো সমস্যার সম্মুখীন হন, অথবা এমন কোনো ধারণা থাকে যা আপনাকে এবং অন্যান্য ব্যবহারকারীদেরকে আপনার জীবনবৃত্তান্ত তৈরি করতে আরও সহজে সাহায্য করবে, রিপোজিটরিতে একটি সমস্যা ড্রপ করুন বা এটি সম্পর্কে আমাকে একটি ইমেল পাঠান।</1>"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:201
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:206
 msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
 msgstr "<0>দ্রষ্টব্য: </0>OpenAI API ব্যবহার করে, আপনি স্বীকার করেন এবং স্বীকার করেন<1>ব্যবহারের শর্তাবলী</1>এবং<2>গোপনীয়তা নীতি</2>OpenAI দ্বারা রূপরেখা। অনুগ্রহ করে মনে রাখবেন যে প্রতিক্রিয়াশীল জীবনবৃত্তান্ত পরিষেবাটির কোনও অনুপযুক্ত বা অননুমোদিত ব্যবহারের জন্য কোনও দায়বদ্ধতা বহন করে না এবং এর ফলে যে কোনও প্রতিক্রিয়া বা দায় সম্পূর্ণরূপে ব্যবহারকারীর উপর নির্ভর করে।"
 
@@ -70,8 +70,8 @@ msgid "A link has been copied to your clipboard."
 msgstr "আপনার ক্লিপবোর্ডে একটি লিঙ্ক কপি করা হয়েছে।"
 
 #: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0>"
-msgstr "<0>অমরুথ পিল্লাই</0>-এর একটি প্যাশন প্রোজেক্ট"
+msgid "A passion project by <0>Amruth Pillai</0>Forked by <1>Lazy Media</1>"
+msgstr ""
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
@@ -217,7 +217,7 @@ msgstr "ব্যাকআপ কোড"
 msgid "Backup Codes may contain only lowercase letters or numbers, and must be exactly 10 characters."
 msgstr "ব্যাকআপ কোডে শুধুমাত্র ছোট হাতের অক্ষর বা সংখ্যা থাকতে পারে এবং অবশ্যই 10টি অক্ষর হতে হবে।"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:132
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:137
 msgid "Base URL"
 msgstr ""
 
@@ -597,7 +597,7 @@ msgstr "বিকল্প ফন্ট"
 msgid "For example, information regarding which companies you sent this resume to or the links to the job descriptions can be noted down here."
 msgstr "উদাহরণস্বরূপ, আপনি কোন কোম্পানিতে এই জীবনবৃত্তান্ত পাঠিয়েছেন বা কাজের বিবরণের লিঙ্কগুলি এখানে উল্লেখ করা যেতে পারে"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:182
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:187
 msgid "Forget"
 msgstr "ভুলে যান"
 
@@ -942,7 +942,7 @@ msgstr "মার্চ ২০২৩ - বর্তমান"
 msgid "Margin"
 msgstr "মার্জিন"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:158
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:163
 msgid "Max Tokens"
 msgstr ""
 
@@ -950,7 +950,7 @@ msgstr ""
 msgid "MIT License"
 msgstr "এমআইটি লাইসেন্স"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:145
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:150
 msgid "Model"
 msgstr ""
 
@@ -1029,12 +1029,12 @@ msgstr ""
 msgid "OpenAI Integration"
 msgstr "OpenAI ইন্টিগ্রেশন"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:119
-msgid "OpenAI/Ollama API Key"
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:84
+msgid "OpenAI/Ollama Integration"
 msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:79
-msgid "OpenAI/Ollama Integration"
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:124
+msgid "OpenAI/OpenWebUI API Key"
 msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
@@ -1155,7 +1155,7 @@ msgstr "প্রকাশক"
 msgid "Raise an issue"
 msgstr "ত্রুটি / সমস্যা তুলে ধরুন"
 
-#: apps/client/src/components/copyright.tsx:35
+#: apps/client/src/components/copyright.tsx:36
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55
@@ -1255,11 +1255,11 @@ msgstr ""
 msgid "Save Changes"
 msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:176
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:181
 msgid "Save Locally"
 msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:176
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:181
 msgid "Saved"
 msgstr ""
 
@@ -1671,7 +1671,7 @@ msgid "Verify your email address"
 msgstr ""
 
 #: apps/client/src/pages/home/sections/hero/index.tsx:26
-msgid "Version 4"
+msgid "Version 1"
 msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:51
@@ -1723,11 +1723,11 @@ msgstr ""
 msgid "You can also enter your username."
 msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:103
-msgid "You can also integrate with Ollama simply by setting the API key to `sk-1234567890abcdef` and the Base URL to your Ollama URL, i.e. `http://localhost:11434/v1`. You can also pick and choose models and set the max tokens as per your preference."
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:108
+msgid "You can also integrate with OpenWebUI simply by setting an API key such as `sk-1234567890abcdef` and the Base URL to your OpenWebUI URL, i.e. `https://localhost:8080/api`. This must connect over HTTPS and to OpenWebUI, not Ollama. You can also pick and choose models and set the max tokens as per your preference."
 msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:81
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:86
 msgid "You can make use of the OpenAI API to help you generate content, or improve your writing while composing your resume."
 msgstr ""
 
@@ -1739,7 +1739,7 @@ msgstr ""
 msgid "You don't have permission to access this page."
 msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:87
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:92
 msgid "You have the option to <0>obtain your own OpenAI API key</0>. This key empowers you to leverage the API as you see fit. Alternatively, if you wish to disable the AI features in Reactive Resume altogether, you can simply remove the key from your settings."
 msgstr ""
 
@@ -1756,7 +1756,7 @@ msgstr ""
 msgid "Your account and all your data has been deleted successfully. Goodbye!"
 msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:191
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:196
 msgid "Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services."
 msgstr ""
 
@@ -1779,4 +1779,3 @@ msgstr ""
 #: apps/client/src/pages/builder/_components/toolbar.tsx:118
 msgid "Zoom Out"
 msgstr ""
-
