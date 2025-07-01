@@ -112,7 +112,7 @@ function Question3() {
         <p>
           But if you do feel like supporting the developer and the future development of Reactive
           Resume, please donate (<em>only if you have some extra money lying around</em>) on my{" "}
-          <a href="https://github.com/sponsors/AmruthPillai/">GitHub Sponsors page</a>. You can
+          <a href="https://github.com/sponsors/lazy-media/">GitHub Sponsors page</a>. You can
           choose to donate one-time or sponsor a recurring donation.
         </p>
 
@@ -139,7 +139,7 @@ const Question4 = () => (
     <AccordionContent className="prose max-w-none dark:prose-invert">
       <p>
         <strong>If you speak a language other than English</strong>, sign up to be a translator on{" "}
-        <a href="https://translate.rxresu.me/" target="_blank" rel="noreferrer">
+        <a href="https://crowdin.com/project/lazymedia-reactive-resume" target="_blank" rel="noreferrer">
           Crowdin
         </a>
         , our translation management service. You can help translate the product to your language
@@ -150,7 +150,7 @@ const Question4 = () => (
       <p>
         <strong>If you work in the media, are an influencer or have lots of friends</strong>, share
         the app with your circles and let them know so it can reach the people who need it the most.
-        I'm also <a href="mailto:hello@amruthpillai.com">open to giving tech talks</a>, although
+        I'm also <a href="mailto:info@lazymedia.media">open to giving tech talks</a>, although
         that's wishful thinking. But if you do mention Reactive Resume on your blog, let me know so
         that I can link back to you here.
       </p>
@@ -158,7 +158,7 @@ const Question4 = () => (
       <p>
         <strong>If you found a bug or have an idea for a feature</strong>, raise an issue on{" "}
         <a
-          href="https://github.com/AmruthPillai/Reactive-Resume/issues/new/choose"
+          href="https://github.com/lazy-media/Reactive-Resume/issues/new/choose"
           target="_blank"
           rel="noreferrer"
         >
