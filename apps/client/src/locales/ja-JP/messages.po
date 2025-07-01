@@ -38,7 +38,7 @@ msgstr "<0>Reactive Resumeは、素晴らしいオープンソースコントリ
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>このアプリは完璧ではないと思いますが、完璧にしたいと思っています。</0><1>もし履歴書作成中に問題に直面したり、あなたや他のユーザーがもっと簡単に履歴書を作成できるようなアイデアがあれば、リポジトリにissueを作成するか、私にメールを送ってください。</1>"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:206
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:208
 msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
 msgstr "<0>注意：</0>OpenAI APIを利用することにより、利用者はOpenAIの<1>利用規約と</1> <2>プライバシーポリシーに</2>同意したものとみなされます。Reactive Resumeは、サービスの不適切な利用や不正利用に対して一切の責任を負わず、その結果生じるいかなる影響や責任も利用者のみにあることにご注意ください。"
 
@@ -70,7 +70,7 @@ msgid "A link has been copied to your clipboard."
 msgstr "リンクがクリップボードにコピーされました"
 
 #: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0>Forked by <1>Lazy Media</1>"
+msgid "A passion project by <0>Amruth Pillai</0><1/>Forked by <2>Lazy Media</2>"
 msgstr ""
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
@@ -217,7 +217,7 @@ msgstr "バックアップコード"
 msgid "Backup Codes may contain only lowercase letters or numbers, and must be exactly 10 characters."
 msgstr "バックアップコードは小文字のアルファベットまたは数字のみを含んだ10文字である必要があります。"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:137
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:139
 msgid "Base URL"
 msgstr "ベースURL"
 
@@ -597,7 +597,7 @@ msgstr ""
 msgid "For example, information regarding which companies you sent this resume to or the links to the job descriptions can be noted down here."
 msgstr "例えば、どの会社にこの履歴書を送ったか、または仕事の説明へのリンクについての情報はここに記述することができる。"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:187
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:189
 msgid "Forget"
 msgstr "忘れた"
 
@@ -942,7 +942,7 @@ msgstr "2023年3月-現在"
 msgid "Margin"
 msgstr "マージン（マージン）"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:163
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:165
 msgid "Max Tokens"
 msgstr "最大トークン"
 
@@ -950,7 +950,7 @@ msgstr "最大トークン"
 msgid "MIT License"
 msgstr "MIT ライセンス"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:150
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:152
 msgid "Model"
 msgstr "モデル"
 
@@ -1033,7 +1033,7 @@ msgstr "OpenAI 統合"
 msgid "OpenAI/Ollama Integration"
 msgstr "OpenAIとOllamaの統合"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:124
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:126
 msgid "OpenAI/OpenWebUI API Key"
 msgstr ""
 
@@ -1155,7 +1155,7 @@ msgstr "発行者"
 msgid "Raise an issue"
 msgstr "課題を上げる"
 
-#: apps/client/src/components/copyright.tsx:36
+#: apps/client/src/components/copyright.tsx:37
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55
@@ -1255,11 +1255,11 @@ msgstr "四捨五入済み"
 msgid "Save Changes"
 msgstr "変更を保存"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:181
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:183
 msgid "Save Locally"
 msgstr "地元で節約する"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:181
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:183
 msgid "Saved"
 msgstr "保存"
 
@@ -1724,7 +1724,7 @@ msgid "You can also enter your username."
 msgstr "ユーザー名を入力することもできます。"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:108
-msgid "You can also integrate with OpenWebUI simply by setting an API key such as `sk-1234567890abcdef` and the Base URL to your OpenWebUI URL, i.e. `https://localhost:8080/api`. This must connect over HTTPS and to OpenWebUI, not Ollama. You can also pick and choose models and set the max tokens as per your preference."
+msgid "You can also integrate with OpenWebUI by setting your API key. Login to your local OpenWebUI instance. Click on your name in the bottom left corner. Click on Settings. Click on Account. Show and copy your API Key. It should look something like `sk-1234567890abcdef`. Fill in the Base URL to your OpenWebUI Instance, i.e. `https://localhost:8080/api`. This must connect over HTTPS and to OpenWebUI, not Ollama. You can also pick and choose models and set the max tokens as per your preference."
 msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:86
@@ -1756,7 +1756,7 @@ msgstr "メールを受け取りました！"
 msgid "Your account and all your data has been deleted successfully. Goodbye!"
 msgstr "アカウントとすべてのデータが正常に削除されました。さようなら！"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:196
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:198
 msgid "Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services."
 msgstr "API キーはブラウザーのローカルストレージに安全に保存され、公式の SDK 経由で OpenAI へのリクエストを行う場合にのみ使用されます。 OpenAIのサービスと相互作用する場合を除き、キーが外部サーバーに送信されることはありませんのでご安心ください。"
 

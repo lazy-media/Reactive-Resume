@@ -38,7 +38,7 @@ msgstr "<0>ನನ್ನ ಬಿಡುವಿನ ವೇಳೆಯಲ್ಲಿ ನಾ
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>ಅಪ್ಲಿಕೇಶನ್ ಪರಿಪೂರ್ಣವಾಗಿಲ್ಲ ಎಂದು ನನಗೆ ಖಾತ್ರಿಯಿದೆ, ಆದರೆ ಅದು ಸಂಪೂರ್ಣ ಇರಬೇಕೆಂದು ನಾನು ಬಯಸುತ್ತೇನೆ.</0> <1>ನಿಮ್ಮ ಪುನರಾರಂಭವನ್ನು ರಚಿಸುವಾಗ ನೀವು ಯಾವುದೇ ಸಮಸ್ಯೆಗಳನ್ನು ಎದುರಿಸಿದರೆ ಅಥವಾ ನಿಮ್ಮ ರೆಸ್ಯೂಮೇ ಅನ್ನು ಹೆಚ್ಚು ಸುಲಭವಾಗಿ ರಚಿಸುವಲ್ಲಿ ನಿಮಗೆ ಮತ್ತು ಇತರ ಬಳಕೆದಾರರಿಗೆ ಸಹಾಯ ಮಾಡುವ ಕಲ್ಪನೆಯನ್ನು ಹೊಂದಿದ್ದರೆ, ರೆಪೊಸಿಟರಿಯಲ್ಲಿ ಸಮಸ್ಯೆಯನ್ನು ಬಿಡಿ ಅಥವಾ ಅದರ ಬಗ್ಗೆ ನನಗೆ ಇಮೇಲ್ ಕಳುಹಿಸಿ.</1>"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:206
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:208
 msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
 msgstr "<0>ಗಮನಿಸಿ:</0> OpenAI API ಅನ್ನು ಬಳಸುವ ಮೂಲಕ, ನೀವು <1> ಬಳಕೆಯ ನಿಯಮಗಳನ್ನು ಅಂಗೀಕರಿಸುತ್ತೀರಿ ಮತ್ತು ಸಮ್ಮತಿಸುತ್ತೀರಿ</1> ಮತ್ತು <2>ಗೌಪ್ಯತೆ ನೀತಿ</2> OpenAI ನಿಂದ ವಿವರಿಸಲಾಗಿದೆ. ಸೇವೆಯ ಯಾವುದೇ ಅಸಮರ್ಪಕ ಅಥವಾ ಅನಧಿಕೃತ ಬಳಕೆಗೆ ಪ್ರತಿಕ್ರಿಯಾತ್ಮಕ ಪುನರಾರಂಭವು ಯಾವುದೇ ಜವಾಬ್ದಾರಿಯನ್ನು ಹೊಂದಿರುವುದಿಲ್ಲ ಮತ್ತು ಯಾವುದೇ ಪರಿಣಾಮವಾಗಿ ಉಂಟಾಗುವ ಪರಿಣಾಮಗಳು ಅಥವಾ ಹೊಣೆಗಾರಿಕೆಗಳು ಬಳಕೆದಾರರ ಮೇಲೆ ಮಾತ್ರ ಅವಲಂಬಿತವಾಗಿರುತ್ತದೆ ಎಂಬುದನ್ನು ದಯವಿಟ್ಟು ಗಮನಿಸಿ."
 
@@ -70,7 +70,7 @@ msgid "A link has been copied to your clipboard."
 msgstr "ನಿಮ್ಮ ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ಲಿಂಕ್ ಅನ್ನು ನಕಲಿಸಲಾಗಿದೆ."
 
 #: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0>Forked by <1>Lazy Media</1>"
+msgid "A passion project by <0>Amruth Pillai</0><1/>Forked by <2>Lazy Media</2>"
 msgstr ""
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
@@ -217,7 +217,7 @@ msgstr "ಬ್ಯಾಕಪ್ ಕೋಡ್"
 msgid "Backup Codes may contain only lowercase letters or numbers, and must be exactly 10 characters."
 msgstr "ಬ್ಯಾಕಪ್ ಕೋಡ್‌ಗಳು ಸಣ್ಣ ಅಕ್ಷರಗಳು ಅಥವಾ ಸಂಖ್ಯೆಗಳನ್ನು ಮಾತ್ರ ಹೊಂದಿರಬಹುದು ಮತ್ತು ನಿಖರವಾಗಿ 10 ಅಕ್ಷರಗಳಾಗಿರಬೇಕು."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:137
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:139
 msgid "Base URL"
 msgstr ""
 
@@ -597,7 +597,7 @@ msgstr "ಅಕ್ಷರಗಳ ರೂಪಾಂತರಗಳು"
 msgid "For example, information regarding which companies you sent this resume to or the links to the job descriptions can be noted down here."
 msgstr "ಉದಾಹರಣೆಗೆ, ನೀವು ಈ ರೆಸ್ಯೂಮ್ ಅನ್ನು ಯಾವ ಕಂಪನಿಗಳಿಗೆ ಕಳುಹಿಸಿದ್ದೀರಿ ಅಥವಾ ಉದ್ಯೋಗ ವಿವರಣೆಗಳ ಲಿಂಕ್‌ಗಳನ್ನು ಇಲ್ಲಿ ನಮೂದಿಸಬಹುದು."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:187
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:189
 msgid "Forget"
 msgstr "ಮರೆತುಬಿಡಿ"
 
@@ -942,7 +942,7 @@ msgstr "ಮಾರ್ಚ್ 2023 - ಪ್ರಸ್ತುತ"
 msgid "Margin"
 msgstr "ಅಂಚು"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:163
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:165
 msgid "Max Tokens"
 msgstr ""
 
@@ -950,7 +950,7 @@ msgstr ""
 msgid "MIT License"
 msgstr "MIT ಪರವಾನಗಿ"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:150
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:152
 msgid "Model"
 msgstr ""
 
@@ -1033,7 +1033,7 @@ msgstr "OpenAI ಏಕೀಕರಣ"
 msgid "OpenAI/Ollama Integration"
 msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:124
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:126
 msgid "OpenAI/OpenWebUI API Key"
 msgstr ""
 
@@ -1155,7 +1155,7 @@ msgstr "ಪ್ರಕಾಶಕರು"
 msgid "Raise an issue"
 msgstr "ಒಂದು ಸಮಸ್ಯೆಯನ್ನು ಎತ್ತಿಕೊಳ್ಳಿ"
 
-#: apps/client/src/components/copyright.tsx:36
+#: apps/client/src/components/copyright.tsx:37
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55
@@ -1255,11 +1255,11 @@ msgstr "ದುಂಡಾದ"
 msgid "Save Changes"
 msgstr "ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸು"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:181
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:183
 msgid "Save Locally"
 msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:181
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:183
 msgid "Saved"
 msgstr ""
 
@@ -1724,7 +1724,7 @@ msgid "You can also enter your username."
 msgstr "ನಿಮ್ಮ ಬಳಕೆದಾರಹೆಸರನ್ನು ಸಹ ನೀವು ನಮೂದಿಸಬಹುದು."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:108
-msgid "You can also integrate with OpenWebUI simply by setting an API key such as `sk-1234567890abcdef` and the Base URL to your OpenWebUI URL, i.e. `https://localhost:8080/api`. This must connect over HTTPS and to OpenWebUI, not Ollama. You can also pick and choose models and set the max tokens as per your preference."
+msgid "You can also integrate with OpenWebUI by setting your API key. Login to your local OpenWebUI instance. Click on your name in the bottom left corner. Click on Settings. Click on Account. Show and copy your API Key. It should look something like `sk-1234567890abcdef`. Fill in the Base URL to your OpenWebUI Instance, i.e. `https://localhost:8080/api`. This must connect over HTTPS and to OpenWebUI, not Ollama. You can also pick and choose models and set the max tokens as per your preference."
 msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:86
@@ -1756,7 +1756,7 @@ msgstr "ನಿಮಗೆ ಮೇಲ್ ಬಂದಿದೆ!"
 msgid "Your account and all your data has been deleted successfully. Goodbye!"
 msgstr "ನಿಮ್ಮ ಖಾತೆ ಮತ್ತು ನಿಮ್ಮ ಎಲ್ಲಾ ಡೇಟಾವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಅಳಿಸಲಾಗಿದೆ. ವಿದಾಯ!"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:196
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:198
 msgid "Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services."
 msgstr "ನಿಮ್ಮ API ಕೀಯನ್ನು ಬ್ರೌಸರ್‌ನ ಸ್ಥಳೀಯ ಸಂಗ್ರಹಣೆಯಲ್ಲಿ ಸುರಕ್ಷಿತವಾಗಿ ಸಂಗ್ರಹಿಸಲಾಗಿದೆ ಮತ್ತು ಅವರ ಅಧಿಕೃತ SDK ಮೂಲಕ OpenAI ಗೆ ವಿನಂತಿಗಳನ್ನು ಮಾಡುವಾಗ ಮಾತ್ರ ಬಳಸಿಕೊಳ್ಳಲಾಗುತ್ತದೆ. OpenAI ನ ಸೇವೆಗಳೊಂದಿಗೆ ಸಂವಹನ ಮಾಡುವಾಗ ಹೊರತುಪಡಿಸಿ ನಿಮ್ಮ ಕೀ ಯಾವುದೇ ಬಾಹ್ಯ ಸರ್ವರ್‌ಗೆ ರವಾನೆಯಾಗುವುದಿಲ್ಲ ಎಂದು ಖಚಿತವಾಗಿರಿ."
 

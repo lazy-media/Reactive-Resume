@@ -112,8 +112,8 @@ function Question3() {
         <p>
           But if you do feel like supporting the developer and the future development of Reactive
           Resume, please donate (<em>only if you have some extra money lying around</em>) on my{" "}
-          <a href="https://github.com/sponsors/lazy-media/">GitHub Sponsors page</a>. You can
-          choose to donate one-time or sponsor a recurring donation.
+          <a href="https://github.com/sponsors/lazy-media/">GitHub Sponsors page</a>. You can choose
+          to donate one-time or sponsor a recurring donation.
         </p>
 
         <p>
@@ -139,7 +139,11 @@ const Question4 = () => (
     <AccordionContent className="prose max-w-none dark:prose-invert">
       <p>
         <strong>If you speak a language other than English</strong>, sign up to be a translator on{" "}
-        <a href="https://crowdin.com/project/lazymedia-reactive-resume" target="_blank" rel="noreferrer">
+        <a
+          href="https://crowdin.com/project/lazymedia-reactive-resume"
+          target="_blank"
+          rel="noreferrer"
+        >
           Crowdin
         </a>
         , our translation management service. You can help translate the product to your language

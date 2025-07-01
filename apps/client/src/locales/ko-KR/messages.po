@@ -38,7 +38,7 @@ msgstr "<0>저는 여가 시간에 다른 훌륭한 오픈소스 기여자들의
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>앱이 완벽하지는 않겠지만, 앞으로 더 나아지기를 바랍니다.</0><1>이력서를 작성하는 동안 문제가 발생했거나 다른 사용자가 이력서를 더 쉽게 작성하는 데 도움이 될 만한 아이디어가 있다면 리포지토리에 문제를 등록하거나 저에게 이메일을 보내주세요.</1>"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:206
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:208
 msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
 msgstr "<0>참고: </0>OpenAI API를 이용함으로써 귀하는 OpenAI가 명시한 <1>이용약관</1> 및 <2>개인정보 보호정책을</2> 인정하고 이에 동의하는 것입니다. 리액티브 이력서는 서비스의 부적절하거나 무단 사용에 대해 어떠한 책임도 지지 않으며, 그로 인한 모든 영향이나 책임은 전적으로 사용자에게 있다는 점에 유의하시기 바랍니다."
 
@@ -70,7 +70,7 @@ msgid "A link has been copied to your clipboard."
 msgstr "링크가 클립보드에 복사되었습니다."
 
 #: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0>Forked by <1>Lazy Media</1>"
+msgid "A passion project by <0>Amruth Pillai</0><1/>Forked by <2>Lazy Media</2>"
 msgstr ""
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
@@ -217,7 +217,7 @@ msgstr "백업 코드"
 msgid "Backup Codes may contain only lowercase letters or numbers, and must be exactly 10 characters."
 msgstr "백업 코드는 소문자 또는 숫자만 포함할 수 있으며 정확히 10자여야 합니다."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:137
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:139
 msgid "Base URL"
 msgstr "기본 URL"
 
@@ -597,7 +597,7 @@ msgstr "글꼴 변형"
 msgid "For example, information regarding which companies you sent this resume to or the links to the job descriptions can be noted down here."
 msgstr "예를 들어, 이력서를 보낸 회사에 대한 정보나 직무 설명에 대한 링크를 여기에 기록할 수 있습니다."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:187
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:189
 msgid "Forget"
 msgstr "잊어버림"
 
@@ -942,7 +942,7 @@ msgstr "2023년 3월 - 현재"
 msgid "Margin"
 msgstr "마진"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:163
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:165
 msgid "Max Tokens"
 msgstr "최대 토큰"
 
@@ -950,7 +950,7 @@ msgstr "최대 토큰"
 msgid "MIT License"
 msgstr "MIT 라이선스"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:150
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:152
 msgid "Model"
 msgstr "모델"
 
@@ -1033,7 +1033,7 @@ msgstr "OpenAI 통합"
 msgid "OpenAI/Ollama Integration"
 msgstr "OpenAI/올라마 통합"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:124
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:126
 msgid "OpenAI/OpenWebUI API Key"
 msgstr ""
 
@@ -1155,7 +1155,7 @@ msgstr "게시자"
 msgid "Raise an issue"
 msgstr "문제 제기"
 
-#: apps/client/src/components/copyright.tsx:36
+#: apps/client/src/components/copyright.tsx:37
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55
@@ -1255,11 +1255,11 @@ msgstr "둥근"
 msgid "Save Changes"
 msgstr "변경 사항 저장"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:181
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:183
 msgid "Save Locally"
 msgstr "로컬에 저장"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:181
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:183
 msgid "Saved"
 msgstr "저장됨"
 
@@ -1724,7 +1724,7 @@ msgid "You can also enter your username."
 msgstr "사용자 아이디를 입력할 수도 있습니다."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:108
-msgid "You can also integrate with OpenWebUI simply by setting an API key such as `sk-1234567890abcdef` and the Base URL to your OpenWebUI URL, i.e. `https://localhost:8080/api`. This must connect over HTTPS and to OpenWebUI, not Ollama. You can also pick and choose models and set the max tokens as per your preference."
+msgid "You can also integrate with OpenWebUI by setting your API key. Login to your local OpenWebUI instance. Click on your name in the bottom left corner. Click on Settings. Click on Account. Show and copy your API Key. It should look something like `sk-1234567890abcdef`. Fill in the Base URL to your OpenWebUI Instance, i.e. `https://localhost:8080/api`. This must connect over HTTPS and to OpenWebUI, not Ollama. You can also pick and choose models and set the max tokens as per your preference."
 msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:86
@@ -1756,7 +1756,7 @@ msgstr "메일이 도착했습니다!"
 msgid "Your account and all your data has been deleted successfully. Goodbye!"
 msgstr "계정과 모든 데이터가 성공적으로 삭제되었습니다. 안녕히 계세요!"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:196
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:198
 msgid "Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services."
 msgstr "API 키는 브라우저의 로컬 저장소에 안전하게 저장되며 공식 SDK를 통해 OpenAI에 요청할 때만 활용됩니다. OpenAI의 서비스와 상호작용할 때를 제외하고는 키가 외부 서버로 전송되지 않으니 안심하세요."
 

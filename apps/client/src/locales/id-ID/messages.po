@@ -38,7 +38,7 @@ msgstr "<0>Saya membuat Reactive Resume sendiri seringnya di waktu senggang, den
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>Saya yakin aplikasi ini belum sempurna, tetapi saya ingin aplikasi ini sempurna.</0><1>Jika Anda menghadapi masalah apa pun saat membuat resume, atau memiliki ide yang dapat membantu Anda dan pengguna lain dalam membuat resume dengan lebih mudah, kirimkan masalah ke repositori atau kirimkan email kepada saya.</1>"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:206
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:208
 msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
 msgstr "<0>Catatan: </0>Dengan menggunakan API OpenAI, Anda mengakui dan menerima <1>persyaratan penggunaan</1> dan <2>kebijakan privasi</2> yang diuraikan oleh OpenAI. Harap diperhatikan bahwa Reactive Resume tidak bertanggung jawab atas penggunaan layanan yang tidak tepat atau tidak sah, dan segala dampak atau kewajiban yang timbul sepenuhnya menjadi tanggung jawab pengguna."
 
@@ -70,7 +70,7 @@ msgid "A link has been copied to your clipboard."
 msgstr "Tautan telah disalin ke papan klip Anda."
 
 #: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0>Forked by <1>Lazy Media</1>"
+msgid "A passion project by <0>Amruth Pillai</0><1/>Forked by <2>Lazy Media</2>"
 msgstr ""
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
@@ -217,7 +217,7 @@ msgstr "Kode Cadangan"
 msgid "Backup Codes may contain only lowercase letters or numbers, and must be exactly 10 characters."
 msgstr "Kode Cadangan hanya boleh berisi huruf kecil atau angka, dan harus tepat 10 karakter."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:137
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:139
 msgid "Base URL"
 msgstr "URL dasar"
 
@@ -597,7 +597,7 @@ msgstr "Varian Font"
 msgid "For example, information regarding which companies you sent this resume to or the links to the job descriptions can be noted down here."
 msgstr "Misalnya, informasi mengenai perusahaan mana yang Anda kirim resume tersebut atau tautan ke deskripsi pekerjaan dapat dicatat di sini."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:187
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:189
 msgid "Forget"
 msgstr "Lupakan."
 
@@ -942,7 +942,7 @@ msgstr "Maret 2023 - Sekarang"
 msgid "Margin"
 msgstr "Margin"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:163
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:165
 msgid "Max Tokens"
 msgstr "Token Max"
 
@@ -950,7 +950,7 @@ msgstr "Token Max"
 msgid "MIT License"
 msgstr "Lisensi MIT"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:150
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:152
 msgid "Model"
 msgstr "Model"
 
@@ -1033,7 +1033,7 @@ msgstr "Integrasi OpenAI"
 msgid "OpenAI/Ollama Integration"
 msgstr "Integrasi OpenAI/Ollama"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:124
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:126
 msgid "OpenAI/OpenWebUI API Key"
 msgstr ""
 
@@ -1155,7 +1155,7 @@ msgstr "Penerbit"
 msgid "Raise an issue"
 msgstr "Mengajukan masalah"
 
-#: apps/client/src/components/copyright.tsx:36
+#: apps/client/src/components/copyright.tsx:37
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55
@@ -1255,11 +1255,11 @@ msgstr "Bulat"
 msgid "Save Changes"
 msgstr "Menyimpan Perubahan"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:181
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:183
 msgid "Save Locally"
 msgstr "Simpan Secara Lokal"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:181
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:183
 msgid "Saved"
 msgstr "Tersimpan"
 
@@ -1724,7 +1724,7 @@ msgid "You can also enter your username."
 msgstr "Anda juga dapat memasukkan nama pengguna Anda."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:108
-msgid "You can also integrate with OpenWebUI simply by setting an API key such as `sk-1234567890abcdef` and the Base URL to your OpenWebUI URL, i.e. `https://localhost:8080/api`. This must connect over HTTPS and to OpenWebUI, not Ollama. You can also pick and choose models and set the max tokens as per your preference."
+msgid "You can also integrate with OpenWebUI by setting your API key. Login to your local OpenWebUI instance. Click on your name in the bottom left corner. Click on Settings. Click on Account. Show and copy your API Key. It should look something like `sk-1234567890abcdef`. Fill in the Base URL to your OpenWebUI Instance, i.e. `https://localhost:8080/api`. This must connect over HTTPS and to OpenWebUI, not Ollama. You can also pick and choose models and set the max tokens as per your preference."
 msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:86
@@ -1756,7 +1756,7 @@ msgstr "Kau punya surat!"
 msgid "Your account and all your data has been deleted successfully. Goodbye!"
 msgstr "Akun Anda dan semua data Anda telah berhasil dihapus. Selamat tinggal!"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:196
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:198
 msgid "Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services."
 msgstr "Kunci API Anda disimpan dengan aman di penyimpanan lokal peramban dan hanya digunakan ketika membuat permintaan ke OpenAI melalui SDK resmi mereka. Yakinlah bahwa kunci Anda tidak dikirimkan ke server eksternal mana pun kecuali saat berinteraksi dengan layanan OpenAI."
 

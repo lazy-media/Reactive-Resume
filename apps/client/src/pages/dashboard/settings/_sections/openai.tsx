@@ -106,8 +106,10 @@ export const OpenAISettings = () => {
 
         <p>
           <Trans>
-            You can also integrate with OpenWebUI simply by setting an API key such as
-            `sk-1234567890abcdef` and the Base URL to your OpenWebUI URL, i.e.
+            You can also integrate with OpenWebUI by setting your API key. Login to your local
+            OpenWebUI instance. Click on your name in the bottom left corner. Click on Settings.
+            Click on Account. Show and copy your API Key. It should look something like
+            `sk-1234567890abcdef`. Fill in the Base URL to your OpenWebUI Instance, i.e.
             `https://localhost:8080/api`. This must connect over HTTPS and to OpenWebUI, not Ollama.
             You can also pick and choose models and set the max tokens as per your preference.
           </Trans>
