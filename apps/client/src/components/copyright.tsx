@@ -18,7 +18,7 @@ export const Copyright = ({ className }: Props) => (
         <a
           target="_blank"
           rel="noopener noreferrer nofollow"
-          href="https://github.com/AmruthPillai/Reactive-Resume/blob/main/LICENSE.md"
+          href="https://github.com/lazy-media/Reactive-Resume/blob/main/LICENSE.md"
         >
           MIT
         </a>
@@ -28,6 +28,7 @@ export const Copyright = ({ className }: Props) => (
     <span>
       <Trans>
         A passion project by <a href="https://www.amruthpillai.com/">Amruth Pillai</a>
+        <br></br>
         Forked by <a href="https://www.lazymedia.media">Lazy Media</a>
       </Trans>
     </span>
