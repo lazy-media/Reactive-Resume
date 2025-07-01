@@ -34,7 +34,7 @@ jobs:
 
       - name: Wait for libretranslate to start
         run: |
-          until curl -s http://localhost:5000/health | grep "ok"; do sleep 2; done
+          until curl -s http://libretranslate:5000/health | grep "ok"; do sleep 2; done
 
       - name: Translate empty msgstr in messages.po files
         env:
