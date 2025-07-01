@@ -1,146 +1,113 @@
-name: AI Translations with LibreTranslate
+name: Auto Localize PO Files
 
 on:
   workflow_dispatch:
   push:
     paths:
       - 'apps/client/src/locales/**/messages.po'
-      - '.github/workflows/auto-translate-messages-po.yml'
 
 jobs:
   translate:
     runs-on: ubuntu-latest
-    env:
-      GITHUB_TOKEN: ${{ github.token }}
-      LIBRETRANSLATE_IMAGE: "libretranslate/libretranslate:latest"
+
+    permissions:
+      contents: write
+      pull-requests: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.x'
 
-      - name: Start LibreTranslate Docker Container
+      - name: Install libretranslate
         run: |
-          docker run -d -p 5000:5000 --name libretranslate $LIBRETRANSLATE_IMAGE
-          # Wait for LibreTranslate to be ready
-          for i in {1..30}; do
-            if curl -s http://localhost:5000/health | grep -q '"status":"ok"'; then
-              echo "LibreTranslate ready"; break
-            fi
-            sleep 2
-          done
+          pip install libretranslate
 
-      - name: Install requirements
+      - name: Start libretranslate server
         run: |
-          pip install polib requests black
+          nohup libretranslate &
+
+      - name: Wait for libretranslate to start
+        run: |
+          until curl -s http://localhost:5000/health | grep "ok"; do sleep 2; done
 
       - name: Translate empty msgstr in messages.po files
         env:
-          GH_TOKEN: ${{ github.token }}
+          LOCALES_DIR: apps/client/src/locales
         run: |
           import os
           import glob
           import polib
           import requests
-          import re
-          import subprocess
+          import time
+          from pathlib import Path
 
-          def detect_language_team(po):
-              # Returns the language team (e.g., "Afrikaans") or None
-              for m in po.metadata:
-                  if m.startswith("Language-Team:"):
-                      return po.metadata[m]
-              return None
+          def get_language_from_locale(locale):
+              # Use first part of xx-YY, or the full code for best match
+              return locale
 
-          def get_locale_from_path(path):
-              # apps/client/src/locales/af-ZA/messages.po -> af-ZA
-              return os.path.basename(os.path.dirname(path))
+          locales_dir = os.environ['LOCALES_DIR']
+          files = glob.glob(f"{locales_dir}/*/messages.po")
 
-          def get_iso_lang(locale):
-              # Map locale to ISO 639-1 code (af-ZA -> af, etc.)
-              # LibreTranslate supports: https://libretranslate.com/languages
-              return locale.split('-')[0]
+          for file_path in files:
+              locale = Path(file_path).parent.name
+              target_lang = get_language_from_locale(locale)
+              po = polib.pofile(file_path)
+              changed = False
 
-          def format_msgstr(s):
-              # Always wrap in quotes and escape properly for .po files
-              # Escape internal quotes and newlines for PO format
-              s = s.replace('"', '\\"')
-              return f'"{s}"'
-
-          def prettier_format(po_path):
-              # Use black to format python (only for .py) or just ensure trailing newline for .po
-              with open(po_path, "rb+") as f:
-                  content = f.read().rstrip() + b"\n"
-                  f.seek(0)
-                  f.write(content)
-                  f.truncate()
-
-          files = glob.glob("apps/client/src/locales/*/messages.po")
-          changed_files = []
-          for po_path in files:
-              po = polib.pofile(po_path, encoding="utf-8")
-              locale = get_locale_from_path(po_path)
-              iso_lang = get_iso_lang(locale)
-              meta_team = detect_language_team(po)
-              target_lang = iso_lang
-
-              # LibreTranslate wants short code, e.g. 'af', not 'af-ZA'
-              for entry in po:
-                  if not entry.msgid or entry.msgid.strip() == "":
+              for entry in po.untranslated_entries():
+                  if entry.msgid.strip() == "":
                       continue
-                  if entry.msgstr and entry.msgstr.strip() != "":
-                      continue  # already translated
-                  # LibreTranslate API
-                  resp = requests.post(
+                  # Translate msgid to target language
+                  response = requests.post(
                       "http://localhost:5000/translate",
                       json={
                           "q": entry.msgid,
                           "source": "en",
                           "target": target_lang,
                           "format": "text"
-                      },
-                      timeout=30
+                      }
                   )
-                  if resp.status_code == 200:
-                      translated = resp.json().get("translatedText", "")
-                      entry.msgstr = format_msgstr(translated)
-                  else:
-                      print(f"Failed to translate '{entry.msgid}': {resp.text}")
+                  if response.ok:
+                      translated = response.json().get("translatedText", "")
+                      # Always wrap in quotes and escape as PO requires
+                      entry.msgstr = f'"{translated.replace(chr(34), r"\\\"")}"'
+                      changed = True
+                      time.sleep(0.1)  # Prevent spamming the local server
 
-              po.save(po_path)
-              prettier_format(po_path)
-              changed_files.append(po_path)
+              if changed:
+                  # Use polib to save and keep formatting close to original
+                  po.save(file_path)
 
-          if changed_files:
-              subprocess.run(["git", "checkout", "-B", "l10n"])
-              subprocess.run(["git", "add"] + changed_files)
-              subprocess.run(["git", "config", "user.name", "github-actions[bot]"])
-              subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"])
-              subprocess.run(["git", "commit", "-m", "chore(l10n): auto-translate messages.po files"])
-              subprocess.run(["git", "push", "-f", "origin", "l10n"])
+      - name: Run Prettier on PO files
+        run: |
+          npm install -g prettier
+          prettier --write "apps/client/src/locales/**/*.po"
 
-              # Create PR if not exists
-              import requests
-              headers = {
-                  "Authorization": f"Bearer {os.environ['GH_TOKEN']}",
-                  "Accept": "application/vnd.github+json"
-              }
-              repo = os.environ["GITHUB_REPOSITORY"]
-              pr_url = f"https://api.github.com/repos/{repo}/pulls"
-              pr_resp = requests.get(pr_url, headers=headers, params={"head": "l10n", "base": "main", "state": "open"})
-              if pr_resp.ok and pr_resp.json() and len(pr_resp.json()) > 0:
-                  print("PR already exists")
-              else:
-                  r = requests.post(pr_url, headers=headers, json={
-                      "title": "Auto-translate messages.po files",
-                      "head": "l10n",
-                      "base": "main",
-                      "body": "This PR was created automatically to add translations to empty msgstr fields in messages.po files using LibreTranslate.",
-                  })
-                  if r.status_code not in (200, 201):
-                      print("Failed to create PR:", r.text)
+      - name: Setup Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Create l10n branch, commit changes, and push
+        run: |
+          git checkout -B l10n
+          git add apps/client/src/locales/**/*.po
+          git diff --cached --quiet || git commit -m "chore(l10n): auto-fill missing translations in .po files"
+          git push -f origin l10n
+
+      - name: Create Pull Request to main
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: l10n
+          base: main
+          title: "chore(l10n): Auto-fill missing translations in .po files"
+          body: |
+            This PR was automatically generated by the localization workflow.
+            It fills in empty translations in `messages.po` files using LibreTranslate.
+          labels: localization, automated-pr
