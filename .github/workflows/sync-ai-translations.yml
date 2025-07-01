@@ -28,13 +28,27 @@ jobs:
           pip install --extra-index-url https://download.pytorch.org/whl/cpu torch==2.0.1
           pip install libretranslate==1.5.2
 
-      - name: Start libretranslate server
+      - name: Start libretranslate server in background
         run: |
-          nohup libretranslate &
+          nohup libretranslate --host 0.0.0.0 --port 5000 > libretranslate.log 2>&1 &
 
-      - name: Wait for libretranslate to start
+      - name: Wait for LibreTranslate to start
         run: |
-          until curl -s http://0.0.0.0:5000/health | grep "ok"; do sleep 2; done
+          for i in {1..30}; do
+            sleep 2
+            if curl -s http://127.0.0.1:5000/health | grep -q "ok"; then
+              echo "LibreTranslate is running on 127.0.0.1"
+              exit 0
+            fi
+            if curl -s http://localhost:5000/health | grep -q "ok"; then
+              echo "LibreTranslate is running on localhost"
+              exit 0
+            fi
+            echo "Waiting for LibreTranslate to start... ($i/30)"
+          done
+          echo "::error::LibreTranslate did not start. Printing log:"
+          cat libretranslate.log
+          exit 1
 
       - name: Translate empty msgstr in messages.po files
         env:
