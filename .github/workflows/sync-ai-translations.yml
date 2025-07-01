@@ -1,4 +1,4 @@
-name: Auto-Translate messages.po with LibreTranslate
+name: AI Translations with LibreTranslate
 
 on:
   workflow_dispatch:
