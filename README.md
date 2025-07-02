@@ -115,12 +115,6 @@ A passion project by [Amruth Pillai](https://www.amruthpillai.com/)
 
 Forked and currently maintained by [Lazy Media](https://github.com/sponsors/lazy-media)
 
-<p>
-  <a href="https://www.digitalocean.com/?utm_medium=opensource&utm_source=Reactive-Resume">
-    <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg" width="200px">
-  </a>
-</p>
-
 ---
 
 ## 💖 Support My Work
