@@ -38,7 +38,7 @@ msgstr "<0>Ik heb Reactive Resume grotendeels zelf gebouwd in mijn vrije tijd, m
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>Ik weet zeker dat de app niet perfect is, maar dat zou ik wel graag willen.</0><1>Als u problemen ondervond bij het maken van uw cv, of een idee hebt dat u en andere gebruikers zou helpen bij het gemakkelijker maken van uw cv, stuur dan een bericht naar de repository of stuur mij een e-mail hierover.</1>"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:208
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:210
 msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
 msgstr "<0>Opmerking: </0>Door gebruik te maken van de OpenAI API, erkent en aanvaardt u de <1>gebruiksvoorwaarden</1> en <2>het privacybeleid</2> van OpenAI. Houd er rekening mee dat Reactive Resume geen verantwoordelijkheid draagt voor onjuist of ongeautoriseerd gebruik van de service, en dat alle daaruit voortvloeiende gevolgen of aansprakelijkheden uitsluitend op de gebruiker rusten."
 
@@ -217,7 +217,7 @@ msgstr "Back-up code"
 msgid "Backup Codes may contain only lowercase letters or numbers, and must be exactly 10 characters."
 msgstr "Back-upcodes mogen alleen kleine letters of cijfers bevatten en moeten exact 10 tekens lang zijn."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:139
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:141
 msgid "Base URL"
 msgstr "Basis URL"
 
@@ -547,7 +547,7 @@ msgstr ""
 msgid "Errors"
 msgstr "Fouten"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:78
+#: apps/client/src/pages/home/sections/support/index.tsx:66
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "Zelfs als je niet in de positie bent om financieel bij te dragen, kan je nog steeds een verschil maken door de GitHubpagina een ster te geven, het nieuws met je vrienden te delen, of een kort bericht achter te laten on me te laten weten hoe Reactive Resume je geholpen heeft. Je feedback en steun zijn altijd welkom en worden zeer gewaardeerd!"
 
@@ -597,7 +597,7 @@ msgstr "Lettertypevarianten"
 msgid "For example, information regarding which companies you sent this resume to or the links to the job descriptions can be noted down here."
 msgstr "Hier kunt u bijvoorbeeld informatie noteren over naar welke bedrijven u deze CV hebt gestuurd, of de links naar de functiebeschrijvingen."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:189
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:191
 msgid "Forget"
 msgstr "Vergeten"
 
@@ -729,7 +729,7 @@ msgstr "Als deze app u heeft geholpen bij uw zoektocht naar een baan, laat mij h
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "Als u verificatie op basis van twee factoren uitschakelt, hoeft u niet langer een verificatiecode in te voeren wanneer u inlogt."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:59
+#: apps/client/src/pages/home/sections/support/index.tsx:41
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "Als u meertalig bent, zouden we uw hulp erg op prijs stellen om de app naar meer talen en gemeenschappen te brengen. Maakt u zich geen zorgen als u uw taal niet op de lijst ziet staan - geef me gewoon een shout-out op GitHub, en ik zal ervoor zorgen dat uw taal wordt toegevoegd. Klaar om te beginnen? Ga aan de slag met vertalen bij Crowdin door op de onderstaande link te klikken."
 
@@ -942,7 +942,7 @@ msgstr "maart 2023 - Heden"
 msgid "Margin"
 msgstr "Marge"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:165
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:167
 msgid "Max Tokens"
 msgstr "Maximum aantal tokens"
 
@@ -950,7 +950,7 @@ msgstr "Maximum aantal tokens"
 msgid "MIT License"
 msgstr "MIT Licentie"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:152
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:154
 msgid "Model"
 msgstr ""
 
@@ -1029,12 +1029,12 @@ msgstr "OpenAI gaf geen keuzen voor uw text."
 msgid "OpenAI Integration"
 msgstr "OpenAI-Integratie"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:84
-msgid "OpenAI/Ollama Integration"
-msgstr "OpenAI/Ollama Integratie"
-
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:126
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:128
 msgid "OpenAI/OpenWebUI API Key"
+msgstr ""
+
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:84
+msgid "OpenAI/OpenWebUI Integration"
 msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
@@ -1255,11 +1255,11 @@ msgstr "Afgeronde hoeken"
 msgid "Save Changes"
 msgstr "Wijzigingen Opslaan"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:183
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:185
 msgid "Save Locally"
 msgstr "Lokaal opslaan"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:183
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:185
 msgid "Saved"
 msgstr "Opgeslagen"
 
@@ -1724,7 +1724,7 @@ msgid "You can also enter your username."
 msgstr "U kunt ook uw gebruikersnaam invoeren."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:108
-msgid "You can also integrate with OpenWebUI by setting your API key. Login to your local OpenWebUI instance. Click on your name in the bottom left corner. Click on Settings. Click on Account. Show and copy your API Key. It should look something like `sk-1234567890abcdef`. Fill in the Base URL to your OpenWebUI Instance, i.e. `https://localhost:8080/api`. This must connect over HTTPS and to OpenWebUI, not Ollama. You can also pick and choose models and set the max tokens as per your preference."
+msgid "You can also integrate with OpenWebUI by setting your API key. 1) Login to your local OpenWebUI instance. 2) Click on your name in the bottom left corner. 3) Click on Settings. 4) Click on Account. 5) Show and copy your API Key. It should look something like `sk-1234567890abcdef`. Fill in the Base URL to your OpenWebUI Instance, (i.e. `https://localhost:8080/api`). <0>This must connect over HTTPS and to OpenWebUI, not Ollama.</0>You can also pick and choose models (i.e. `llama3.2:latest`) and set the max tokens as per your preference."
 msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:86
@@ -1756,7 +1756,7 @@ msgstr "Je hebt een mail ontvangen!"
 msgid "Your account and all your data has been deleted successfully. Goodbye!"
 msgstr "Uw account en al uw gegevens zijn succesvol verwijderd. Tot ziens!"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:198
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:200
 msgid "Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services."
 msgstr "Uw API-sleutel wordt veilig opgeslagen in de lokale opslag van de browser en wordt alleen gebruikt bij het doen van verzoeken aan OpenAI via hun officiële SDK. U kunt erop vertrouwen dat uw sleutel niet naar een externe server wordt verzonden, behalve tijdens interactie met diensten van OpenAI."
 

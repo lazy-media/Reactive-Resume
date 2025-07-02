@@ -38,7 +38,7 @@ msgstr "<0>Κατασκεύασα το Reactive Resume κυρίως μόνος �
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>Είμαι βέβαιος ότι η εφαρμογή δεν είναι τέλεια, αλλά θα ήθελα να είναι. </0><1>Αν αντιμετωπίσατε προβλήματα κατά τη δημιουργία του βιογραφικού σας, ή έχετε κάποια ιδέα που μπορεί να βοηθήσει εσάς ή άλλους για να δημιουργήσετε το βιογραφικό πιο εύκολα, στείλτε μου ένα email σχετικά με αυτό. </1>"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:208
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:210
 msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
 msgstr "<0>Σημείωση: </0>Χρησιμοποιώντας το API του OpenAI, αναγνωρίζετε και αποδέχεστε τους <1>όρους χρήσης</1> και την <2>πολιτική απορρήτου</2> που περιγράφονται από το OpenAI. Σημειώστε ότι η Reactive Resume δεν φέρει καμία ευθύνη για οποιαδήποτε ακατάλληλη ή μη εξουσιοδοτημένη χρήση της υπηρεσίας, και οποιεσδήποτε επακόλουθες επιπτώσεις ή ευθύνες βαρύνουν αποκλειστικά τον χρήστη."
 
@@ -217,7 +217,7 @@ msgstr "Εφεδρικός κωδικός"
 msgid "Backup Codes may contain only lowercase letters or numbers, and must be exactly 10 characters."
 msgstr "Οι κωδικοί αντιγράφων ασφαλείας μπορούν να περιέχουν μόνο πεζά γράμματα ή αριθμούς και πρέπει να είναι ακριβώς 10 χαρακτήρες."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:139
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:141
 msgid "Base URL"
 msgstr "https://rxresu.me/builder/cm23wdob830tdmtv5iyuvprzz"
 
@@ -547,7 +547,7 @@ msgstr ""
 msgid "Errors"
 msgstr "Σφάλματα"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:78
+#: apps/client/src/pages/home/sections/support/index.tsx:66
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "Ακόμη και αν δεν είστε σε θέση να συνεισφέρετε οικονομικά, μπορείτε να κάνετε τη διαφορά δίνοντας ένα αστέρι στο αποθετήριο GitHub, διαδίδοντας το μήνυμα στους φίλους σας ή στέλνοντας ένα γρήγορο μήνυμα για να μου πείτε πώς σας βοήθησε το Reactive Resume. Τα σχόλιά σας και η υποστήριξή σας είναι πάντα ευπρόσδεκτα και εκτιμώνται πολύ!"
 
@@ -597,7 +597,7 @@ msgstr "Παραλλαγές γραμματοσειράς"
 msgid "For example, information regarding which companies you sent this resume to or the links to the job descriptions can be noted down here."
 msgstr "Για παράδειγμα, πληροφορίες σχετικά με τις εταιρείες στις οποίες στείλατε το βιογραφικό σας ή τους συνδέσμους προς τις περιγραφές θέσεων εργασίας μπορούν να σημειωθούν εδώ."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:189
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:191
 msgid "Forget"
 msgstr "Ξεχάστε το"
 
@@ -729,7 +729,7 @@ msgstr "Αν αυτή η εφαρμογή σας έχει βοηθήσει με 
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "Εάν απενεργοποιήσετε τον έλεγχο ταυτότητας δύο παραγόντων, δεν θα απαιτείται πλέον να εισάγετε έναν κωδικό επαλήθευσης κατά τη σύνδεση."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:59
+#: apps/client/src/pages/home/sections/support/index.tsx:41
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "Αν είστε πολυγλωσσικός, θα θέλαμε τη βοήθειά σας για να φέρετε την εφαρμογή σε περισσότερες γλώσσες και κοινότητες. Μην ανησυχείτε αν δεν βλέπετε τη γλώσσα σας στη λίστα - απλά δώστε μου μια κραυγή στο GitHub, and I'll make sure to include it. Έτοιμο για να ξεκινήσετε? Μετάβαση στη μετάφραση στο Crowdin κάνοντας κλικ στον παρακάτω σύνδεσμο."
 
@@ -942,7 +942,7 @@ msgstr "Μάρτιος 2023 - Παρόν"
 msgid "Margin"
 msgstr "Περιθώρια"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:165
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:167
 msgid "Max Tokens"
 msgstr "Μέγιστα κουπόνια"
 
@@ -950,7 +950,7 @@ msgstr "Μέγιστα κουπόνια"
 msgid "MIT License"
 msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:152
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:154
 msgid "Model"
 msgstr "Μοντέλο"
 
@@ -1029,12 +1029,12 @@ msgstr "Το OpenAI δεν επέστρεψε καμία επιλογή για �
 msgid "OpenAI Integration"
 msgstr "Ενσωμάτωση OpenAI"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:84
-msgid "OpenAI/Ollama Integration"
-msgstr "Ενσωμάτωση OpenAI/Ollama"
-
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:126
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:128
 msgid "OpenAI/OpenWebUI API Key"
+msgstr ""
+
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:84
+msgid "OpenAI/OpenWebUI Integration"
 msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
@@ -1255,11 +1255,11 @@ msgstr "Στρογγυλεμένο"
 msgid "Save Changes"
 msgstr "Αποθήκευση Αλλαγών;"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:183
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:185
 msgid "Save Locally"
 msgstr "Αποθηκεύστε τοπικά"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:183
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:185
 msgid "Saved"
 msgstr "Αποθηκευμένο"
 
@@ -1724,7 +1724,7 @@ msgid "You can also enter your username."
 msgstr "Μπορείτε επίσης να εισάγετε το όνομα χρήστη σας."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:108
-msgid "You can also integrate with OpenWebUI by setting your API key. Login to your local OpenWebUI instance. Click on your name in the bottom left corner. Click on Settings. Click on Account. Show and copy your API Key. It should look something like `sk-1234567890abcdef`. Fill in the Base URL to your OpenWebUI Instance, i.e. `https://localhost:8080/api`. This must connect over HTTPS and to OpenWebUI, not Ollama. You can also pick and choose models and set the max tokens as per your preference."
+msgid "You can also integrate with OpenWebUI by setting your API key. 1) Login to your local OpenWebUI instance. 2) Click on your name in the bottom left corner. 3) Click on Settings. 4) Click on Account. 5) Show and copy your API Key. It should look something like `sk-1234567890abcdef`. Fill in the Base URL to your OpenWebUI Instance, (i.e. `https://localhost:8080/api`). <0>This must connect over HTTPS and to OpenWebUI, not Ollama.</0>You can also pick and choose models (i.e. `llama3.2:latest`) and set the max tokens as per your preference."
 msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:86
@@ -1756,7 +1756,7 @@ msgstr "Έχετε email!"
 msgid "Your account and all your data has been deleted successfully. Goodbye!"
 msgstr "Ο λογαριασμός σας και όλα τα δεδομένα σας έχουν διαγραφεί επιτυχώς. Goodbye!"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:198
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:200
 msgid "Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services."
 msgstr "Το κλειδί API σας αποθηκεύεται με ασφάλεια στον τοπικό αποθηκευτικό χώρο του προγράμματος περιήγησης και χρησιμοποιείται μόνο όταν κάνει αιτήσεις στο OpenAI μέσω του επίσημου SDK. Να είστε βέβαιοι ότι το κλειδί σας δεν μεταδίδεται σε κανέναν εξωτερικό διακομιστή εκτός όταν αλληλεπιδρά με τις υπηρεσίες του OpenAI."
 

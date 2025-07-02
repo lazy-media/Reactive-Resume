@@ -81,7 +81,7 @@ export const OpenAISettings = () => {
   return (
     <div className="space-y-6">
       <div>
-        <h3 className="text-2xl font-bold leading-relaxed tracking-tight">{t`OpenAI/Ollama Integration`}</h3>
+        <h3 className="text-2xl font-bold leading-relaxed tracking-tight">{t`OpenAI/OpenWebUI Integration`}</h3>
         <p className="leading-relaxed opacity-75">
           {t`You can make use of the OpenAI API to help you generate content, or improve your writing while composing your resume.`}
         </p>
@@ -106,12 +106,14 @@ export const OpenAISettings = () => {
 
         <p>
           <Trans>
-            You can also integrate with OpenWebUI by setting your API key. Login to your local
-            OpenWebUI instance. Click on your name in the bottom left corner. Click on Settings.
-            Click on Account. Show and copy your API Key. It should look something like
-            `sk-1234567890abcdef`. Fill in the Base URL to your OpenWebUI Instance, i.e.
-            `https://localhost:8080/api`. This must connect over HTTPS and to OpenWebUI, not Ollama.
-            You can also pick and choose models and set the max tokens as per your preference.
+            You can also integrate with OpenWebUI by setting your API key. 1) Login to your local
+            OpenWebUI instance. 2) Click on your name in the bottom left corner. 3) Click on
+            Settings. 4) Click on Account. 5) Show and copy your API Key. It should look something
+            like `sk-1234567890abcdef`. Fill in the Base URL to your OpenWebUI Instance, (i.e.
+            `https://localhost:8080/api`).{" "}
+            <strong>This must connect over HTTPS and to OpenWebUI, not Ollama.</strong>
+            You can also pick and choose models (i.e. `llama3.2:latest`) and set the max tokens as
+            per your preference.
           </Trans>
         </p>
       </div>

@@ -31,6 +31,7 @@ export const SupportSection = () => (
             alt="GitHub Sponsors"
           />
         </a>
+        
         <a href="https://paypal.me/LazyMediaWA" rel="noreferrer noopener nofollow" target="_blank">
           {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
           <img src="/support-logos/paypal.svg" className="max-h-[28px]" alt="PayPal" />
@@ -47,18 +48,19 @@ export const SupportSection = () => (
           rel="noreferrer noopener nofollow"
           target="_blank"
         >
-        <img
-          src="/support-logos/crowdin-light.svg"
-          className="hidden max-h-[32px] dark:block"
-          // eslint-disable-next-line lingui/no-unlocalized-strings
-          alt="Crowdin"
-        />
-        <img
-          src="/support-logos/crowdin-dark.svg"
-          className="block max-h-[32px] dark:hidden"
-          // eslint-disable-next-line lingui/no-unlocalized-strings
-          alt="Crowdin"
-        />
+          <img
+            src="/support-logos/crowdin-light.svg"
+            className="hidden max-h-[32px] dark:block"
+            // eslint-disable-next-line lingui/no-unlocalized-strings
+            alt="Crowdin"
+          />
+          <img
+            src="/support-logos/crowdin-dark.svg"
+            className="block max-h-[32px] dark:hidden"
+            // eslint-disable-next-line lingui/no-unlocalized-strings
+            alt="Crowdin"
+          />
+        </a>
       </div>
 
       <p className="max-w-4xl leading-loose">
