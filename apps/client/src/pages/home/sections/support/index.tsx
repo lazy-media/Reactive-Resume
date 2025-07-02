@@ -31,24 +31,6 @@ export const SupportSection = () => (
             alt="GitHub Sponsors"
           />
         </a>
-        <a
-          href="https://opencollective.com/Reactive-Resume"
-          rel="noreferrer noopener nofollow"
-          target="_blank"
-        >
-          <img
-            src="/support-logos/open-collective-light.svg"
-            className="hidden max-h-[38px] dark:block"
-            // eslint-disable-next-line lingui/no-unlocalized-strings
-            alt="Open Collective"
-          />
-          <img
-            src="/support-logos/open-collective-dark.svg"
-            className="block max-h-[38px] dark:hidden"
-            // eslint-disable-next-line lingui/no-unlocalized-strings
-            alt="Open Collective"
-          />
-        </a>
         <a href="https://paypal.me/LazyMediaWA" rel="noreferrer noopener nofollow" target="_blank">
           {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
           <img src="/support-logos/paypal.svg" className="max-h-[28px]" alt="PayPal" />
@@ -60,6 +42,11 @@ export const SupportSection = () => (
       </p>
 
       <div className="flex items-center gap-x-10">
+        <a
+          href="https://crowdin/project/lazymedia-reactive-resume"
+          rel="noreferrer noopener nofollow"
+          target="_blank"
+        >
         <img
           src="/support-logos/crowdin-light.svg"
           className="hidden max-h-[32px] dark:block"
