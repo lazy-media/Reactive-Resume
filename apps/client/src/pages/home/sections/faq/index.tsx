@@ -154,9 +154,9 @@ const Question4 = () => (
       <p>
         <strong>If you work in the media, are an influencer or have lots of friends</strong>, share
         the app with your circles and let them know so it can reach the people who need it the most.
-        I'm also <a href="mailto:info@lazymedia.media">open to giving tech talks</a>, although
-        that's wishful thinking. But if you do mention Reactive Resume on your blog, let me know so
-        that I can link back to you here.
+        We are also <a href="mailto:info@lazymedia.media">open to giving tech talks</a>, although
+        that's wishful thinking. But if you do mention Reactive Resume on your blog, let us know so
+        that we can link back to you here.
       </p>
 
       <p>
@@ -195,7 +195,7 @@ const Question5 = () => {
             <a
               key={language.id}
               className="no-underline"
-              href={`https://crowdin.com/translate/reactive-resume/all/en-${language.editorCode}`}
+              href={`https://crowdin.com/translate/lazymedia-reactive-resume/all/en-${language.editorCode}`}
               target="_blank"
               rel="noreferrer"
             >
