@@ -14,6 +14,21 @@
 [![Publish Docker Image](https://github.com/lazy-media/Reactive-Resume/actions/workflows/publish-docker-image.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/publish-docker-image.yml)
 [![Sync Crowdin Translations](https://github.com/lazy-media/Reactive-Resume/actions/workflows/sync-crowdin-translations.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/sync-crowdin-translations.yml)
 
+# **"Breaking News"**  
+Lazy Media is *heroically* attempting to recreate what the original Reactive Resume creators already did—but with *extra* steps!  
+
+**Coming *~~eventually~~* soon:** A public version where you won’t need to sell your soul (or your email) just to use it. Shocking, right? And don’t worry—they *totally* have **plans™** for things like:  
+
+- **Public access** (*revolutionary!*)  
+- **Daily backups** (because losing your resume *would* be hilarious)  
+- **"Security measures"** (to fend off the inevitable script kiddie attacks)  
+
+Updates will trickle in via Docker, because manually checking for them would be *way* too much effort.  
+
+So sit tight, try not to refresh the page every five seconds, and pray that Lazy Media figures it out before the heat death of the universe.  
+
+*(Still free, though. **Probably.**)*
+
 # Reactive Resume _(Self-Hosted Community Forked Version)_
 
 > - _All core functionality and features from the main/original version remain intact in this release. This project specifically emphasizes the community-driven, self-hosted iteration of the application.._
