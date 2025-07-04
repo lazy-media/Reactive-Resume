@@ -1,3 +1,6 @@
 pr:
   auto_approve: true
   auto_merge: true
+  # Only merge when CI green and at least one CODEOWNER review present
+  required_checks: [ lint, test, build ]
+  required_approvals: 1
