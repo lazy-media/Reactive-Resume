@@ -36,7 +36,13 @@ So sit tight, try not to refresh the page every five seconds, and pray that Lazy
 
 A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.
 
-### [Go to App](https://rxresu.me/) | [Docs](https://docs.rxresu.me/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki)
+### [Go to App](https://resume.lazymedia.media/) | [Docs](https://docs.rxresu.me/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki)
+> *Email Verification Required to use the app*
+
+> *New App coming soon for the public with no email verification.*
+
+### Still want to use the old app from the old maintainer?
+> Visit [Original RxResume Site](https://rxresu.me)
 
 ### Visit the [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki#contributing) to learn how to _Contribute_ or _Submit an Issue_
 
