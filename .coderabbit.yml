@@ -1,4 +1,3 @@
 pr:
   auto_approve: true
-  auto_merge: true  # Optional, if you want Coderabbit to merge PRs after approval
-  min_review_score: 7  # Only PRs above this score are auto-approved
+  auto_merge: true
