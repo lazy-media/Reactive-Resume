@@ -17,7 +17,7 @@
 # **"Breaking News"**  
 Lazy Media is *heroically* attempting to recreate what the original Reactive Resume creator already did—but with *extra* steps!  
 
-**Coming *~~eventually~~* soon:** A public version where you won’t need to sell your soul (or your email) just to use it. Shocking, right? And don’t worry—they *totally* have **plans™** for things like:  
+**Coming *~~eventually~~* soon:** A public version where you won’t need to sell your soul (or your email) just to use it. Shocking, right? And don’t worry—they *totally* have **plans** for things like:  
 
 - **Public access** (*revolutionary!*)  
 - **Daily backups** (because losing your resume *would* be hilarious)  
