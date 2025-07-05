@@ -14,20 +14,30 @@
 [![Publish Docker Image](https://github.com/lazy-media/Reactive-Resume/actions/workflows/publish-docker-image.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/publish-docker-image.yml)
 [![Sync Crowdin Translations](https://github.com/lazy-media/Reactive-Resume/actions/workflows/sync-crowdin-translations.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/sync-crowdin-translations.yml)
 
-# **"Breaking News"**  
-Lazy Media is *heroically* attempting to recreate what the original Reactive Resume creator already did—but with *extra* steps!  
+# **🚀 The Moment You've All Been Patiently Not Waiting For**  
+The *gloriously* public version of Reactive Resume is now live at **[https://rxresume.lazymedia.media](https://rxresume.lazymedia.media)**!  
 
-**Coming *~~eventually~~* soon:** A public version where you won’t need to sell your soul (or your email) just to use it. Shocking, right? And don’t worry—they *totally* have **plans** for things like:  
+No email? No problem! Use a throwaway, your grandma’s AOL address, or just stare at the screen until it lets you in—*your choice*.  
 
-- **Public access** (*revolutionary!*)  
-- **Daily backups** (because losing your resume *would* be hilarious)  
-- **"Security measures"** (to fend off the inevitable script kiddie attacks)  
+⚠️ **IMPORTANT PSA:**  
+- **Remove your resumes from the old app** before **July 15, 2025**, unless you enjoy locked doors and authentication-induced existential dread.  
+- Start using the new **email-verification-free paradise** today: [https://rxresume.lazymedia.media](https://rxresume.lazymedia.media)  
 
-Updates will trickle in via Docker, because manually checking for them would be *way* too much effort.  
+---
 
-So sit tight, try not to refresh the page every five seconds, and pray that Lazy Media figures it out before the heat death of the universe.  
+### **"But What’s the Catch?"** *(Spoiler: There Isn’t One… Probably)*  
+- � **Runs on** the *mighty* Nginx Docker Compose stack (because why reinvent the wheel?).  
+- ☁️ **Hosted 24/7** in a *~magical~* cloud VM (read: someone’s basement server with extra fans).  
+- 💾 **Storage space**: "Plenty"™ (until it’s not—*fingers crossed*).  
+- ⏳ **Uptime**: Should be always available, minus daily restarts to check for updates (because even servers need coffee breaks).  
+- 🔙 **Backups**: Weekly or monthly… *eventually* (we’re as excited as you are).  
+- 📧 **Email**: Optional! Use it only if you *want* to verify or reset passwords (how *novel*).  
 
-*(Still free, though. **Probably.**)*
+---
+
+**Pro Tip:** Don’t thank us—just enjoy your newfound freedom from corporate surveillance disguised as "user verification." 🎉
+
+---
 
 # Reactive Resume _(Self-Hosted Community Forked Version)_
 
@@ -36,10 +46,10 @@ So sit tight, try not to refresh the page every five seconds, and pray that Lazy
 
 A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.
 
-### [Go to App](https://resume.lazymedia.media/) | [Docs](https://docs.rxresu.me/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki)
-> *Email Verification Required to use the app*
+### [Go to New Public App](https://rxresume.lazymedia.media/) | [Go to Old App](https://resume.lazymedia.media) | [Docs](https://docs.rxresu.me/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki)
+> *New Public App now available with no email verification!*
 
-> *New App coming soon for the public with no email verification.*
+> **YOU MUST REMOVE YOUR RESUMES FROM THE [OLD APP](https://resume.lazymedia.media) AND IMPORT THEM INTO THE [NEW APP](https://rxresume.lazymedia.media) BY 7/15/2025 OR YOU WILL BE LOCKED OUT! THE OLD APP IS BEING RESTRICTED!!**
 
 ### Still want to use the old app from the old maintainer?
 > Visit [Original RxResume Site](https://rxresu.me)
