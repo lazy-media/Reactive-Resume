@@ -49,7 +49,7 @@ No email? No problem! Use a throwaway, your grandma’s AOL address, or just sta
 
 A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.
 
-### [Go to New Public App](https://rxresume.lazymedia.media/) | [Go to Old App](https://resume.lazymedia.media) | [Docs](https://docs.rxresu.me/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki)
+### [Go to New Public App](https://rxresume.org/) | [Go to Old App](https://resume.lazymedia.media) | [Docs](https://docs.rxresu.me/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki)
 
 > _New Public App now available with no email verification!_
 
@@ -162,9 +162,9 @@ Forked and currently maintained by [Lazy Media](https://github.com/sponsors/lazy
 <details>
   <summary>Click Here to Build A Resume!</summary>
   
-  - Visit **[Lazy Medias Reactive Resume](https://resume.lazymedia.media)!**
+  - Visit **[Lazy Medias Reactive Resume](https://rxresume.org)!**
   - Create a **FREE account** now.
-    - *Must Verify Email to create an account.*
+    - *No Email Verification Required!*
   
   Everyone should be able to have access to a way to have a professional Resume.
   
