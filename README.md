@@ -16,14 +16,14 @@
 
 # **🚀 The Moment You've All Been Patiently Not Waiting For**
 
-The _gloriously_ public version of Reactive Resume is now live at **[https://rxresume.lazymedia.media](https://rxresume.lazymedia.media)**!
+The _gloriously_ public version of Reactive Resume is now live at **[https://rxresume.lazymedia.media](https://rxresume.org)**!
 
 No email? No problem! Use a throwaway, your grandma’s AOL address, or just stare at the screen until it lets you in—_your choice_.
 
 ⚠️ **IMPORTANT PSA:**
 
 - **Remove your resumes from the [old app](https://resume.lazymedia.media)** before **August 1st, 2025**, unless you enjoy locked doors and authentication-induced existential dread.
-- Start using the new **email-verification-free paradise** today: [https://rxresume.lazymedia.media](https://rxresume.org)
+- Start using the new **email-verification-free paradise** today: [https://rxresume.org](https://rxresume.org)
 
 ---
 
