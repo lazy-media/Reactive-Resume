@@ -53,7 +53,7 @@ A free and open-source resume builder that simplifies the process of creating, u
 
 > _New Public App now available with no email verification!_
 
-> **YOU MUST REMOVE YOUR RESUMES FROM THE [OLD APP](https://resume.lazymedia.media) AND IMPORT THEM INTO THE [NEW APP](https://rxresume.lazymedia.media) BY 7/15/2025 OR YOU WILL BE LOCKED OUT! THE OLD APP IS BEING RESTRICTED!!**
+> **YOU MUST REMOVE YOUR RESUMES FROM THE [OLD APP](https://resume.lazymedia.media) AND IMPORT THEM INTO THE [NEW APP](https://rxresume.lazymedia.media) BY 8/1/2025 OR YOU WILL BE LOCKED OUT! THE OLD APP IS BEING RESTRICTED!!**
 
 ### Still want to use the old app from the old maintainer?
 
