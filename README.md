@@ -15,7 +15,7 @@
 [![Sync Crowdin Translations](https://github.com/lazy-media/Reactive-Resume/actions/workflows/sync-crowdin-translations.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/sync-crowdin-translations.yml)
 
 # **"Breaking News"**  
-Lazy Media is *heroically* attempting to recreate what the original Reactive Resume creators already did—but with *extra* steps!  
+Lazy Media is *heroically* attempting to recreate what the original Reactive Resume creator already did—but with *extra* steps!  
 
 **Coming *~~eventually~~* soon:** A public version where you won’t need to sell your soul (or your email) just to use it. Shocking, right? And don’t worry—they *totally* have **plans™** for things like:  
 
