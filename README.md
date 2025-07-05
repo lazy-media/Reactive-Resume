@@ -16,7 +16,7 @@
 
 # **🚀 The Moment You've All Been Patiently Not Waiting For**
 
-The _gloriously_ public version of Reactive Resume is now live at **[https://rxresume.lazymedia.media](https://rxresume.org)**!
+The _gloriously_ public version of Reactive Resume is now live at **[https://rxresume.org](https://rxresume.org)**!
 
 No email? No problem! Use a throwaway, your grandma’s AOL address, or just stare at the screen until it lets you in—_your choice_.
 
