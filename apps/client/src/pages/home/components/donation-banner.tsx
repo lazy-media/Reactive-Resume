@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export const DonationBanner = () => (
   <motion.a
-    href="https://opencollective.com/Reactive-Resume"
+    href="https://opencollective.com/lazymedia"
     target="_blank"
     whileHover={{ height: 48 }}
     initial={{ opacity: 0, y: -50, height: 32 }}

@@ -14,24 +14,27 @@
 [![Publish Docker Image](https://github.com/lazy-media/Reactive-Resume/actions/workflows/publish-docker-image.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/publish-docker-image.yml)
 [![Sync Crowdin Translations](https://github.com/lazy-media/Reactive-Resume/actions/workflows/sync-crowdin-translations.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/sync-crowdin-translations.yml)
 
-# **🚀 The Moment You've All Been Patiently Not Waiting For**  
-The *gloriously* public version of Reactive Resume is now live at **[https://rxresume.lazymedia.media](https://rxresume.lazymedia.media)**!  
+# **🚀 The Moment You've All Been Patiently Not Waiting For**
 
-No email? No problem! Use a throwaway, your grandma’s AOL address, or just stare at the screen until it lets you in—*your choice*.  
+The _gloriously_ public version of Reactive Resume is now live at **[https://rxresume.lazymedia.media](https://rxresume.lazymedia.media)**!
 
-⚠️ **IMPORTANT PSA:**  
-- **Remove your resumes from the old app** before **July 15, 2025**, unless you enjoy locked doors and authentication-induced existential dread.  
-- Start using the new **email-verification-free paradise** today: [https://rxresume.lazymedia.media](https://rxresume.lazymedia.media)  
+No email? No problem! Use a throwaway, your grandma’s AOL address, or just stare at the screen until it lets you in—_your choice_.
+
+⚠️ **IMPORTANT PSA:**
+
+- **Remove your resumes from the old app** before **July 15, 2025**, unless you enjoy locked doors and authentication-induced existential dread.
+- Start using the new **email-verification-free paradise** today: [https://rxresume.lazymedia.media](https://rxresume.lazymedia.media)
 
 ---
 
-### **"But What’s the Catch?"** *(Spoiler: There Isn’t One… Probably)*  
-- � **Runs on** the *mighty* Nginx Docker Compose stack (because why reinvent the wheel?).  
-- ☁️ **Hosted 24/7** in a *~magical~* cloud VM (read: someone’s basement server with extra fans).  
-- 💾 **Storage space**: "Plenty"™ (until it’s not—*fingers crossed*).  
-- ⏳ **Uptime**: Should be always available, minus daily restarts to check for updates (because even servers need coffee breaks).  
-- 🔙 **Backups**: Weekly or monthly… *eventually* (we’re as excited as you are).  
-- 📧 **Email**: Optional! Use it only if you *want* to verify or reset passwords (how *novel*).  
+### **"But What’s the Catch?"** _(Spoiler: There Isn’t One… Probably)_
+
+- � **Runs on** the _mighty_ Nginx Docker Compose stack (because why reinvent the wheel?).
+- ☁️ **Hosted 24/7** in a _~magical~_ cloud VM (read: someone’s basement server with extra fans).
+- 💾 **Storage space**: "Plenty"™ (until it’s not—_fingers crossed_).
+- ⏳ **Uptime**: Should be always available, minus daily restarts to check for updates (because even servers need coffee breaks).
+- 🔙 **Backups**: Weekly or monthly… _eventually_ (we’re as excited as you are).
+- 📧 **Email**: Optional! Use it only if you _want_ to verify or reset passwords (how _novel_).
 
 ---
 
@@ -47,11 +50,13 @@ No email? No problem! Use a throwaway, your grandma’s AOL address, or just sta
 A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.
 
 ### [Go to New Public App](https://rxresume.lazymedia.media/) | [Go to Old App](https://resume.lazymedia.media) | [Docs](https://docs.rxresu.me/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki)
-> *New Public App now available with no email verification!*
+
+> _New Public App now available with no email verification!_
 
 > **YOU MUST REMOVE YOUR RESUMES FROM THE [OLD APP](https://resume.lazymedia.media) AND IMPORT THEM INTO THE [NEW APP](https://rxresume.lazymedia.media) BY 7/15/2025 OR YOU WILL BE LOCKED OUT! THE OLD APP IS BEING RESTRICTED!!**
 
 ### Still want to use the old app from the old maintainer?
+
 > Visit [Original RxResume Site](https://rxresu.me)
 
 ### Visit the [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki#contributing) to learn how to _Contribute_ or _Submit an Issue_

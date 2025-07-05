@@ -31,7 +31,7 @@ const DonateCard = () => (
     </CardContent>
     <CardFooter>
       <a
-        href="https://opencollective.com/reactive-resume"
+        href="https://opencollective.com/lazymedia"
         className={cn(buttonVariants({ size: "sm" }))}
         rel="noopener noreferrer nofollow"
         target="_blank"
