@@ -23,7 +23,7 @@ No email? No problem! Use a throwaway, your grandma’s AOL address, or just sta
 ⚠️ **IMPORTANT PSA:**
 
 - **Remove your resumes from the [old app](https://resume.lazymedia.media)** before **August 1st, 2025**, unless you enjoy locked doors and authentication-induced existential dread.
-- Start using the new **email-verification-free paradise** today: [https://rxresume.lazymedia.media](https://rxresume.lazymedia.media)
+- Start using the new **email-verification-free paradise** today: [https://rxresume.lazymedia.media](https://rxresume.org)
 
 ---
 
@@ -53,7 +53,7 @@ A free and open-source resume builder that simplifies the process of creating, u
 
 > _New Public App now available with no email verification!_
 
-> **YOU MUST REMOVE YOUR RESUMES FROM THE [OLD APP](https://resume.lazymedia.media) AND IMPORT THEM INTO THE [NEW APP](https://rxresume.lazymedia.media) BY 8/1/2025 OR YOU WILL BE LOCKED OUT! THE OLD APP IS BEING RESTRICTED!!**
+> **YOU MUST REMOVE YOUR RESUMES FROM THE [OLD APP](https://resume.lazymedia.media) AND IMPORT THEM INTO THE [NEW APP](https://rxresume.org) BY 8/1/2025 OR YOU WILL BE LOCKED OUT! THE OLD APP IS BEING RESTRICTED!!**
 
 ### Still want to use the old app from the old maintainer?
 
