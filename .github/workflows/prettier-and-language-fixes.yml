@@ -57,6 +57,6 @@ jobs:
 
       - name: Force push to main
         env:
-          TOKEN: ${{ github.token }}
+          TOKEN: ${{ secrets.GH_PUSH_TOKEN }}
         run: |
           git push --force "https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git" HEAD:main
