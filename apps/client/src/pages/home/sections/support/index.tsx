@@ -63,7 +63,7 @@ export const SupportSection = () => (
 
       <div className="flex items-center gap-x-10">
         <a
-          href="https://crowdin/project/lazymedia-reactive-resume"
+          href="https://crowdin.com/project/lazymedia-reactive-resume"
           rel="noreferrer noopener nofollow"
           target="_blank"
         >
