@@ -31,10 +31,10 @@ msgid "{value, plural, one {Column} other {Columns}}"
 msgstr "{value, plural, one {Coloana} other {Coloane}}"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:20
-msgid "<0>\"I single-handedly resurrected Reactive Resume from the depths of abandoned GitHub repos (you’re welcome), fixed its existential crises, gave it a shiny public home, and now play full-time bug whisperer—all while gently nudging the community to maybe, just maybe, help out. Huge thanks to the open-source legends who kept me from losing my sanity.\"<1/>Love the app? Keep it free forever by tossing a coin to your dev (or at least a virtual high-five via donation).</0>"
+msgid "<0>\"I single-handedly resurrected Reactive Resume from the depths of abandoned GitHub repos (you’re welcome), fixed its existential crises, gave it a shiny public home, and now play full-time bug whisperer—all while gently nudging the community to maybe, just maybe, help out. Huge thanks to the open-source legends who kept me from losing my sanity.\"</0><1>Love the app? Keep it free forever by tossing a coin to your dev (or at least a virtual high-five via donation).</1>"
 msgstr ""
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:53
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:54
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>Sunt sigur că aplicația nu este perfectă, dar aș vrea să fie. /0><1>Dacă v-ați confruntat cu probleme în timp ce creați reluarea, sau aveți o idee care v-ar ajuta pe voi și pe alți utilizatori să vă creați mai ușor reluarea, plasează o problemă în depozit sau trimite-mi un e-mail despre ea. /1>"
 
@@ -42,7 +42,7 @@ msgstr "<0>Sunt sigur că aplicația nu este perfectă, dar aș vrea să fie. /0
 msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
 msgstr "<0>Notă: </0>Utilizând API-ul OpenAI, confirmaţi şi acceptaţi termenii de utilizare </1> şi <2>politica de confidenţialitate</2> subliniaţi de OpenAI. Vă rugăm să reţineţi că Resume Reactiv nu are nici o responsabilitate pentru utilizarea incorectă sau neautorizată a serviciului, şi orice repercusiuni sau pasive care decurg exclusiv din acestea sunt suportate de utilizator."
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:87
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:88
 msgid "<0>The community has spent a lot of time writing the documentation for Reactive Resume, and I'm sure it will help you get started with the app.</0><1>There are also a lot of examples to help you get started, and features that you might not know about which could help you build your perfect resume.</1>"
 msgstr "<0>Comunitatea a petrecut mult timp scriind documentația pentru reactivarea reactivă; și sunt sigur că te va ajuta să începi cu aplicația. /0><1>Există, de asemenea, o mulțime de exemple pentru a vă ajuta să începeți, și caracteristici despre care s-ar putea să nu știți care te-ar putea ajuta să construiești reluarea perfectă. /1>"
 
@@ -443,7 +443,7 @@ msgstr "Dezactivează 2FA"
 msgid "Discard"
 msgstr "Renunțați"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:107
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:108
 msgid "Documentation"
 msgstr "Documentație"
 
@@ -451,7 +451,7 @@ msgstr "Documentație"
 msgid "Don't have an account?"
 msgstr "Nu ai un cont?"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:85
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:86
 msgid "Don't know where to begin? Hit the docs!"
 msgstr "Nu știi de unde să începi? Atacă documentele!"
 
@@ -459,7 +459,7 @@ msgstr "Nu știi de unde să începi? Atacă documentele!"
 msgid "Don't see your language? <0>Help translate the app.</0>"
 msgstr "Nu vezi limba ta? <0>Ajută-ne să traducem aplicația.</0>"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:42
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:43
 msgid "Donate to Reactive Resume"
 msgstr "Donează pentru Reactivare Reluare"
 
@@ -614,7 +614,7 @@ msgstr "V-ați uitat parola?"
 msgid "Format"
 msgstr ""
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:51
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:52
 msgid "Found a bug, or have an idea for a new feature?"
 msgstr "Ați găsit o eroare sau aveți o idee pentru o funcție nouă?"
 
@@ -760,8 +760,8 @@ msgid "In this section, you can delete your account and all the data associated 
 msgstr "În această secțiune, vă puteți șterge contul si toate datele asociate utilizatorului dumneavoastră, dar aveți în vedere că <0>această acțiune este ireversibilă</0>."
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:135
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:118
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:119
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:120
 msgid "Information"
 msgstr "Informație"
 
@@ -1151,7 +1151,7 @@ msgstr ""
 msgid "Publisher"
 msgstr "Editor"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:71
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:72
 msgid "Raise an issue"
 msgstr "Ridicați o problemă"
 
@@ -1312,7 +1312,7 @@ msgstr "Self-host cu Docker"
 msgid "Send Email"
 msgstr "Trimite email"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:76
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:77
 msgid "Send me a message"
 msgstr "Trimite-mi un mesaj"
 

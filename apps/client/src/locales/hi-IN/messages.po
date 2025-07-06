@@ -31,10 +31,10 @@ msgid "{value, plural, one {Column} other {Columns}}"
 msgstr "{value, plural, one {स्तंभ} other {स्तम्भ}}"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:20
-msgid "<0>\"I single-handedly resurrected Reactive Resume from the depths of abandoned GitHub repos (you’re welcome), fixed its existential crises, gave it a shiny public home, and now play full-time bug whisperer—all while gently nudging the community to maybe, just maybe, help out. Huge thanks to the open-source legends who kept me from losing my sanity.\"<1/>Love the app? Keep it free forever by tossing a coin to your dev (or at least a virtual high-five via donation).</0>"
+msgid "<0>\"I single-handedly resurrected Reactive Resume from the depths of abandoned GitHub repos (you’re welcome), fixed its existential crises, gave it a shiny public home, and now play full-time bug whisperer—all while gently nudging the community to maybe, just maybe, help out. Huge thanks to the open-source legends who kept me from losing my sanity.\"</0><1>Love the app? Keep it free forever by tossing a coin to your dev (or at least a virtual high-five via donation).</1>"
 msgstr ""
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:53
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:54
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>मुझे यकीन है कि ऐप पूर्ण नहीं है, लेकिन मैं चाहूंगा कि ऐसा हो।</0> <1>यदि आपको अपना बायोडाटा बनाते समय किसी समस्या का सामना करना पड़ा है, या आपके पास कोई विचार है जो आपको और अन्य उपयोगकर्ताओं को अपना बायोडाटा अधिक आसानी से बनाने में मदद करेगा, तो रिपोजिटरी पर समस्या छोड़ें या इसके बारे में मुझे एक ईमेल भेजें।</1>"
 
@@ -42,7 +42,7 @@ msgstr "<0>मुझे यकीन है कि ऐप पूर्ण नह
 msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
 msgstr "<0>ध्यान दें:</0> OpenAI API का उपयोग करके, आप <1>उपयोग की शर्तों को स्वीकार करते हैं</1> और <2>गोपनीयता नीति</2> OpenAI द्वारा उल्लिखित। कृपया ध्यान दें कि रिएक्टिव रेज़्यूमे सेवा के किसी भी अनुचित या अनधिकृत उपयोग के लिए कोई ज़िम्मेदारी नहीं लेता है, और इसके परिणामस्वरूप होने वाले किसी भी परिणाम या देनदारियां पूरी तरह से उपयोगकर्ता पर निर्भर करती हैं।"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:87
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:88
 msgid "<0>The community has spent a lot of time writing the documentation for Reactive Resume, and I'm sure it will help you get started with the app.</0><1>There are also a lot of examples to help you get started, and features that you might not know about which could help you build your perfect resume.</1>"
 msgstr "<0>समुदाय ने रिएक्टिव रेज़्यूमे के लिए दस्तावेज़ लिखने में बहुत समय बिताया है, और मुझे यकीन है कि यह आपको ऐप के साथ शुरुआत करने में मदद करेगा।</0> <1>शुरुआत करने में आपकी मदद करने के लिए बहुत सारे उदाहरण भी हैं, और ऐसी विशेषताएं भी हैं जिनके बारे में आप नहीं जानते होंगे जो आपको अपना संपूर्ण बायोडाटा बनाने में मदद कर सकती हैं।</1>"
 
@@ -443,7 +443,7 @@ msgstr "2FA निलम्बित करें"
 msgid "Discard"
 msgstr "रद्द करें"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:107
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:108
 msgid "Documentation"
 msgstr "आलेख"
 
@@ -451,7 +451,7 @@ msgstr "आलेख"
 msgid "Don't have an account?"
 msgstr "आपका खाता नहीं है?"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:85
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:86
 msgid "Don't know where to begin? Hit the docs!"
 msgstr "पता नहीं कहाँ से शुरू करें? दस्तावेज़ पढ़ें"
 
@@ -459,7 +459,7 @@ msgstr "पता नहीं कहाँ से शुरू करें? �
 msgid "Don't see your language? <0>Help translate the app.</0>"
 msgstr "अपनी भाषा नहीं देखते? <0>ऐप का अनुवाद करने में सहायता करें।</0>"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:42
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:43
 msgid "Donate to Reactive Resume"
 msgstr "रिएक्टिव रेज़्यूमे के लिए दान करें"
 
@@ -614,7 +614,7 @@ msgstr "पासवर्ड भूल गए हैं?"
 msgid "Format"
 msgstr "फॉर्मेट"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:51
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:52
 msgid "Found a bug, or have an idea for a new feature?"
 msgstr "कोई बग मिला, या किसी नई सुविधा के बारे में कोई विचार है?"
 
@@ -760,8 +760,8 @@ msgid "In this section, you can delete your account and all the data associated 
 msgstr "इस अनुभाग में, आप अपना खाता और अपने उपयोगकर्ता से जुड़े सभी डेटा को हटा सकते हैं, लेकिन कृपया ध्यान रखें कि <0>यह कार्रवाई अपरिवर्तनीय है</0>."
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:135
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:118
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:119
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:120
 msgid "Information"
 msgstr "जानकारी"
 
@@ -1151,7 +1151,7 @@ msgstr "सार्वजनिक"
 msgid "Publisher"
 msgstr "प्रकाशक"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:71
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:72
 msgid "Raise an issue"
 msgstr "एक मुद्दा उठाओ"
 
@@ -1312,7 +1312,7 @@ msgstr "डॉकर के साथ स्व-मेज़बान"
 msgid "Send Email"
 msgstr "ईमेल भेजें"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:76
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:77
 msgid "Send me a message"
 msgstr "संदेश भेजें"
 
