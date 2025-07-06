@@ -35,6 +35,7 @@ No email? No problem! Use a throwaway, your grandma’s AOL address, or just sta
 - ⏳ **Uptime**: Should be always available, minus daily restarts to check for updates (because even servers need coffee breaks).
 - 🔙 **Backups**: Weekly or monthly… _eventually_ (we’re as excited as you are).
 - 📧 **Email**: Optional! Use it only if you _want_ to verify or reset passwords (how _novel_).
+- 🖨️ **PDF Export**: *Yes, it actually works!* Shockingly, no "Export Failed" screens of despair here, but you do have to allow popups...
 
 ---
 
