@@ -15,7 +15,6 @@ jobs:
   run-after:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
-    steps:
       - name: Starting NX CI Workflow
       - run: echo "Run NX CI Workflow succeeded! Starting Lint, Test & Build Workflow."
   main:
