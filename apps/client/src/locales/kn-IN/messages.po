@@ -31,10 +31,10 @@ msgid "{value, plural, one {Column} other {Columns}}"
 msgstr "{value, plural, one {ಕಾಲಮ್} other {ಕಾಲಮ್‌ಗಳು}}"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:20
-msgid "<0>I built Reactive Resume mostly by myself during my spare time, with a lot of help from other great open-source contributors.</0><1>If you like the app and want to support keeping it free forever, please donate whatever you can afford to give.</1>"
-msgstr "<0>ನನ್ನ ಬಿಡುವಿನ ವೇಳೆಯಲ್ಲಿ ನಾನು ಇತರ ಉತ್ತಮ ತೆರೆದ ಮೂಲ ಕೊಡುಗೆದಾರರಿಂದ ಹೆಚ್ಚಿನ ಸಹಾಯದೊಂದಿಗೆ ರಿಯಾಕ್ಟಿವ್ ರೆಸ್ಯೂಮೇ ಅನ್ನು ಹೆಚ್ಚಾಗಿ ನಿರ್ಮಿಸಿದ್ದೇನೆ.</0> <1>ನೀವು ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಇಷ್ಟಪಟ್ಟರೆ ಮತ್ತು ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ಉಚಿತವಾಗಿ ಇರಿಸುವುದನ್ನು ಬೆಂಬಲಿಸಲು ಬಯಸಿದರೆ, ದಯವಿಟ್ಟು ನೀವು ನೀಡಲು ಸಾಧ್ಯವಿರುವ ಎಲ್ಲವನ್ನೂ ದೇಣಿಗೆ ನೀಡಿ.</1>"
+msgid "<0>\"I single-handedly resurrected Reactive Resume from the depths of abandoned GitHub repos (you’re welcome), fixed its existential crises, gave it a shiny public home, and now play full-time bug whisperer—all while gently nudging the community to maybe, just maybe, help out. Huge thanks to the open-source legends who kept me from losing my sanity.\"<1/>Love the app? Keep it free forever by tossing a coin to your dev (or at least a virtual high-five via donation).</0>"
+msgstr ""
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:51
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:53
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>ಅಪ್ಲಿಕೇಶನ್ ಪರಿಪೂರ್ಣವಾಗಿಲ್ಲ ಎಂದು ನನಗೆ ಖಾತ್ರಿಯಿದೆ, ಆದರೆ ಅದು ಸಂಪೂರ್ಣ ಇರಬೇಕೆಂದು ನಾನು ಬಯಸುತ್ತೇನೆ.</0> <1>ನಿಮ್ಮ ಪುನರಾರಂಭವನ್ನು ರಚಿಸುವಾಗ ನೀವು ಯಾವುದೇ ಸಮಸ್ಯೆಗಳನ್ನು ಎದುರಿಸಿದರೆ ಅಥವಾ ನಿಮ್ಮ ರೆಸ್ಯೂಮೇ ಅನ್ನು ಹೆಚ್ಚು ಸುಲಭವಾಗಿ ರಚಿಸುವಲ್ಲಿ ನಿಮಗೆ ಮತ್ತು ಇತರ ಬಳಕೆದಾರರಿಗೆ ಸಹಾಯ ಮಾಡುವ ಕಲ್ಪನೆಯನ್ನು ಹೊಂದಿದ್ದರೆ, ರೆಪೊಸಿಟರಿಯಲ್ಲಿ ಸಮಸ್ಯೆಯನ್ನು ಬಿಡಿ ಅಥವಾ ಅದರ ಬಗ್ಗೆ ನನಗೆ ಇಮೇಲ್ ಕಳುಹಿಸಿ.</1>"
 
@@ -42,7 +42,7 @@ msgstr "<0>ಅಪ್ಲಿಕೇಶನ್ ಪರಿಪೂರ್ಣವಾಗಿ�
 msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
 msgstr "<0>ಗಮನಿಸಿ:</0> OpenAI API ಅನ್ನು ಬಳಸುವ ಮೂಲಕ, ನೀವು <1> ಬಳಕೆಯ ನಿಯಮಗಳನ್ನು ಅಂಗೀಕರಿಸುತ್ತೀರಿ ಮತ್ತು ಸಮ್ಮತಿಸುತ್ತೀರಿ</1> ಮತ್ತು <2>ಗೌಪ್ಯತೆ ನೀತಿ</2> OpenAI ನಿಂದ ವಿವರಿಸಲಾಗಿದೆ. ಸೇವೆಯ ಯಾವುದೇ ಅಸಮರ್ಪಕ ಅಥವಾ ಅನಧಿಕೃತ ಬಳಕೆಗೆ ಪ್ರತಿಕ್ರಿಯಾತ್ಮಕ ಪುನರಾರಂಭವು ಯಾವುದೇ ಜವಾಬ್ದಾರಿಯನ್ನು ಹೊಂದಿರುವುದಿಲ್ಲ ಮತ್ತು ಯಾವುದೇ ಪರಿಣಾಮವಾಗಿ ಉಂಟಾಗುವ ಪರಿಣಾಮಗಳು ಅಥವಾ ಹೊಣೆಗಾರಿಕೆಗಳು ಬಳಕೆದಾರರ ಮೇಲೆ ಮಾತ್ರ ಅವಲಂಬಿತವಾಗಿರುತ್ತದೆ ಎಂಬುದನ್ನು ದಯವಿಟ್ಟು ಗಮನಿಸಿ."
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:85
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:87
 msgid "<0>The community has spent a lot of time writing the documentation for Reactive Resume, and I'm sure it will help you get started with the app.</0><1>There are also a lot of examples to help you get started, and features that you might not know about which could help you build your perfect resume.</1>"
 msgstr "<0>ಪ್ರತಿಕ್ರಿಯಾತ್ಮಕ ಪುನರಾರಂಭಕ್ಕಾಗಿ ದಸ್ತಾವೇಜನ್ನು ಬರೆಯಲು ಸಮುದಾಯವು ಸಾಕಷ್ಟು ಸಮಯವನ್ನು ಕಳೆದಿದೆ ಮತ್ತು ಅಪ್ಲಿಕೇಶನ್‌ನೊಂದಿಗೆ ಪ್ರಾರಂಭಿಸಲು ಇದು ನಿಮಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ ಎಂದು ನನಗೆ ಖಾತ್ರಿಯಿದೆ.</0> <1>ಪ್ರಾರಂಭಿಸಲು ನಿಮಗೆ ಸಹಾಯ ಮಾಡಲು ಸಾಕಷ್ಟು ಉದಾಹರಣೆಗಳಿವೆ ಮತ್ತು ನಿಮಗೆ ತಿಳಿದಿಲ್ಲದ ವೈಶಿಷ್ಟ್ಯಗಳು ನಿಮ್ಮ ಪರಿಪೂರ್ಣ ಪುನರಾರಂಭವನ್ನು ನಿರ್ಮಿಸಲು ನಿಮಗೆ ಸಹಾಯ ಮಾಡುತ್ತವೆ.</1>"
 
@@ -443,7 +443,7 @@ msgstr "2FA ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
 msgid "Discard"
 msgstr "ತಿರಸ್ಕರಿಸು"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:105
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:107
 msgid "Documentation"
 msgstr "ದಾಖಲೀಕರಣ"
 
@@ -451,7 +451,7 @@ msgstr "ದಾಖಲೀಕರಣ"
 msgid "Don't have an account?"
 msgstr "ಖಾತೆ ಇಲ್ಲವೇ?"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:83
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:85
 msgid "Don't know where to begin? Hit the docs!"
 msgstr "ಎಲ್ಲಿಂದ ಪ್ರಾರಂಭಿಸಬೇಕು ಎಂದು ತಿಳಿದಿಲ್ಲವೇ? ಡಾಕ್ಸ್ ಅನ್ನು ಬಳಸಿ!"
 
@@ -459,7 +459,7 @@ msgstr "ಎಲ್ಲಿಂದ ಪ್ರಾರಂಭಿಸಬೇಕು ಎಂದ�
 msgid "Don't see your language? <0>Help translate the app.</0>"
 msgstr "ನಿಮ್ಮ ಭಾಷೆ ಕಾಣುತ್ತಿಲ್ಲವೇ? <0>ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಭಾಷಾಂತರಿಸಲು ಸಹಾಯ ಮಾಡಿ.</0>"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:40
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:42
 msgid "Donate to Reactive Resume"
 msgstr "ರಿಯಾಕ್ಟಿವ್ ರೆಸ್ಯೂಮ್‌ಗೆ ದೇಣಿಗೆ ನೀಡಿ"
 
@@ -614,7 +614,7 @@ msgstr "ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ಮರೆತಿರುವಿ�
 msgid "Format"
 msgstr "ಸ್ವರೂಪ"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:49
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:51
 msgid "Found a bug, or have an idea for a new feature?"
 msgstr "ದೋಷ ಕಂಡುಬಂದಿದೆಯೇ ಅಥವಾ ಹೊಸ ವೈಶಿಷ್ಟ್ಯಕ್ಕಾಗಿ ಕಲ್ಪನೆ ಇದೆಯೇ?"
 
@@ -760,8 +760,8 @@ msgid "In this section, you can delete your account and all the data associated 
 msgstr "ಈ ವಿಭಾಗದಲ್ಲಿ, ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಮತ್ತು ನಿಮ್ಮ ಬಳಕೆದಾರರಿಗೆ ಸಂಬಂಧಿಸಿದ ಎಲ್ಲಾ ಡೇಟಾವನ್ನು ನೀವು ಅಳಿಸಬಹುದು, ಆದರೆ ದಯವಿಟ್ಟು <0>ಈ ಕ್ರಿಯೆಯನ್ನು ಬದಲಾಯಿಸಲಾಗುವುದಿಲ್ಲ</0> ಎಂಬುದನ್ನು ನೆನಪಿನಲ್ಲಿಡಿ."
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:135
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:116
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:117
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:118
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:119
 msgid "Information"
 msgstr "ಮಾಹಿತಿ"
 
@@ -1151,7 +1151,7 @@ msgstr "ಸಾರ್ವಜನಿಕ"
 msgid "Publisher"
 msgstr "ಪ್ರಕಾಶಕರು"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:69
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:71
 msgid "Raise an issue"
 msgstr "ಒಂದು ಸಮಸ್ಯೆಯನ್ನು ಎತ್ತಿಕೊಳ್ಳಿ"
 
@@ -1312,7 +1312,7 @@ msgstr "ಡಾಕರ್ ಜೊತೆಗೆ ಸ್ವಯಂ ಹೋಸ್ಟ್"
 msgid "Send Email"
 msgstr "ಇಮೇಲ್ ಕಳುಹಿಸಿ"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:74
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:76
 msgid "Send me a message"
 msgstr "ಸಂದೇಶ ಕಳುಹಿಸಿ"
 

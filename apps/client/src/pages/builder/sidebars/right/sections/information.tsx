@@ -19,19 +19,21 @@ const DonateCard = () => (
       <CardDescription className="space-y-2">
         <Trans>
           <p>
-            I built Reactive Resume mostly by myself during my spare time, with a lot of help from
-            other great open-source contributors.
-          </p>
-          <p>
-            If you like the app and want to support keeping it free forever, please donate whatever
-            you can afford to give.
+            "I single-handedly resurrected Reactive Resume from the depths of abandoned GitHub repos
+            (you’re welcome), fixed its existential crises, gave it a shiny public home, and now
+            play full-time bug whisperer—all while gently nudging the community to maybe, just
+            maybe, help out. Huge thanks to the open-source legends who kept me from losing my
+            sanity."
+            <br></br>
+            Love the app? Keep it free forever by tossing a coin to your dev (or at least a virtual
+            high-five via donation).
           </p>
         </Trans>
       </CardDescription>
     </CardContent>
     <CardFooter>
       <a
-        href="https://opencollective.com/lazymedia"
+        href="https://github.com/sponsors/lazymedia"
         className={cn(buttonVariants({ size: "sm" }))}
         rel="noopener noreferrer nofollow"
         target="_blank"
