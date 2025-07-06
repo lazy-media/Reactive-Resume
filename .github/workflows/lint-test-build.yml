@@ -11,17 +11,13 @@ on:
     types:
       - completed
 
-permissions:
-  actions: read
-  contents: read
-
 jobs:
   run-after:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Starting Lint, Test & Build Workflow
-      - run: echo "Run NX-CI succeeded! Starting Lint, Test & Build Workflow."
+      - name: Starting NX CI Workflow
+      - run: echo "Run NX CI Workflow succeeded! Starting Lint, Test & Build Workflow."
   main:
     runs-on: ubuntu-latest
 
