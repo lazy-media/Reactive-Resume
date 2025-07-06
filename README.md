@@ -10,7 +10,7 @@
 ### Workflows
 
 [![CodeQL](https://github.com/lazy-media/Reactive-Resume/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/github-code-scanning/codeql)
-[![Run Prettier and Language File Fixes](https://github.com/lazy-media/Reactive-Resume/actions/workflows/nx-fixes.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/nx-fixes.yml)
+[![Run Prettier and Language File Fixes](https://github.com/lazy-media/Reactive-Resume/actions/workflows/prettier-and-language-fixes.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/prettier-and-language-fixes.yml)
 [![NX CI](https://github.com/lazy-media/Reactive-Resume/actions/workflows/nx-ci.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/nx-ci.yml)
 [![Lint, Test & Build](https://github.com/lazy-media/Reactive-Resume/actions/workflows/lint-test-build.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/lint-test-build.yml)
 [![Publish Docker Image](https://github.com/lazy-media/Reactive-Resume/actions/workflows/publish-docker-image.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/publish-docker-image.yml)
