@@ -35,7 +35,7 @@ No email? No problem! Use a throwaway, your grandma’s AOL address, or just sta
 - ⏳ **Uptime**: Should be always available, minus daily restarts to check for updates (because even servers need coffee breaks).
 - 🔙 **Backups**: Weekly or monthly… _eventually_ (we’re as excited as you are).
 - 📧 **Email**: Optional! Use it only if you _want_ to verify or reset passwords (how _novel_).
-- 🖨️ **PDF Export**: _Yes, it actually works...kinda. Still working out a few bugs_ Shockingly, no "Export Failed" screens of despair here, but you do have to allow popups...
+- 🖨️ **PDF Export**: _Yes, it actually works...kinda. Still working out a few bugs_ Shockingly, no "Export Failed" screens of despair here, but you do have to allow popups...and use `Letter` format for best results.
 
 ---
 
@@ -53,6 +53,7 @@ A free and open-source resume builder that simplifies the process of creating, u
 ### [Go to New Public App](https://rxresume.org/) | [Go to Old App](https://resume.lazymedia.media) | [Docs](https://docs.rxresu.me/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki)
 
 > _New Public App now available with no email verification!_
+> _Please use `Letter` Format when Exporting a PDF. Currently `A4` Format cuts off long resumes._
 
 > **YOU MUST REMOVE YOUR RESUMES FROM THE [OLD APP](https://resume.lazymedia.media) AND IMPORT THEM INTO THE [NEW APP](https://rxresume.org) BY 8/1/2025 OR YOU WILL BE LOCKED OUT! THE OLD APP IS BEING RESTRICTED!!**
 
