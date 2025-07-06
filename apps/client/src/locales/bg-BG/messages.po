@@ -69,13 +69,13 @@ msgstr "Безплатен конструктор на автобиографи�
 msgid "A link has been copied to your clipboard."
 msgstr "Връзката е копирана във вашия клипборд."
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0><1/>Forked by <2>Lazy Media</2>"
-msgstr ""
-
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "В пощенската ви кутия трябва да бъде изпратена връзка за нулиране на паролата, ако съществува акаунт с предоставения от вас имейл."
+
+#: apps/client/src/components/copyright.tsx:29
+msgid "A project taken over by <0>Lazy Media</0>"
+msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
 msgid "A resume with this slug already exists, please pick a different unique identifier."
@@ -1155,7 +1155,7 @@ msgstr "Издател"
 msgid "Raise an issue"
 msgstr "Повдигане на въпрос"
 
-#: apps/client/src/components/copyright.tsx:37
+#: apps/client/src/components/copyright.tsx:35
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55

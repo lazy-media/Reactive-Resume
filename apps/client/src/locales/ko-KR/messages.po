@@ -69,13 +69,13 @@ msgstr "이력서 작성, 업데이트 및 공유를 간단하게 할 수 있는
 msgid "A link has been copied to your clipboard."
 msgstr "링크가 클립보드에 복사되었습니다."
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0><1/>Forked by <2>Lazy Media</2>"
-msgstr ""
-
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "귀하가 제공한 이메일을 사용하는 계정이 있는 경우 비밀번호 재설정 링크가 받은 편지함으로 전송되었을 것입니다."
+
+#: apps/client/src/components/copyright.tsx:29
+msgid "A project taken over by <0>Lazy Media</0>"
+msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
 msgid "A resume with this slug already exists, please pick a different unique identifier."
@@ -1155,7 +1155,7 @@ msgstr "게시자"
 msgid "Raise an issue"
 msgstr "문제 제기"
 
-#: apps/client/src/components/copyright.tsx:37
+#: apps/client/src/components/copyright.tsx:35
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55

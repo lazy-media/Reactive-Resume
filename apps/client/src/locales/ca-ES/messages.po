@@ -69,12 +69,12 @@ msgstr ""
 msgid "A link has been copied to your clipboard."
 msgstr "S'ha desat l'enllaç al porta-retalls."
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0><1/>Forked by <2>Lazy Media</2>"
-msgstr ""
-
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
+msgstr ""
+
+#: apps/client/src/components/copyright.tsx:29
+msgid "A project taken over by <0>Lazy Media</0>"
 msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
@@ -1155,7 +1155,7 @@ msgstr ""
 msgid "Raise an issue"
 msgstr ""
 
-#: apps/client/src/components/copyright.tsx:37
+#: apps/client/src/components/copyright.tsx:35
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55

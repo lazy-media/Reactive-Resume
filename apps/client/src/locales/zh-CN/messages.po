@@ -69,13 +69,13 @@ msgstr "一款免费开源的简历生成器，可简化创建、更新和共享
 msgid "A link has been copied to your clipboard."
 msgstr "已将链接复制至剪贴板"
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0><1/>Forked by <2>Lazy Media</2>"
-msgstr ""
-
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "如果您提供的电子邮件绑定了账号，您的收件箱中应该会收到一条密码重置链接。"
+
+#: apps/client/src/components/copyright.tsx:29
+msgid "A project taken over by <0>Lazy Media</0>"
+msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
 msgid "A resume with this slug already exists, please pick a different unique identifier."
@@ -1155,7 +1155,7 @@ msgstr "发布者"
 msgid "Raise an issue"
 msgstr "提出问题"
 
-#: apps/client/src/components/copyright.tsx:37
+#: apps/client/src/components/copyright.tsx:35
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55

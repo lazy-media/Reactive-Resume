@@ -69,13 +69,13 @@ msgstr "Un generatore di curriculum gratuito e open source che semplifica il pro
 msgid "A link has been copied to your clipboard."
 msgstr "Il link è stato copiato negli appunti."
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0><1/>Forked by <2>Lazy Media</2>"
-msgstr ""
-
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "Un collegamento per la reimpostazione della password dovrebbe essere stato inviato alla tua casella di posta, se esisteva un account con l'e-mail che hai fornito."
+
+#: apps/client/src/components/copyright.tsx:29
+msgid "A project taken over by <0>Lazy Media</0>"
+msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
 msgid "A resume with this slug already exists, please pick a different unique identifier."
@@ -1155,7 +1155,7 @@ msgstr "Editore"
 msgid "Raise an issue"
 msgstr "Segnala un problema"
 
-#: apps/client/src/components/copyright.tsx:37
+#: apps/client/src/components/copyright.tsx:35
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55
