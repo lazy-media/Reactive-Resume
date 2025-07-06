@@ -19,15 +19,15 @@ const DonateCard = () => (
       <CardDescription className="space-y-2">
         <Trans>
           <p>
-            "I single-handedly resurrected Reactive Resume from the depths of abandoned GitHub repos
-            *you’re welcome*, fixed its existential crises, gave it a shiny public home, and now
+            I single-handedly resurrected Reactive Resume from the depths of abandoned GitHub repos,
+            _you’re welcome_, fixed its existential crises, gave it a shiny public home, and now
             play full-time bug whisperer—all while gently nudging the community to maybe, just
             maybe, help out. Huge thanks to the open-source legends who kept me from losing my
-            sanity."
+            sanity.
           </p>
           <p>
-            Love the app? Keep it free forever by tossing a coin to your dev *or at least a virtual
-            high-five via donation*.
+            Love the app? Keep it free forever by tossing a coin to your dev _or at least a virtual
+            high-five via donation_.
           </p>
         </Trans>
       </CardDescription>
