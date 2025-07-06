@@ -12,8 +12,6 @@ on:
       - completed
 
 jobs:
-  run-after:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
   main:
     runs-on: ubuntu-latest
 
