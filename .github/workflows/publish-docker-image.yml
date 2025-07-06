@@ -159,7 +159,7 @@ jobs:
         uses: sarisia/actions-status-discord@v1.14.3
         if: always()
         with:
-          username: Reactive Resume ReleaseBot
+          username: Reactive Resume Release Bot
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
           status: ${{ job.status }}
           title: "Release `${{ steps.meta.outputs.version }}`"
@@ -170,8 +170,30 @@ jobs:
         uses: sarisia/actions-status-discord@v1.14.3
         if: success()
         with:
-          username: Reactive Resume ReleaseBot
+          username: Reactive Resume Release Bot
           webhook: ${{ secrets.DISCORD_PUBLIC_WEBHOOK }}
+          status: ${{ job.status }}
+          title: "Release `${{ steps.meta.outputs.version }}`"
+          description: "A new version of Reactive Resume just dropped! 🚀"
+          url: "https://github.com/lazy-media/Reactive-Resume"
+
+      - name: Inform about the release on Reactive Resume Announcement Channel
+        uses: sarisia/actions-status-discord@v1.14.3
+        if: success()
+        with:
+          username: Reactive Resume Release Bot
+          webhook: ${{ secrets.DISCORD_RRUPDATE_WEBHOOK }}
+          status: ${{ job.status }}
+          title: "Release `${{ steps.meta.outputs.version }}`"
+          description: "A new version of Reactive Resume just dropped! 🚀"
+          url: "https://github.com/lazy-media/Reactive-Resume"
+
+      - name: Inform about the release on Gaming Discord
+        uses: sarisia/actions-status-discord@v1.14.3
+        if: success()
+        with:
+          username: Reactive Resume Release Bot
+          webhook: ${{ secrets.DISCORD_GAMING_WEBHOOK }}
           status: ${{ job.status }}
           title: "Release `${{ steps.meta.outputs.version }}`"
           description: "A new version of Reactive Resume just dropped! 🚀"
