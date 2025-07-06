@@ -1,4 +1,4 @@
-name: Run Prettier and Language File Fixes
+name: NX CI Fixes
 
 on:
   workflow_dispatch:
