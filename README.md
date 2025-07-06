@@ -10,9 +10,12 @@
 ### Workflows
 
 [![CodeQL](https://github.com/lazy-media/Reactive-Resume/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/github-code-scanning/codeql)
+[![Run Prettier and Language File Fixes](https://github.com/lazy-media/Reactive-Resume/actions/workflows/nx-fixes.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/nx-fixes.yml)
+[![NX CI](https://github.com/lazy-media/Reactive-Resume/actions/workflows/nx-ci.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/nx-ci.yml)
 [![Lint, Test & Build](https://github.com/lazy-media/Reactive-Resume/actions/workflows/lint-test-build.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/lint-test-build.yml)
 [![Publish Docker Image](https://github.com/lazy-media/Reactive-Resume/actions/workflows/publish-docker-image.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/publish-docker-image.yml)
 [![Sync Crowdin Translations](https://github.com/lazy-media/Reactive-Resume/actions/workflows/sync-crowdin-translations.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/sync-crowdin-translations.yml)
+[![Dependabot Updates](https://github.com/lazy-media/Reactive-Resume/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/dependabot/dependabot-updates)
 
 # **🚀 The Moment You've All Been Patiently Not Waiting For**
 
