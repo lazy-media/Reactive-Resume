@@ -1,7 +1,9 @@
 name: "📚 Documentation Update"
 description: "Request an update or improvement to the documentation."
 title: "[Docs] <Short summary of the documentation change>"
-labels: ["documentation", "needs triage"]
+labels: [documentation, v1, needs triage]
+assignees: "lazy-media"
+
 body:
   - type: dropdown
     id: doc-section
@@ -9,16 +11,33 @@ body:
       label: "Which section of the documentation needs to be updated?"
       description: "Select the main area or section that your update relates to."
       options:
-        - "Getting Started"
-        - "Installation"
-        - "Configuration"
-        - "Usage Guide"
-        - "Deployment"
-        - "API Reference"
-        - "FAQ"
-        - "Contributing"
-        - "Other"
-    validations:
+        - "Overview - Information"
+        - "Overview - Features"
+        - "Engineering - Mission"
+        - "Engineering - Tech Stack"
+        - "Engineering - How It Works: Frontend"
+        - "Engineering - How It Works: Backend"
+        - "Contributing - Sponsor Through GitHub"
+        - "Contributing - Sponsor Through Open Collective"
+        - "Contributing - Translations"
+        - "Product Guides - Setting Up Your Account"
+        - "Product Guides - Updating Your Profile"
+        - "Product Guides - Updating Your Password"
+        - "Product Guides - Setting Up Two-Factor Authentication"
+        - "Product Guides - Enable OpenAI Integration"
+        - "Product Guides - Translate your resume with ChatGPT"
+        - "Product Guides - Exporting Your Resume as JSON"
+        - "Product Guides - Exporting Your Resume as PDF"
+        - "Product Guides - Making Your Resume Public"
+        - "Product Guides - Importing Your Resume from LinkedIn"
+        - "Product Guides - Creating a Multi-Page Resume"
+        - "Product Guides - Use ChatGPT to rewrite your resume"
+        - "Product Guides - Change the Number of Columns for a section"
+        - "Product Guides - Self Hosting Reactive Resume using Docker"
+        - "Meta - License"
+        - "Meta - Privacy Policy"
+        - "Meta - Terms of Service"
+      validations:
       required: true
 
   - type: dropdown
@@ -40,6 +59,15 @@ body:
     attributes:
       label: "Describe the documentation update"
       description: "Provide a clear and detailed description of what needs to be changed, added, or improved. Include specific file names or URLs if known."
+      placeholder: "Example: The configuration section is missing an explanation for the 'theme' option in config.yml."
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Example of how the documentation should look"
+      description: "Provide an example of how you want the documentation to read. This can be a specific text change, a new example, or a restructured section."
       placeholder: "Example: The configuration section is missing an explanation for the 'theme' option in config.yml."
     validations:
       required: true

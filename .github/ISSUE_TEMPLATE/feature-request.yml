@@ -1,7 +1,7 @@
 name: ✨ Feature Request
 description: Suggest an enhancement for the self-hosted fork
 title: "[Feature] "
-labels: ["enhancement", "self-hosted", "needs triage"]
+labels: [enhancement, self-hosted, needs triage, v1]
 assignees: "lazy-media"
 
 body:

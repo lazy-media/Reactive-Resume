@@ -6,6 +6,9 @@ contact_links:
   - name: Feature Requests
     url: ./feature-request.yml
     about: Submit Feature Requests here
+  - name: Documentation Update
+    url: ./documentation-update.yml
+    about: Request updates or improvements to the documentation.
 #  - name: GitHub Community Support
 #    url: https://github.com/orgs/community/discussions
 #    about: Please ask and answer questions here.

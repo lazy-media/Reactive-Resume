@@ -1,7 +1,7 @@
 name: 🐞 Bug Report
 description: File a bug report for the Reactive Resume self-hosted fork
 title: "[Bug] "
-labels: ["bug", "self-hosted", "needs triage"]
+labels: [bug, needs triage, v1]
 assignees: "lazy-media"
 
 body:
