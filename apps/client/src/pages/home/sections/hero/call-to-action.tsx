@@ -33,7 +33,7 @@ export const HeroCTA = () => {
       </Button>
 
       <Button asChild size="lg" variant="link">
-        <a href="https://docs.rxresu.me" target="_blank" rel="noopener noreferrer nofollow">
+        <a href="https://docs.rxresume.org" target="_blank" rel="noopener noreferrer nofollow">
           <Book className="mr-3" />
           {t`Learn more`}
         </a>

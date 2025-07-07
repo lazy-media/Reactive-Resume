@@ -21,7 +21,7 @@ body:
       label: Product Variant
       description: What variant of Reactive Resume are you using?
       options:
-        - Cloud (https://rxresu.me)
+        - Cloud (https://rxresume.org)
         - Self-Hosted
     validations:
       required: true

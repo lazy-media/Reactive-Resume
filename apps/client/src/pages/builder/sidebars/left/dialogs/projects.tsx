@@ -114,7 +114,7 @@ export const ProjectsDialog = () => {
             <FormItem>
               <FormLabel>{t`Website`}</FormLabel>
               <FormControl>
-                <URLInput {...field} placeholder="https://rxresu.me" />
+                <URLInput {...field} placeholder="https://rxresume.org" />
               </FormControl>
               <FormMessage />
             </FormItem>

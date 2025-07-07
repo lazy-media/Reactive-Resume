@@ -219,7 +219,7 @@ msgstr "Οι κωδικοί αντιγράφων ασφαλείας μπορού
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:141
 msgid "Base URL"
-msgstr "https://rxresu.me/builder/cm23wdob830tdmtv5iyuvprzz"
+msgstr "https://rxresume.org/builder/cm23wdob830tdmtv5iyuvprzz"
 
 #: apps/client/src/pages/builder/sidebars/left/index.tsx:55
 msgctxt "The basics section of a resume consists of User's Picture, Full Name, Location etc."
