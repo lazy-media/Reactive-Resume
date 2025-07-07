@@ -1,8 +1,7 @@
 name: "📚 Documentation Update"
 description: "Request an update or improvement to the documentation."
 title: "[Docs] <Short summary of the documentation change>"
-labels: ["documentation", "v1", "needs triage"]
-
+labels: ["documentation", "needs triage"]
 body:
   - type: dropdown
     id: doc-section
@@ -14,8 +13,7 @@ body:
         - "Engineering"
         - "Contributing"
         - "Product Guides"
-        - "Meta"
-      validations:
+    validations:
       required: true
 
   - type: dropdown
@@ -37,15 +35,6 @@ body:
     attributes:
       label: "Describe the documentation update"
       description: "Provide a clear and detailed description of what needs to be changed, added, or improved. Include specific file names or URLs if known."
-      placeholder: "Example: The configuration section is missing an explanation for the 'theme' option in config.yml."
-    validations:
-      required: true
-
-  - type: textarea
-    id: description
-    attributes:
-      label: "Example of how the documentation should look"
-      description: "Provide an example of how you want the documentation to read. This can be a specific text change, a new example, or a restructured section."
       placeholder: "Example: The configuration section is missing an explanation for the 'theme' option in config.yml."
     validations:
       required: true
