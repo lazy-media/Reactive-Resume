@@ -11,8 +11,8 @@ body:
       label: "Which section of the documentation needs to be updated?"
       description: "Select the main area or section that your update relates to."
       options:
-        - "Overview: - Information"
-        - "Overview: - Features"
+        - "Overview: Information"
+        - "Overview: Features"
         - "Engineering: Mission"
         - "Engineering: Tech Stack"
         - "Engineering: How It Works: Frontend"
