@@ -3,7 +3,7 @@ description: "Request an update or improvement to the documentation."
 title: "[Docs] <Short summary of the documentation change>"
 labels: ["documentation", "v1", "needs triage"]
 assignees: "lazy-media"
-projects: "Reactive Resume"
+project: "Reactive Resume"
 body:
   - type: dropdown
     id: doc-section
