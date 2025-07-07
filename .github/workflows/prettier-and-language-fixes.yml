@@ -31,7 +31,7 @@ jobs:
 
       - name: Install pnpm Dependencies
         run: pnpm install --frozen-lockfile
-      
+
       - name: Run Prettier Fix
         run: pnpm prettier --write .
 
