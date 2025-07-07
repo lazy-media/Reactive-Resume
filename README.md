@@ -23,6 +23,8 @@ The _gloriously_ public version of Reactive Resume is now live at **[https://rxr
 
 No email? No problem! Use a throwaway, your grandma’s AOL address, or just stare at the screen until it lets you in—_your choice_.
 
+_Currently Working on Alternative Login Methods Such as GitHub & Google_
+
 ⚠️ **IMPORTANT PSA:**
 
 - **Remove your resumes from the [old app](https://resume.lazymedia.media)** before **August 1st, 2025**, unless you enjoy locked doors and authentication-induced existential dread.
