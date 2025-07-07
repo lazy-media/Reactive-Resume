@@ -1,0 +1,62 @@
+name: "📚 Documentation Update"
+description: "Request an update or improvement to the documentation."
+title: "[Docs] <Short summary of the documentation change>"
+labels: ["documentation", "needs triage"]
+body:
+  - type: dropdown
+    id: doc-section
+    attributes:
+      label: "Which section of the documentation needs to be updated?"
+      description: "Select the main area or section that your update relates to."
+      options:
+        - "Getting Started"
+        - "Installation"
+        - "Configuration"
+        - "Usage Guide"
+        - "Deployment"
+        - "API Reference"
+        - "FAQ"
+        - "Contributing"
+        - "Other"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: change-type
+    attributes:
+      label: "Type of documentation update"
+      description: "Choose the type of update you are requesting."
+      options:
+        - "Correction (fix typo, error, outdated content)"
+        - "Clarification (improve wording or explanation)"
+        - "Addition (add new content or example)"
+        - "Removal (delete incorrect or obsolete content)"
+        - "Reorganization (move or restructure docs)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Describe the documentation update"
+      description: "Provide a clear and detailed description of what needs to be changed, added, or improved. Include specific file names or URLs if known."
+      placeholder: "Example: The configuration section is missing an explanation for the 'theme' option in config.yml."
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Additional context or screenshots (optional)"
+      description: "Add any other context, screenshots, or relevant details that might help us understand your request."
+
+  - type: checkboxes
+    id: self-check
+    attributes:
+      label: "Self-check"
+      description: "Please confirm the following before submitting:"
+      options:
+        - label: "I have searched existing issues to avoid duplicates."
+          required: true
+        - label: "The requested change is relevant to the Reactive-Resume-Docs repository."
+          required: true
