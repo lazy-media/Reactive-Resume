@@ -9,10 +9,17 @@ body:
       label: "Which section of the documentation needs to be updated?"
       description: "Select the main area or section that your update relates to."
       options:
-        - "Overview"
-        - "Engineering"
-        - "Contributing"
+        - "Overview_Information"
+        - "Overview_Features"
+        - "Engineering_Mission"
+        - "Engineering_Tech Stack"
+        - "Engineering_How it Works Frontend"
+        - "Engineering_How it Works Backend"
+        - "Contributing_Sponsor Through GitHub"
+        - "Contributing_Sponsor Through Open Collective"
+        - "Contributing_Translations"
         - "Product Guides"
+        - "Meta"
     validations:
       required: true
 
