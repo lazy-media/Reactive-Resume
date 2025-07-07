@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-Project: reactive-resume\n"
 "X-Crowdin-Project-ID: 503410\n"
 "X-Crowdin-Language: en\n"
-"X-Crowdin-File: /[AmruthPillai.Reactive-Resume] v4/apps/client/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[lazymedia.Reactive-Resume] v4/apps/client/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 450\n"
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:171
