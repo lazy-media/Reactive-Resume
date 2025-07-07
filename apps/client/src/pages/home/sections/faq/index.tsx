@@ -97,23 +97,22 @@ function Question3() {
       </AccordionTrigger>
       <AccordionContent className="prose max-w-none dark:prose-invert">
         <p>
-          It's not much honestly. <a href="https://pillai.xyz/digitalocean">DigitalOcean</a> has
-          graciously sponsored their infrastructure to allow me to host Reactive Resume on their
-          platform. There's only the fee I pay to dependent services to send emails, renew the
-          domain, etc.
+          It's nothing honestly. <a href="https://cloud.oracle.com">Oracle Cloud</a> has a free tier
+          and the infrastructure to allow me to host Reactive Resume on their platform. There's only
+          the fee I pay to dependent services to send emails, renew the domain, etc.
         </p>
 
         <p>
-          I've spent countless hours and sleepless nights building the application though, and I
+          I've spent countless hours and sleepless nights fixing the application though, and I
           honestly do not expect anything in return but to hear from you on how the app has helped
           you with your career.
         </p>
 
         <p>
-          But if you do feel like supporting the developer and the future development of Reactive
-          Resume, please donate (<em>only if you have some extra money lying around</em>) on my{" "}
-          <a href="https://github.com/sponsors/lazy-media/">GitHub Sponsors page</a>. You can choose
-          to donate one-time or sponsor a recurring donation.
+          But if you do feel like supporting the new developer and the future development of
+          Reactive Resume, please donate (<em>only if you have some extra money lying around</em>)
+          on my <a href="https://github.com/sponsors/lazy-media/">GitHub Sponsors page</a>. You can
+          choose to donate one-time or sponsor a recurring donation.
         </p>
 
         <p>
@@ -154,9 +153,9 @@ const Question4 = () => (
       <p>
         <strong>If you work in the media, are an influencer or have lots of friends</strong>, share
         the app with your circles and let them know so it can reach the people who need it the most.
-        I'm also <a href="mailto:info@lazymedia.media">open to giving tech talks</a>, although
-        that's wishful thinking. But if you do mention Reactive Resume on your blog, let me know so
-        that I can link back to you here.
+        We are also <a href="mailto:info@lazymedia.media">open to giving tech talks</a>, although
+        that's wishful thinking. But if you do mention Reactive Resume on your blog, let us know so
+        that we can link back to you here.
       </p>
 
       <p>
@@ -195,7 +194,7 @@ const Question5 = () => {
             <a
               key={language.id}
               className="no-underline"
-              href={`https://crowdin.com/translate/reactive-resume/all/en-${language.editorCode}`}
+              href={`https://crowdin.com/translate/lazymedia-reactive-resume/all/en-${language.editorCode}`}
               target="_blank"
               rel="noreferrer"
             >

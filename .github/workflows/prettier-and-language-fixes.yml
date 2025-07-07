@@ -1,0 +1,62 @@
+name: Run Prettier and Language File Fixes
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+        with:
+          fetch-depth: 0
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4.0.0
+        with:
+          version: latest
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "pnpm"
+
+      - name: Install pnpm Dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Run Prettier Fix
+        run: pnpm prettier --write .
+
+      - name: Run Language File Fixes
+        run: pnpm run messages:extract
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false # Important! We'll use a custom token
+
+      - name: Make your changes here
+        run: |
+          echo "Automated Fixes for Prettier and Language Files" > forced.txt
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git commit -m "Force commit from workflow" || echo "No changes to commit"
+
+      - name: Force push to main
+        env:
+          TOKEN: ${{ secrets.GH_PUSH_TOKEN }}
+        run: |
+          git push --force "https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git" HEAD:main

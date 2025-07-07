@@ -31,18 +31,18 @@ msgid "{value, plural, one {Column} other {Columns}}"
 msgstr "{value, plural, one {คอลัมน์} other {คอลัมน์}}"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:20
-msgid "<0>I built Reactive Resume mostly by myself during my spare time, with a lot of help from other great open-source contributors.</0><1>If you like the app and want to support keeping it free forever, please donate whatever you can afford to give.</1>"
-msgstr "<0>ผมสร้าง Reactive Resume ด้วยตัวเองเป็นส่วนใหญ่ในเวลาว่าง และได้รับความช่วยเหลือมากมายจากนักพัฒนาโอเพนซอร์สคนอื่นๆ</0><1>ถ้าเกิดว่าคุณชอบแอปนี้และอยากสนับสนุนให้มันฟรีตลอดไป โปรดบริจาคเงินช่วยตามกำลังด้วยนะครับ</1>"
+msgid "<0>I single-handedly resurrected Reactive Resume from the depths of abandoned GitHub repos, _you’re welcome_, fixed its existential crises, gave it a shiny public home, and now play full-time bug whisperer—all while gently nudging the community to maybe, just maybe, help out. Huge thanks to the open-source legends who kept me from losing my sanity.</0><1>Love the app? Keep it free forever by tossing a coin to your dev _or at least a virtual high-five via donation_.</1>"
+msgstr ""
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:51
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:54
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>ผมมั่นใจว่าแอปยังไม่สมบูรณ์ดี แต่ผมก็อยากให้มันเป็นอย่างนั้น</0><1>ถ้าคุณเจอปัญหาใดๆ ระหว่างที่สร้างเรซูเม่ หรือมีไอเดียดีๆ ที่จะช่วยให้คุณและคนอื่นๆ สร้างเรซูเม่ได้ง่ายขึ้น ให้เปิด issue มาที่ repository ของแอปหรือส่งอีเมลหาผมได้เลยครับ</1>"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:208
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:210
 msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
 msgstr "<0>หมายเหตุ: </0>การใช้ OpenAI API หมายความว่า คุณรับรู้และยอมรับ<1>ข้อกำหนดการใช้บริการ</1>และ<2>นโยบายความเป็นส่วนตัว</2>ของ OpenAI โปรดทราบว่า Reactive Resume ไม่รับผิดชอบการใช้บริการที่ไม่เหมาะสมหรือไม่ได้รับการอนุญาต และความรับผิดชอบเป็นของผู้ใช้แต่เพียงผู้เดียว"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:85
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:88
 msgid "<0>The community has spent a lot of time writing the documentation for Reactive Resume, and I'm sure it will help you get started with the app.</0><1>There are also a lot of examples to help you get started, and features that you might not know about which could help you build your perfect resume.</1>"
 msgstr "<0>ชุมชนของเราใช้เวลามากในการเขียนคู่มือใช้งาน Reactive Resume ขึ้นมา และผมมั่นใจว่าคู่มือจะช่วยให้คุณเริ่มใช้งานแอปได้สะดวกขึ้น</0><1>นอกจากนี้ ยังมีตัวอย่างอีกเยอะมากเพื่อให้คุณเริ่มใช้งานเป็น และฟีเจอร์ที่คุณอาจไม่รู้มาก่อน ซึ่งจะช่วยทำให้คุณสร้างเรซูเม่ที่สมบูรณ์แบบออกมาได้</1>"
 
@@ -69,13 +69,13 @@ msgstr "เครื่องมือสร้างเรซูเม่ฟร
 msgid "A link has been copied to your clipboard."
 msgstr "ลิงก์ถูกคัดลอกไปยังคลิปบอร์ดแล้ว"
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0><1/>Forked by <2>Lazy Media</2>"
-msgstr ""
-
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "ลิงก์รีเซ็ตรหัสผ่านควรจะถูกส่งไปยังกล่องขาเข้าของคุณ หากมีบัญชีอยู่พร้อมกับอีเมลที่คุณให้มา"
+
+#: apps/client/src/components/copyright.tsx:29
+msgid "A project taken over by <0>Lazy Media</0>"
+msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
 msgid "A resume with this slug already exists, please pick a different unique identifier."
@@ -217,7 +217,7 @@ msgstr "รหัสสำรอง"
 msgid "Backup Codes may contain only lowercase letters or numbers, and must be exactly 10 characters."
 msgstr "รหัสสำรองอาจมีเฉพาะตัวอักษรพิมพ์เล็กหรือตัวเลขเท่านั้น และต้องมีจำนวนอักษร 10 ตัวเท่านั้น"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:139
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:141
 msgid "Base URL"
 msgstr "Base URL"
 
@@ -443,7 +443,7 @@ msgstr "ปิดใช้งาน 2FA"
 msgid "Discard"
 msgstr "ยกเลิก"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:105
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:108
 msgid "Documentation"
 msgstr "เอกสารอ้างอิง"
 
@@ -451,7 +451,7 @@ msgstr "เอกสารอ้างอิง"
 msgid "Don't have an account?"
 msgstr "ยังไม่มีบัญชีเหรอ?"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:83
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:86
 msgid "Don't know where to begin? Hit the docs!"
 msgstr "ไม่รู้จะเริ่มจากที่ไหนเหรอ? กดอ่านคู่มือเลย!"
 
@@ -459,7 +459,7 @@ msgstr "ไม่รู้จะเริ่มจากที่ไหนเห
 msgid "Don't see your language? <0>Help translate the app.</0>"
 msgstr "ไม่เห็นภาษาของคุณเหรอ? <0>ช่วยแปลแอป</0>"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:40
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:43
 msgid "Donate to Reactive Resume"
 msgstr "บริจาคให้กับ Reactive Resume"
 
@@ -547,7 +547,7 @@ msgstr ""
 msgid "Errors"
 msgstr "ข้อผิดพลาด"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:78
+#: apps/client/src/pages/home/sections/support/index.tsx:86
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "แม้ว่าคุณจะไม่อยู่ในฐานะที่จะบริจาคเงินได้ แต่คุณยังคงสามารถสร้างความแตกต่างได้ด้วยการติดดาวให้กับ GitHub repository นี้ กระจายข่าวให้เพื่อนของคุณ หรือส่งข้อความสั้นๆ เพื่อบอกให้ผมรู้ว่า Reactive Resume ช่วยคุณได้อย่างไร ข้อเสนอแนะและการสนับสนุนของคุณ ผมยินดีน้อมรับและชื่นชมเสมอ!"
 
@@ -597,7 +597,7 @@ msgstr "รูปแบบฟอนต์"
 msgid "For example, information regarding which companies you sent this resume to or the links to the job descriptions can be noted down here."
 msgstr "ตัวอย่างเช่น ข้อมูลเกี่ยวกับบริษัทที่คุณส่งเรซูเม่นี้ให้หรือลิงก์ไปยังรายละเอียดงานสามารถเขียนไว้ได้ที่นี่"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:189
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:191
 msgid "Forget"
 msgstr "ลืม"
 
@@ -614,7 +614,7 @@ msgstr "ลืมรหัสผ่านของคุณใช่หรือ
 msgid "Format"
 msgstr "รูปแบบ"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:49
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:52
 msgid "Found a bug, or have an idea for a new feature?"
 msgstr "เจอบัค หรือมีไอเดียเกี่ยวกับฟีเจอร์ใหม่หรือเปล่า?"
 
@@ -729,7 +729,7 @@ msgstr "หากแอปนี้ช่วยคุณในการหาง
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "หากคุณปิดใช้งานการยืนยันตัวตนแบบสองขั้นตอน คุณจะไม่ต้องป้อนรหัสยืนยันอีกต่อไปเมื่อเข้าสู่ระบบ"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:59
+#: apps/client/src/pages/home/sections/support/index.tsx:61
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "หากคุณพูดได้หลายภาษา เรายินดีให้คุณช่วยเหลือโดยการนำแอปนี้มาทำให้เข้าถึงได้ในภาษาและชุมชนต่างๆ มากขึ้น ไม่ต้องกังวลหากคุณไม่เห็นภาษาของคุณในรายการ เพียงบอกผมทาง GitHub แล้วผมจะใส่ภาษานั้นไว้ด้วย พร้อมเริ่มหรือยัง? ข้ามไปแปลที่ Crowdin โดยคลิกลิงก์ด้านล่างได้เลย"
 
@@ -760,8 +760,8 @@ msgid "In this section, you can delete your account and all the data associated 
 msgstr "ในส่วนนี้ คุณสามารถลบบัญชีของคุณและข้อมูลทั้งหมดที่เกี่ยวข้องกับผู้ใช้ของคุณได้ แต่โปรดจำไว้ว่า <0>การทำเช่นนี้ไม่สามารถย้อนคืนข้อมูลได้</0>"
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:135
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:116
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:117
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:119
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:120
 msgid "Information"
 msgstr "ข้อมูล"
 
@@ -942,7 +942,7 @@ msgstr "มีนาคม 2566 - ปัจจุบัน"
 msgid "Margin"
 msgstr "ระยะขอบ"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:165
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:167
 msgid "Max Tokens"
 msgstr "Max Tokens"
 
@@ -950,7 +950,7 @@ msgstr "Max Tokens"
 msgid "MIT License"
 msgstr "ใบอนุญาต MIT"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:152
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:154
 msgid "Model"
 msgstr "โมเดล"
 
@@ -1029,12 +1029,12 @@ msgstr "OpenAI ไม่ได้ส่งตัวเลือกใดๆ ใ�
 msgid "OpenAI Integration"
 msgstr "การใช้ระบบ OpenAI"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:84
-msgid "OpenAI/Ollama Integration"
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:128
+msgid "OpenAI/OpenWebUI API Key"
 msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:126
-msgid "OpenAI/OpenWebUI API Key"
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:84
+msgid "OpenAI/OpenWebUI Integration"
 msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
@@ -1151,11 +1151,11 @@ msgstr "สาธารณะ"
 msgid "Publisher"
 msgstr "สำนักพิมพ์"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:69
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:72
 msgid "Raise an issue"
 msgstr "แจ้งปัญหา"
 
-#: apps/client/src/components/copyright.tsx:37
+#: apps/client/src/components/copyright.tsx:35
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55
@@ -1255,11 +1255,11 @@ msgstr "โค้งมน"
 msgid "Save Changes"
 msgstr "บันทึกการเปลี่ยนแปลง"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:183
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:185
 msgid "Save Locally"
 msgstr "บันทึกในเบราว์เซอร์"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:183
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:185
 msgid "Saved"
 msgstr "บันทึกสำเร็จ"
 
@@ -1312,7 +1312,7 @@ msgstr "โฮสต์ด้วยตนเองบน Docker"
 msgid "Send Email"
 msgstr "ส่งอีเมล"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:74
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:77
 msgid "Send me a message"
 msgstr "ส่งข้อความหาผม"
 
@@ -1724,7 +1724,7 @@ msgid "You can also enter your username."
 msgstr "คุณสามารถป้อนชื่อผู้ใช้ของคุณได้ด้วย"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:108
-msgid "You can also integrate with OpenWebUI by setting your API key. Login to your local OpenWebUI instance. Click on your name in the bottom left corner. Click on Settings. Click on Account. Show and copy your API Key. It should look something like `sk-1234567890abcdef`. Fill in the Base URL to your OpenWebUI Instance, i.e. `https://localhost:8080/api`. This must connect over HTTPS and to OpenWebUI, not Ollama. You can also pick and choose models and set the max tokens as per your preference."
+msgid "You can also integrate with OpenWebUI by setting your API key. 1) Login to your local OpenWebUI instance. 2) Click on your name in the bottom left corner. 3) Click on Settings. 4) Click on Account. 5) Show and copy your API Key. It should look something like `sk-1234567890abcdef`. Fill in the Base URL to your OpenWebUI Instance, (i.e. `https://localhost:8080/api`). <0>This must connect over HTTPS and to OpenWebUI, not Ollama.</0>You can also pick and choose models (i.e. `llama3.2:latest`) and set the max tokens as per your preference."
 msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:86
@@ -1756,7 +1756,7 @@ msgstr "เมลเข้าแล้ว!"
 msgid "Your account and all your data has been deleted successfully. Goodbye!"
 msgstr "บัญชีของคุณและข้อมูลทั้งหมดของคุณถูกลบเรียบร้อยแล้ว ลาก่อนนะ!"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:198
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:200
 msgid "Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services."
 msgstr "คีย์ API ของคุณถูกจัดเก็บไว้อย่างปลอดภัยในพื้นที่จัดเก็บภายในเบราว์เซอร์ และจะเรียกใช้เมื่อมีการส่งคำขอไปยัง OpenAI ผ่านทาง SDK ทางการเท่านั้น ขอให้มั่นใจได้ว่าคีย์ของคุณจะไม่ถูกส่งไปยังเซิร์ฟเวอร์ภายนอกใดๆ ยกเว้นเมื่อมีการโต้ตอบกับบริการของ OpenAI"
 

@@ -6,12 +6,10 @@ concurrency:
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  workflow_run:
+    workflows: ["Run Prettier and Language File Fixes"]
+    types:
+      - completed
 
 jobs:
   main:

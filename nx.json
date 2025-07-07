@@ -2,7 +2,11 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "nxCloudAccessToken": "NDBhYjE4YzgtMjdiNy00NTgxLTk0NjQtY2YyMzA0NGNkYmM1fHJlYWQ=",
   "targetDefaults": {
-    "build": { "cache": true, "dependsOn": ["^build"], "inputs": ["production", "^production"] },
+    "build": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
+    },
     "lint": {
       "cache": true,
       "inputs": [
@@ -30,13 +34,27 @@
       "!{projectRoot}/test-setup.[jt]s",
       "!{projectRoot}/**/*.stories.@(js|jsx|ts|tsx|mdx)"
     ],
-    "sharedGlobals": ["{workspaceRoot}/.github/workflows/lint-test-build.yml"]
+    "sharedGlobals": [
+      "{workspaceRoot}/.github/workflows/lint-test-build.yml",
+      "{workspaceRoot}/.github/workflows/nx-ci.yml"
+    ]
   },
   "generators": {
     "@nx/react": {
-      "application": { "style": "css", "linter": "eslint", "bundler": "vite", "babel": true },
-      "component": { "style": "css" },
-      "library": { "style": "css", "linter": "eslint", "unitTestRunner": "vitest" }
+      "application": {
+        "style": "css",
+        "linter": "eslint",
+        "bundler": "vite",
+        "babel": true
+      },
+      "component": {
+        "style": "css"
+      },
+      "library": {
+        "style": "css",
+        "linter": "eslint",
+        "unitTestRunner": "vitest"
+      }
     }
   },
   "nxCloudId": "6854b02b2c3aa5b4a81a5162"

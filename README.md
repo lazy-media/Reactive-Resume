@@ -10,9 +10,43 @@
 ### Workflows
 
 [![CodeQL](https://github.com/lazy-media/Reactive-Resume/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/github-code-scanning/codeql)
+[![Run Prettier and Language File Fixes](https://github.com/lazy-media/Reactive-Resume/actions/workflows/prettier-and-language-fixes.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/prettier-and-language-fixes.yml)
+[![NX CI](https://github.com/lazy-media/Reactive-Resume/actions/workflows/nx-ci.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/nx-ci.yml)
 [![Lint, Test & Build](https://github.com/lazy-media/Reactive-Resume/actions/workflows/lint-test-build.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/lint-test-build.yml)
 [![Publish Docker Image](https://github.com/lazy-media/Reactive-Resume/actions/workflows/publish-docker-image.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/publish-docker-image.yml)
 [![Sync Crowdin Translations](https://github.com/lazy-media/Reactive-Resume/actions/workflows/sync-crowdin-translations.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/sync-crowdin-translations.yml)
+[![Dependabot Updates](https://github.com/lazy-media/Reactive-Resume/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/dependabot/dependabot-updates)
+
+# **🚀 The Moment You've All Been Patiently Not Waiting For**
+
+The _gloriously_ public version of Reactive Resume is now live at **[https://rxresume.org](https://rxresume.org)**!
+
+No email? No problem! Use a throwaway, your grandma’s AOL address, or just stare at the screen until it lets you in—_your choice_.
+
+_Currently Working on Alternative Login Methods Such as GitHub & Google_
+
+⚠️ **IMPORTANT PSA:**
+
+- **Remove your resumes from the [old app](https://resume.lazymedia.media)** before **August 1st, 2025**, unless you enjoy locked doors and authentication-induced existential dread.
+- Start using the new **email-verification-free paradise** today: [https://rxresume.org](https://rxresume.org)
+
+---
+
+### **"But What’s the Catch?"** _(Spoiler: There Isn’t One… Probably)_
+
+- � **Runs on** the _mighty_ Nginx Docker Compose stack (because why reinvent the wheel?).
+- ☁️ **Hosted 24/7** in a _~magical~_ cloud VM (read: someone’s basement server with extra fans).
+- 💾 **Storage space**: "Plenty"™ (until it’s not—_fingers crossed_).
+- ⏳ **Uptime**: Should be always available, minus daily restarts to check for updates (because even servers need coffee breaks).
+- 🔙 **Backups**: Weekly or monthly… _eventually_ (we’re as excited as you are).
+- 📧 **Email**: Optional! Use it only if you _want_ to verify or reset passwords (how _novel_).
+- 🖨️ **PDF Export**: _Yes, it actually works...kinda. Still working out a few bugs._ Shockingly, no "Export Failed" screens of despair here, but you do have to allow popups...and use `Letter` format for best results.
+
+---
+
+**Pro Tip:** Don’t thank us—just enjoy your newfound freedom from corporate surveillance disguised as "user verification." 🎉
+
+---
 
 # Reactive Resume _(Self-Hosted Community Forked Version)_
 
@@ -21,7 +55,15 @@
 
 A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.
 
-### [Go to App](https://rxresu.me/) | [Docs](https://docs.rxresu.me/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki)
+### [Go to New Public App](https://rxresume.org/) | [Go to Old App](https://resume.lazymedia.media) | [Docs](https://docs.rxresu.me/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki)
+
+> _New Public App now available with no email verification!_ > _Please use `Letter` Format when Exporting a PDF. Currently `A4` Format cuts off long resumes._
+
+> **YOU MUST REMOVE YOUR RESUMES FROM THE [OLD APP](https://resume.lazymedia.media) AND IMPORT THEM INTO THE [NEW APP](https://rxresume.org) BY 8/1/2025 OR YOU WILL BE LOCKED OUT! THE OLD APP IS BEING RESTRICTED!!**
+
+### Still want to use the old app from the old maintainer?
+
+> Visit [Original RxResume Site](https://rxresu.me)
 
 ### Visit the [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki#contributing) to learn how to _Contribute_ or _Submit an Issue_
 
@@ -115,12 +157,6 @@ A passion project by [Amruth Pillai](https://www.amruthpillai.com/)
 
 Forked and currently maintained by [Lazy Media](https://github.com/sponsors/lazy-media)
 
-<p>
-  <a href="https://www.digitalocean.com/?utm_medium=opensource&utm_source=Reactive-Resume">
-    <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg" width="200px">
-  </a>
-</p>
-
 ---
 
 ## 💖 Support My Work
@@ -132,9 +168,9 @@ Forked and currently maintained by [Lazy Media](https://github.com/sponsors/lazy
 <details>
   <summary>Click Here to Build A Resume!</summary>
   
-  - Visit **[Lazy Medias Reactive Resume](https://resume.lazymedia.media)!**
+  - Visit **[Lazy Medias Reactive Resume](https://rxresume.org)!**
   - Create a **FREE account** now.
-    - *Must Verify Email to create an account.*
+    - *No Email Verification Required!*
   
   Everyone should be able to have access to a way to have a professional Resume.
   
@@ -155,6 +191,7 @@ View our [Public GitHub Documentation](https://github.com/lazy-media/public/tree
 [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/lazymediawa)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/lazymedia)
 [![Venmo](https://img.shields.io/badge/Venmo-008CFF?style=for-the-badge&logo=venmo&logoColor=white)](https://venmo.com/lazymedia)
+[![OpenCollective](https://img.shields.io/badge/OpenCollective-7FADF2?style=for-the-badge&logo=opencollective&logoColor=white)](https://opencollective.com/lazymedia)
 
 ### 🔄 Recurring Support
 
