@@ -70,6 +70,14 @@ body:
       required: true
 
   - type: textarea
+    id: description
+    attributes:
+      label: "How would you like the documentation to read instead?"
+      description: "Please input the exact text you would like the Docs Site to be updated with. For best compatiblity, send this content in Markdown."
+    validations:
+      required: true
+
+  - type: textarea
     id: context
     attributes:
       label: "Additional context or screenshots (optional)"
