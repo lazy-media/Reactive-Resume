@@ -34,6 +34,8 @@ body:
         - "Product Guides: Use ChatGPT to rewrite your resume"
         - "Product Guides: Change the number of columns per section"
         - "Product Guides: Self Hosting Reactive Resume"
+        - "Self Hosting Guides: Simple"
+        - "Self Hosting Guides: NGINX"
         - "Meta: License"
         - "Meta: Privacy Policy"
         - "Meta: Terms of Service"
