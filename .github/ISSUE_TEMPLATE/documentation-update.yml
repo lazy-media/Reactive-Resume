@@ -74,7 +74,7 @@ body:
     attributes:
       label: "How would you like the documentation to read instead?"
       description: "Please provide the exact text you'd like to update on the Docs Site, ensuring it is clear, concise, and thoroughly detailed. For optimal compatibility, submit this content in Markdown format."
-      placeholder: "Example: INPUT YOUR EXTREMELY DETAILED TEXT HERE!!!
+      placeholder: "Example: INPUT YOUR EXTREMELY DETAILED TEXT HERE!!!"
     validations:
       required: true
 
