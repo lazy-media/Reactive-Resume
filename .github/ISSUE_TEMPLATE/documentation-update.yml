@@ -73,7 +73,8 @@ body:
     id: replacement
     attributes:
       label: "How would you like the documentation to read instead?"
-      description: "Please input the exact text you would like the Docs Site to be updated with. For best compatiblity, send this content in Markdown."
+      description: "Please provide the exact text you'd like to update on the Docs Site, ensuring it is clear, concise, and thoroughly detailed. For optimal compatibility, submit this content in Markdown format."
+      placeholder: "Example: INPUT YOUR EXTREMELY DETAILED TEXT HERE!!!
     validations:
       required: true
 
