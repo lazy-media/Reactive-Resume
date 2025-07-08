@@ -5,6 +5,10 @@ labels: ["documentation", "v1", "needs triage"]
 assignees: "lazy-media"
 projects: "Reactive Resume"
 body:
+  - type: markdown
+    attributes:
+      value: |
+        **For best results on what you want published to the site, please send your content in Markdown Format.**
   - type: dropdown
     id: doc-section
     attributes:
