@@ -27,7 +27,7 @@ export const Copyright = ({ className }: Props) => (
     <span>{t`By the community, for the community.`}</span>
     <span>
       <Trans>
-        A project taken over by <a href="https://www.lazymedia.media">Lazy Media</a>
+        A project taken over by <a href="https://github.com/sponsors/lazy-media">Lazy Media</a>
       </Trans>
     </span>
 
