@@ -34,7 +34,6 @@ _Currently Working on Alternative Login Methods Such as GitHub & Google_
 
 ### **"But What’s the Catch?"** _(Spoiler: There Isn’t One… Probably)_
 
-- � **Runs on** the _mighty_ Nginx Docker Compose stack (because why reinvent the wheel?).
 - ☁️ **Hosted 24/7** in a _~magical~_ cloud VM (read: someone’s basement server with extra fans).
 - 💾 **Storage space**: "Plenty"™ (until it’s not—_fingers crossed_).
 - ⏳ **Uptime**: Should be always available, minus daily restarts to check for updates (because even servers need coffee breaks).
