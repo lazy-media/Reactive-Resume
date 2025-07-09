@@ -547,7 +547,7 @@ msgstr ""
 msgid "Errors"
 msgstr "שגיאות"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:86
+#: apps/client/src/pages/home/sections/support/index.tsx:67
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "אפילו אם אין לך יכולת לתרום כלכלית, עדיין אפשר לחולל שינוי על ידי הענקת כוכב למאגר ב־GitHub, הפצת המיזם בקרב חבריך או שליחת הודעה אליי כדי לספר לי איך Reactive Resume סייע לך. המשוב והתמיכה שלך תמיד מחממים את הלב ומאוד מוערכים!"
 
@@ -713,8 +713,8 @@ msgid "Host your resume publicly"
 msgstr "אחסון ציבורי של קורות החיים שלך"
 
 #: apps/client/src/pages/home/sections/testimonials/index.tsx:70
-msgid "I always love to hear from the users of Reactive Resume with feedback or support. Here are some of the messages I've received. If you have any feedback, feel free to drop me an email at <0>{email}</0>."
-msgstr "תמיד מעניין אותי לשמוע ממשתמשי Reactive Resume בנוגע למשוב שלהם. הנה חלק מההודעות שקיבלתי. אם יש לך משוב, אשמח לקבל ממך הודעה בדוא״ל אל <0>{email}</0>."
+msgid "I always love to hear from the users of Reactive Resume with feedback or support. Here are some of the messages that have been received from the previous owner. If you have any feedback, feel free to drop me an email at <0>{email}</0>."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:83
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:53
@@ -729,7 +729,7 @@ msgstr "אם היישום הזה עזר לך בחיפוש העבודה שלך, �
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "השבתת אימות דו־שלבי תייתר את מילוי קוד האימות בעת הכניסה למערכת."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:61
+#: apps/client/src/pages/home/sections/support/index.tsx:42
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "איך האנגלית שלך? ושפות נוספות? נשמח לקבל את עזרתך בתרגום היישום לשפות וקהילות נוספות. אין מה לדאוג אם השפה שלך לא מופיעה ברשימה - כל שצריך לעשות הוא לפנות אלי ב־GitHub ואוודא שהיא תתווסף. אפשר להתחיל? ניתן לגשת למלאכת התרגום ב־Crowdin בלחיצה על הקישור שלהלן."
 
@@ -1178,8 +1178,8 @@ msgid "Reactive Resume has helped people land jobs at these great companies:"
 msgstr "Reactive Resume סייע לאנשים להתקבל למשרות בחברות הנהדרות הבאות:"
 
 #: apps/client/src/pages/home/sections/support/index.tsx:12
-msgid "Reactive Resume is a free and open-source project crafted mostly by me, and your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms. Additionally, donations to Reactive Resume through Open Collective are tax-exempt, as the project is fiscally hosted by Open Collective Europe."
-msgstr "Reactive Resume הוא מיזם חופשי בקוד פתוח שנוצר בעיקר על ידיי והתמיכה שלך תהיה מאוד מוערכת. אם שקלת לתרום ויש לך אפשרות כלכלית שכזאת, כדאי לשקול לתרום דרך אחת מהפלטפורמות שמופיעות כאן. בנוסף, התרומות ל־Reactive Resume דרך Open Collective מוכרות במס כיוון שהמיזם מתארח באופן פיסקאלי (משפטית) על ידי Open Collective אירופה."
+msgid "Reactive Resume is a free and open-source project. Your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms."
+msgstr ""
 
 #: apps/client/src/pages/home/sections/features/index.tsx:107
 msgid "Reactive Resume is a passion project of over 3 years of hard work, and with that comes a number of re-iterated ideas and features that have been built to (near) perfection."

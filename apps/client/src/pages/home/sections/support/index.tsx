@@ -9,7 +9,7 @@ export const SupportSection = () => (
       <h1 className="text-4xl font-bold">{t`Supporting Reactive Resume`}</h1>
 
       <p className="max-w-4xl leading-loose">
-        {t`Reactive Resume is a free and open-source project crafted mostly by me, and your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms. Additionally, donations to Reactive Resume through Open Collective are tax-exempt, as the project is fiscally hosted by Open Collective Europe.`}
+        {t`Reactive Resume is a free and open-source project. Your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms.`}
       </p>
 
       <div className="flex items-center gap-x-10">
@@ -29,25 +29,6 @@ export const SupportSection = () => (
             className="block max-h-[42px] dark:hidden"
             // eslint-disable-next-line lingui/no-unlocalized-strings
             alt="GitHub Sponsors"
-          />
-        </a>
-
-        <a
-          href="https://opencollective.com/lazymedia"
-          rel="noreferrer noopener nofollow"
-          target="_blank"
-        >
-          <img
-            src="/support-logos/open-collective-light.svg"
-            className="hidden max-h-[38px] dark:block"
-            // eslint-disable-next-line lingui/no-unlocalized-strings
-            alt="Open Collective"
-          />
-          <img
-            src="/support-logos/open-collective-dark.svg"
-            className="block max-h-[38px] dark:hidden"
-            // eslint-disable-next-line lingui/no-unlocalized-strings
-            alt="Open Collective"
           />
         </a>
 

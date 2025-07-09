@@ -99,13 +99,12 @@ function Question3() {
         <p>
           It's nothing honestly. <a href="https://cloud.oracle.com">Oracle Cloud</a> has a free tier
           and the infrastructure to allow me to host Reactive Resume on their platform. There's only
-          the fee I pay to dependent services to send emails, renew the domain, etc.
+          the fee I pay to dependent services to send emails and renew the domain.
         </p>
 
         <p>
-          I've spent countless hours and sleepless nights fixing the application though, and I
-          honestly do not expect anything in return but to hear from you on how the app has helped
-          you with your career.
+          I've spent hours trying to fix the application though, and I honestly do not expect
+          anything in return but to hear from you on how the app has helped you with your career.
         </p>
 
         <p>
@@ -114,15 +113,10 @@ function Question3() {
           on my <a href="https://github.com/sponsors/lazy-media/">GitHub Sponsors page</a>. You can
           choose to donate one-time or sponsor a recurring donation.
         </p>
-
         <p>
-          Alternatively, if you are in the US, or you are a part of a large educational institution
-          or corporate organization, you can{" "}
-          <a href="https://opencollective.com/reactive-resume">
-            support the project through Open Collective
-          </a>
-          . We are fiscally hosted through Open Collective Europe, which means your donations and
-          sponsorships could also be made tax-deductible.
+          If you are not in a position to donate, you can still support the app by sharing it with
+          your friends and family, or by raising issues on GitHub if you find any bugs or have
+          feature requests.
         </p>
       </AccordionContent>
     </AccordionItem>
@@ -153,9 +147,8 @@ const Question4 = () => (
       <p>
         <strong>If you work in the media, are an influencer or have lots of friends</strong>, share
         the app with your circles and let them know so it can reach the people who need it the most.
-        We are also <a href="mailto:info@lazymedia.media">open to giving tech talks</a>, although
-        that's wishful thinking. But if you do mention Reactive Resume on your blog, let us know so
-        that we can link back to you here.
+        If you do mention Reactive Resume on your blog or anywhere else, let us know so that we can
+        link back to you here.
       </p>
 
       <p>
@@ -167,8 +160,8 @@ const Question4 = () => (
         >
           GitHub
         </a>{" "}
-        or shoot me a message and let me know what you'd like to see. I can't promise that it'll be
-        done soon, but juggling work, life and open-source, I'll definitely get to it when I can.
+        or shoot us a message and let us know what you'd like to see. We can't promise that it'll be
+        done soon, but juggling work, life and open-source, we'll definitely get to it when we can.
       </p>
     </AccordionContent>
   </AccordionItem>
@@ -232,7 +225,7 @@ const Question5 = () => {
 
         <p>
           If a language is missing from this list, please raise an issue on GitHub requesting its
-          inclusion, and I will make sure to add it as soon as possible.
+          inclusion, and we will make sure to add it as soon as possible.
         </p>
       </AccordionContent>
     </AccordionItem>
@@ -247,9 +240,9 @@ const Question6 = () => (
     </AccordionTrigger>
     <AccordionContent className="prose max-w-none dark:prose-invert">
       <p>
-        OpenAI has been a game-changer for all of us. I cannot tell you how much ChatGPT has helped
-        me in my everyday work and with the development of Reactive Resume. It only makes sense that
-        you leverage what AI has to offer and let it help you build the perfect resume.
+        OpenAI has been a game-changer for all of us. We cannot tell you how much ChatGPT has helped
+        us in our everyday work and with the development of Reactive Resume. It only makes sense
+        that you leverage what AI has to offer and let it help you build the perfect resume.
       </p>
 
       <p>
@@ -264,7 +257,7 @@ const Question6 = () => (
       <p>
         You are free to turn off all AI features (and not be aware of it's existence) simply by not
         adding a key in the Settings page and still make use of all the useful features that
-        Reactive Resume has to offer. I would even suggest you to take the extra step of using
+        Reactive Resume has to offer. We would even suggest you to take the extra step of using
         ChatGPT to write your content, and simply copy it over to Reactive Resume.
       </p>
     </AccordionContent>
@@ -278,11 +271,11 @@ export const FAQSection = () => (
         <h2 className="text-4xl font-bold">Frequently Asked Questions</h2>
 
         <p className="text-base leading-loose">
-          Here are some questions I often get asked about Reactive Resume.
+          Here are some questions that often get asked about Reactive Resume.
         </p>
 
         <p className="text-sm leading-loose">
-          Unfortunately, this section is available only in English, as I do not want to burden
+          Unfortunately, this section is available only in English, as we do not want to burden
           translators with having to translate these large paragraphs of text.
         </p>
       </div>

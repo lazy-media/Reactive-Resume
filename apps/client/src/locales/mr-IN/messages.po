@@ -547,7 +547,7 @@ msgstr ""
 msgid "Errors"
 msgstr "त्रुट्या"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:86
+#: apps/client/src/pages/home/sections/support/index.tsx:67
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr ""
 
@@ -713,7 +713,7 @@ msgid "Host your resume publicly"
 msgstr "सार्वजनिकरित्या आपला रेझ्युमे होस्ट करा"
 
 #: apps/client/src/pages/home/sections/testimonials/index.tsx:70
-msgid "I always love to hear from the users of Reactive Resume with feedback or support. Here are some of the messages I've received. If you have any feedback, feel free to drop me an email at <0>{email}</0>."
+msgid "I always love to hear from the users of Reactive Resume with feedback or support. Here are some of the messages that have been received from the previous owner. If you have any feedback, feel free to drop me an email at <0>{email}</0>."
 msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:83
@@ -729,7 +729,7 @@ msgstr ""
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr ""
 
-#: apps/client/src/pages/home/sections/support/index.tsx:61
+#: apps/client/src/pages/home/sections/support/index.tsx:42
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr ""
 
@@ -1178,7 +1178,7 @@ msgid "Reactive Resume has helped people land jobs at these great companies:"
 msgstr "Reactive Resume ने या उत्कृष्ट कंपन्यांमध्ये नोकर्‍या मिळवण्यात लोकांची मदत केली आहे:"
 
 #: apps/client/src/pages/home/sections/support/index.tsx:12
-msgid "Reactive Resume is a free and open-source project crafted mostly by me, and your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms. Additionally, donations to Reactive Resume through Open Collective are tax-exempt, as the project is fiscally hosted by Open Collective Europe."
+msgid "Reactive Resume is a free and open-source project. Your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms."
 msgstr ""
 
 #: apps/client/src/pages/home/sections/features/index.tsx:107

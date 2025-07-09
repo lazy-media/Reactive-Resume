@@ -547,7 +547,7 @@ msgstr ""
 msgid "Errors"
 msgstr "錯誤"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:86
+#: apps/client/src/pages/home/sections/support/index.tsx:67
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "即使您無法做出財務貢獻，您仍然可以透過為 GitHub 儲存庫加一顆星、向您的朋友傳播訊息或快速留言讓我知道 Reactive Resume 如何幫助您來發揮作用。我們始終歡迎並非常感謝您的回饋和支持！"
 
@@ -713,8 +713,8 @@ msgid "Host your resume publicly"
 msgstr "公開您的履歷"
 
 #: apps/client/src/pages/home/sections/testimonials/index.tsx:70
-msgid "I always love to hear from the users of Reactive Resume with feedback or support. Here are some of the messages I've received. If you have any feedback, feel free to drop me an email at <0>{email}</0>."
-msgstr "我總是很喜歡聽到 Reactive Resume 使用者的回饋或支援。以下是我收到的一些訊息。如果您有任何回饋，請隨時寫電子郵件到 <0>{email}</0>."
+msgid "I always love to hear from the users of Reactive Resume with feedback or support. Here are some of the messages that have been received from the previous owner. If you have any feedback, feel free to drop me an email at <0>{email}</0>."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:83
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:53
@@ -729,7 +729,7 @@ msgstr "如果此應用程式對您的求職有幫助，請透過 <0>聯絡表�
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "如果停用雙因子驗證，登入時將不再需要輸入驗證碼。"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:61
+#: apps/client/src/pages/home/sections/support/index.tsx:42
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "如果您使用多種語言，我們希望您能協助我們將應用程式帶到更多語言和社群中。如果您沒有在清單上看到您的語言，也不用擔心，只要在 GitHub 上喊我一聲，我就會確保把您的語言納入其中。準備好開始了嗎？請點選以下連結，加入 Crowdin 的翻譯工作。"
 
@@ -1178,8 +1178,8 @@ msgid "Reactive Resume has helped people land jobs at these great companies:"
 msgstr "Reactive Resume 已經幫助許多人在這些很棒的公司找到工作："
 
 #: apps/client/src/pages/home/sections/support/index.tsx:12
-msgid "Reactive Resume is a free and open-source project crafted mostly by me, and your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms. Additionally, donations to Reactive Resume through Open Collective are tax-exempt, as the project is fiscally hosted by Open Collective Europe."
-msgstr "Reactive Resume 是一個免費且開放原始碼的專案，主要由我親手打造，非常感謝您的支持。如果您有貢獻的意願，也只有在您負擔得起的情況下，請考慮透過任何一個列出的平台捐款。此外，透過 Open Collective 對 Reactive Resume 的捐款是免稅的，因為該專案是由 Open Collective Europe 負責財務管理。"
+msgid "Reactive Resume is a free and open-source project. Your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms."
+msgstr ""
 
 #: apps/client/src/pages/home/sections/features/index.tsx:107
 msgid "Reactive Resume is a passion project of over 3 years of hard work, and with that comes a number of re-iterated ideas and features that have been built to (near) perfection."

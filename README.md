@@ -191,7 +191,6 @@ View our [Public GitHub Documentation](https://github.com/lazy-media/public/tree
 [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/lazymediawa)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/lazymedia)
 [![Venmo](https://img.shields.io/badge/Venmo-008CFF?style=for-the-badge&logo=venmo&logoColor=white)](https://venmo.com/lazymedia)
-[![OpenCollective](https://img.shields.io/badge/OpenCollective-7FADF2?style=for-the-badge&logo=opencollective&logoColor=white)](https://opencollective.com/lazymedia)
 
 ### 🔄 Recurring Support
 

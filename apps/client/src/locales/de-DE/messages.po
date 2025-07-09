@@ -547,7 +547,7 @@ msgstr ""
 msgid "Errors"
 msgstr "Fehler"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:86
+#: apps/client/src/pages/home/sections/support/index.tsx:67
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "Auch wenn du das Projekt nicht finanziell unterstützen kannst, hilfst du dem Projekt enorm, indem du dem GitHub-Repository einen Stern gibst, deinen Freunden davon erzählst oder mir eine Nachricht schickst, um mir erzählen, wie dir Reactive Resume geholfen hat. Dein Feedback und deine Unterstützung sind immer willkommen und sehr geschätzt!"
 
@@ -713,8 +713,8 @@ msgid "Host your resume publicly"
 msgstr "Hoste Deinen Lebenslauf öffentlich"
 
 #: apps/client/src/pages/home/sections/testimonials/index.tsx:70
-msgid "I always love to hear from the users of Reactive Resume with feedback or support. Here are some of the messages I've received. If you have any feedback, feel free to drop me an email at <0>{email}</0>."
-msgstr "Ich freue mich über jedes Feedback oder Unterstützung der Benutzer von Reactive Resume. Hier sind einige der Nachrichten, die ich erhalten habe. Wenn Du mir Feedback geben möchtest, schick mir gerne eine E-Mail an <0>{email}</0>."
+msgid "I always love to hear from the users of Reactive Resume with feedback or support. Here are some of the messages that have been received from the previous owner. If you have any feedback, feel free to drop me an email at <0>{email}</0>."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:83
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:53
@@ -729,7 +729,7 @@ msgstr "Wenn diese App dir bei deiner Jobsuche geholfen hat, schick mir gerne ei
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "Wenn Du die Zwei-Faktor-Authentifizierung deaktivierst, musst Du beim Anmelden keinen Bestätigungscode mehr eingeben."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:61
+#: apps/client/src/pages/home/sections/support/index.tsx:42
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "Solltest Du mehrere Sprachen beherrschen, würden wir uns über Deine Unterstützung bei der Übersetzung der App in weitere Sprachen freuen. Solltest Du Deine Sprache nicht in der Liste finden, erstelle einfach ein Ticket auf GitHub. Ich kümmere mich dann darum, dass sie hinzugefügt wird. Bereit loszulegen? Starte mit der Übersetzung auf Crowdin, indem Du auf den untenstehenden Link klickst."
 
@@ -1178,8 +1178,8 @@ msgid "Reactive Resume has helped people land jobs at these great companies:"
 msgstr "Reactive Resume hat Menschen dabei geholfen, einen Job bei diesen großartigen Unternehmen zu finden:"
 
 #: apps/client/src/pages/home/sections/support/index.tsx:12
-msgid "Reactive Resume is a free and open-source project crafted mostly by me, and your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms. Additionally, donations to Reactive Resume through Open Collective are tax-exempt, as the project is fiscally hosted by Open Collective Europe."
-msgstr "Reactive Resume ist ein kostenloses Open-Source-Projekt, das hauptsächlich von mir entwickelt wurde. Für Deine Unterstützung wäre ich sehr dankbar. Wenn Du finanziell etwas beitragen möchtest, (natürlich nur, wenn Du Dir das leisten kannst), bitte ich Dich mir eine Spende über eine der aufgeführten Plattformen zu machen. Spenden an Reactive Resume über Open Collective sind steuerlich absetzbar, da das Projekt vom Open Collective Europe finanziell betreut wird."
+msgid "Reactive Resume is a free and open-source project. Your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms."
+msgstr ""
 
 #: apps/client/src/pages/home/sections/features/index.tsx:107
 msgid "Reactive Resume is a passion project of over 3 years of hard work, and with that comes a number of re-iterated ideas and features that have been built to (near) perfection."
