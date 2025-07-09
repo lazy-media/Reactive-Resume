@@ -31,7 +31,7 @@ msgid "{value, plural, one {Column} other {Columns}}"
 msgstr "{value, plural, one {Sütun} other {Sütunlar}}"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:20
-msgid "<0>I single-handedly resurrected Reactive Resume from the depths of abandoned GitHub repos, _you’re welcome_, fixed its existential crises, gave it a shiny public home, and now play full-time bug whisperer—all while gently nudging the community to maybe, just maybe, help out. Huge thanks to the open-source legends who kept me from losing my sanity.</0><1>Love the app? Keep it free forever by tossing a coin to your dev _or at least a virtual high-five via donation_.</1>"
+msgid "<0>I single-handedly resurrected Reactive Resume from the depths of an abandoned GitHub repo, fixed its existential crises, gave it a shiny public home, and now play full-time bug whisperer—all while gently nudging the community to maybe, just maybe, help out. Huge thanks to the open-source legends who kept this project alive. You all are the real MVPs!</0><1>Love the app? Keep it free forever by tossing a coin to your dev _or at least a virtual high-five via donation_.</1>"
 msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:54
