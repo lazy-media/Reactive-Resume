@@ -70,7 +70,7 @@ export const TestimonialsSection = () => (
         <Trans>
           I always love to hear from the users of Reactive Resume with feedback or support. Here are
           some of the messages that have been received from the previous owner. If you have any
-          feedback, feel free to drop me an email at{" "}
+          feedback, feel free to drop an email at{" "}
           <a href={email} className="underline">
             {email}
           </a>
