@@ -1464,6 +1464,14 @@ msgstr "ಪ್ರತಿಕ್ರಿಯಾತ್ಮಕ ರೆಸ್ಯೂಮ್�
 msgid "Supports A4/Letter page formats"
 msgstr "A4/ಲೆಟರ್ ಪುಟ ಸ್ವರೂಪಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ"
 
+#: apps/client/src/components/theme-switch.tsx:31
+msgid "Switch to Dark Mode"
+msgstr ""
+
+#: apps/client/src/components/theme-switch.tsx:29
+msgid "Switch to Light Mode"
+msgstr ""
+
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:85
 msgid "System"
 msgstr "ಸಿಸ್ಟಂ"
@@ -1625,6 +1633,10 @@ msgstr "URL"
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/url-input.tsx:61
 msgid "URL must start with https://"
 msgstr "URL https:// ನೊಂದಿಗೆ ಪ್ರಾರಂಭವಾಗಬೇಕು"
+
+#: apps/client/src/components/theme-switch.tsx:30
+msgid "Use System Theme"
+msgstr ""
 
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/backup-otp/page.tsx:57
