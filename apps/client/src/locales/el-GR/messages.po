@@ -300,9 +300,13 @@ msgstr "Ο κωδικός πρέπει να είναι ακριβώς 6 ψηφί
 msgid "Columns"
 msgstr "Στήλες"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:39
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:40
 msgid "Company"
 msgstr "Εταιρεια"
+
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:103
+msgid "Company Description"
+msgstr ""
 
 #: apps/client/src/components/ai-actions.tsx:115
 #: apps/client/src/components/ai-actions.tsx:118
@@ -397,7 +401,7 @@ msgstr "Ημερομηνία"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:109
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:110
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:72
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:73
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:101
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:67
 msgid "Date or Date Range"
@@ -886,7 +890,7 @@ msgid "List"
 msgstr "Λίστα"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:123
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:86
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:87
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:93
 msgid "Location"
@@ -932,7 +936,7 @@ msgid "March 2023"
 msgstr "Μάρτιος 2023"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:112
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:74
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:75
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:103
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:69
 msgid "March 2023 - Present"
@@ -1109,7 +1113,7 @@ msgstr "Αποθηκεύστε τους εφεδρικούς κωδικούς σ
 msgid "Portrait"
 msgstr "Πορτραίτο"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:54
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:55
 msgctxt "Position held at a company, for example, Software Engineer"
 msgid "Position"
 msgstr "Θέση"
@@ -1444,7 +1448,7 @@ msgstr "Αποθηκεύστε τους κωδικούς αντιγράφων α
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:95
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:151
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:138
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:114
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:144
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:129
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:95
 #: apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx:81
@@ -1710,7 +1714,7 @@ msgstr "Επαληθεύουμε τη διεύθυνση email σας μόνο �
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:137
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:124
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:100
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:130
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:69
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:115
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:81

@@ -10,6 +10,7 @@ export const experienceSchema = itemSchema.extend({
   date: z.string(),
   summary: z.string(),
   url: urlSchema,
+  companyDescription: z.string().optional(),
 });
 
 // Type
@@ -23,5 +24,6 @@ export const defaultExperience: Experience = {
   location: "",
   date: "",
   summary: "",
+  companyDescription: "",
   url: defaultUrl,
 };
