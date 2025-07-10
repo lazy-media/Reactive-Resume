@@ -378,12 +378,12 @@ msgid "Custom Section"
 msgstr "ಕಸ್ಟಮ್ ವಿಭಾಗ"
 
 #: apps/client/src/pages/home/sections/features/index.tsx:60
-msgid "Customisable colour palettes"
-msgstr "ಗ್ರಾಹಕೀಯಗೊಳಿಸಬಹುದಾದ ಬಣ್ಣದ ಪ್ಯಾಲೆಟ್‌ಗಳು"
+msgid "Customizable color palettes"
+msgstr ""
 
 #: apps/client/src/pages/home/sections/features/index.tsx:61
-msgid "Customisable layouts"
-msgstr "ಗ್ರಾಹಕೀಯಗೊಳಿಸಬಹುದಾದ ವಿನ್ಯಾಸಗಳು"
+msgid "Customizable layouts"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/danger.tsx:62
 msgid "Danger Zone"

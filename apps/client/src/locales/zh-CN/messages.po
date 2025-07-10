@@ -378,12 +378,12 @@ msgid "Custom Section"
 msgstr "自定义章节"
 
 #: apps/client/src/pages/home/sections/features/index.tsx:60
-msgid "Customisable colour palettes"
-msgstr "可定制的调色板"
+msgid "Customizable color palettes"
+msgstr ""
 
 #: apps/client/src/pages/home/sections/features/index.tsx:61
-msgid "Customisable layouts"
-msgstr "可定制的布局"
+msgid "Customizable layouts"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/danger.tsx:62
 msgid "Danger Zone"

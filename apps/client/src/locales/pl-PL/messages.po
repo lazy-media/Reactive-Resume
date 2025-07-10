@@ -378,12 +378,12 @@ msgid "Custom Section"
 msgstr "Sekcja niestandardowa"
 
 #: apps/client/src/pages/home/sections/features/index.tsx:60
-msgid "Customisable colour palettes"
-msgstr "Konfigurowalne palety kolorów"
+msgid "Customizable color palettes"
+msgstr ""
 
 #: apps/client/src/pages/home/sections/features/index.tsx:61
-msgid "Customisable layouts"
-msgstr "Konfigurowalne układy"
+msgid "Customizable layouts"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/danger.tsx:62
 msgid "Danger Zone"
