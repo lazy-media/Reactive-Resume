@@ -1464,6 +1464,10 @@ msgstr "Reaktiivisen ansioluettelon tukeminen"
 msgid "Supports A4/Letter page formats"
 msgstr "Tukee A4/Kirje-sivuformaatteja"
 
+#: apps/client/src/components/locale-switch.tsx:17
+msgid "Switch Language"
+msgstr ""
+
 #: apps/client/src/components/theme-switch.tsx:31
 msgid "Switch to Dark Mode"
 msgstr ""

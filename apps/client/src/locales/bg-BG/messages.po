@@ -1464,6 +1464,10 @@ msgstr "Поддържане на реактивно резюме"
 msgid "Supports A4/Letter page formats"
 msgstr "Поддържа формати на страници A4/Letter"
 
+#: apps/client/src/components/locale-switch.tsx:17
+msgid "Switch Language"
+msgstr ""
+
 #: apps/client/src/components/theme-switch.tsx:31
 msgid "Switch to Dark Mode"
 msgstr ""

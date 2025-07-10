@@ -1464,6 +1464,10 @@ msgstr "ಪ್ರತಿಕ್ರಿಯಾತ್ಮಕ ರೆಸ್ಯೂಮ್�
 msgid "Supports A4/Letter page formats"
 msgstr "A4/ಲೆಟರ್ ಪುಟ ಸ್ವರೂಪಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ"
 
+#: apps/client/src/components/locale-switch.tsx:17
+msgid "Switch Language"
+msgstr ""
+
 #: apps/client/src/components/theme-switch.tsx:31
 msgid "Switch to Dark Mode"
 msgstr ""

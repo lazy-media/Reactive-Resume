@@ -1464,6 +1464,10 @@ msgstr "Supportare Reactive Resume"
 msgid "Supports A4/Letter page formats"
 msgstr "Supporta i formati di pagina A4/Letter"
 
+#: apps/client/src/components/locale-switch.tsx:17
+msgid "Switch Language"
+msgstr ""
+
 #: apps/client/src/components/theme-switch.tsx:31
 msgid "Switch to Dark Mode"
 msgstr ""
