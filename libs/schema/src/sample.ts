@@ -124,7 +124,6 @@ export const sampleResume: ResumeData = {
           id: "r6543lil53ntrxmvel53gbtm",
           visible: true,
           company: "TechAdvancers",
-          typeOfEmployment: "full-time",
           position: "Web Developer",
           location: "San Jose, CA",
           date: "June 2016 to December 2018",
