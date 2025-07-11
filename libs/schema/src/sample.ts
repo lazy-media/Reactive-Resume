@@ -109,7 +109,6 @@ export const sampleResume: ResumeData = {
           id: "lhw25d7gf32wgdfpsktf6e0x",
           visible: true,
           company: "Creative Solutions Inc.",
-          typeOfEmployment: "full-time",
           position: "Senior Web Developer",
           location: "San Francisco, CA",
           date: "January 2019 to Present",
