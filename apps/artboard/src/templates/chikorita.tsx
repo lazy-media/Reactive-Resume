@@ -243,7 +243,7 @@ const Experience = () => {
             />
             <div>{item.companyDescription}</div>
             <div>
-              {item.position} {item.typeOfEmployment !== "n/a" ? `(${item.typeOfEmployment})` : ""}
+              {item.position} {item.typeOfEmployment === "n/a" ? "" : `(${item.typeOfEmployment})`}
             </div>
           </div>
 
