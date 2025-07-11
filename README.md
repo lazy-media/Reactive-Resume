@@ -128,9 +128,6 @@ Start creating your standout resume with Reactive Resume today!
 
 ## Ollama / OpenWebUI Instructions
 
-> The current documentation inside the UI for Reactive Resume is not accurate. Follow these instructions to properly setup Ollama / OpenWebUI for local AI integration.
-> _Cannot figure out how to change the UI information without getting an error code or random letters and numbers._
-
 You can integrate with OpenWebUI to use with your local AI. This requires an HTTPS connection.
 
 - 1. Get an API/Access Token from OpenWebUI
