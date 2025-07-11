@@ -300,11 +300,11 @@ msgstr "Der Code besteht aus genau 6 Ziffern."
 msgid "Columns"
 msgstr "Spalten"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:45
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:40
 msgid "Company"
 msgstr "Unternehmen"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:133
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:103
 msgid "Company Description"
 msgstr ""
 
@@ -317,10 +317,6 @@ msgstr "Selbstbewusst"
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:246
 msgid "Continue"
 msgstr "Weiter"
-
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:69
-msgid "Contract"
-msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:96
 msgid "Copy"
@@ -405,7 +401,7 @@ msgstr "Zeitraum"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:109
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:110
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:103
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:73
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:101
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:67
 msgid "Date or Date Range"
@@ -639,10 +635,6 @@ msgstr "Freundlich"
 msgid "Full Name"
 msgstr "Vollständiger Name"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:67
-msgid "Full-time"
-msgstr ""
-
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:202
 msgid "Generate a random title for your resume"
 msgstr "Einen zufälligen Titel für deinen Lebenslauf generieren"
@@ -781,10 +773,6 @@ msgstr "Informationen"
 msgid "Institution"
 msgstr "Bildungseinrichtung"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:70
-msgid "Internship"
-msgstr ""
-
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:53
 msgid "Issuer"
 msgstr "Herausgeber"
@@ -902,7 +890,7 @@ msgid "List"
 msgstr "Listenansicht"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:123
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:117
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:87
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:93
 msgid "Location"
@@ -948,7 +936,7 @@ msgid "March 2023"
 msgstr "März 2023"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:112
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:105
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:75
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:103
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:69
 msgid "March 2023 - Present"
@@ -968,10 +956,6 @@ msgstr "MIT Lizenz"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:154
 msgid "Model"
-msgstr ""
-
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:66
-msgid "N/A"
 msgstr ""
 
 #: apps/client/src/pages/auth/register/page.tsx:98
@@ -1081,10 +1065,6 @@ msgstr "Seite"
 msgid "Page {pageNumber}"
 msgstr "Seite {pageNumber}"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:68
-msgid "Part-time"
-msgstr ""
-
 #: apps/client/src/pages/auth/login/page.tsx:110
 #: apps/client/src/pages/auth/register/page.tsx:163
 #: apps/client/src/pages/auth/reset-password/page.tsx:83
@@ -1133,7 +1113,7 @@ msgstr "Bitte bewahre deine Backup-Codes an einem sicheren Ort auf. Du kannst je
 msgid "Portrait"
 msgstr "Hochformat"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:85
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:55
 msgctxt "Position held at a company, for example, Software Engineer"
 msgid "Position"
 msgstr ""
@@ -1328,10 +1308,6 @@ msgstr "Abgesichert mit Zwei-Faktor-Authentifizierung"
 msgid "Security"
 msgstr "Sicherheit"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:63
-msgid "Select Type of Employment"
-msgstr ""
-
 #: apps/client/src/pages/home/sections/features/index.tsx:50
 msgid "Self-host with Docker"
 msgstr "Selbst hosten mit Docker"
@@ -1472,7 +1448,7 @@ msgstr "Bewahre Deine Backup-Codes sicher auf"
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:95
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:151
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:138
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:174
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:144
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:129
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:95
 #: apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx:81
@@ -1612,10 +1588,6 @@ msgstr "Die Zwei-Faktor-Authentifizierung ist für dieses Konto nicht aktiviert.
 msgid "Type <0>delete</0> to confirm deleting your account."
 msgstr "Gib <0>löschen</0> ein, um dein Konto zu löschen."
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:59
-msgid "Type of Employment"
-msgstr ""
-
 #. For example, Bachelor's Degree or Master's Degree
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:54
 msgid "Type of Study"
@@ -1742,7 +1714,7 @@ msgstr "Wir verifizieren deine E-Mail-Adresse nur, um sicherzustellen, dass wir 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:137
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:124
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:160
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:130
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:69
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:115
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:81
