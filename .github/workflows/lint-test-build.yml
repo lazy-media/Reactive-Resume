@@ -7,13 +7,11 @@ concurrency:
 on:
   workflow_dispatch:
   push:
-    - main
-  pull:
-    - main
-  workflow_run:
-    workflows: ["Run Prettier and Language File Fixes"]
-    types:
-      - completed
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   main:
