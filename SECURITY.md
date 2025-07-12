@@ -1,6 +1,6 @@
 # Security Policy
 
-## Supported Versions (Self-Host Community Fork Version Only)
+## Supported Versions
 
 | Version | Supported          |
 | ------- | ------------------ |
