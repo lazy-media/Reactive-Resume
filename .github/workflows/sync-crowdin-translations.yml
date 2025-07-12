@@ -26,6 +26,6 @@ jobs:
           pull_request_title: "New Translations from Crowdin"
           pull_request_body: "You've got new translations to be merged into the app from contributors on Crowdin.\n\n_This pull request was automatically created by the [Crowdin Action](https://github.com/marketplace/actions/crowdin-action)._"
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ secrets.GH_PUSH_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
