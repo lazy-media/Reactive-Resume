@@ -42,7 +42,7 @@ No email? No problem! Use a throwaway, your grandma’s AOL address, or just sta
 
 ---
 
-# Reactive Resume _(Self-Hosted Community Forked Version)_
+# Reactive Resume
 
 > - _All core functionality and features from the main/original version remain intact in this release. This project specifically emphasizes the community-driven, self-hosted iteration of the application.._
 > - _We welcome and encourage contributions from experienced developers. By collaborating, we can collectively elevate this application to its fullest potential._
