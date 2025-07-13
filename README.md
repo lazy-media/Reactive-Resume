@@ -22,7 +22,7 @@ No email? No problem! Use a throwaway, your grandma’s AOL address, or just sta
 
 ⚠️ **IMPORTANT PSA:**
 
-- **Remove your resumes from the [old app](https://resume.lazymedia.media)** before **August 1st, 2025**, unless you enjoy locked doors and authentication-induced existential dread.
+- **Remove your resumes from the [old Lazy Media app](https://resume.lazymedia.media)** before **August 1st, 2025**, unless you enjoy locked doors and authentication-induced existential dread.
 - Start using the new **email-verification-free paradise** today: [https://rxresume.org](https://rxresume.org)
 
 ---
@@ -49,11 +49,11 @@ No email? No problem! Use a throwaway, your grandma’s AOL address, or just sta
 
 A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.
 
-### [Go to New Public App](https://rxresume.org/) | [Go to Old App](https://resume.lazymedia.media) | [Docs](https://docs.rxresume.org/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki)
+### [Go to New Public App](https://rxresume.org/) | [Go to Old Lazy Media App](https://resume.lazymedia.media) | [Docs](https://docs.rxresume.org/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki)
 
 > _New Public App now available with no email verification!_ > _Please use `Letter` Format when Exporting a PDF. Currently `A4` Format cuts off long resumes._
 
-> **YOU MUST REMOVE YOUR RESUMES FROM THE [OLD APP](https://resume.lazymedia.media) AND IMPORT THEM INTO THE [NEW APP](https://rxresume.org) BY 8/1/2025 OR YOU WILL BE LOCKED OUT! THE OLD APP IS BEING RESTRICTED!!**
+> **YOU MUST REMOVE YOUR RESUMES FROM THE [OLD LAZY MEDIA APP](https://resume.lazymedia.media) AND IMPORT THEM INTO THE [NEW APP](https://rxresume.org) BY 8/1/2025 OR YOU WILL BE LOCKED OUT! THE OLD APP IS BEING RESTRICTED!!**
 
 ### Still want to use the old app from the old maintainer?
 
