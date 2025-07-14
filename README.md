@@ -49,7 +49,7 @@ No email? No problem! Use a throwaway, your grandma’s AOL address, or just sta
 
 A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.
 
-### [Go to New Public App](https://rxresume.org/) | [Go to Old Lazy Media App](https://resume.lazymedia.media) | [Docs](https://docs.rxresume.org/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki)
+### [Go to New Public App](https://rxresume.org/) | [Go to Old Lazy Media App](https://resume.lazymedia.media) | [Docs](https://docs.rxresume.org/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki) | [Official Docker Hub Repo](https://hub.docker.com/r/pickit420/reactive-resume)
 
 > _New Public App now available with no email verification!_ > _Please use `Letter` Format when Exporting a PDF. Currently `A4` Format cuts off long resumes._
 
