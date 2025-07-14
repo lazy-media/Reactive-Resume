@@ -198,3 +198,14 @@ jobs:
           title: "Release `${{ steps.meta.outputs.version }}`"
           description: "A new version of Reactive Resume just dropped! 🚀"
           url: "https://github.com/lazy-media/Reactive-Resume"
+
+      - name: Inform about the release on Reactive Resume Public Discord
+        uses: sarisia/actions-status-discord@v1.14.3
+        if: success()
+        with:
+          username: Reactive Resume Release Bot
+          webhook: ${{ secrets.DISCORD_REACTIVE_RESUME_WEBHOOK }}
+          status: ${{ job.status }}
+          title: "Release `${{ steps.meta.outputs.version }}`"
+          description: "A new version of Reactive Resume just dropped! 🚀"
+          url: "https://github.com/lazy-media/Reactive-Resume"
