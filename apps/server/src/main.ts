@@ -41,7 +41,7 @@ async function bootstrap() {
   app.enableCors({ credentials: true, origin: isHTTPS });
 
   // Helmet - enabled only in production
-  // if (isHTTPS) app.set("trust proxy", 1); // trust first proxy
+  if (isHTTPS) app.set("trust proxy", 1); // trust first proxy
   if (isHTTPS) app.use(helmet({ contentSecurityPolicy: false }));
 
   // Global Prefix
