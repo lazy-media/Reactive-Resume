@@ -5,7 +5,6 @@ import type { NestExpressApplication } from "@nestjs/platform-express";
 import { DocumentBuilder, SwaggerModule } from "@nestjs/swagger";
 import cookieParser from "cookie-parser";
 import session from "express-session";
-import helmet from "helmet";
 import { patchNestJsSwagger } from "nestjs-zod";
 
 import { AppModule } from "./app.module";
@@ -41,7 +40,11 @@ async function bootstrap() {
   app.enableCors({ credentials: true, origin: isHTTPS });
 
   // Helmet - enabled only in production
-  if (isHTTPS) app.use(helmet({ contentSecurityPolicy: false }));
+  if (isHTTPS) app.set("trust proxy", 1); // trust first proxy
+  // if (isHTTPS) app.use(helmet({ contentSecurityPolicy: false }));
+
+  // Cookie Parser
+  app.use(cookieParser());
 
   // Global Prefix
   const globalPrefix = "api";

@@ -300,11 +300,11 @@ msgstr "Ο κωδικός πρέπει να είναι ακριβώς 6 ψηφί
 msgid "Columns"
 msgstr "Στήλες"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:40
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:45
 msgid "Company"
 msgstr "Εταιρεια"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:103
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:133
 msgid "Company Description"
 msgstr ""
 
@@ -317,6 +317,10 @@ msgstr "Αυτοπεποίθηση"
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:246
 msgid "Continue"
 msgstr "Συνέχεια"
+
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:69
+msgid "Contract"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:96
 msgid "Copy"
@@ -401,7 +405,7 @@ msgstr "Ημερομηνία"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:109
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:110
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:73
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:103
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:101
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:67
 msgid "Date or Date Range"
@@ -635,6 +639,10 @@ msgstr "Φιλικό"
 msgid "Full Name"
 msgstr "Ονοματεπώνυμο"
 
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:67
+msgid "Full-time"
+msgstr ""
+
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:202
 msgid "Generate a random title for your resume"
 msgstr "Δημιουργήστε έναν τυχαίο τίτλο για το βιογραφικό σας"
@@ -773,6 +781,10 @@ msgstr "Πληροφορίες"
 msgid "Institution"
 msgstr "Φορέας"
 
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:70
+msgid "Internship"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:53
 msgid "Issuer"
 msgstr "Εκδότης"
@@ -890,7 +902,7 @@ msgid "List"
 msgstr "Λίστα"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:123
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:87
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:117
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:93
 msgid "Location"
@@ -936,7 +948,7 @@ msgid "March 2023"
 msgstr "Μάρτιος 2023"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:112
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:75
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:105
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:103
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:69
 msgid "March 2023 - Present"
@@ -957,6 +969,10 @@ msgstr ""
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:154
 msgid "Model"
 msgstr "Μοντέλο"
+
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:66
+msgid "N/A"
+msgstr ""
 
 #: apps/client/src/pages/auth/register/page.tsx:98
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:81
@@ -1065,6 +1081,10 @@ msgstr "Σελίδα"
 msgid "Page {pageNumber}"
 msgstr "Σελίδα {pageNumber}"
 
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:68
+msgid "Part-time"
+msgstr ""
+
 #: apps/client/src/pages/auth/login/page.tsx:110
 #: apps/client/src/pages/auth/register/page.tsx:163
 #: apps/client/src/pages/auth/reset-password/page.tsx:83
@@ -1113,7 +1133,7 @@ msgstr "Αποθηκεύστε τους εφεδρικούς κωδικούς σ
 msgid "Portrait"
 msgstr "Πορτραίτο"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:55
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:85
 msgctxt "Position held at a company, for example, Software Engineer"
 msgid "Position"
 msgstr "Θέση"
@@ -1308,6 +1328,10 @@ msgstr "Ασφάλεια με έλεγχο ταυτότητας δύο παρα�
 msgid "Security"
 msgstr "Ασφάλεια"
 
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:63
+msgid "Select Type of Employment"
+msgstr ""
+
 #: apps/client/src/pages/home/sections/features/index.tsx:50
 msgid "Self-host with Docker"
 msgstr "Self-host με Docker"
@@ -1448,7 +1472,7 @@ msgstr "Αποθηκεύστε τους κωδικούς αντιγράφων α
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:95
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:151
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:138
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:144
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:174
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:129
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:95
 #: apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx:81
@@ -1588,6 +1612,10 @@ msgstr "Ο έλεγχος ταυτότητας δύο παραγόντων έχ�
 msgid "Type <0>delete</0> to confirm deleting your account."
 msgstr "Πληκτρολογήστε <0>delete</0> για να επιβεβαιώσετε τη διαγραφή του λογαριασμού σας."
 
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:59
+msgid "Type of Employment"
+msgstr ""
+
 #. For example, Bachelor's Degree or Master's Degree
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:54
 msgid "Type of Study"
@@ -1714,7 +1742,7 @@ msgstr "Επαληθεύουμε τη διεύθυνση email σας μόνο �
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:137
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:124
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:130
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:160
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:69
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:115
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:81

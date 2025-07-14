@@ -300,11 +300,11 @@ msgstr "ಕೋಡ್ ನಿಖರವಾಗಿ 6 ಅಂಕೆಗಳನ್ನು �
 msgid "Columns"
 msgstr "ಕಾಲಮ್ಗಳು"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:40
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:45
 msgid "Company"
 msgstr "ಕಂಪನಿ"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:103
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:133
 msgid "Company Description"
 msgstr ""
 
@@ -317,6 +317,10 @@ msgstr "ಆತ್ಮವಿಶ್ವಾಸ"
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:246
 msgid "Continue"
 msgstr "ಮುಂದುವರಿಸಿ"
+
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:69
+msgid "Contract"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:96
 msgid "Copy"
@@ -401,7 +405,7 @@ msgstr "ದಿನಾಂಕ"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:109
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:110
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:73
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:103
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:101
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:67
 msgid "Date or Date Range"
@@ -635,6 +639,10 @@ msgstr "ಸ್ನೇಹಪರ"
 msgid "Full Name"
 msgstr "ಪೂರ್ಣ ಹೆಸರು"
 
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:67
+msgid "Full-time"
+msgstr ""
+
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:202
 msgid "Generate a random title for your resume"
 msgstr "ನಿಮ್ಮ ಪುನರಾರಂಭಕ್ಕಾಗಿ ಯಾದೃಚ್ಛಿಕ ಶೀರ್ಷಿಕೆಯನ್ನು ರಚಿಸಿ"
@@ -773,6 +781,10 @@ msgstr "ಮಾಹಿತಿ"
 msgid "Institution"
 msgstr "ಸಂಸ್ಥೆ"
 
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:70
+msgid "Internship"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:53
 msgid "Issuer"
 msgstr "ನೀಡುವವರು"
@@ -890,7 +902,7 @@ msgid "List"
 msgstr "ಪಟ್ಟಿ"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:123
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:87
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:117
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:93
 msgid "Location"
@@ -936,7 +948,7 @@ msgid "March 2023"
 msgstr "ಮಾರ್ಚ್ 2023"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:112
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:75
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:105
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:103
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:69
 msgid "March 2023 - Present"
@@ -956,6 +968,10 @@ msgstr "MIT ಪರವಾನಗಿ"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:154
 msgid "Model"
+msgstr ""
+
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:66
+msgid "N/A"
 msgstr ""
 
 #: apps/client/src/pages/auth/register/page.tsx:98
@@ -1065,6 +1081,10 @@ msgstr "ಪುಟ"
 msgid "Page {pageNumber}"
 msgstr ""
 
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:68
+msgid "Part-time"
+msgstr ""
+
 #: apps/client/src/pages/auth/login/page.tsx:110
 #: apps/client/src/pages/auth/register/page.tsx:163
 #: apps/client/src/pages/auth/reset-password/page.tsx:83
@@ -1113,7 +1133,7 @@ msgstr "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಕೋಡ
 msgid "Portrait"
 msgstr "ಭಾವ ಚಿತ್ರ"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:55
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:85
 msgctxt "Position held at a company, for example, Software Engineer"
 msgid "Position"
 msgstr "ಸ್ಥಾನ"
@@ -1308,6 +1328,10 @@ msgstr "ಎರಡು ಅಂಶದ ದೃಢೀಕರಣದೊಂದಿಗೆ ಸ
 msgid "Security"
 msgstr "ಭದ್ರತೆ"
 
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:63
+msgid "Select Type of Employment"
+msgstr ""
+
 #: apps/client/src/pages/home/sections/features/index.tsx:50
 msgid "Self-host with Docker"
 msgstr "ಡಾಕರ್ ಜೊತೆಗೆ ಸ್ವಯಂ ಹೋಸ್ಟ್"
@@ -1448,7 +1472,7 @@ msgstr "ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಕೋಡ್‌ಗಳನ್ನು 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:95
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:151
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:138
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:144
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:174
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:129
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:95
 #: apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx:81
@@ -1588,6 +1612,10 @@ msgstr "ಈ ಖಾತೆಗೆ ಎರಡು ಅಂಶದ ದೃಢೀಕರಣ�
 msgid "Type <0>delete</0> to confirm deleting your account."
 msgstr "ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಅಳಿಸುವುದನ್ನು ಖಚಿತಪಡಿಸಲು <0>delete</0> ಎಂದು ಟೈಪ್ ಮಾಡಿ."
 
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:59
+msgid "Type of Employment"
+msgstr ""
+
 #. For example, Bachelor's Degree or Master's Degree
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:54
 msgid "Type of Study"
@@ -1714,7 +1742,7 @@ msgstr "ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ನೀವ
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:137
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:124
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:130
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:160
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:69
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:115
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:81

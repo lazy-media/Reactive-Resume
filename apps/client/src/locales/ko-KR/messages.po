@@ -300,11 +300,11 @@ msgstr "코드는 정확히 6자리여야 합니다."
 msgid "Columns"
 msgstr "열"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:40
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:45
 msgid "Company"
 msgstr "회사"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:103
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:133
 msgid "Company Description"
 msgstr ""
 
@@ -317,6 +317,10 @@ msgstr "자신감"
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:246
 msgid "Continue"
 msgstr "계속하기"
+
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:69
+msgid "Contract"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:96
 msgid "Copy"
@@ -401,7 +405,7 @@ msgstr "날짜"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:109
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:110
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:73
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:103
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:101
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:67
 msgid "Date or Date Range"
@@ -635,6 +639,10 @@ msgstr "친절함"
 msgid "Full Name"
 msgstr "전체 이름"
 
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:67
+msgid "Full-time"
+msgstr ""
+
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:202
 msgid "Generate a random title for your resume"
 msgstr "이력서에 사용할 임의의 제목 생성"
@@ -773,6 +781,10 @@ msgstr "정보"
 msgid "Institution"
 msgstr "교육기관"
 
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:70
+msgid "Internship"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:53
 msgid "Issuer"
 msgstr "발행자"
@@ -890,7 +902,7 @@ msgid "List"
 msgstr "목록"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:123
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:87
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:117
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:93
 msgid "Location"
@@ -936,7 +948,7 @@ msgid "March 2023"
 msgstr "2023년 3월"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:112
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:75
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:105
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:103
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:69
 msgid "March 2023 - Present"
@@ -957,6 +969,10 @@ msgstr "MIT 라이선스"
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:154
 msgid "Model"
 msgstr "모델"
+
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:66
+msgid "N/A"
+msgstr ""
 
 #: apps/client/src/pages/auth/register/page.tsx:98
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:81
@@ -1065,6 +1081,10 @@ msgstr "페이지"
 msgid "Page {pageNumber}"
 msgstr "페이지 {pageNumber}"
 
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:68
+msgid "Part-time"
+msgstr ""
+
 #: apps/client/src/pages/auth/login/page.tsx:110
 #: apps/client/src/pages/auth/register/page.tsx:163
 #: apps/client/src/pages/auth/reset-password/page.tsx:83
@@ -1113,7 +1133,7 @@ msgstr "백업 코드를 안전한 곳에 보관하세요. 인증 앱에 액세�
 msgid "Portrait"
 msgstr "초상화"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:55
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:85
 msgctxt "Position held at a company, for example, Software Engineer"
 msgid "Position"
 msgstr "위치"
@@ -1308,6 +1328,10 @@ msgstr "2단계 인증으로 보안 유지"
 msgid "Security"
 msgstr "보안"
 
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:63
+msgid "Select Type of Employment"
+msgstr ""
+
 #: apps/client/src/pages/home/sections/features/index.tsx:50
 msgid "Self-host with Docker"
 msgstr "Docker를 사용한 셀프 호스트"
@@ -1448,7 +1472,7 @@ msgstr "백업 코드를 안전하게 저장"
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:95
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:151
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:138
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:144
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:174
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:129
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:95
 #: apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx:81
@@ -1588,6 +1612,10 @@ msgstr "이 계정에는 2단계 인증이 사용 설정되어 있지 않습니�
 msgid "Type <0>delete</0> to confirm deleting your account."
 msgstr "<0>삭제를</0> 입력하여 계정 삭제를 확인합니다."
 
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:59
+msgid "Type of Employment"
+msgstr ""
+
 #. For example, Bachelor's Degree or Master's Degree
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:54
 msgid "Type of Study"
@@ -1714,7 +1742,7 @@ msgstr "비밀번호를 잊어버린 경우 비밀번호 재설정 링크를 보
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:137
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:124
-#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:130
+#: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:160
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:69
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:115
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:81
