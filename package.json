@@ -69,7 +69,7 @@
     "@types/lodash.debounce": "^4.0.9",
     "@types/lodash.get": "^4.4.9",
     "@types/lodash.set": "^4.3.9",
-    "@types/multer": "^1.4.12",
+    "@types/multer": "^2.0.0",
     "@types/node": "^22.13.0",
     "@types/nodemailer": "^6.4.17",
     "@types/papaparse": "^5.3.15",
