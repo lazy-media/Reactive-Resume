@@ -153,7 +153,7 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_TOKEN }}
           readme-filepath: ./README.md
-          short-description: "Wow, just what the world needed—another resume builder! But wait, this one’s actually secure, open-source, and free (shocking, right?). Plus, it won’t sell your data to the highest bidder (cough unlike some other services). Customizable, portable, and privacy-focused? Must be a scam. (Spoiler: It’s not.) Try it—if you dare."
+          short-description: "Reactive Resume is a modern, open-source resume builder that helps you create beautiful resumes with ease."
 
       - name: Inform about the release on Admin Discord
         uses: sarisia/actions-status-discord@v1.14.3
