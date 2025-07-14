@@ -229,7 +229,7 @@
     "react-dom": "^18.3.1",
     "react-helmet-async": "^2.0.5",
     "react-hook-form": "^7.54.2",
-    "react-parallax-tilt": "^1.7.277",
+    "react-parallax-tilt": "^1.7.300",
     "react-resizable-panels": "^2.1.7",
     "react-router": "^7.1.5",
     "react-simple-code-editor": "^0.14.1",
