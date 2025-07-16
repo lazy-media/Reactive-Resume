@@ -11,7 +11,6 @@ body:
       options:
         - label: I've searched existing issues and confirmed this is new
         - label: This benefits multiple users (not just my specific use case)
-        - label: This is for the self-hosted version (not cloud)
     validations:
       required: true
 
