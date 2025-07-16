@@ -4,6 +4,7 @@ import { Azurill } from "./azurill";
 import { Bronzor } from "./bronzor";
 import { Chikorita } from "./chikorita";
 import { Ditto } from "./ditto";
+import { Ditgar } from "./ditgar";
 import { Gengar } from "./gengar";
 import { Glalie } from "./glalie";
 import { Kakuna } from "./kakuna";
@@ -26,6 +27,9 @@ export const getTemplate = (template: Template) => {
     }
     case "ditto": {
       return Ditto;
+    }
+    case "ditgar": {
+      return Ditgar;
     }
     case "gengar": {
       return Gengar;

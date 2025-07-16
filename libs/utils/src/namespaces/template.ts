@@ -2,6 +2,7 @@ export const templatesList = [
   "azurill",
   "bronzor",
   "chikorita",
+  "ditgar",
   "ditto",
   "gengar",
   "glalie",
