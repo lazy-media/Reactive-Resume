@@ -3,6 +3,7 @@ export const templatesList = [
   "bronzor",
   "chikorita",
   "ditto",
+  "ditgar",
   "gengar",
   "glalie",
   "kakuna",

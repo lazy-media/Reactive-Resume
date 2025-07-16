@@ -3,6 +3,7 @@ import type { Template } from "@reactive-resume/utils";
 import { Azurill } from "./azurill";
 import { Bronzor } from "./bronzor";
 import { Chikorita } from "./chikorita";
+import { Ditgar } from "./ditgar";
 import { Ditto } from "./ditto";
 import { Gengar } from "./gengar";
 import { Glalie } from "./glalie";
@@ -26,6 +27,9 @@ export const getTemplate = (template: Template) => {
     }
     case "ditto": {
       return Ditto;
+    }
+    case "ditgar": {
+      return Ditgar;
     }
     case "gengar": {
       return Gengar;
