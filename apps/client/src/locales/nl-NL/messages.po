@@ -555,7 +555,7 @@ msgstr ""
 msgid "Errors"
 msgstr "Fouten"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:67
+#: apps/client/src/pages/home/sections/support/index.tsx:106
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "Zelfs als je niet in de positie bent om financieel bij te dragen, kan je nog steeds een verschil maken door de GitHubpagina een ster te geven, het nieuws met je vrienden te delen, of een kort bericht achter te laten on me te laten weten hoe Reactive Resume je geholpen heeft. Je feedback en steun zijn altijd welkom en worden zeer gewaardeerd!"
 
@@ -741,7 +741,7 @@ msgstr "Als deze app u heeft geholpen bij uw zoektocht naar een baan, laat mij h
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "Als u verificatie op basis van twee factoren uitschakelt, hoeft u niet langer een verificatiecode in te voeren wanneer u inlogt."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:42
+#: apps/client/src/pages/home/sections/support/index.tsx:81
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "Als u meertalig bent, zouden we uw hulp erg op prijs stellen om de app naar meer talen en gemeenschappen te brengen. Maakt u zich geen zorgen als u uw taal niet op de lijst ziet staan - geef me gewoon een shout-out op GitHub, en ik zal ervoor zorgen dat uw taal wordt toegevoegd. Klaar om te beginnen? Ga aan de slag met vertalen bij Crowdin door op de onderstaande link te klikken."
 

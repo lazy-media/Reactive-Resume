@@ -555,7 +555,7 @@ msgstr ""
 msgid "Errors"
 msgstr "ದೋಷಗಳು"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:67
+#: apps/client/src/pages/home/sections/support/index.tsx:106
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "ನೀವು ಆರ್ಥಿಕವಾಗಿ ಕೊಡುಗೆ ನೀಡುವ ಸ್ಥಿತಿಯಲ್ಲಿಲ್ಲದಿದ್ದರೂ ಸಹ, GitHub ರೆಪೊಸಿಟರಿಗೆ ನಕ್ಷತ್ರವನ್ನು ನೀಡುವ ಮೂಲಕ, ನಿಮ್ಮ ಸ್ನೇಹಿತರಿಗೆ ಸುದ್ದಿಯನ್ನು ಹರಡುವ ಮೂಲಕ ಅಥವಾ ರಿಯಾಕ್ಟಿವ್ ರೆಸ್ಯೂಮ್ ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಿದೆ ಎಂಬುದನ್ನು ನನಗೆ ತಿಳಿಸಲು ತ್ವರಿತ ಸಂದೇಶವನ್ನು ನೀಡುವ ಮೂಲಕ ನೀವು ಇನ್ನೂ ಬದಲಾವಣೆಯನ್ನು ಮಾಡಬಹುದು. ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆ ಮತ್ತು ಬೆಂಬಲ ಯಾವಾಗಲೂ ಸ್ವಾಗತಾರ್ಹ ಮತ್ತು ಹೆಚ್ಚು ಮೆಚ್ಚುಗೆ!"
 
@@ -741,7 +741,7 @@ msgstr "ನಿಮ್ಮ ಉದ್ಯೋಗ ಹುಡುಕಾಟದಲ್ಲಿ 
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "ನೀವು ಎರಡು ಅಂಶದ ದೃಢೀಕರಣವನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದರೆ, ಲಾಗ್ ಇನ್ ಮಾಡುವಾಗ ನೀವು ಇನ್ನು ಮುಂದೆ ಪರಿಶೀಲನಾ ಕೋಡ್ ಅನ್ನು ನಮೂದಿಸುವ ಅಗತ್ಯವಿರುವುದಿಲ್ಲ."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:42
+#: apps/client/src/pages/home/sections/support/index.tsx:81
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "ನೀವು ಬಹುಭಾಷಿಕರಾಗಿದ್ದರೆ, ಹೆಚ್ಚಿನ ಭಾಷೆಗಳು ಮತ್ತು ಸಮುದಾಯಗಳಿಗೆ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ತರಲು ನಿಮ್ಮ ಸಹಾಯವನ್ನು ನಾವು ಬಯಸುತ್ತೇವೆ. ಪಟ್ಟಿಯಲ್ಲಿ ನಿಮ್ಮ ಭಾಷೆಯನ್ನು ನೀವು ನೋಡದಿದ್ದರೆ ಚಿಂತಿಸಬೇಡಿ - GitHub ನಲ್ಲಿ ನನಗೆ ಪ್ರೋತ್ಸಾಹ ನೀಡಿ ಮತ್ತು ಅದನ್ನು ಸೇರಿಸಲು ನಾನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳುತ್ತೇನೆ. ಪ್ರಾರಂಭಿಸಲು ಸಿದ್ಧರಿದ್ದೀರಾ? ಕೆಳಗಿನ ಲಿಂಕ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ಕ್ರೌಡಿನ್‌ನಲ್ಲಿ ಅನುವಾದಕ್ಕೆ ಹೋಗಿ."
 

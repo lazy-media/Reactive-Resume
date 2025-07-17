@@ -555,7 +555,7 @@ msgstr ""
 msgid "Errors"
 msgstr "Fehler"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:67
+#: apps/client/src/pages/home/sections/support/index.tsx:106
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "Auch wenn du das Projekt nicht finanziell unterstützen kannst, hilfst du dem Projekt enorm, indem du dem GitHub-Repository einen Stern gibst, deinen Freunden davon erzählst oder mir eine Nachricht schickst, um mir erzählen, wie dir Reactive Resume geholfen hat. Dein Feedback und deine Unterstützung sind immer willkommen und sehr geschätzt!"
 
@@ -741,7 +741,7 @@ msgstr "Wenn diese App dir bei deiner Jobsuche geholfen hat, schick mir gerne ei
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "Wenn Du die Zwei-Faktor-Authentifizierung deaktivierst, musst Du beim Anmelden keinen Bestätigungscode mehr eingeben."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:42
+#: apps/client/src/pages/home/sections/support/index.tsx:81
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "Solltest Du mehrere Sprachen beherrschen, würden wir uns über Deine Unterstützung bei der Übersetzung der App in weitere Sprachen freuen. Solltest Du Deine Sprache nicht in der Liste finden, erstelle einfach ein Ticket auf GitHub. Ich kümmere mich dann darum, dass sie hinzugefügt wird. Bereit loszulegen? Starte mit der Übersetzung auf Crowdin, indem Du auf den untenstehenden Link klickst."
 

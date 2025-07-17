@@ -555,7 +555,7 @@ msgstr ""
 msgid "Errors"
 msgstr "Erreurs"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:67
+#: apps/client/src/pages/home/sections/support/index.tsx:106
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "Même si vous n'êtes pas en mesure de contribuer financièrement, vous pouvez toujours faire la différence en attribuant une étoile au référentiel GitHub, en passant le message à vos amis ou en envoyant un message rapide pour me faire savoir comment Reactive Resume vous a aidé. Vos commentaires et votre soutien sont toujours les bienvenus et très appréciés !"
 
@@ -741,7 +741,7 @@ msgstr "Si cette application vous a aidé dans votre recherche d'emploi, faites-
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "Si vous désactivez l'authentification à deux facteurs, il ne vous sera plus demandé de saisir un code de vérification lors de la connexion."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:42
+#: apps/client/src/pages/home/sections/support/index.tsx:81
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "Si vous êtes multilingue, nous aimerions avoir votre aide pour proposer l'application à davantage de langues et de communautés. Ne vous inquiétez pas si vous ne voyez pas votre langue dans la liste – faites-moi simplement signe sur GitHub et je veillerai à l'inclure. Prêt à commencer? Lancez-vous dans la traduction sur Crowdin en cliquant sur le lien ci-dessous."
 

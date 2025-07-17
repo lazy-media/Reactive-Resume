@@ -555,7 +555,7 @@ msgstr ""
 msgid "Errors"
 msgstr "Hatalar"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:67
+#: apps/client/src/pages/home/sections/support/index.tsx:106
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "Maddi olarak katkıda bulunacak durumda olmasanız bile, GitHub sayfamıza bir yıldız vererek, arkadaşlarınıza duyurarak veya Reactive Resume'un size nasıl yardımcı olduğunu bildirmek için hızlı bir mesaj bırakarak yine de bir fark yaratabilirsiniz. Geri bildiriminiz ve desteğiniz bizim için çok değerlidir!"
 
@@ -741,7 +741,7 @@ msgstr "Bu uygulama iş arayışınızda size yardımcı olduysa, <0>bu iletişi
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "İki faktörlü kimlik doğrulamayı devre dışı bırakırsanız, oturum açarken artık bir doğrulama kodu girmeniz gerekmeyecektir."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:42
+#: apps/client/src/pages/home/sections/support/index.tsx:81
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "Çok dilliyseniz, uygulamayı daha fazla dile ve topluluğa ulaştırmak için yardımınızı çok isteriz. Dilinizi listede göremiyorsanız endişelenmeyin - GitHub'da bana seslenin, ben de ekleyeceğimden emin olun. Başlamaya hazır mısınız? Aşağıdaki bağlantıya tıklayarak Crowdin'de çeviriye başlayın."
 
