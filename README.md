@@ -48,7 +48,7 @@ No email? No problem! Use a throwaway, your grandma’s AOL address, or just sta
 
 A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.
 
-### [Go to New Public App](https://rxresume.org/) | [Go to Old Lazy Media App](https://resume.lazymedia.media) | [Docs](https://docs.rxresume.org/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki) | [Official Docker Hub Repo](https://hub.docker.com/r/pickit420/reactive-resume)
+### [Go to Public App](https://rxresume.org/) | [Go to Old Lazy Media App](https://resume.lazymedia.media) | [Docs](https://docs.rxresume.org/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki) | [Official Docker Hub Repo](https://hub.docker.com/r/pickit420/reactive-resume) | [Discord Server](https://discord.com/servers/lazy-media-s-reactive-resume-1392393638247530587)
 
 > _New Public App now available with no email verification!_ > _Please use `Letter` Format when Exporting a PDF. Currently `A4` Format cuts off long resumes._
 
@@ -209,8 +209,7 @@ Stay updated with my latest projects and tutorials:
 ### 📱 Social Media
 
 [![Mastodon](https://img.shields.io/badge/Mastodon-6364FF?style=for-the-badge&logo=mastodon&logoColor=white)](https://link.lazymedia.media/mastodon)
-[![Discord](https://img.shields.io/badge/Main_Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://link.lazymedia.media/lazymedia-discord-promo-page)
-[![Discord](https://img.shields.io/badge/Gaming_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://link.lazymedia.media/lazymedia-gaming-discord-promo-page)
+[![Discord](https://img.shields.io/badge/Gaming_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/servers/lazy-media-s-reactive-resume-1392393638247530587)
 
 ### 💻 Dev Platforms
 
