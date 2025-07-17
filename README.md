@@ -76,15 +76,23 @@ Start creating your standout resume with Reactive Resume today!
 
 | Azurill                                                      | Bronzor                                                     | Chikorita                                                   |
 | ------------------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------- |
-| <img src="https://i.imgur.com/jKgo04C.jpeg" width="200px" /> | <img src="https://i.imgur.com/DFNQZP2.jpg" width="200px" /> | <img src="https://i.imgur.com/Dwv8Y7f.jpg" width="200px" /> |
+| <img src="https://i.imgur.com/AYiBNTU.jpeg" width="200px" /> | <img src="https://i.imgur.com/oLeOUet.jpeg" width="200px" /> | <img src="https://i.imgur.com/7kFGK7c.jpeg" width="200px" /> |
 
-| Ditto                                                       | Kakuna                                                      | Nosepass                                                    |
+| Ditgar                                                      | Ditto                                                       | Gengar                                                      |
 | ----------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |
-| <img src="https://i.imgur.com/6c5lASL.jpg" width="200px" /> | <img src="https://i.imgur.com/268ML3t.jpg" width="200px" /> | <img src="https://i.imgur.com/npRLsPS.jpg" width="200px" /> |
+| <img src="https://i.imgur.com/EiUl8tQ.jpeg" width="200px" /> | <img src="https://i.imgur.com/NKSxrJZ.jpeg" width="200px" /> | <img src="https://i.imgur.com/Frf0aT1.jpeg" width="200px" /> |
 
-| Onyx                                                        | Pikachu                                                     | Rhyhorn                                                     |
+| Glalie                                                      | Kakuna                                                      | Leafish                                                     |
 | ----------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |
-| <img src="https://i.imgur.com/cxplXOW.jpg" width="200px" /> | <img src="https://i.imgur.com/Y9f7qsh.jpg" width="200px" /> | <img src="https://i.imgur.com/h4kQxy2.jpg" width="200px" /> |
+| <img src="https://i.imgur.com/iZFi1yn.jpeg" width="200px" /> | <img src="https://i.imgur.com/XCXhNjB.jpeg" width="200px" /> | <img src="https://i.imgur.com/4OF5XBu.jpeg" width="200px" /> |
+
+| Nosepass                                                    | Onyx                                                        | Pikachu                                                     |
+| ----------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |
+| <img src="https://i.imgur.com/W7vozLg.jpeg" width="200px" /> | <img src="https://i.imgur.com/QPCGkia.jpeg" width="200px" /> | <img src="https://i.imgur.com/iJFCoJQ.jpeg" width="200px" /> |
+
+| Ryhorn                                                      |
+| ----------------------------------------------------------- |
+| <img src="https://i.imgur.com/2et7zxG.jpeg" width="200px" /> |
 
 ## Features
 
