@@ -49,6 +49,18 @@ export const SupportSection = () => (
       </a>
     </div>
 
+    <a
+      href="https://discord.com/servers/lazy-media-s-reactive-resume-1392393638247530587"
+      rel="noreferrer noopener nofollow"
+      target="_blank"
+    >
+      <img
+        src="/support-logos/discord.svg"
+        className="max-h-[28px]"
+        alt="Join the Discord Server"
+      />
+    </a>
+
     <div className="flex items-center gap-x-10">
       <a href="https://patreon.com/lazymedia" rel="noreferrer noopener nofollow" target="_blank">
         <img
