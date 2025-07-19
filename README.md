@@ -31,7 +31,7 @@ No email? No problem! Use a throwaway, your grandma’s AOL address, or just sta
 - ☁️ **Hosted 24/7** in a _~magical~_ cloud VM (read: someone’s basement server with extra fans).
 - 💾 **Storage space**: "Plenty"™ (until it’s not—_fingers crossed_).
 - ⏳ **Uptime**: Should be always available, minus daily restarts to check for updates (because even servers need coffee breaks).
-- 🔙 **Backups**: Weekly or monthly… _eventually_ (we’re as excited as you are).
+- 🔙 **Backups**: Daily, Weekly, Monthly and Yearly… _now active!!_ (we’re as excited as you are).
 - 📧 **Email**: Optional! Use it only if you _want_ to verify or reset passwords (how _novel_).
 - 🖨️ **PDF Export**: _Yes, it actually works...kinda. Still working out a few bugs._ Shockingly, no "Export Failed" screens of despair here, but you do have to allow popups...and use `Letter` format for best results.
 
