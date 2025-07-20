@@ -48,7 +48,7 @@ Make the edits to the files you want to update. Be sure to save the files locall
 ### Installing dependencies
 
 ```sh
-pnpm install
+pnpm install --frozen-lockfile
 ```
 
 ### Fixing Prettier Formatting Issues
@@ -58,12 +58,15 @@ pnpm prettier --write .
 ```
 
 ### Fixing Linting Issues
+
 ```sh
 pnpm run lint:fix
 ```
 
 ### Fixing Language Errors
+
 > This is needed when updating major information that gets translated throughout the application.
+
 ```sh
 pnpm run messages:extract
 ```
@@ -106,13 +109,13 @@ It should take just under half a minute for all the services to be booted up cor
 
 ## 5. Check your changes
 
-- If everything went well, the frontend should be running on `http://localhost:3000`. 
+- If everything went well, the frontend should be running on `http://localhost:3000`.
 - Create a new test account and test your changes.
 
 ## 6. Making Additional Changes
 
 - If you need to make additional changes...
-  - Run 
+  - Run
     ```
     docker compose -f tools/compose/simple.yml --env-file .env.example -p reactive-resume down
     ```
