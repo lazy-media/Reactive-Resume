@@ -96,9 +96,9 @@ Please look over the `.env.example` and change any ports if needed. The default 
 Modify `.env.example` file temporarily
 
 - Find the section for `MAIN APP SETTINGS`
-- Comment out the two lines for `NODE_ENV` & `IMAGE`
+- Comment out (add `#`) the line for `IMAGE`
 - Find the section for `DEVELOPEMENT SETTINGS`
-- Uncomment the two lines for `NODE_ENV` & `IMAGE`
+- Uncomment the line for `IMAGE`
 - Save the file so the changes apply to the next command.
 
 ```sh
