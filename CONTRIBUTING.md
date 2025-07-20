@@ -10,8 +10,8 @@ We are going to use the Simple (default) version for testing locally in this exa
 
 #### Requirements
 
-- [Docker for Windows]()
-- VSCode
+- [Docker for Windows](https://www.docker.com)
+- [VSCode](https://code.visualstudio.com/)
 
 ## 1. Fork and Clone the Repository
 
