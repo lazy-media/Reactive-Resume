@@ -1,5 +1,7 @@
 # Contributing to Reactive Resume
 
+## THIS CONTRIBUTING GUIDE NEEDS TO BE UPDATED AS THE DEV VERSION DOES NOT SEEM TO WORK.
+
 ## Getting the project set up locally
 
 There are a number of Docker Compose examples that are suitable for a wide variety of deployment strategies depending on your use-case. All the examples can be found in the `tools/compose` folder.

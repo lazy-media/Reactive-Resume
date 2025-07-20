@@ -64,10 +64,10 @@ export const ExperienceDialog = () => {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="n/a">{t`N/A`}</SelectItem>
-                    <SelectItem value="full-time">{t`Full-time`}</SelectItem>
-                    <SelectItem value="part-time">{t`Part-time`}</SelectItem>
-                    <SelectItem value="contract">{t`Contract`}</SelectItem>
-                    <SelectItem value="internship">{t`Internship`}</SelectItem>
+                    <SelectItem value="Full-Time">{t`Full-time`}</SelectItem>
+                    <SelectItem value="Part-Time">{t`Part-time`}</SelectItem>
+                    <SelectItem value="Contract">{t`Contract`}</SelectItem>
+                    <SelectItem value="Internship">{t`Internship`}</SelectItem>
                   </SelectContent>
                 </Select>
               </FormControl>
