@@ -5,7 +5,7 @@ import { defaultItem, defaultUrl, itemSchema, urlSchema } from "../shared";
 // Schema
 export const experienceSchema = itemSchema.extend({
   company: z.string().min(1),
-  typeOfEmployment: z.enum(["n/a", "Full-Time", "Part-Time", "Contract", "Internship"]),
+  typeOfEmployment: z.string().min(0).optional(),
   position: z.string(),
   location: z.string(),
   date: z.string(),

@@ -35,6 +35,7 @@ const basicsSchema = z.object({
 const workSchema = z.object({
   name: z.string().optional(),
   position: z.string().optional(),
+  typeOfEmployment: z.string().optional(),
   url: urlSchema,
   startDate: iso8601.optional(),
   endDate: iso8601.optional(),
