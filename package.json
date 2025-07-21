@@ -231,7 +231,7 @@
     "react-hook-form": "^7.54.2",
     "react-parallax-tilt": "^1.7.277",
     "react-resizable-panels": "^2.1.7",
-    "react-router": "^7.5.2",
+    "react-router": "^7.7.0",
     "react-simple-code-editor": "^0.14.1",
     "react-zoom-pan-pinch": "^3.7.0",
     "reflect-metadata": "^0.2.2",
