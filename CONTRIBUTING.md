@@ -105,6 +105,13 @@ Modify `.env.example` file temporarily
 docker compose -f tools/compose/simple.yml --env-file .env.example -p reactive-resume up -d
 ```
 
+To do live testing, you can still use the command
+
+```
+pnpm dev
+```
+and then access the application on port `5173` instead of `3000`. This will enable live viewing of changes.
+
 It should take just under half a minute for all the services to be booted up correctly. You can check the status of all services by running `docker compose -p reactive-resume ps`
 
 ## 5. Check your changes

@@ -20,13 +20,13 @@ export const SupportSection = () => (
         >
           <img
             src="/support-logos/github-sponsors-light.svg"
-            className="hidden max-h-[42px] dark:block"
+            className="hidden max-h-[32px] dark:block"
             // eslint-disable-next-line lingui/no-unlocalized-strings
             alt="GitHub Sponsors"
           />
           <img
             src="/support-logos/github-sponsors-dark.svg"
-            className="block max-h-[42px] dark:hidden"
+            className="block max-h-[32px] dark:hidden"
             // eslint-disable-next-line lingui/no-unlocalized-strings
             alt="GitHub Sponsors"
           />
@@ -34,48 +34,23 @@ export const SupportSection = () => (
 
         <a href="https://paypal.me/LazyMediaWA" rel="noreferrer noopener nofollow" target="_blank">
           {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
-          <img src="/support-logos/paypal.svg" className="max-h-[28px]" alt="PayPal" />
+          <img src="/support-logos/paypal.svg" className="max-h-[32px]" alt="PayPal" />
+        </a>
+
+        <a href="https://venmo.com/LazyMedia" rel="noreferrer noopener nofollow" target="_blank">
+          {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
+          <img src="/support-logos/venmo.svg" className="max-h-[32px]" alt="Venmo" />
+        </a>
+
+        <a href="https://coff.ee/lazymedia" rel="noreferrer noopener nofollow" target="_blank">
+          {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
+          <img
+            src="/support-logos/buymeacoffee.svg"
+            className="max-h-[32px]"
+            alt="Buy Me a Coffee"
+          />
         </a>
       </div>
-
-      <a href="https://venmo.com/LazyMedia" rel="noreferrer noopener nofollow" target="_blank">
-        {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
-        <img src="/support-logos/venmo.svg" className="max-h-[28px]" alt="Venmo" />
-      </a>
-
-      <a href="https://coff.ee/lazymedia" rel="noreferrer noopener nofollow" target="_blank">
-        {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
-        <img src="/support-logos/buymeacoffee.svg" className="max-h-[28px]" alt="Buy Me a Coffee" />
-      </a>
-    </div>
-
-    <a
-      href="https://discord.com/servers/lazy-media-s-reactive-resume-1392393638247530587"
-      rel="noreferrer noopener nofollow"
-      target="_blank"
-    >
-      <img
-        src="/support-logos/discord.svg"
-        className="max-h-[28px]"
-        alt="Join the Discord Server"
-      />
-    </a>
-
-    <div className="flex items-center gap-x-10">
-      <a href="https://patreon.com/lazymedia" rel="noreferrer noopener nofollow" target="_blank">
-        <img
-          src="/support-logos/patreon-light.svg"
-          className="hidden max-h-[42px] dark:block"
-          // eslint-disable-next-line lingui/no-unlocalized-strings
-          alt="GitHub Sponsors"
-        />
-        <img
-          src="/support-logos/patreon.svg"
-          className="block max-h-[42px] dark:hidden"
-          // eslint-disable-next-line lingui/no-unlocalized-strings
-          alt="GitHub Sponsors"
-        />
-      </a>
 
       <p className="max-w-4xl leading-loose">
         {t`If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below.`}
