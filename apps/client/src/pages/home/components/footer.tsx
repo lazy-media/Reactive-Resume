@@ -26,20 +26,11 @@ export const Footer = () => (
 
       <div className="relative col-start-4 flex flex-col items-end justify-end">
         <div className="mb-14 space-y-6 text-right">
-          <a
-            className="block"
-            href="https://www.digitalocean.com/?utm_medium=opensource&utm_source=Reactive-Resume"
-          >
+          <a className="block" href="https://www.oracle.com/cloud/free/">
             <img
-              src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_black.svg"
-              alt="Powered by DigitalOcean"
-              className="block dark:hidden"
-              width="150px"
-            />
-            <img
-              src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_white.svg"
-              alt="Powered by DigitalOcean"
-              className="hidden dark:block"
+              src="https://www.oracle.com/a/pr/img/c82-oracle-powered-cloud.gif"
+              alt="Powered by Oracle Cloud"
+              className="block"
               width="150px"
             />
           </a>
