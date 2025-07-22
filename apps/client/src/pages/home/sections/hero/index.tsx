@@ -28,6 +28,8 @@ export const HeroSection = () => (
           <a
             href="https://github.com/lazy-media/Reactive-Resume/releases"
             className={cn(buttonVariants({ variant: "link" }), "space-x-2 text-left")}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
           >
             <p>{t`What's new in the latest version`}</p>
             <ArrowRight />

@@ -50,7 +50,7 @@ export const LogoCloudSection = () => (
             target="_blank"
             rel="noopener noreferrer nofollow"
             href="https://support.lazymedia.media/contactme"
-            className={cn(buttonVariants({ variant: "link" }), "p-0")}
+            className={cn(buttonVariants({ variant: "link" }), "p-0", "underline")}
           >
             this contact form
           </a>
