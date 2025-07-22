@@ -4,6 +4,9 @@
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 
 version: 2
+permissions:
+  write-all: true
+  read-all: true
 updates:
   - package-ecosystem: "npm"
     directory: "/"
