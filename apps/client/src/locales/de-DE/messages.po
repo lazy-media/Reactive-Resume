@@ -73,8 +73,8 @@ msgstr "Der Link wurde in die Zwischenablage kopiert."
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "Ein Link zum Zurücksetzen des Passworts sollte an dein Postfach gesendet worden sein, falls ein Konto mit der von dir angegebenen E-Mail-Adresse existiert."
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A project taken over by <0>Lazy Media</0>"
+#: apps/client/src/components/copyright.tsx:30
+msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
 msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
@@ -242,7 +242,7 @@ msgstr "Abgerundete Ecken"
 msgid "Built with"
 msgstr "Gebaut mit"
 
-#: apps/client/src/components/copyright.tsx:27
+#: apps/client/src/components/copyright.tsx:28
 #: apps/client/src/pages/home/sections/contributors/index.tsx:20
 msgid "By the community, for the community."
 msgstr "Von der Gemeinschaft, für die Gemeinschaft."
@@ -555,7 +555,7 @@ msgstr ""
 msgid "Errors"
 msgstr "Fehler"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:106
+#: apps/client/src/pages/home/sections/support/index.tsx:95
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "Auch wenn du das Projekt nicht finanziell unterstützen kannst, hilfst du dem Projekt enorm, indem du dem GitHub-Repository einen Stern gibst, deinen Freunden davon erzählst oder mir eine Nachricht schickst, um mir erzählen, wie dir Reactive Resume geholfen hat. Dein Feedback und deine Unterstützung sind immer willkommen und sehr geschätzt!"
 
@@ -741,7 +741,7 @@ msgstr "Wenn diese App dir bei deiner Jobsuche geholfen hat, schick mir gerne ei
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "Wenn Du die Zwei-Faktor-Authentifizierung deaktivierst, musst Du beim Anmelden keinen Bestätigungscode mehr eingeben."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:81
+#: apps/client/src/pages/home/sections/support/index.tsx:70
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "Solltest Du mehrere Sprachen beherrschen, würden wir uns über Deine Unterstützung bei der Übersetzung der App in weitere Sprachen freuen. Solltest Du Deine Sprache nicht in der Liste finden, erstelle einfach ein Ticket auf GitHub. Ich kümmere mich dann darum, dass sie hinzugefügt wird. Bereit loszulegen? Starte mit der Übersetzung auf Crowdin, indem Du auf den untenstehenden Link klickst."
 
@@ -876,7 +876,7 @@ msgstr "US Letter"
 msgid "Level"
 msgstr "Niveau"
 
-#: apps/client/src/components/copyright.tsx:16
+#: apps/client/src/components/copyright.tsx:17
 msgid "Licensed under <0>MIT</0>"
 msgstr "Lizenziert unter <0>MIT</0>"
 
@@ -1154,7 +1154,7 @@ msgstr ""
 msgid "Primary Color"
 msgstr "Primärfarbe"
 
-#: apps/client/src/pages/home/components/footer.tsx:50
+#: apps/client/src/pages/home/components/footer.tsx:47
 msgid "Privacy Policy"
 msgstr "Datenschutzerklärung"
 
@@ -1179,7 +1179,7 @@ msgstr "Herausgeber"
 msgid "Raise an issue"
 msgstr "Problem melden"
 
-#: apps/client/src/components/copyright.tsx:35
+#: apps/client/src/components/copyright.tsx:38
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55

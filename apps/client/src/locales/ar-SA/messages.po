@@ -73,8 +73,8 @@ msgstr "تم نسخ الرابط إلى الحافظة الخاصة بك."
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "من المفترض أن يتم إرسال رابط إعادة تعيين كلمة المرور إلى صندوق الوارد الخاص بك، في حالة وجود حساب بالبريد الإلكتروني الذي قدمته."
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A project taken over by <0>Lazy Media</0>"
+#: apps/client/src/components/copyright.tsx:30
+msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
 msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
@@ -242,7 +242,7 @@ msgstr "حدة الزاوية"
 msgid "Built with"
 msgstr "بنيت باستخدام"
 
-#: apps/client/src/components/copyright.tsx:27
+#: apps/client/src/components/copyright.tsx:28
 #: apps/client/src/pages/home/sections/contributors/index.tsx:20
 msgid "By the community, for the community."
 msgstr "من قبل المجتمع، من أجل المجتمع."
@@ -555,7 +555,7 @@ msgstr ""
 msgid "Errors"
 msgstr "أخطاء"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:106
+#: apps/client/src/pages/home/sections/support/index.tsx:95
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "حتى إذا لم تكن في وضع يسمح لك بالمساهمة مالياً، يمكنك أن تحدث فرقاً من خلال إعطاء مستودع GitHub نجمة، نشر الكلمة إلى أصدقائك، أو إسقاط رسالة سريعة لإعلامي كيف ساعدك الاستئناف التفاعلي. إن ملاحظاتك ودعمك دائما موضع ترحيب وتقدير كبير!"
 
@@ -741,7 +741,7 @@ msgstr "إذا كان هذا التطبيق قد ساعدك في البحث عن
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "إذا قمت بتعطيل المصادقة ذات العاملين، فلن يكون مطلوبا منك إدخال رمز التحقق عند تسجيل الدخول."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:81
+#: apps/client/src/pages/home/sections/support/index.tsx:70
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "إذا كنت متعدد اللغات، فإننا نحب مساعدتك في جلب التطبيق إلى المزيد من اللغات والمجتمعات. لا تقلق إذا كنت لا ترى لغتك في القائمة - فقط أعطني تصريحا على GitHub، وسأتأكد من إدراجه. جاهز للبدء؟ انتقل إلى الترجمة في كراودِن بالنقر على الرابط أدناه."
 
@@ -876,7 +876,7 @@ msgstr "رسالة"
 msgid "Level"
 msgstr "المستوى"
 
-#: apps/client/src/components/copyright.tsx:16
+#: apps/client/src/components/copyright.tsx:17
 msgid "Licensed under <0>MIT</0>"
 msgstr "مرخص بموجب <0>MIT</0>"
 
@@ -1154,7 +1154,7 @@ msgstr "مدعوم من <0>أيس بسيط</0>"
 msgid "Primary Color"
 msgstr "اللون الأساسي"
 
-#: apps/client/src/pages/home/components/footer.tsx:50
+#: apps/client/src/pages/home/components/footer.tsx:47
 msgid "Privacy Policy"
 msgstr "سياسة الخصوصية"
 
@@ -1179,7 +1179,7 @@ msgstr "الناشر"
 msgid "Raise an issue"
 msgstr "طرح مشكلة"
 
-#: apps/client/src/components/copyright.tsx:35
+#: apps/client/src/components/copyright.tsx:38
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55

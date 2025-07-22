@@ -1,5 +1,6 @@
 import { t, Trans } from "@lingui/macro";
 import { cn } from "@reactive-resume/utils";
+import { Link } from "react-router";
 
 type Props = {
   className?: string;
@@ -27,12 +28,17 @@ export const Copyright = ({ className }: Props) => (
     <span>{t`By the community, for the community.`}</span>
     <span>
       <Trans>
-        A project taken over by <a href="https://github.com/sponsors/lazy-media">Lazy Media</a>
+        A project graciously adopted by{" "}
+        <a href="https://github.com/sponsors/lazy-media">Lazy Media</a>{" "}
+        <i>(because someone had to... barely)</i>.
       </Trans>
     </span>
 
     <span className="mt-4">
-      {t`Reactive Resume`} {"v" + appVersion}
+      {t`Reactive Resume`}{" "}
+      <Link to="https://github.com/lazy-media/Reactive-Resume/releases/latest" target="_blank">
+        {"v" + appVersion}
+      </Link>
     </span>
   </div>
 );

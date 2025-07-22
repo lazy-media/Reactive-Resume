@@ -73,8 +73,8 @@ msgstr "Linket er blevet kopieret til udklipsholder."
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "Et link til nulstilling af adgangskode skulle være blevet sendt til din indbakke, hvis der eksisterede en konto med den e-mail, du har angivet."
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A project taken over by <0>Lazy Media</0>"
+#: apps/client/src/components/copyright.tsx:30
+msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
 msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
@@ -242,7 +242,7 @@ msgstr "Kantradius"
 msgid "Built with"
 msgstr "Lavet med"
 
-#: apps/client/src/components/copyright.tsx:27
+#: apps/client/src/components/copyright.tsx:28
 #: apps/client/src/pages/home/sections/contributors/index.tsx:20
 msgid "By the community, for the community."
 msgstr "Af fællesskabet, for fællesskabet."
@@ -555,7 +555,7 @@ msgstr ""
 msgid "Errors"
 msgstr "Fejl"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:106
+#: apps/client/src/pages/home/sections/support/index.tsx:95
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "Selvom du ikke er i stand til at bidrage økonomisk, kan du stadig gøre en forskel ved at give GitHub-lageret en stjerne, sprede budskabet til dine venner eller sende en hurtig besked for at fortælle mig, hvordan Reactive Resume har hjulpet dig. Din feedback og støtte er altid velkommen og meget værdsat!"
 
@@ -741,7 +741,7 @@ msgstr "Hvis denne app har hjulpet dig med din jobsøgning, så lad mig det vide
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "Hvis du deaktiverer to-faktor godkendelse, skal du ikke længere indtaste en bekræftelseskode, når du logger ind."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:81
+#: apps/client/src/pages/home/sections/support/index.tsx:70
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "Hvis du er flersproget, vil vi meget gerne have din hjælp til at bringe appen til flere sprog og samfund. Bare rolig, hvis du ikke kan se dit sprog på listen - bare giv mig besked på GitHub, så sørger jeg for at få det med. Er du klar til at komme i gang? Hop ind i oversættelse arbejdet hos Crowdin ved at klikke på linket nedenfor."
 
@@ -876,7 +876,7 @@ msgstr "Brev"
 msgid "Level"
 msgstr "Niveau"
 
-#: apps/client/src/components/copyright.tsx:16
+#: apps/client/src/components/copyright.tsx:17
 msgid "Licensed under <0>MIT</0>"
 msgstr "Licenseret under <0>MIT</0>"
 
@@ -1154,7 +1154,7 @@ msgstr "Drevet af <0>Simple Icons</0>"
 msgid "Primary Color"
 msgstr "Primær farve"
 
-#: apps/client/src/pages/home/components/footer.tsx:50
+#: apps/client/src/pages/home/components/footer.tsx:47
 msgid "Privacy Policy"
 msgstr "Fortrolighedspolitik"
 
@@ -1179,7 +1179,7 @@ msgstr "Udgiver"
 msgid "Raise an issue"
 msgstr "Løft et problem"
 
-#: apps/client/src/components/copyright.tsx:35
+#: apps/client/src/components/copyright.tsx:38
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55

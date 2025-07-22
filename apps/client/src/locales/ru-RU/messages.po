@@ -73,8 +73,8 @@ msgstr "Ссылка скопирована в буфер."
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "Ссылка для сброса пароля отправлена на вашу эл. почту."
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A project taken over by <0>Lazy Media</0>"
+#: apps/client/src/components/copyright.tsx:30
+msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
 msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
@@ -242,7 +242,7 @@ msgstr "Радиус скругления рамки"
 msgid "Built with"
 msgstr "Сделано при помощи"
 
-#: apps/client/src/components/copyright.tsx:27
+#: apps/client/src/components/copyright.tsx:28
 #: apps/client/src/pages/home/sections/contributors/index.tsx:20
 msgid "By the community, for the community."
 msgstr "Продукт сообщества для сообщества."
@@ -555,7 +555,7 @@ msgstr ""
 msgid "Errors"
 msgstr "Ошибки"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:106
+#: apps/client/src/pages/home/sections/support/index.tsx:95
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "Даже если вы не вы не можете внести вклад в проект финансово, вы все равно можете помочь проекту, поставив звезду репозиторию на GitHub, рассказав друзьям или оставив короткое сообщение, чтобы я узнал, как именно Reactive Resume помог вам. Ваши отзывы и поддержка всегда приветствуются и очень ценятся!"
 
@@ -741,7 +741,7 @@ msgstr "Если это приложение помогло вам в поиск
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "Если вы отключите двухфакторную аутентификацию, вам больше не потребуется вводить код подтверждения при входе в систему."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:81
+#: apps/client/src/pages/home/sections/support/index.tsx:70
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "Если вы владеете несколькими языками, мы будем рады вашей помощи в распространении приложения на большее количество языков и сообществ. Не волнуйтесь, если вы не видите своего языка - просто сообщите мне об этом на GitHub, и я обязательно включу его в список. Готовы приступить к работе? Переходите к переводу на сайте Crowdin, нажав на ссылку ниже."
 
@@ -876,7 +876,7 @@ msgstr ""
 msgid "Level"
 msgstr "Уровень"
 
-#: apps/client/src/components/copyright.tsx:16
+#: apps/client/src/components/copyright.tsx:17
 msgid "Licensed under <0>MIT</0>"
 msgstr "Под лицензией <0>MIT</0>"
 
@@ -1154,7 +1154,7 @@ msgstr "Разработано с помощью <0>Simple Icons</0>"
 msgid "Primary Color"
 msgstr "Основной цвет"
 
-#: apps/client/src/pages/home/components/footer.tsx:50
+#: apps/client/src/pages/home/components/footer.tsx:47
 msgid "Privacy Policy"
 msgstr "Политика конфиденциальности"
 
@@ -1179,7 +1179,7 @@ msgstr "Издатель"
 msgid "Raise an issue"
 msgstr "Поднять проблему"
 
-#: apps/client/src/components/copyright.tsx:35
+#: apps/client/src/components/copyright.tsx:38
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55

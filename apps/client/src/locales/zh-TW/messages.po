@@ -73,8 +73,8 @@ msgstr "連接已複製到您的剪貼簿。"
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "如果您提供的電子郵件帳號存在，密碼重設連結應已發送到您的收件匣。"
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A project taken over by <0>Lazy Media</0>"
+#: apps/client/src/components/copyright.tsx:30
+msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
 msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
@@ -242,7 +242,7 @@ msgstr "邊框弧度"
 msgid "Built with"
 msgstr "使用建立"
 
-#: apps/client/src/components/copyright.tsx:27
+#: apps/client/src/components/copyright.tsx:28
 #: apps/client/src/pages/home/sections/contributors/index.tsx:20
 msgid "By the community, for the community."
 msgstr "來自社區，服務社區。"
@@ -555,7 +555,7 @@ msgstr ""
 msgid "Errors"
 msgstr "錯誤"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:106
+#: apps/client/src/pages/home/sections/support/index.tsx:95
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "即使您無法做出財務貢獻，您仍然可以透過為 GitHub 儲存庫加一顆星、向您的朋友傳播訊息或快速留言讓我知道 Reactive Resume 如何幫助您來發揮作用。我們始終歡迎並非常感謝您的回饋和支持！"
 
@@ -741,7 +741,7 @@ msgstr "如果此應用程式對您的求職有幫助，請透過 <0>聯絡表�
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "如果停用雙因子驗證，登入時將不再需要輸入驗證碼。"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:81
+#: apps/client/src/pages/home/sections/support/index.tsx:70
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "如果您使用多種語言，我們希望您能協助我們將應用程式帶到更多語言和社群中。如果您沒有在清單上看到您的語言，也不用擔心，只要在 GitHub 上喊我一聲，我就會確保把您的語言納入其中。準備好開始了嗎？請點選以下連結，加入 Crowdin 的翻譯工作。"
 
@@ -876,7 +876,7 @@ msgstr "信件"
 msgid "Level"
 msgstr "等級"
 
-#: apps/client/src/components/copyright.tsx:16
+#: apps/client/src/components/copyright.tsx:17
 msgid "Licensed under <0>MIT</0>"
 msgstr "以 <0>MIT</0> 授權"
 
@@ -1154,7 +1154,7 @@ msgstr "由 <0> 圖標</0> 提供"
 msgid "Primary Color"
 msgstr "主要顏色"
 
-#: apps/client/src/pages/home/components/footer.tsx:50
+#: apps/client/src/pages/home/components/footer.tsx:47
 msgid "Privacy Policy"
 msgstr "隱私政策"
 
@@ -1179,7 +1179,7 @@ msgstr "發行者"
 msgid "Raise an issue"
 msgstr "提出問題"
 
-#: apps/client/src/components/copyright.tsx:35
+#: apps/client/src/components/copyright.tsx:38
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55

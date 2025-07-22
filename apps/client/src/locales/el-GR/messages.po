@@ -73,8 +73,8 @@ msgstr "Ο σύνδεσμος έχει αντιγραφεί στο πρόχει�
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "Ένας σύνδεσμος επαναφοράς κωδικού πρόσβασης θα πρέπει να έχει σταλεί στα εισερχόμενά σας, εάν υπάρχει λογαριασμός με το email που δηλώσατε."
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A project taken over by <0>Lazy Media</0>"
+#: apps/client/src/components/copyright.tsx:30
+msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
 msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
@@ -242,7 +242,7 @@ msgstr "Ακτίνα Περιγράμματος"
 msgid "Built with"
 msgstr "Δημιουργημένο με:"
 
-#: apps/client/src/components/copyright.tsx:27
+#: apps/client/src/components/copyright.tsx:28
 #: apps/client/src/pages/home/sections/contributors/index.tsx:20
 msgid "By the community, for the community."
 msgstr "Από την κοινότητα, για την κοινότητα."
@@ -555,7 +555,7 @@ msgstr ""
 msgid "Errors"
 msgstr "Σφάλματα"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:106
+#: apps/client/src/pages/home/sections/support/index.tsx:95
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "Ακόμη και αν δεν είστε σε θέση να συνεισφέρετε οικονομικά, μπορείτε να κάνετε τη διαφορά δίνοντας ένα αστέρι στο αποθετήριο GitHub, διαδίδοντας το μήνυμα στους φίλους σας ή στέλνοντας ένα γρήγορο μήνυμα για να μου πείτε πώς σας βοήθησε το Reactive Resume. Τα σχόλιά σας και η υποστήριξή σας είναι πάντα ευπρόσδεκτα και εκτιμώνται πολύ!"
 
@@ -741,7 +741,7 @@ msgstr "Αν αυτή η εφαρμογή σας έχει βοηθήσει με 
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "Εάν απενεργοποιήσετε τον έλεγχο ταυτότητας δύο παραγόντων, δεν θα απαιτείται πλέον να εισάγετε έναν κωδικό επαλήθευσης κατά τη σύνδεση."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:81
+#: apps/client/src/pages/home/sections/support/index.tsx:70
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "Αν είστε πολυγλωσσικός, θα θέλαμε τη βοήθειά σας για να φέρετε την εφαρμογή σε περισσότερες γλώσσες και κοινότητες. Μην ανησυχείτε αν δεν βλέπετε τη γλώσσα σας στη λίστα - απλά δώστε μου μια κραυγή στο GitHub, and I'll make sure to include it. Έτοιμο για να ξεκινήσετε? Μετάβαση στη μετάφραση στο Crowdin κάνοντας κλικ στον παρακάτω σύνδεσμο."
 
@@ -876,7 +876,7 @@ msgstr "Γράμμα"
 msgid "Level"
 msgstr "Επίπεδο"
 
-#: apps/client/src/components/copyright.tsx:16
+#: apps/client/src/components/copyright.tsx:17
 msgid "Licensed under <0>MIT</0>"
 msgstr "Αδειοδότηση <0>MIT</0>"
 
@@ -1154,7 +1154,7 @@ msgstr ""
 msgid "Primary Color"
 msgstr "Βασικό χρώμα"
 
-#: apps/client/src/pages/home/components/footer.tsx:50
+#: apps/client/src/pages/home/components/footer.tsx:47
 msgid "Privacy Policy"
 msgstr "Πολιτική Απορρήτου"
 
@@ -1179,7 +1179,7 @@ msgstr "Εκδότες"
 msgid "Raise an issue"
 msgstr "Θέστε ένα θέμα"
 
-#: apps/client/src/components/copyright.tsx:35
+#: apps/client/src/components/copyright.tsx:38
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55

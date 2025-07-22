@@ -73,8 +73,8 @@ msgstr "Un link a fost copiat în clipboard."
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "Un link de resetare a parolei ar fi trebuit trimis în căsuța poștală, dacă exista un cont cu adresa de e-mail furnizată."
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A project taken over by <0>Lazy Media</0>"
+#: apps/client/src/components/copyright.tsx:30
+msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
 msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
@@ -242,7 +242,7 @@ msgstr "Raza frontierei"
 msgid "Built with"
 msgstr "Construit cu"
 
-#: apps/client/src/components/copyright.tsx:27
+#: apps/client/src/components/copyright.tsx:28
 #: apps/client/src/pages/home/sections/contributors/index.tsx:20
 msgid "By the community, for the community."
 msgstr "Construit de comunitate, pentru comunitate."
@@ -555,7 +555,7 @@ msgstr ""
 msgid "Errors"
 msgstr "Erori"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:106
+#: apps/client/src/pages/home/sections/support/index.tsx:95
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "Chiar dacă nu sunteți în măsură să contribuiți financiar, puteți totuși să faceți o diferență dând o stea depozitului GitHub; distribuirea cuvântului prietenilor tăi sau adăugarea unui mesaj rapid pentru a mă anunța cum te ajută Resume Reactiv. Feedback-ul și suportul dvs. sunt întotdeauna binevenite și foarte apreciate!"
 
@@ -741,7 +741,7 @@ msgstr "Dacă această aplicație v-a ajutat cu căutarea de locuri de muncă, a
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "Dacă dezactivați autentificarea cu doi factori, nu vi se va mai cere să introduceți un cod de verificare atunci când vă conectați."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:81
+#: apps/client/src/pages/home/sections/support/index.tsx:70
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "Dacă ești multilingv, ne-ar plăcea ajutorul tău să aducem aplicația în mai multe limbi și comunități. Nu-ți face griji dacă nu îți vezi limba în listă - dă-mi un strigăt pe GitHub, şi mă voi asigura că îl voi include. Gata de a incepe? Sari la traducerea de la Crowdin facand clic pe link-ul de mai jos."
 
@@ -876,7 +876,7 @@ msgstr "Scrisoare"
 msgid "Level"
 msgstr "Nivel"
 
-#: apps/client/src/components/copyright.tsx:16
+#: apps/client/src/components/copyright.tsx:17
 msgid "Licensed under <0>MIT</0>"
 msgstr "Licențiat sub <0>MIT</0>"
 
@@ -1154,7 +1154,7 @@ msgstr "Oferit de <0>Icons-ul simplu</0>"
 msgid "Primary Color"
 msgstr "Culoare primară"
 
-#: apps/client/src/pages/home/components/footer.tsx:50
+#: apps/client/src/pages/home/components/footer.tsx:47
 msgid "Privacy Policy"
 msgstr "Politica de confidenţialitate"
 
@@ -1179,7 +1179,7 @@ msgstr "Editor"
 msgid "Raise an issue"
 msgstr "Ridicați o problemă"
 
-#: apps/client/src/components/copyright.tsx:35
+#: apps/client/src/components/copyright.tsx:38
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55

@@ -73,8 +73,8 @@ msgstr "リンクがクリップボードにコピーされました"
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "入力されたメールアドレスにパスワードリセットリンクを送信しました。"
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A project taken over by <0>Lazy Media</0>"
+#: apps/client/src/components/copyright.tsx:30
+msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
 msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
@@ -242,7 +242,7 @@ msgstr "境界の半径"
 msgid "Built with"
 msgstr "利用したソフトウェア"
 
-#: apps/client/src/components/copyright.tsx:27
+#: apps/client/src/components/copyright.tsx:28
 #: apps/client/src/pages/home/sections/contributors/index.tsx:20
 msgid "By the community, for the community."
 msgstr "コミュニティによるコミュニティのための。"
@@ -555,7 +555,7 @@ msgstr ""
 msgid "Errors"
 msgstr "エラー"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:106
+#: apps/client/src/pages/home/sections/support/index.tsx:95
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "たとえ金銭的に貢献する立場にないとしても、GitHubリポジトリにスターを付けることで違いを生み出すことができます。 あなたの友人に言葉を広めるか、またはReactive Resume があなたをどのように役立ったかを私に知らせるためにクイックメッセージを落とす。 あなたのフィードバックとサポートはいつでも歓迎し、非常に感謝しています!"
 
@@ -741,7 +741,7 @@ msgstr "このアプリがあなたの求人を助けてくれた場合は、<0>
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "2段階認証を無効にすると、ログイン時に認証コードを入力する必要がなくなります。"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:81
+#: apps/client/src/pages/home/sections/support/index.tsx:70
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "多言語対応の方は、より多くの言語やコミュニティにアプリを導入するのに役立ちます。 リストにあなたの言語が表示されない場合は心配しないでください - GitHubで私に声をかけてください 必ず含めるようにします。 始める準備はできましたか？以下のリンクをクリックして、Crowdin で翻訳をご覧ください。"
 
@@ -876,7 +876,7 @@ msgstr "手紙"
 msgid "Level"
 msgstr "レベル"
 
-#: apps/client/src/components/copyright.tsx:16
+#: apps/client/src/components/copyright.tsx:17
 msgid "Licensed under <0>MIT</0>"
 msgstr "<0>MIT</0>以下でライセンス"
 
@@ -1154,7 +1154,7 @@ msgstr ""
 msgid "Primary Color"
 msgstr "プライマリ色"
 
-#: apps/client/src/pages/home/components/footer.tsx:50
+#: apps/client/src/pages/home/components/footer.tsx:47
 msgid "Privacy Policy"
 msgstr "プライバシーポリシー"
 
@@ -1179,7 +1179,7 @@ msgstr "発行者"
 msgid "Raise an issue"
 msgstr "課題を上げる"
 
-#: apps/client/src/components/copyright.tsx:35
+#: apps/client/src/components/copyright.tsx:38
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55

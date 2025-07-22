@@ -73,8 +73,8 @@ msgstr "ลิงก์ถูกคัดลอกไปยังคลิปบ
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "ลิงก์รีเซ็ตรหัสผ่านควรจะถูกส่งไปยังกล่องขาเข้าของคุณ หากมีบัญชีอยู่พร้อมกับอีเมลที่คุณให้มา"
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A project taken over by <0>Lazy Media</0>"
+#: apps/client/src/components/copyright.tsx:30
+msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
 msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
@@ -242,7 +242,7 @@ msgstr "รัศมีกรอบ"
 msgid "Built with"
 msgstr "สร้างด้วย"
 
-#: apps/client/src/components/copyright.tsx:27
+#: apps/client/src/components/copyright.tsx:28
 #: apps/client/src/pages/home/sections/contributors/index.tsx:20
 msgid "By the community, for the community."
 msgstr "โดยชุมชน เพื่อชุมชน"
@@ -555,7 +555,7 @@ msgstr ""
 msgid "Errors"
 msgstr "ข้อผิดพลาด"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:106
+#: apps/client/src/pages/home/sections/support/index.tsx:95
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "แม้ว่าคุณจะไม่อยู่ในฐานะที่จะบริจาคเงินได้ แต่คุณยังคงสามารถสร้างความแตกต่างได้ด้วยการติดดาวให้กับ GitHub repository นี้ กระจายข่าวให้เพื่อนของคุณ หรือส่งข้อความสั้นๆ เพื่อบอกให้ผมรู้ว่า Reactive Resume ช่วยคุณได้อย่างไร ข้อเสนอแนะและการสนับสนุนของคุณ ผมยินดีน้อมรับและชื่นชมเสมอ!"
 
@@ -741,7 +741,7 @@ msgstr "หากแอปนี้ช่วยคุณในการหาง
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "หากคุณปิดใช้งานการยืนยันตัวตนแบบสองขั้นตอน คุณจะไม่ต้องป้อนรหัสยืนยันอีกต่อไปเมื่อเข้าสู่ระบบ"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:81
+#: apps/client/src/pages/home/sections/support/index.tsx:70
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "หากคุณพูดได้หลายภาษา เรายินดีให้คุณช่วยเหลือโดยการนำแอปนี้มาทำให้เข้าถึงได้ในภาษาและชุมชนต่างๆ มากขึ้น ไม่ต้องกังวลหากคุณไม่เห็นภาษาของคุณในรายการ เพียงบอกผมทาง GitHub แล้วผมจะใส่ภาษานั้นไว้ด้วย พร้อมเริ่มหรือยัง? ข้ามไปแปลที่ Crowdin โดยคลิกลิงก์ด้านล่างได้เลย"
 
@@ -876,7 +876,7 @@ msgstr "จดหมาย"
 msgid "Level"
 msgstr "ระดับ"
 
-#: apps/client/src/components/copyright.tsx:16
+#: apps/client/src/components/copyright.tsx:17
 msgid "Licensed under <0>MIT</0>"
 msgstr "จดสัญญาภายใต้ <0>MIT</0>"
 
@@ -1154,7 +1154,7 @@ msgstr "ขับเคลื่อนโดย <0>Simple Icons</0>"
 msgid "Primary Color"
 msgstr "สีหลัก"
 
-#: apps/client/src/pages/home/components/footer.tsx:50
+#: apps/client/src/pages/home/components/footer.tsx:47
 msgid "Privacy Policy"
 msgstr "นโยบายความเป็นส่วนตัว"
 
@@ -1179,7 +1179,7 @@ msgstr "สำนักพิมพ์"
 msgid "Raise an issue"
 msgstr "แจ้งปัญหา"
 
-#: apps/client/src/components/copyright.tsx:35
+#: apps/client/src/components/copyright.tsx:38
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55

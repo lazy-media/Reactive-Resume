@@ -73,8 +73,8 @@ msgstr "لینک در کلیپ بورد شما کپی شده است."
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "اگر یک حساب کاربری با ایمیلی که ارائه کرده‌اید وجود دارد، لینک بازنشانی رمز عبور باید به صندوق ورودی شما ارسال شده باشد."
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A project taken over by <0>Lazy Media</0>"
+#: apps/client/src/components/copyright.tsx:30
+msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
 msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
@@ -242,7 +242,7 @@ msgstr "شعاع حاشیه"
 msgid "Built with"
 msgstr "ساخته شده با"
 
-#: apps/client/src/components/copyright.tsx:27
+#: apps/client/src/components/copyright.tsx:28
 #: apps/client/src/pages/home/sections/contributors/index.tsx:20
 msgid "By the community, for the community."
 msgstr "توسط جامعه، برای جامعه."
@@ -555,7 +555,7 @@ msgstr ""
 msgid "Errors"
 msgstr "خطاها"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:106
+#: apps/client/src/pages/home/sections/support/index.tsx:95
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "حتی اگر قادر به کمک مالی نباشید، هنوز می‌توانید با به دادن یک ستاره در گیت هاب، گسترش خبر به دوستانتان یا ارسال یک پیام سریع برای من که چگونه Reactive Resume به شما کمک کرده است، تفاوت ایجاد کنید. بازخورد و حمایت شما همیشه خوش‌آمدید و بسیار قدردانی می‌شود!"
 
@@ -741,7 +741,7 @@ msgstr "اگر این برنامه به شما در جستجوی شغل کمک �
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "اگر احراز هویت دو عاملی را غیرفعال کنید، دیگر نیازی به وارد کردن یک کد تأیید نیست وقتی که وارد سیستم می‌شوید."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:81
+#: apps/client/src/pages/home/sections/support/index.tsx:70
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "اگر چندزبانه هستید، ما خیلی خوشحال می‌شویم که به کمک شما، اپ را به بیشتر زبان‌ها و اجتماع‌ها برسانیم. نگران نباشید اگر زبان خود را در لیست نمی‌بینید - فقط به من در گیت‌هاب پیام دهید و من اطمینان حاصل خواهم کرد که آن را اضافه کنم. آیا آماده‌اید که شروع کنید؟ با کلیک بر روی لینک، وارد ترجمه در Crowdin شوید."
 
@@ -876,7 +876,7 @@ msgstr "نامه"
 msgid "Level"
 msgstr "سطح"
 
-#: apps/client/src/components/copyright.tsx:16
+#: apps/client/src/components/copyright.tsx:17
 msgid "Licensed under <0>MIT</0>"
 msgstr "دارای مجوز <0>MIT</0>"
 
@@ -1154,7 +1154,7 @@ msgstr "ساخته شده توسط <0>Simple Icons</0>"
 msgid "Primary Color"
 msgstr "رنگ اصلی"
 
-#: apps/client/src/pages/home/components/footer.tsx:50
+#: apps/client/src/pages/home/components/footer.tsx:47
 msgid "Privacy Policy"
 msgstr "سیاست حفظ حریم شخصی"
 
@@ -1179,7 +1179,7 @@ msgstr "منتشر کننده"
 msgid "Raise an issue"
 msgstr "ایجاد یک گزارش"
 
-#: apps/client/src/components/copyright.tsx:35
+#: apps/client/src/components/copyright.tsx:38
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55

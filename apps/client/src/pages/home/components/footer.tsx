@@ -26,7 +26,12 @@ export const Footer = () => (
 
       <div className="relative col-start-4 flex flex-col items-end justify-end">
         <div className="mb-14 space-y-6 text-right">
-          <a className="block" href="https://www.oracle.com/cloud/free/">
+          <a
+            className="block"
+            href="https://www.oracle.com/cloud/free/"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
             <img
               src="/support-logos/powered-by-oracle.avif"
               alt="Powered by Oracle Cloud"
@@ -36,8 +41,9 @@ export const Footer = () => (
           </a>
 
           <Link
-            to="/meta/privacy-policy"
+            to="https://docs.rxresume.org/meta/privacy-policy"
             className="block text-sm font-medium"
+            target="_blank"
           >{t`Privacy Policy`}</Link>
         </div>
 
