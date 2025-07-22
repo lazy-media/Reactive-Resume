@@ -28,9 +28,9 @@ export const Footer = () => (
         <div className="mb-14 space-y-6 text-right">
           <a className="block" href="https://www.oracle.com/cloud/free/">
             <img
-              src="https://www.oracle.com/a/pr/img/c82-oracle-powered-cloud.gif"
+              src="/support-logos/powered-by-oracle.avif"
               alt="Powered by Oracle Cloud"
-              className="block"
+              className="block dark:block"
               width="150px"
             />
           </a>
