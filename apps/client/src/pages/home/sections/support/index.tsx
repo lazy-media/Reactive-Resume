@@ -39,7 +39,7 @@ export const SupportSection = () => (
 
         <a href="https://venmo.com/LazyMedia" rel="noreferrer noopener nofollow" target="_blank">
           {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
-          <img src="/support-logos/venmo.svg" className="max-h-[32px]" alt="Venmo" />
+          <img src="/support-logos/venmo.svg" className="max-h-[25px]" alt="Venmo" />
         </a>
 
         <a href="https://coff.ee/lazymedia" rel="noreferrer noopener nofollow" target="_blank">
@@ -49,6 +49,20 @@ export const SupportSection = () => (
             className="max-h-[32px]"
             alt="Buy Me a Coffee"
           />
+        </a>
+
+        <a href="https://patreon.com/LazyMedia" rel="noreferrer noopener nofollow" target="_blank">
+          {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
+          <img src="/support-logos/patreon.png" className="max-h-[42px]" alt="Patreon" />
+        </a>
+
+        <a
+          href="https://discord.com/servers/lazy-media-s-reactive-resume-1392393638247530587"
+          rel="noreferrer noopener nofollow"
+          target="_blank"
+        >
+          {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
+          <img src="/support-logos/discord.png" className="max-h-[32px]" alt="Discord" />
         </a>
       </div>
 
