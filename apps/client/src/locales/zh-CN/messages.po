@@ -55,12 +55,12 @@ msgid "<0>Two-factor authentication is enabled.</0> You will be asked to enter a
 msgstr "<0>已启用双重身份验证。</0>您在每次登录时都需要输入验证码。"
 
 #: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/home/sections/hero/index.tsx:40
+#: apps/client/src/pages/home/sections/hero/index.tsx:42
 msgid "A free and open-source resume builder"
 msgstr "免费开源的简历生成器"
 
 #: apps/client/src/pages/home/components/footer.tsx:21
-#: apps/client/src/pages/home/sections/hero/index.tsx:45
+#: apps/client/src/pages/home/sections/hero/index.tsx:47
 msgid "A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume."
 msgstr "一款免费开源的简历生成器，可简化创建、更新和共享简历的过程。"
 
@@ -577,7 +577,7 @@ msgstr "文件"
 msgid "Filetype"
 msgstr "文件类型"
 
-#: apps/client/src/pages/home/sections/hero/index.tsx:38
+#: apps/client/src/pages/home/sections/hero/index.tsx:40
 msgid "Finally,"
 msgstr "最后，"
 
@@ -1179,7 +1179,7 @@ msgstr "发布者"
 msgid "Raise an issue"
 msgstr "提出问题"
 
-#: apps/client/src/components/copyright.tsx:38
+#: apps/client/src/components/copyright.tsx:44
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55
@@ -1752,7 +1752,7 @@ msgstr "我们验证您的电子邮件地址只是为了确保在您忘记密码
 msgid "Website"
 msgstr "网站"
 
-#: apps/client/src/pages/home/sections/hero/index.tsx:32
+#: apps/client/src/pages/home/sections/hero/index.tsx:34
 msgid "What's new in the latest version"
 msgstr "最新版本的新功能"
 

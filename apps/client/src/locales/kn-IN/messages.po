@@ -55,12 +55,12 @@ msgid "<0>Two-factor authentication is enabled.</0> You will be asked to enter a
 msgstr "<0>ಎರಡು ಅಂಶದ ದೃಢೀಕರಣವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ.</0> ನೀವು ಸೈನ್ ಇನ್ ಮಾಡಿದಾಗಲೆಲ್ಲಾ ಕೋಡ್ ಅನ್ನು ನಮೂದಿಸಲು ನಿಮ್ಮನ್ನು ಕೇಳಲಾಗುತ್ತದೆ."
 
 #: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/home/sections/hero/index.tsx:40
+#: apps/client/src/pages/home/sections/hero/index.tsx:42
 msgid "A free and open-source resume builder"
 msgstr "ಉಚಿತ ಮತ್ತು ಮೂಲ ಕೋಡ್ ತೆರೆದಿರುವ ರೇಜ಼ಮೈ ನಿರ್ಮಾಪಕ"
 
 #: apps/client/src/pages/home/components/footer.tsx:21
-#: apps/client/src/pages/home/sections/hero/index.tsx:45
+#: apps/client/src/pages/home/sections/hero/index.tsx:47
 msgid "A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume."
 msgstr "ನಿಮ್ಮ ರೆಸ್ಯೂಮ್ ಅನ್ನು ರಚಿಸುವ, ನವೀಕರಿಸುವ ಮತ್ತು ಹಂಚಿಕೊಳ್ಳುವ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಸರಳಗೊಳಿಸುವ ಉಚಿತ ಮತ್ತು ಮುಕ್ತ-ಮೂಲ ಪುನರಾರಂಭ ಬಿಲ್ಡರ್."
 
@@ -577,7 +577,7 @@ msgstr "ಕಡತ"
 msgid "Filetype"
 msgstr "ಕಡತದ ವರ್ಗ"
 
-#: apps/client/src/pages/home/sections/hero/index.tsx:38
+#: apps/client/src/pages/home/sections/hero/index.tsx:40
 msgid "Finally,"
 msgstr "ಅಂತಿಮವಾಗಿ,"
 
@@ -1179,7 +1179,7 @@ msgstr "ಪ್ರಕಾಶಕರು"
 msgid "Raise an issue"
 msgstr "ಒಂದು ಸಮಸ್ಯೆಯನ್ನು ಎತ್ತಿಕೊಳ್ಳಿ"
 
-#: apps/client/src/components/copyright.tsx:38
+#: apps/client/src/components/copyright.tsx:44
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55
@@ -1752,7 +1752,7 @@ msgstr "ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ನೀವ
 msgid "Website"
 msgstr "ಜಾಲತಾಣ"
 
-#: apps/client/src/pages/home/sections/hero/index.tsx:32
+#: apps/client/src/pages/home/sections/hero/index.tsx:34
 msgid "What's new in the latest version"
 msgstr "ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಯಲ್ಲಿ ಹೊಸದೇನಿದೆ"
 

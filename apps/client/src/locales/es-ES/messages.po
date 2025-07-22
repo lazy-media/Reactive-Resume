@@ -55,12 +55,12 @@ msgid "<0>Two-factor authentication is enabled.</0> You will be asked to enter a
 msgstr "<0>La autenticación de doble factor está habilitada.</0> Se te pedirá que introduzcas un código cada vez que inicies sesión."
 
 #: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/home/sections/hero/index.tsx:40
+#: apps/client/src/pages/home/sections/hero/index.tsx:42
 msgid "A free and open-source resume builder"
 msgstr "Un creador de currículums gratuito y de código abierto"
 
 #: apps/client/src/pages/home/components/footer.tsx:21
-#: apps/client/src/pages/home/sections/hero/index.tsx:45
+#: apps/client/src/pages/home/sections/hero/index.tsx:47
 msgid "A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume."
 msgstr "Un creador de currículums gratuito y de código abierto que simplifica el proceso de crear, actualizar y compartir tu currículum."
 
@@ -577,7 +577,7 @@ msgstr "Archivo"
 msgid "Filetype"
 msgstr "Tipo de archivo"
 
-#: apps/client/src/pages/home/sections/hero/index.tsx:38
+#: apps/client/src/pages/home/sections/hero/index.tsx:40
 msgid "Finally,"
 msgstr "Por último,"
 
@@ -1179,7 +1179,7 @@ msgstr "Editor"
 msgid "Raise an issue"
 msgstr "Reportar problema"
 
-#: apps/client/src/components/copyright.tsx:38
+#: apps/client/src/components/copyright.tsx:44
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55
@@ -1752,7 +1752,7 @@ msgstr "Verificamos tu dirección de correo electrónico sólo para asegurarnos 
 msgid "Website"
 msgstr "Sitio Web"
 
-#: apps/client/src/pages/home/sections/hero/index.tsx:32
+#: apps/client/src/pages/home/sections/hero/index.tsx:34
 msgid "What's new in the latest version"
 msgstr "Novedades en la última versión"
 

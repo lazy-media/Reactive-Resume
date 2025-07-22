@@ -55,12 +55,12 @@ msgid "<0>Two-factor authentication is enabled.</0> You will be asked to enter a
 msgstr "<0>দ্বি-ফ্যাক্টর প্রমাণীকরণ সক্ষম করা হয়েছে।</0>প্রতিবার সাইন ইন করার সময় আপনাকে একটি কোড লিখতে বলা হবে।"
 
 #: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/home/sections/hero/index.tsx:40
+#: apps/client/src/pages/home/sections/hero/index.tsx:42
 msgid "A free and open-source resume builder"
 msgstr "একটি বিনামূল্যে এবং ওপেন সোর্স জীবনবৃত্তান্ত নির্মাতা"
 
 #: apps/client/src/pages/home/components/footer.tsx:21
-#: apps/client/src/pages/home/sections/hero/index.tsx:45
+#: apps/client/src/pages/home/sections/hero/index.tsx:47
 msgid "A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume."
 msgstr "একটি বিনামূল্যের এবং ওপেন-সোর্স সারসংকলন নির্মাতা যা আপনার জীবনবৃত্তান্ত তৈরি, আপডেট এবং শেয়ার করার প্রক্রিয়াকে সহজ করে।"
 
@@ -577,7 +577,7 @@ msgstr "ফাইল"
 msgid "Filetype"
 msgstr "ফাইলের ধরন"
 
-#: apps/client/src/pages/home/sections/hero/index.tsx:38
+#: apps/client/src/pages/home/sections/hero/index.tsx:40
 msgid "Finally,"
 msgstr "অবশেষে,"
 
@@ -1179,7 +1179,7 @@ msgstr "প্রকাশক"
 msgid "Raise an issue"
 msgstr "ত্রুটি / সমস্যা তুলে ধরুন"
 
-#: apps/client/src/components/copyright.tsx:38
+#: apps/client/src/components/copyright.tsx:44
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55
@@ -1752,7 +1752,7 @@ msgstr ""
 msgid "Website"
 msgstr ""
 
-#: apps/client/src/pages/home/sections/hero/index.tsx:32
+#: apps/client/src/pages/home/sections/hero/index.tsx:34
 msgid "What's new in the latest version"
 msgstr ""
 

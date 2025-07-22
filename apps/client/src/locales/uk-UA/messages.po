@@ -55,12 +55,12 @@ msgid "<0>Two-factor authentication is enabled.</0> You will be asked to enter a
 msgstr "<0>Двофакторна аутентифікація ввімкнена.</0> Вам буде запропоновано ввести код при кожному вході в систему."
 
 #: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/home/sections/hero/index.tsx:40
+#: apps/client/src/pages/home/sections/hero/index.tsx:42
 msgid "A free and open-source resume builder"
 msgstr "Безкоштовний конструктор резюме з відкритим вихідним кодом"
 
 #: apps/client/src/pages/home/components/footer.tsx:21
-#: apps/client/src/pages/home/sections/hero/index.tsx:45
+#: apps/client/src/pages/home/sections/hero/index.tsx:47
 msgid "A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume."
 msgstr "Безкоштовний конструктор резюме з відкритим вихідним кодом, який спрощує процес створення, оновлення та поширення вашого резюме."
 
@@ -577,7 +577,7 @@ msgstr "Файл"
 msgid "Filetype"
 msgstr "Тип файлу"
 
-#: apps/client/src/pages/home/sections/hero/index.tsx:38
+#: apps/client/src/pages/home/sections/hero/index.tsx:40
 msgid "Finally,"
 msgstr "Нарешті,"
 
@@ -1179,7 +1179,7 @@ msgstr "Автор"
 msgid "Raise an issue"
 msgstr "Підняти проблему"
 
-#: apps/client/src/components/copyright.tsx:38
+#: apps/client/src/components/copyright.tsx:44
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:55
@@ -1752,7 +1752,7 @@ msgstr "Підтверджуємо вашу електронну адресу л
 msgid "Website"
 msgstr "Вебсторінка"
 
-#: apps/client/src/pages/home/sections/hero/index.tsx:32
+#: apps/client/src/pages/home/sections/hero/index.tsx:34
 msgid "What's new in the latest version"
 msgstr "Що нового в останній версії"
 
