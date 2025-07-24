@@ -8,6 +8,7 @@
 
 ### Workflows
 
+[![Sync Crowdin Translations](https://github.com/lazy-media/Reactive-Resume/actions/workflows/sync-crowdin-translations.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/sync-crowdin-translations.yml)
 [![CodeQL](https://github.com/lazy-media/Reactive-Resume/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/github-code-scanning/codeql)
 [![Run Prettier and Language File Fixes](https://github.com/lazy-media/Reactive-Resume/actions/workflows/prettier-and-language-fixes.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/prettier-and-language-fixes.yml)
 [![Lint, Test & Build](https://github.com/lazy-media/Reactive-Resume/actions/workflows/lint-test-build.yml/badge.svg)](https://github.com/lazy-media/Reactive-Resume/actions/workflows/lint-test-build.yml)
