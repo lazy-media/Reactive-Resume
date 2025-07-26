@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-Project: lazymedia-reactive-resume\n"
 "X-Crowdin-Project-ID: 799944\n"
 "X-Crowdin-Language: en-US\n"
-"X-Crowdin-File: /[lazy-media.Reactive-Resume] v1/apps/client/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[lazy-media.Reactive-Resume] apps/client/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 22\n"
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:171
@@ -1827,4 +1827,3 @@ msgstr "Zoom In"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:118
 msgid "Zoom Out"
 msgstr "Zoom Out"
-

@@ -22,7 +22,7 @@ No email? No problem! Use a throwaway, your grandma’s AOL address, or just sta
 
 ⚠️ **IMPORTANT PSA:**
 
-- **Remove your resumes from the [old Lazy Media app](https://resume.lazymedia.media)** before **August 1st, 2025**, unless you enjoy locked doors and authentication-induced existential dread.
+- **Remove your resumes from the [old Lazy Media Reactive Resume](https://resume.lazymedia.media)** before **August 1st, 2025**, unless you enjoy locked doors and authentication-induced existential dread. _Hosted from an domain that is going to be used for testing._
 - Start using the new **email-verification-free paradise** today: [https://rxresume.org](https://rxresume.org)
 
 ---
