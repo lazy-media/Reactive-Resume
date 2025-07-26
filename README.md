@@ -49,11 +49,11 @@ No email? No problem! Use a throwaway, your grandma’s AOL address, or just sta
 
 A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.
 
-### [Go to Public App](https://rxresume.org/) | [Go to Old Lazy Media App](https://resume.lazymedia.media) | [Docs](https://docs.rxresume.org/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki) | [Official Docker Hub Repo](https://hub.docker.com/r/pickit420/reactive-resume) | [Discord Server](https://discord.com/servers/lazy-media-s-reactive-resume-1392393638247530587)
+### [Go to Public App](https://rxresume.org/) | [Docs](https://docs.rxresume.org/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki) | [Official Docker Hub Repo](https://hub.docker.com/r/pickit420/reactive-resume) | [Discord Server](https://discord.com/servers/lazy-media-s-reactive-resume-1392393638247530587)
 
-> _New Public App now available with no email verification!_ > _Please use `Letter` Format when Exporting a PDF. Currently `A4` Format cuts off long resumes._
-
-> **YOU MUST REMOVE YOUR RESUMES FROM THE [OLD LAZY MEDIA APP](https://resume.lazymedia.media) AND IMPORT THEM INTO THE [NEW APP](https://rxresume.org) BY 8/1/2025 OR YOU WILL BE LOCKED OUT! THE OLD APP IS BEING RESTRICTED!!**
+> _New Public App now available with no email verification!_
+>
+> - _Please use `Letter` Format when Exporting a PDF. Currently `A4` Format cuts off long resumes._
 
 ### Still want to use the old app from the old maintainer?
 
