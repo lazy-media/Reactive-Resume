@@ -204,7 +204,7 @@
     "lodash.debounce": "^4.0.8",
     "lodash.get": "^4.4.2",
     "lodash.set": "^4.3.2",
-    "minio": "^8.0.4",
+    "minio": "^8.0.5",
     "nest-raven": "^10.1.0",
     "nestjs-minio-client": "^2.2.0",
     "nestjs-prisma": "^0.24.0",
