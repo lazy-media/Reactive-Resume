@@ -249,8 +249,8 @@ importers:
         specifier: ^4.3.2
         version: 4.3.2
       minio:
-        specifier: ^8.0.4
-        version: 8.0.4
+        specifier: ^8.0.5
+        version: 8.0.5
       nest-raven:
         specifier: ^10.1.0
         version: 10.1.0(@nestjs/common@10.4.16(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.4.15)(@sentry/node@8.2.1)(graphql@16.8.1)(reflect-metadata@0.2.2)(rxjs@7.8.1)
@@ -7002,8 +7002,8 @@ packages:
   fast-uri@3.0.6:
     resolution: {integrity: sha512-Atfo14OibSv5wAp4VWNsFYE1AchQRTv9cBGWET4pZWHzYshFSS9NQI6I57rdKn9croWVMbYFbLhJ+yJvmZIIHw==}
 
-  fast-xml-parser@4.5.1:
-    resolution: {integrity: sha512-y655CeyUQ+jj7KBbYMc4FG01V8ZQqjN+gDYGJ50RtfsUB8iG9AmwmwoAgeKLJdmueKKMrH1RJ7yXHTSoczdv5w==}
+  fast-xml-parser@4.5.3:
+    resolution: {integrity: sha512-RKihhV+SHsIUGXObeVy9AXiBbFwkVk7Syp8XgwN5U3JV416+Gwp/GO9i0JYKmikykgz/UHRrrV4ROuZEo/T0ig==}
     hasBin: true
 
   fastq@1.18.0:
@@ -8546,8 +8546,8 @@ packages:
     resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==}
     engines: {node: '>= 0.6'}
 
-  mime-db@1.53.0:
-    resolution: {integrity: sha512-oHlN/w+3MQ3rba9rqFr6V/ypF10LSkdwUysQL7GkXoTgIWeV+tcXGA852TBxH+gsh8UWoyhR1hKcoMJTuWflpg==}
+  mime-db@1.54.0:
+    resolution: {integrity: sha512-aU5EJuIN2WDemCcAp2vFBfp/m4EAhWJnUNSSw0ixs7/kXbd6Pg64EmwJkNdFhB8aWt1sH2CTXrLxo/iAGV3oPQ==}
     engines: {node: '>= 0.6'}
 
   mime-types@2.1.35:
@@ -8622,8 +8622,8 @@ packages:
     resolution: {integrity: sha512-xPrLjWkTT5E7H7VnzOjF//xBp9I40jYB4aWhb2xTFopXXfw+Wo82DDWngdUju7Doy3Wk7R8C4LAgwhLHHnf0wA==}
     engines: {node: ^16 || ^18 || >=20}
 
-  minio@8.0.4:
-    resolution: {integrity: sha512-GVW7y2PNbzjjFJ9opVMGKvDNuRkyz3bMt1q7UrHs7bsKFWLXbSvMPffjE/HkVYWUjlD8kQwMaeqiHhhvZJJOfQ==}
+  minio@8.0.5:
+    resolution: {integrity: sha512-/vAze1uyrK2R/DSkVutE4cjVoAowvIQ18RAwn7HrqnLecLlMazFnY0oNBqfuoAWvu7mZIGX75AzpuV05TJeoHg==}
     engines: {node: ^16 || ^18 || >=20}
 
   minipass@7.1.2:
@@ -10716,8 +10716,8 @@ packages:
     resolution: {integrity: sha512-A21Xsm1XzUkK0qK1ZrytDUvqsQWict2Cykhvi0fBQntGG5JSprESasEyV1EZ/4CiR5WB5KjzLTrP/bO37B0wPg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  strnum@1.0.5:
-    resolution: {integrity: sha512-J8bbNyKKXl5qYcR36TIO8W3mVGVHrmmxsd5PAItGkmyzwJvybiw2IVq5nqd0i4LSNSkB/sx9VHllbfFdr9k1JA==}
+  strnum@1.1.2:
+    resolution: {integrity: sha512-vrN+B7DBIoTTZjnPNewwhx6cBA/H+IS7rfW68n7XxC1y7uoiGQBxaKzqucGUgavX15dJgiGztLJ8vxuEzwqBdA==}
 
   strong-log-transformer@2.1.0:
     resolution: {integrity: sha512-B3Hgul+z0L9a236FAUC9iZsL+nVHgoCJnqCbN588DjYxvGXaXaaFbfmQ/JhvKjZwsOukuR72XbHv71Qkug0HxA==}
@@ -18175,7 +18175,7 @@ snapshots:
 
   compressible@2.0.18:
     dependencies:
-      mime-db: 1.53.0
+      mime-db: 1.54.0
 
   compression@1.7.5:
     dependencies:
@@ -19376,7 +19376,7 @@ snapshots:
 
   ext-list@2.2.2:
     dependencies:
-      mime-db: 1.53.0
+      mime-db: 1.54.0
 
   ext-name@5.0.0:
     dependencies:
@@ -19441,9 +19441,9 @@ snapshots:
 
   fast-uri@3.0.6: {}
 
-  fast-xml-parser@4.5.1:
+  fast-xml-parser@4.5.3:
     dependencies:
-      strnum: 1.0.5
+      strnum: 1.1.2
 
   fastq@1.18.0:
     dependencies:
@@ -21341,7 +21341,7 @@ snapshots:
 
   mime-db@1.52.0: {}
 
-  mime-db@1.53.0: {}
+  mime-db@1.54.0: {}
 
   mime-types@2.1.35:
     dependencies:
@@ -21402,7 +21402,7 @@ snapshots:
       block-stream2: 2.1.0
       browser-or-node: 2.1.1
       buffer-crc32: 0.2.13
-      fast-xml-parser: 4.5.1
+      fast-xml-parser: 4.5.3
       ipaddr.js: 2.2.0
       json-stream: 1.0.0
       lodash: 4.17.21
@@ -21413,14 +21413,14 @@ snapshots:
       xml: 1.0.1
       xml2js: 0.5.0
 
-  minio@8.0.4:
+  minio@8.0.5:
     dependencies:
       async: 3.2.6
       block-stream2: 2.1.0
       browser-or-node: 2.1.1
       buffer-crc32: 1.0.0
       eventemitter3: 5.0.1
-      fast-xml-parser: 4.5.1
+      fast-xml-parser: 4.5.3
       ipaddr.js: 2.2.0
       lodash: 4.17.21
       mime-types: 2.1.35
@@ -23960,7 +23960,7 @@ snapshots:
 
   strip-outer@2.0.0: {}
 
-  strnum@1.0.5: {}
+  strnum@1.1.2: {}
 
   strong-log-transformer@2.1.0:
     dependencies:
@@ -24555,7 +24555,7 @@ snapshots:
       is-arguments: 1.2.0
       is-generator-function: 1.1.0
       is-typed-array: 1.1.15
-      which-typed-array: 1.1.18
+      which-typed-array: 1.1.19
 
   utils-merge@1.0.1: {}
 
