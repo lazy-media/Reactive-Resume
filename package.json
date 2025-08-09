@@ -41,7 +41,7 @@
     "@nestjs/testing": "^10.4.15",
     "@nx/eslint": "^19.8.14",
     "@nx/eslint-plugin": "^19.8.14",
-    "@nx/jest": "^19.8.14",
+    "@nx/jest": "^21.3.11",
     "@nx/js": "^19.8.14",
     "@nx/nest": "^19.8.14",
     "@nx/node": "^19.8.14",
