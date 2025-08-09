@@ -128,7 +128,7 @@
     "@dnd-kit/modifiers": "^9.0.0",
     "@dnd-kit/sortable": "^8.0.0",
     "@dnd-kit/utilities": "^3.2.2",
-    "@fontsource/ibm-plex-sans": "^5.1.1",
+    "@fontsource/ibm-plex-sans": "^5.2.6",
     "@hookform/resolvers": "^3.10.0",
     "@lingui/core": "^4.14.1",
     "@lingui/detect-locale": "^4.14.1",
