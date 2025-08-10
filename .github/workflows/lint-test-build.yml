@@ -6,7 +6,7 @@ concurrency:
 
 on:
   workflow_dispatch:
-  workflow:
+  workflows:
     name: "NX CI"
     types: [completed]
 
