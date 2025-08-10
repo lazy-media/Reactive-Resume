@@ -7,10 +7,9 @@ concurrency:
 on:
   workflow_dispatch:
   workflow_run:
-    workflows:
-      name: "NX CI"
-      types:
-        - completed
+    name: "NX CI"
+    types:
+      - completed
 
 jobs:
   main:
