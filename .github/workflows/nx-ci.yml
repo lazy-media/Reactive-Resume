@@ -2,9 +2,11 @@ name: NX CI
 
 on:
   workflow_dispatch:
-  workflows:
-    name: "Run Prettier and Language File Fixes"
-    types: [completed]
+  workflow_run:
+    workflows:
+      name: "Run Prettier and Language File Fixes"
+      types:
+        - completed
 
 permissions:
   actions: read
