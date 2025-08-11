@@ -6,10 +6,12 @@ concurrency:
 
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows: ["NX CI"]
-    types:
-      - completed
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   main:
