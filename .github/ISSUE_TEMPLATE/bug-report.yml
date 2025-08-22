@@ -13,7 +13,6 @@ body:
         - label: I've searched existing issues and confirmed this is new
         - label: I've tested on multiple browsers/device
         - label: I've attempted troubleshooting (cache clearing, etc.)
-        - label: This occurs in the self-hosted version (not cloud)
     validations:
       required: true
 
@@ -81,3 +80,4 @@ body:
         (Drag files here to attach)
     validations:
       required: false
+
