@@ -153,7 +153,7 @@ export class LinkedInParser implements Parser<JSZip, LinkedIn> {
           id: createId(),
           name: certification.Name,
           issuer: certification.Authority,
-          url: { ...defaultCertification.url, href: certification.Url || "" },
+          url: { ...defaultCertification.url, href: certification.Url ?? "" },
           date: `${certification["Started On"]} - ${certification["Finished On"] ?? "Present"}`,
         });
       }
