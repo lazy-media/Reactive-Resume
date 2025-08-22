@@ -80,4 +80,3 @@ body:
         (Drag files here to attach)
     validations:
       required: false
-
