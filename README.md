@@ -44,6 +44,16 @@ No email? No problem! Use a throwaway, your grandma’s AOL address, or just sta
 
 A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.
 
+---
+
+**Hey everyone, did you know you can now access the docs in 7 languages?**
+
+**You can now read them in: Español, Français, Deutsch, Italiano, Português, Português Brasileiro, and Русский.**
+
+**Just use the language switcher at the top of the sidebar on the [Docs Site](https://docsd.rxresume.org) to choose your preferred language. A huge thank you to GitBook for sponsoring these translations!**
+
+---
+
 ### [Go to Public App](https://rxresume.org/) | [Docs](https://docs.rxresume.org/) | [Wiki](https://github.com/lazy-media/Reactive-Resume/wiki) | [Official Docker Hub Repo](https://hub.docker.com/r/pickit420/reactive-resume) | [Discord Server](https://discord.com/servers/lazy-media-s-reactive-resume-1392393638247530587)
 
 > _New Public App now available with no email verification!_
