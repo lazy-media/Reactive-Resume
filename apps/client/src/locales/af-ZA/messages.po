@@ -680,7 +680,7 @@ msgstr ""
 msgid "Grayscale"
 msgstr ""
 
-#: apps/client/src/pages/dashboard/resumes/page.tsx:43
+#: apps/client/src/pages/dashboard/resumes/page.tsx:66
 msgid "Grid"
 msgstr ""
 
@@ -897,7 +897,7 @@ msgstr ""
 msgid "LinkedIn, JSON Resume, etc."
 msgstr ""
 
-#: apps/client/src/pages/dashboard/resumes/page.tsx:47
+#: apps/client/src/pages/dashboard/resumes/page.tsx:70
 msgid "List"
 msgstr ""
 
@@ -1188,7 +1188,7 @@ msgstr ""
 #: apps/client/src/pages/auth/verify-email/page.tsx:43
 #: apps/client/src/pages/auth/verify-otp/page.tsx:52
 #: apps/client/src/pages/builder/page.tsx:60
-#: apps/client/src/pages/dashboard/resumes/page.tsx:20
+#: apps/client/src/pages/dashboard/resumes/page.tsx:38
 #: apps/client/src/pages/dashboard/settings/page.tsx:16
 #: apps/client/src/pages/home/components/footer.tsx:18
 #: apps/client/src/pages/home/page.tsx:24
@@ -1255,8 +1255,8 @@ msgid "Reset Zoom"
 msgstr ""
 
 #: apps/client/src/pages/dashboard/_components/sidebar.tsx:86
-#: apps/client/src/pages/dashboard/resumes/page.tsx:20
-#: apps/client/src/pages/dashboard/resumes/page.tsx:37
+#: apps/client/src/pages/dashboard/resumes/page.tsx:38
+#: apps/client/src/pages/dashboard/resumes/page.tsx:60
 msgid "Resumes"
 msgstr ""
 
