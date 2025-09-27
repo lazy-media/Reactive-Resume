@@ -680,7 +680,7 @@ msgstr "ಗೂಗಲ್"
 msgid "Grayscale"
 msgstr "ಗ್ರೇಸ್ಕೇಲ್"
 
-#: apps/client/src/pages/dashboard/resumes/page.tsx:43
+#: apps/client/src/pages/dashboard/resumes/page.tsx:66
 msgid "Grid"
 msgstr "ಗ್ರಿಡ್"
 
@@ -897,7 +897,7 @@ msgstr "ಗೆರೆಯ ಎತ್ತರ"
 msgid "LinkedIn, JSON Resume, etc."
 msgstr "ಲಿಂಕ್ಡ್‌ಇನ್, JSON ರೆಸ್ಯೂಮ್, ಇತ್ಯಾದಿ."
 
-#: apps/client/src/pages/dashboard/resumes/page.tsx:47
+#: apps/client/src/pages/dashboard/resumes/page.tsx:70
 msgid "List"
 msgstr "ಪಟ್ಟಿ"
 
@@ -1188,7 +1188,7 @@ msgstr "ಒಂದು ಸಮಸ್ಯೆಯನ್ನು ಎತ್ತಿಕೊಳ�
 #: apps/client/src/pages/auth/verify-email/page.tsx:43
 #: apps/client/src/pages/auth/verify-otp/page.tsx:52
 #: apps/client/src/pages/builder/page.tsx:60
-#: apps/client/src/pages/dashboard/resumes/page.tsx:20
+#: apps/client/src/pages/dashboard/resumes/page.tsx:38
 #: apps/client/src/pages/dashboard/settings/page.tsx:16
 #: apps/client/src/pages/home/components/footer.tsx:18
 #: apps/client/src/pages/home/page.tsx:24
@@ -1255,8 +1255,8 @@ msgid "Reset Zoom"
 msgstr "ಜೂಮ್ ಮರುಹೊಂದಿಸಿ"
 
 #: apps/client/src/pages/dashboard/_components/sidebar.tsx:86
-#: apps/client/src/pages/dashboard/resumes/page.tsx:20
-#: apps/client/src/pages/dashboard/resumes/page.tsx:37
+#: apps/client/src/pages/dashboard/resumes/page.tsx:38
+#: apps/client/src/pages/dashboard/resumes/page.tsx:60
 msgid "Resumes"
 msgstr "ರೆಸ್ಯೂಮೇ"
 
