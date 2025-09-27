@@ -34,7 +34,7 @@ const DonateCard = () => (
     </CardContent>
     <CardFooter>
       <a
-        href="https://github.com/sponsors/lazymedia"
+        href="https://github.com/sponsors/lazy-media"
         className={cn(buttonVariants({ size: "sm" }))}
         rel="noopener noreferrer nofollow"
         target="_blank"
