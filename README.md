@@ -46,9 +46,7 @@ A free and open-source resume builder that simplifies the process of creating, u
 
 ---
 
-**Hey everyone, did you know you can now access the docs in 7 languages?**
-
-**You can now read them in: Español, Français, Deutsch, Italiano, Português, Português Brasileiro, and Русский.**
+**Hey everyone, did you know you can now access the docs in 20+ languages?**
 
 **Just use the language switcher at the top of the sidebar on the [Docs Site](https://docs.rxresume.org) to choose your preferred language. A huge thank you to GitBook for sponsoring these translations!**
 
