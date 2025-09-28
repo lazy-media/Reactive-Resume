@@ -2,10 +2,12 @@ name: NX CI
 
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows: ["Run Prettier and Language File Fixes"]
-    types:
-      - completed
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 permissions:
   actions: read
@@ -41,3 +43,6 @@ jobs:
       # - run: pnpm exec nx-cloud record -- echo Hello World
       # Nx Affected runs only tasks affected by the changes in this PR/commit. Learn more: https://nx.dev/ci/features/affected
       - run: pnpm exec nx affected -t lint test build
+
+      - run: npx nx-cloud fix-ci
+        if: always()

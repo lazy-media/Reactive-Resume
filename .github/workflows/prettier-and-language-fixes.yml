@@ -6,6 +6,8 @@ on:
     branches:
       - main
   pull_request:
+    branches:
+      - main
 
 permissions:
   actions: read
@@ -33,7 +35,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Run Prettier Fix
-        run: pnpm run format:fix
+        run: pnpm prettier --write .
 
       - name: Run Language File Fixes
         run: pnpm run messages:extract
