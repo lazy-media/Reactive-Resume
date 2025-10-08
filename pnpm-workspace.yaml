@@ -10,3 +10,4 @@ onlyBuiltDependencies:
   - prisma
   - puppeteer
   - sharp
+  - unrs-resolver
