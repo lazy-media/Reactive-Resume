@@ -16,14 +16,14 @@ import {
   FormMessage,
   Input,
 } from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { Helmet } from "react-helmet-async";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router";
 import type { z } from "zod";
 
 import { useLogin } from "@/client/services/auth";
+import { useAuthProviders } from "@/client/services/auth/providers";
 import { useFeatureFlags } from "@/client/services/feature";
 
 type FormValues = z.infer<typeof loginSchema>;
@@ -31,6 +31,7 @@ type FormValues = z.infer<typeof loginSchema>;
 export const LoginPage = () => {
   const { login, loading } = useLogin();
   const { flags } = useFeatureFlags();
+  const { providers } = useAuthProviders();
 
   const formRef = useRef<HTMLFormElement>(null);
   usePasswordToggle(formRef);
@@ -39,6 +40,24 @@ export const LoginPage = () => {
     resolver: zodResolver(loginSchema),
     defaultValues: { identifier: "", password: "" },
   });
+
+  // Auto-redirect to OAuth if both email auth and signups are disabled
+  // Only redirect if there's exactly one OAuth provider (skip the page)
+  useEffect(() => {
+    if (!flags.isEmailAuthDisabled || !flags.isSignupsDisabled || !providers) return;
+
+    // Get OAuth providers (exclude "email")
+    const oauthProviders = providers.filter(
+      (p: "email" | "github" | "google" | "openid") => p !== "email",
+    );
+
+    // Only auto-redirect if there's exactly one OAuth provider
+    if (oauthProviders.length === 1) {
+      const provider = oauthProviders[0];
+      window.location.href = `/api/auth/${provider}`;
+    }
+    // If multiple providers exist, let the SocialAuth component show buttons
+  }, [flags.isEmailAuthDisabled, flags.isSignupsDisabled, providers]);
 
   const onSubmit = async (data: FormValues) => {
     try {
@@ -58,15 +77,20 @@ export const LoginPage = () => {
 
       <div className="space-y-1.5">
         <h2 className="text-2xl font-semibold tracking-tight">{t`Sign in to your account`}</h2>
-        <h6>
-          <span className="opacity-75">{t`Don't have an account?`}</span>
-          <Button asChild variant="link" className="px-1.5">
-            <Link to="/auth/register">
-              {t({ message: "Create one now", context: "This is a link to create a new account" })}{" "}
-              <ArrowRight className="ml-1" />
-            </Link>
-          </Button>
-        </h6>
+        {!flags.isSignupsDisabled && (
+          <h6>
+            <span className="opacity-75">{t`Don't have an account?`}</span>
+            <Button asChild variant="link" className="px-1.5">
+              <Link to="/auth/register">
+                {t({
+                  message: "Create one now",
+                  context: "This is a link to create a new account",
+                })}{" "}
+                <ArrowRight className="ml-1" />
+              </Link>
+            </Button>
+          </h6>
+        )}
       </div>
 
       {flags.isEmailAuthDisabled && (
@@ -75,7 +99,7 @@ export const LoginPage = () => {
         </Alert>
       )}
 
-      <div className={cn(flags.isEmailAuthDisabled && "pointer-events-none select-none blur-sm")}>
+      {!flags.isEmailAuthDisabled && (
         <Form {...form}>
           <form
             ref={formRef}
@@ -133,7 +157,7 @@ export const LoginPage = () => {
             </div>
           </form>
         </Form>
-      </div>
+      )}
     </div>
   );
 };
