@@ -4,6 +4,7 @@ import { FloppyDisk, TrashSimple } from "@phosphor-icons/react";
 import {
   Alert,
   Button,
+  Checkbox,
   Form,
   FormControl,
   FormField,
@@ -15,7 +16,11 @@ import {
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 
-import { DEFAULT_MAX_TOKENS, DEFAULT_MODEL } from "@/client/constants/llm";
+import {
+  DEFAULT_AZURE_API_VERSION,
+  DEFAULT_MAX_TOKENS,
+  DEFAULT_MODEL,
+} from "@/client/constants/llm";
 import { useOpenAiStore } from "@/client/stores/openai";
 
 const formSchema = z.object({
@@ -32,13 +37,27 @@ const formSchema = z.object({
     .default(""),
   model: z.string().default(DEFAULT_MODEL),
   maxTokens: z.number().default(DEFAULT_MAX_TOKENS),
+  isAzure: z.boolean().default(false),
+  azureApiVersion: z.string().default(DEFAULT_AZURE_API_VERSION),
 });
 
 type FormValues = z.infer<typeof formSchema>;
 
 export const OpenAISettings = () => {
-  const { apiKey, setApiKey, baseURL, setBaseURL, model, setModel, maxTokens, setMaxTokens } =
-    useOpenAiStore();
+  const {
+    apiKey,
+    setApiKey,
+    baseURL,
+    setBaseURL,
+    model,
+    setModel,
+    maxTokens,
+    setMaxTokens,
+    isAzure,
+    setIsAzure,
+    azureApiVersion,
+    setAzureApiVersion,
+  } = useOpenAiStore();
 
   const isEnabled = !!apiKey;
 
@@ -49,11 +68,21 @@ export const OpenAISettings = () => {
       baseURL: baseURL ?? "",
       model: model ?? DEFAULT_MODEL,
       maxTokens: maxTokens ?? DEFAULT_MAX_TOKENS,
+      isAzure: isAzure ?? false,
+      azureApiVersion: azureApiVersion ?? DEFAULT_AZURE_API_VERSION,
     },
   });
 
-  const onSubmit = ({ apiKey, baseURL, model, maxTokens }: FormValues) => {
+  const onSubmit = ({
+    apiKey,
+    baseURL,
+    model,
+    maxTokens,
+    isAzure,
+    azureApiVersion,
+  }: FormValues) => {
     setApiKey(apiKey);
+    setIsAzure(isAzure);
     if (baseURL) {
       setBaseURL(baseURL);
     }
@@ -63,6 +92,9 @@ export const OpenAISettings = () => {
     if (maxTokens) {
       setMaxTokens(maxTokens);
     }
+    if (azureApiVersion) {
+      setAzureApiVersion(azureApiVersion);
+    }
   };
 
   const onRemove = () => {
@@ -70,20 +102,24 @@ export const OpenAISettings = () => {
     setBaseURL(null);
     setModel(DEFAULT_MODEL);
     setMaxTokens(DEFAULT_MAX_TOKENS);
+    setIsAzure(false);
+    setAzureApiVersion(DEFAULT_AZURE_API_VERSION);
     form.reset({
       apiKey: "",
       baseURL: "",
       model: DEFAULT_MODEL,
       maxTokens: DEFAULT_MAX_TOKENS,
+      isAzure: false,
+      azureApiVersion: DEFAULT_AZURE_API_VERSION,
     });
   };
 
   return (
     <div className="space-y-6">
       <div>
-        <h3 className="text-2xl font-bold leading-relaxed tracking-tight">{t`OpenAI/OpenWebUI Integration`}</h3>
+        <h3 className="text-2xl font-bold leading-relaxed tracking-tight">{t`OpenAI/Azure OpenAI/Ollama Integration`}</h3>
         <p className="leading-relaxed opacity-75">
-          {t`You can make use of the OpenAI API to help you generate content, or improve your writing while composing your resume.`}
+          {t`You can make use of the OpenAI API, Azure OpenAI, or Ollama to help you generate content, or improve your writing while composing your resume.`}
         </p>
       </div>
 
@@ -106,14 +142,32 @@ export const OpenAISettings = () => {
 
         <p>
           <Trans>
-            You can also integrate with OpenWebUI by setting your API key. 1) Login to your local
+            You can also integrate with Azure OpenAI by enabling the "Use Azure OpenAI" checkbox and
+            setting the Resource URL to your Azure OpenAI resource (e.g.,
+            <code>https://your-resource.openai.azure.com</code>). Set the deployment name in the
+            Model field and specify the appropriate API version for your Azure deployment.
+          </Trans>
+        </p>
+
+        <p>
+          <Trans>
+            You can integrate with OpenWebUI by setting your API key. 1) Login to your local
             OpenWebUI instance. 2) Click on your name in the bottom left corner. 3) Click on
             Settings. 4) Click on Account. 5) Show and copy your API Key. It should look something
             like `sk-1234567890abcdef`. Fill in the Base URL to your OpenWebUI Instance, (i.e.
-            `https://localhost:8080/api`).{" "}
+            <code>https://localhost:8080/api</code>).{" "}
             <strong>This must connect over HTTPS and to OpenWebUI, not Ollama.</strong>
-            You can also pick and choose models (i.e. `llama3.2:latest`) and set the max tokens as
-            per your preference.
+            You can also pick and choose models (i.e. <code>llama3.2:latest</code>) and set the max
+            tokens as per your preference.
+          </Trans>
+        </p>
+
+        <p>
+          <Trans>
+            You can integrate with Ollama simply by setting the API key to
+            <code>sk-1234567890abcdef</code> and the Base URL to your Ollama URL, i.e.
+            <code>http://localhost:11434/v1</code>. You can also pick and choose models and set the
+            max tokens as per your preference.
           </Trans>
         </p>
       </div>
@@ -125,7 +179,7 @@ export const OpenAISettings = () => {
             control={form.control}
             render={({ field }) => (
               <FormItem>
-                <FormLabel>{t`OpenAI/OpenWebUI API Key`}</FormLabel>
+                <FormLabel>{t`OpenAI/Ollama API Key`}</FormLabel>
                 <FormControl>
                   <Input type="password" placeholder="sk-..." {...field} />
                 </FormControl>
@@ -138,9 +192,19 @@ export const OpenAISettings = () => {
             control={form.control}
             render={({ field }) => (
               <FormItem>
-                <FormLabel>{t`Base URL`}</FormLabel>
+                <FormLabel>
+                  {form.watch("isAzure") ? t`Azure OpenAI Resource URL` : t`Base URL`}
+                </FormLabel>
                 <FormControl>
-                  <Input type="text" placeholder="https://localhost:8080/api" {...field} />
+                  <Input
+                    type="text"
+                    placeholder={
+                      form.watch("isAzure")
+                        ? "https://your-resource.openai.azure.com"
+                        : "http://localhost:11434/v1"
+                    }
+                    {...field}
+                  />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -151,7 +215,7 @@ export const OpenAISettings = () => {
             control={form.control}
             render={({ field }) => (
               <FormItem>
-                <FormLabel>{t`Model`}</FormLabel>
+                <FormLabel>{form.watch("isAzure") ? t`Deployment Name` : t`Model`}</FormLabel>
                 <FormControl>
                   <Input type="text" placeholder={DEFAULT_MODEL} {...field} />
                 </FormControl>
@@ -173,6 +237,44 @@ export const OpenAISettings = () => {
                     onChange={(e) => {
                       field.onChange(e.target.valueAsNumber);
                     }}
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+          <FormField
+            name="isAzure"
+            control={form.control}
+            render={({ field }) => (
+              <FormItem className="flex flex-row items-center space-x-3 space-y-0">
+                <FormControl>
+                  <Checkbox
+                    checked={!!field.value}
+                    onCheckedChange={(value) => {
+                      field.onChange(Boolean(value));
+                    }}
+                  />
+                </FormControl>
+                <div className="space-y-1 leading-none">
+                  <FormLabel>{t`Use Azure OpenAI`}</FormLabel>
+                </div>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+          <FormField
+            name="azureApiVersion"
+            control={form.control}
+            render={({ field }) => (
+              <FormItem className={form.watch("isAzure") ? "" : "opacity-50"}>
+                <FormLabel>{t`Azure API Version`}</FormLabel>
+                <FormControl>
+                  <Input
+                    type="text"
+                    placeholder={DEFAULT_AZURE_API_VERSION}
+                    disabled={!form.watch("isAzure")}
+                    {...field}
                   />
                 </FormControl>
                 <FormMessage />
