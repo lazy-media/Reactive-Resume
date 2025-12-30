@@ -354,7 +354,7 @@ msgstr "Crear un elemento nuevo"
 msgid "Create a new resume"
 msgstr "Crear un nuevo currículum"
 
-#: apps/client/src/pages/auth/login/page.tsx:65
+#: apps/client/src/pages/auth/login/page.tsx:85
 msgctxt "This is a link to create a new account"
 msgid "Create one now"
 msgstr "Crear uno ahora"
@@ -455,7 +455,7 @@ msgstr "Descartar"
 msgid "Documentation"
 msgstr "Documentación"
 
-#: apps/client/src/pages/auth/login/page.tsx:62
+#: apps/client/src/pages/auth/login/page.tsx:82
 msgid "Don't have an account?"
 msgstr "¿No tienes una cuenta?"
 
@@ -512,7 +512,7 @@ msgid "Effects"
 msgstr "Efectos"
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:82
-#: apps/client/src/pages/auth/login/page.tsx:90
+#: apps/client/src/pages/auth/login/page.tsx:114
 #: apps/client/src/pages/auth/register/page.tsx:141
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:54
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:181
@@ -609,7 +609,7 @@ msgstr "Por ejemplo, aquí puedes anotar información sobre a qué empresas envi
 msgid "Forget"
 msgstr "Olvidar"
 
-#: apps/client/src/pages/auth/login/page.tsx:131
+#: apps/client/src/pages/auth/login/page.tsx:155
 msgid "Forgot Password?"
 msgstr "¿Has olvidado tu contraseña?"
 
@@ -710,7 +710,7 @@ msgstr "Ocultar"
 msgid "Hide Icons"
 msgstr "Ocultar iconos"
 
-#: apps/client/src/pages/auth/login/page.tsx:115
+#: apps/client/src/pages/auth/login/page.tsx:139
 #: apps/client/src/pages/auth/register/page.tsx:168
 #: apps/client/src/pages/auth/reset-password/page.tsx:88
 msgid "Hold <0>Ctrl</0> to display your password temporarily."
@@ -1085,7 +1085,7 @@ msgstr "Página {pageNumber}"
 msgid "Part-time"
 msgstr ""
 
-#: apps/client/src/pages/auth/login/page.tsx:110
+#: apps/client/src/pages/auth/login/page.tsx:134
 #: apps/client/src/pages/auth/register/page.tsx:163
 #: apps/client/src/pages/auth/reset-password/page.tsx:83
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:73
@@ -1182,7 +1182,7 @@ msgstr "Reportar problema"
 #: apps/client/src/components/copyright.tsx:44
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
-#: apps/client/src/pages/auth/login/page.tsx:55
+#: apps/client/src/pages/auth/login/page.tsx:74
 #: apps/client/src/pages/auth/register/page.tsx:64
 #: apps/client/src/pages/auth/reset-password/page.tsx:60
 #: apps/client/src/pages/auth/verify-email/page.tsx:43
@@ -1382,7 +1382,7 @@ msgid "Sidebar"
 msgstr "Barra lateral"
 
 #: apps/client/src/pages/auth/backup-otp/page.tsx:103
-#: apps/client/src/pages/auth/login/page.tsx:127
+#: apps/client/src/pages/auth/login/page.tsx:151
 #: apps/client/src/pages/auth/verify-otp/page.tsx:92
 msgid "Sign in"
 msgstr "Iniciar sesión"
@@ -1391,8 +1391,8 @@ msgstr "Iniciar sesión"
 msgid "Sign in now"
 msgstr "Inicia sesión"
 
-#: apps/client/src/pages/auth/login/page.tsx:55
-#: apps/client/src/pages/auth/login/page.tsx:60
+#: apps/client/src/pages/auth/login/page.tsx:74
+#: apps/client/src/pages/auth/login/page.tsx:79
 msgid "Sign in to your account"
 msgstr "Inicia sesión a tu cuenta"
 
@@ -1412,7 +1412,7 @@ msgstr "Inicia sesión con Google"
 msgid "Sign up"
 msgstr "Registrarse"
 
-#: apps/client/src/pages/auth/login/page.tsx:74
+#: apps/client/src/pages/auth/login/page.tsx:98
 msgid "Signing in via email is currently disabled by the administrator."
 msgstr "El inicio de sesión por correo electrónico está actualmente desactivado por el administrador."
 
@@ -1767,7 +1767,7 @@ msgstr ""
 msgid "You can add multiple keywords by separating them with a comma or pressing enter."
 msgstr "Puedes agregar varias palabras clave separándolas con una coma o presionando Enter."
 
-#: apps/client/src/pages/auth/login/page.tsx:99
+#: apps/client/src/pages/auth/login/page.tsx:123
 msgid "You can also enter your username."
 msgstr "También puedes ingresar tu nombre de usuario."
 

@@ -47,7 +47,9 @@ export const LoginPage = () => {
     if (!flags.isEmailAuthDisabled || !flags.isSignupsDisabled || !providers) return;
 
     // Get OAuth providers (exclude "email")
-    const oauthProviders = providers.filter((p: "email" | "github" | "google" | "openid") => p !== "email");
+    const oauthProviders = providers.filter(
+      (p: "email" | "github" | "google" | "openid") => p !== "email",
+    );
 
     // Only auto-redirect if there's exactly one OAuth provider
     if (oauthProviders.length === 1) {
@@ -80,7 +82,10 @@ export const LoginPage = () => {
             <span className="opacity-75">{t`Don't have an account?`}</span>
             <Button asChild variant="link" className="px-1.5">
               <Link to="/auth/register">
-                {t({ message: "Create one now", context: "This is a link to create a new account" })}{" "}
+                {t({
+                  message: "Create one now",
+                  context: "This is a link to create a new account",
+                })}{" "}
                 <ArrowRight className="ml-1" />
               </Link>
             </Button>

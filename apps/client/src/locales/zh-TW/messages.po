@@ -354,7 +354,7 @@ msgstr "建立新項目"
 msgid "Create a new resume"
 msgstr "建立新履歷"
 
-#: apps/client/src/pages/auth/login/page.tsx:65
+#: apps/client/src/pages/auth/login/page.tsx:85
 msgctxt "This is a link to create a new account"
 msgid "Create one now"
 msgstr "立即建立"
@@ -455,7 +455,7 @@ msgstr "放棄"
 msgid "Documentation"
 msgstr "文件"
 
-#: apps/client/src/pages/auth/login/page.tsx:62
+#: apps/client/src/pages/auth/login/page.tsx:82
 msgid "Don't have an account?"
 msgstr "還沒有帳號嗎？"
 
@@ -512,7 +512,7 @@ msgid "Effects"
 msgstr "效果"
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:82
-#: apps/client/src/pages/auth/login/page.tsx:90
+#: apps/client/src/pages/auth/login/page.tsx:114
 #: apps/client/src/pages/auth/register/page.tsx:141
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:54
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:181
@@ -609,7 +609,7 @@ msgstr "例如，您將這份履歷寄給哪些公司的相關資訊，或是工
 msgid "Forget"
 msgstr "略過"
 
-#: apps/client/src/pages/auth/login/page.tsx:131
+#: apps/client/src/pages/auth/login/page.tsx:155
 msgid "Forgot Password?"
 msgstr "忘記密碼?"
 
@@ -710,7 +710,7 @@ msgstr "隱藏"
 msgid "Hide Icons"
 msgstr "隱藏圖示"
 
-#: apps/client/src/pages/auth/login/page.tsx:115
+#: apps/client/src/pages/auth/login/page.tsx:139
 #: apps/client/src/pages/auth/register/page.tsx:168
 #: apps/client/src/pages/auth/reset-password/page.tsx:88
 msgid "Hold <0>Ctrl</0> to display your password temporarily."
@@ -1085,7 +1085,7 @@ msgstr "頁面 {pageNumber}"
 msgid "Part-time"
 msgstr ""
 
-#: apps/client/src/pages/auth/login/page.tsx:110
+#: apps/client/src/pages/auth/login/page.tsx:134
 #: apps/client/src/pages/auth/register/page.tsx:163
 #: apps/client/src/pages/auth/reset-password/page.tsx:83
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:73
@@ -1182,7 +1182,7 @@ msgstr "提出問題"
 #: apps/client/src/components/copyright.tsx:44
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
-#: apps/client/src/pages/auth/login/page.tsx:55
+#: apps/client/src/pages/auth/login/page.tsx:74
 #: apps/client/src/pages/auth/register/page.tsx:64
 #: apps/client/src/pages/auth/reset-password/page.tsx:60
 #: apps/client/src/pages/auth/verify-email/page.tsx:43
@@ -1382,7 +1382,7 @@ msgid "Sidebar"
 msgstr "側邊欄"
 
 #: apps/client/src/pages/auth/backup-otp/page.tsx:103
-#: apps/client/src/pages/auth/login/page.tsx:127
+#: apps/client/src/pages/auth/login/page.tsx:151
 #: apps/client/src/pages/auth/verify-otp/page.tsx:92
 msgid "Sign in"
 msgstr "登入"
@@ -1391,8 +1391,8 @@ msgstr "登入"
 msgid "Sign in now"
 msgstr "立即登入"
 
-#: apps/client/src/pages/auth/login/page.tsx:55
-#: apps/client/src/pages/auth/login/page.tsx:60
+#: apps/client/src/pages/auth/login/page.tsx:74
+#: apps/client/src/pages/auth/login/page.tsx:79
 msgid "Sign in to your account"
 msgstr "登入您的帳戶"
 
@@ -1412,7 +1412,7 @@ msgstr "使用 Google 帳號登入"
 msgid "Sign up"
 msgstr "註冊"
 
-#: apps/client/src/pages/auth/login/page.tsx:74
+#: apps/client/src/pages/auth/login/page.tsx:98
 msgid "Signing in via email is currently disabled by the administrator."
 msgstr "目前管理員已停用透過電子郵件登入。"
 
@@ -1767,7 +1767,7 @@ msgstr ""
 msgid "You can add multiple keywords by separating them with a comma or pressing enter."
 msgstr "你可以使用逗號或Enter鍵隔開，新增多個關鍵詞。"
 
-#: apps/client/src/pages/auth/login/page.tsx:99
+#: apps/client/src/pages/auth/login/page.tsx:123
 msgid "You can also enter your username."
 msgstr "您也可以輸入您的使用者名稱。"
 
