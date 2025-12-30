@@ -354,7 +354,7 @@ msgstr "ಹೊಸ ಐಟಂ ರಚಿಸಿ"
 msgid "Create a new resume"
 msgstr "ಹೊಸ ರೆಸ್ಯೂಮ್ ಅನ್ನು ರಚಿಸಿ"
 
-#: apps/client/src/pages/auth/login/page.tsx:65
+#: apps/client/src/pages/auth/login/page.tsx:85
 msgctxt "This is a link to create a new account"
 msgid "Create one now"
 msgstr "ಇದೀಗ ಒಂದನ್ನು ರಚಿಸಿ"
@@ -455,7 +455,7 @@ msgstr "ತಿರಸ್ಕರಿಸು"
 msgid "Documentation"
 msgstr "ದಾಖಲೀಕರಣ"
 
-#: apps/client/src/pages/auth/login/page.tsx:62
+#: apps/client/src/pages/auth/login/page.tsx:82
 msgid "Don't have an account?"
 msgstr "ಖಾತೆ ಇಲ್ಲವೇ?"
 
@@ -512,7 +512,7 @@ msgid "Effects"
 msgstr "ಪರಿಣಾಮಗಳು"
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:82
-#: apps/client/src/pages/auth/login/page.tsx:90
+#: apps/client/src/pages/auth/login/page.tsx:114
 #: apps/client/src/pages/auth/register/page.tsx:141
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:54
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:181
@@ -609,7 +609,7 @@ msgstr "ಉದಾಹರಣೆಗೆ, ನೀವು ಈ ರೆಸ್ಯೂಮ್ �
 msgid "Forget"
 msgstr "ಮರೆತುಬಿಡಿ"
 
-#: apps/client/src/pages/auth/login/page.tsx:131
+#: apps/client/src/pages/auth/login/page.tsx:155
 msgid "Forgot Password?"
 msgstr "ಪಾಸ್ವರ್ಡ್ ಮರೆತಿರಾ?"
 
@@ -710,7 +710,7 @@ msgstr "ಮರೆಮಾಡಿ"
 msgid "Hide Icons"
 msgstr "ಐಕಾನ್‌ಗಳನ್ನು ಮರೆಮಾಡಿ"
 
-#: apps/client/src/pages/auth/login/page.tsx:115
+#: apps/client/src/pages/auth/login/page.tsx:139
 #: apps/client/src/pages/auth/register/page.tsx:168
 #: apps/client/src/pages/auth/reset-password/page.tsx:88
 msgid "Hold <0>Ctrl</0> to display your password temporarily."
@@ -1085,7 +1085,7 @@ msgstr ""
 msgid "Part-time"
 msgstr ""
 
-#: apps/client/src/pages/auth/login/page.tsx:110
+#: apps/client/src/pages/auth/login/page.tsx:134
 #: apps/client/src/pages/auth/register/page.tsx:163
 #: apps/client/src/pages/auth/reset-password/page.tsx:83
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:73
@@ -1182,7 +1182,7 @@ msgstr "ಒಂದು ಸಮಸ್ಯೆಯನ್ನು ಎತ್ತಿಕೊಳ�
 #: apps/client/src/components/copyright.tsx:44
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
-#: apps/client/src/pages/auth/login/page.tsx:55
+#: apps/client/src/pages/auth/login/page.tsx:74
 #: apps/client/src/pages/auth/register/page.tsx:64
 #: apps/client/src/pages/auth/reset-password/page.tsx:60
 #: apps/client/src/pages/auth/verify-email/page.tsx:43
@@ -1382,7 +1382,7 @@ msgid "Sidebar"
 msgstr "ಪಾರ್ಶ್ವಪಟ್ಟಿ"
 
 #: apps/client/src/pages/auth/backup-otp/page.tsx:103
-#: apps/client/src/pages/auth/login/page.tsx:127
+#: apps/client/src/pages/auth/login/page.tsx:151
 #: apps/client/src/pages/auth/verify-otp/page.tsx:92
 msgid "Sign in"
 msgstr "ಸೈನ್ ಇನ್ ಮಾಡಿ"
@@ -1391,8 +1391,8 @@ msgstr "ಸೈನ್ ಇನ್ ಮಾಡಿ"
 msgid "Sign in now"
 msgstr "ಈಗ ಸೈನ್ ಇನ್ ಮಾಡಿ"
 
-#: apps/client/src/pages/auth/login/page.tsx:55
-#: apps/client/src/pages/auth/login/page.tsx:60
+#: apps/client/src/pages/auth/login/page.tsx:74
+#: apps/client/src/pages/auth/login/page.tsx:79
 msgid "Sign in to your account"
 msgstr "ನಿಮ್ಮ ಖಾತೆಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ"
 
@@ -1412,7 +1412,7 @@ msgstr "Google ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ"
 msgid "Sign up"
 msgstr "ಖಾತೇ ರಚಿಸಿ"
 
-#: apps/client/src/pages/auth/login/page.tsx:74
+#: apps/client/src/pages/auth/login/page.tsx:98
 msgid "Signing in via email is currently disabled by the administrator."
 msgstr ""
 
@@ -1767,7 +1767,7 @@ msgstr ""
 msgid "You can add multiple keywords by separating them with a comma or pressing enter."
 msgstr "ಅಲ್ಪವಿರಾಮದಿಂದ ಬೇರ್ಪಡಿಸುವ ಮೂಲಕ ಅಥವಾ ಎಂಟರ್ ಒತ್ತುವ ಮೂಲಕ ನೀವು ಬಹು ಕೀವರ್ಡ್‌ಗಳನ್ನು ಸೇರಿಸಬಹುದು."
 
-#: apps/client/src/pages/auth/login/page.tsx:99
+#: apps/client/src/pages/auth/login/page.tsx:123
 msgid "You can also enter your username."
 msgstr "ನಿಮ್ಮ ಬಳಕೆದಾರಹೆಸರನ್ನು ಸಹ ನೀವು ನಮೂದಿಸಬಹುದು."
 
