@@ -354,7 +354,7 @@ msgstr "नवीन वस्तू बनवा"
 msgid "Create a new resume"
 msgstr "नवीन रेझ्युमे बनवा"
 
-#: apps/client/src/pages/auth/login/page.tsx:65
+#: apps/client/src/pages/auth/login/page.tsx:85
 msgctxt "This is a link to create a new account"
 msgid "Create one now"
 msgstr "आता बनवा"
@@ -455,7 +455,7 @@ msgstr "टाकून द्या"
 msgid "Documentation"
 msgstr "दस्तऐवजीकरण"
 
-#: apps/client/src/pages/auth/login/page.tsx:62
+#: apps/client/src/pages/auth/login/page.tsx:82
 msgid "Don't have an account?"
 msgstr "खाते नाही का?"
 
@@ -512,7 +512,7 @@ msgid "Effects"
 msgstr "इफेक्ट"
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:82
-#: apps/client/src/pages/auth/login/page.tsx:90
+#: apps/client/src/pages/auth/login/page.tsx:114
 #: apps/client/src/pages/auth/register/page.tsx:141
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:54
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:181
@@ -609,7 +609,7 @@ msgstr ""
 msgid "Forget"
 msgstr "विसरा"
 
-#: apps/client/src/pages/auth/login/page.tsx:131
+#: apps/client/src/pages/auth/login/page.tsx:155
 msgid "Forgot Password?"
 msgstr "पासवर्ड विसरलात का?"
 
@@ -680,7 +680,7 @@ msgstr "Google"
 msgid "Grayscale"
 msgstr ""
 
-#: apps/client/src/pages/dashboard/resumes/page.tsx:43
+#: apps/client/src/pages/dashboard/resumes/page.tsx:66
 msgid "Grid"
 msgstr ""
 
@@ -710,7 +710,7 @@ msgstr "लपवा"
 msgid "Hide Icons"
 msgstr "आयकन लपवा"
 
-#: apps/client/src/pages/auth/login/page.tsx:115
+#: apps/client/src/pages/auth/login/page.tsx:139
 #: apps/client/src/pages/auth/register/page.tsx:168
 #: apps/client/src/pages/auth/reset-password/page.tsx:88
 msgid "Hold <0>Ctrl</0> to display your password temporarily."
@@ -897,7 +897,7 @@ msgstr "रेषेची उंची"
 msgid "LinkedIn, JSON Resume, etc."
 msgstr "LinkedIn, JSON Resume, इ."
 
-#: apps/client/src/pages/dashboard/resumes/page.tsx:47
+#: apps/client/src/pages/dashboard/resumes/page.tsx:70
 msgid "List"
 msgstr "यादी"
 
@@ -1085,7 +1085,7 @@ msgstr ""
 msgid "Part-time"
 msgstr ""
 
-#: apps/client/src/pages/auth/login/page.tsx:110
+#: apps/client/src/pages/auth/login/page.tsx:134
 #: apps/client/src/pages/auth/register/page.tsx:163
 #: apps/client/src/pages/auth/reset-password/page.tsx:83
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:73
@@ -1182,13 +1182,13 @@ msgstr ""
 #: apps/client/src/components/copyright.tsx:44
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
-#: apps/client/src/pages/auth/login/page.tsx:55
+#: apps/client/src/pages/auth/login/page.tsx:74
 #: apps/client/src/pages/auth/register/page.tsx:64
 #: apps/client/src/pages/auth/reset-password/page.tsx:60
 #: apps/client/src/pages/auth/verify-email/page.tsx:43
 #: apps/client/src/pages/auth/verify-otp/page.tsx:52
 #: apps/client/src/pages/builder/page.tsx:60
-#: apps/client/src/pages/dashboard/resumes/page.tsx:20
+#: apps/client/src/pages/dashboard/resumes/page.tsx:38
 #: apps/client/src/pages/dashboard/settings/page.tsx:16
 #: apps/client/src/pages/home/components/footer.tsx:18
 #: apps/client/src/pages/home/page.tsx:24
@@ -1255,8 +1255,8 @@ msgid "Reset Zoom"
 msgstr "झूम रीसेट करा"
 
 #: apps/client/src/pages/dashboard/_components/sidebar.tsx:86
-#: apps/client/src/pages/dashboard/resumes/page.tsx:20
-#: apps/client/src/pages/dashboard/resumes/page.tsx:37
+#: apps/client/src/pages/dashboard/resumes/page.tsx:38
+#: apps/client/src/pages/dashboard/resumes/page.tsx:60
 msgid "Resumes"
 msgstr "रेझ्युमे"
 
@@ -1382,7 +1382,7 @@ msgid "Sidebar"
 msgstr "बाजूची पट्टी"
 
 #: apps/client/src/pages/auth/backup-otp/page.tsx:103
-#: apps/client/src/pages/auth/login/page.tsx:127
+#: apps/client/src/pages/auth/login/page.tsx:151
 #: apps/client/src/pages/auth/verify-otp/page.tsx:92
 msgid "Sign in"
 msgstr "साइन इन"
@@ -1391,8 +1391,8 @@ msgstr "साइन इन"
 msgid "Sign in now"
 msgstr "आता साइन इन करा"
 
-#: apps/client/src/pages/auth/login/page.tsx:55
-#: apps/client/src/pages/auth/login/page.tsx:60
+#: apps/client/src/pages/auth/login/page.tsx:74
+#: apps/client/src/pages/auth/login/page.tsx:79
 msgid "Sign in to your account"
 msgstr "आपल्या खात्यात साइन इन करा"
 
@@ -1412,7 +1412,7 @@ msgstr "Google ने साइन इन करा"
 msgid "Sign up"
 msgstr "साइन अप करा"
 
-#: apps/client/src/pages/auth/login/page.tsx:74
+#: apps/client/src/pages/auth/login/page.tsx:98
 msgid "Signing in via email is currently disabled by the administrator."
 msgstr "ईमेलद्वारे साइन-इन करणे सध्या प्रबंधकाने निष्क्रिय केले आहे."
 
@@ -1767,7 +1767,7 @@ msgstr ""
 msgid "You can add multiple keywords by separating them with a comma or pressing enter."
 msgstr ""
 
-#: apps/client/src/pages/auth/login/page.tsx:99
+#: apps/client/src/pages/auth/login/page.tsx:123
 msgid "You can also enter your username."
 msgstr "तुम्ही तुमचे युझरनेमसुद्धा प्रविष्ट करू शकता."
 
