@@ -1,6 +1,6 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { t, Trans } from "@lingui/macro";
-import { FloppyDisk, TrashSimple } from "@phosphor-icons/react";
+import { FloppyDiskIcon, TrashSimpleIcon } from "@phosphor-icons/react";
 import {
   Alert,
   Button,
@@ -68,7 +68,7 @@ export const OpenAISettings = () => {
       baseURL: baseURL ?? "",
       model: model ?? DEFAULT_MODEL,
       maxTokens: maxTokens ?? DEFAULT_MAX_TOKENS,
-      isAzure: isAzure ?? false,
+      isAzure,
       azureApiVersion: azureApiVersion ?? DEFAULT_AZURE_API_VERSION,
     },
   });
@@ -142,29 +142,16 @@ export const OpenAISettings = () => {
 
         <p>
           <Trans>
-            You can also integrate with Azure OpenAI by enabling the "Use Azure OpenAI" checkbox and
-            setting the Resource URL to your Azure OpenAI resource (e.g.,
-            <code>https://your-resource.openai.azure.com</code>). Set the deployment name in the
+            You can also integrate with Azure OpenAI by enabling the <code>Use Azure OpenAI</code>{" "}
+            checkbox and setting the Resource URL to your Azure OpenAI resource:{" "}
+            <code>https://your-resource.openai.azure.com</code>. Set the deployment name in the
             Model field and specify the appropriate API version for your Azure deployment.
           </Trans>
         </p>
 
         <p>
           <Trans>
-            You can integrate with OpenWebUI by setting your API key. 1) Login to your local
-            OpenWebUI instance. 2) Click on your name in the bottom left corner. 3) Click on
-            Settings. 4) Click on Account. 5) Show and copy your API Key. It should look something
-            like `sk-1234567890abcdef`. Fill in the Base URL to your OpenWebUI Instance, (i.e.
-            <code>https://localhost:8080/api</code>).{" "}
-            <strong>This must connect over HTTPS and to OpenWebUI, not Ollama.</strong>
-            You can also pick and choose models (i.e. <code>llama3.2:latest</code>) and set the max
-            tokens as per your preference.
-          </Trans>
-        </p>
-
-        <p>
-          <Trans>
-            You can integrate with Ollama simply by setting the API key to
+            You can also integrate with Ollama simply by setting the API key to
             <code>sk-1234567890abcdef</code> and the Base URL to your Ollama URL, i.e.
             <code>http://localhost:11434/v1</code>. You can also pick and choose models and set the
             max tokens as per your preference.
@@ -250,7 +237,7 @@ export const OpenAISettings = () => {
               <FormItem className="flex flex-row items-center space-x-3 space-y-0">
                 <FormControl>
                   <Checkbox
-                    checked={!!field.value}
+                    checked={field.value}
                     onCheckedChange={(value) => {
                       field.onChange(Boolean(value));
                     }}
@@ -283,13 +270,13 @@ export const OpenAISettings = () => {
           />
           <div className="flex items-center space-x-2 self-end sm:col-start-2">
             <Button type="submit" disabled={!form.formState.isValid}>
-              {isEnabled && <FloppyDisk className="mr-2" />}
+              {isEnabled && <FloppyDiskIcon className="mr-2" />}
               {isEnabled ? t`Saved` : t`Save Locally`}
             </Button>
 
             {isEnabled && (
               <Button type="reset" variant="ghost" onClick={onRemove}>
-                <TrashSimple className="mr-2" />
+                <TrashSimpleIcon className="mr-2" />
                 {t`Forget`}
               </Button>
             )}
