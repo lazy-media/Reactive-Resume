@@ -354,7 +354,7 @@ msgstr "สร้างรายการใหม่"
 msgid "Create a new resume"
 msgstr "สร้างเรซูเม่ใหม่"
 
-#: apps/client/src/pages/auth/login/page.tsx:65
+#: apps/client/src/pages/auth/login/page.tsx:85
 msgctxt "This is a link to create a new account"
 msgid "Create one now"
 msgstr "สร้างตอนนี้เลย"
@@ -455,7 +455,7 @@ msgstr "ยกเลิก"
 msgid "Documentation"
 msgstr "เอกสารอ้างอิง"
 
-#: apps/client/src/pages/auth/login/page.tsx:62
+#: apps/client/src/pages/auth/login/page.tsx:82
 msgid "Don't have an account?"
 msgstr "ยังไม่มีบัญชีเหรอ?"
 
@@ -512,7 +512,7 @@ msgid "Effects"
 msgstr "เอฟเฟกต์"
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:82
-#: apps/client/src/pages/auth/login/page.tsx:90
+#: apps/client/src/pages/auth/login/page.tsx:114
 #: apps/client/src/pages/auth/register/page.tsx:141
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:54
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:181
@@ -609,7 +609,7 @@ msgstr "ตัวอย่างเช่น ข้อมูลเกี่ย�
 msgid "Forget"
 msgstr "ลืม"
 
-#: apps/client/src/pages/auth/login/page.tsx:131
+#: apps/client/src/pages/auth/login/page.tsx:155
 msgid "Forgot Password?"
 msgstr "ลืมรหัสผ่านเหรอ?"
 
@@ -680,7 +680,7 @@ msgstr "Google"
 msgid "Grayscale"
 msgstr "ขาวดำ"
 
-#: apps/client/src/pages/dashboard/resumes/page.tsx:43
+#: apps/client/src/pages/dashboard/resumes/page.tsx:66
 msgid "Grid"
 msgstr "ตาราง"
 
@@ -710,7 +710,7 @@ msgstr "ซ่อน"
 msgid "Hide Icons"
 msgstr "ซ่อนไอคอน"
 
-#: apps/client/src/pages/auth/login/page.tsx:115
+#: apps/client/src/pages/auth/login/page.tsx:139
 #: apps/client/src/pages/auth/register/page.tsx:168
 #: apps/client/src/pages/auth/reset-password/page.tsx:88
 msgid "Hold <0>Ctrl</0> to display your password temporarily."
@@ -897,7 +897,7 @@ msgstr "ความสูงของเส้น"
 msgid "LinkedIn, JSON Resume, etc."
 msgstr "LinkedIn, เรซูเม่ JSON ฯลฯ"
 
-#: apps/client/src/pages/dashboard/resumes/page.tsx:47
+#: apps/client/src/pages/dashboard/resumes/page.tsx:70
 msgid "List"
 msgstr "รายการ"
 
@@ -1085,7 +1085,7 @@ msgstr ""
 msgid "Part-time"
 msgstr ""
 
-#: apps/client/src/pages/auth/login/page.tsx:110
+#: apps/client/src/pages/auth/login/page.tsx:134
 #: apps/client/src/pages/auth/register/page.tsx:163
 #: apps/client/src/pages/auth/reset-password/page.tsx:83
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:73
@@ -1182,13 +1182,13 @@ msgstr "แจ้งปัญหา"
 #: apps/client/src/components/copyright.tsx:44
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
-#: apps/client/src/pages/auth/login/page.tsx:55
+#: apps/client/src/pages/auth/login/page.tsx:74
 #: apps/client/src/pages/auth/register/page.tsx:64
 #: apps/client/src/pages/auth/reset-password/page.tsx:60
 #: apps/client/src/pages/auth/verify-email/page.tsx:43
 #: apps/client/src/pages/auth/verify-otp/page.tsx:52
 #: apps/client/src/pages/builder/page.tsx:60
-#: apps/client/src/pages/dashboard/resumes/page.tsx:20
+#: apps/client/src/pages/dashboard/resumes/page.tsx:38
 #: apps/client/src/pages/dashboard/settings/page.tsx:16
 #: apps/client/src/pages/home/components/footer.tsx:18
 #: apps/client/src/pages/home/page.tsx:24
@@ -1255,8 +1255,8 @@ msgid "Reset Zoom"
 msgstr "รีเซ็ตการซูม"
 
 #: apps/client/src/pages/dashboard/_components/sidebar.tsx:86
-#: apps/client/src/pages/dashboard/resumes/page.tsx:20
-#: apps/client/src/pages/dashboard/resumes/page.tsx:37
+#: apps/client/src/pages/dashboard/resumes/page.tsx:38
+#: apps/client/src/pages/dashboard/resumes/page.tsx:60
 msgid "Resumes"
 msgstr "เรซูเม่"
 
@@ -1382,7 +1382,7 @@ msgid "Sidebar"
 msgstr "แถบด้านข้าง"
 
 #: apps/client/src/pages/auth/backup-otp/page.tsx:103
-#: apps/client/src/pages/auth/login/page.tsx:127
+#: apps/client/src/pages/auth/login/page.tsx:151
 #: apps/client/src/pages/auth/verify-otp/page.tsx:92
 msgid "Sign in"
 msgstr "เข้าสู่ระบบ"
@@ -1391,8 +1391,8 @@ msgstr "เข้าสู่ระบบ"
 msgid "Sign in now"
 msgstr "เข้าสู่ระบบตอนนี้"
 
-#: apps/client/src/pages/auth/login/page.tsx:55
-#: apps/client/src/pages/auth/login/page.tsx:60
+#: apps/client/src/pages/auth/login/page.tsx:74
+#: apps/client/src/pages/auth/login/page.tsx:79
 msgid "Sign in to your account"
 msgstr "ลงชื่อเข้าใช้บัญชีของคุณ"
 
@@ -1412,7 +1412,7 @@ msgstr "เข้าสู่ระบบด้วย Google"
 msgid "Sign up"
 msgstr "ลงทะเบียน"
 
-#: apps/client/src/pages/auth/login/page.tsx:74
+#: apps/client/src/pages/auth/login/page.tsx:98
 msgid "Signing in via email is currently disabled by the administrator."
 msgstr "ขณะนี้การลงชื่อเข้าใช้ผ่านอีเมลถูกปิดใช้งานโดยผู้ดูแลระบบ"
 
@@ -1767,7 +1767,7 @@ msgstr ""
 msgid "You can add multiple keywords by separating them with a comma or pressing enter."
 msgstr "คุณสามารถเพิ่มคีย์เวิร์ดได้หลายคำโดยคั่นด้วยเครื่องหมายจุลภาคหรือกด Enter"
 
-#: apps/client/src/pages/auth/login/page.tsx:99
+#: apps/client/src/pages/auth/login/page.tsx:123
 msgid "You can also enter your username."
 msgstr "คุณสามารถป้อนชื่อผู้ใช้ของคุณได้ด้วย"
 
