@@ -58,7 +58,7 @@ A free and open-source resume builder that simplifies the process of creating, u
 >
 > - _Please use `Letter` Format when Exporting a PDF. Currently `A4` Format cuts off long resumes._
 
-### Still want to use the old app from the old maintainer?
+### Still want to use the app from the original maintainer?
 
 > Visit [Original RxResume Site](https://rxresu.me)
 
