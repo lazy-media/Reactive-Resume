@@ -1,0 +1,34 @@
+name: Sync Crowdin Translations
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *" # Daily at midnight (UTC)
+
+jobs:
+  sync:
+    if: github.repository == 'lazy-media/Reactive-Resume'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4.1.1
+
+      - name: Sync Translations
+        uses: crowdin/github-action@v1.15.2
+        with:
+          upload_sources: true
+          upload_translations: true
+          download_translations: true
+          skip_untranslated_files: false
+          skip_untranslated_strings: false
+          create_pull_request: true
+          pull_request_reviewers: "lazy-media"
+          localization_branch_name: "l10n"
+          pull_request_base_branch_name: "main"
+          pull_request_title: "New Translations from Crowdin"
+          pull_request_body: "You've got new translations to be merged into the app from contributors on Crowdin.\n\n_This pull request was automatically created by the [Crowdin Action](https://github.com/marketplace/actions/crowdin-action)._"
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
