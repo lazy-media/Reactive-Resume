@@ -41,7 +41,7 @@ export const Footer = () => (
           </a>
 
           <Link
-            to="https://docs.rxresume.org/meta/privacy-policy"
+            to="https://doc.rxresume.org/meta/privacy-policy"
             className="block text-sm font-medium"
             target="_blank"
           >{t`Privacy Policy`}</Link>

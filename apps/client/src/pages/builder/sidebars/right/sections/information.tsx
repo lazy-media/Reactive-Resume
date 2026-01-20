@@ -100,7 +100,7 @@ const DocumentationCard = () => (
     <CardFooter className="space-x-4">
       <a
         className={cn(buttonVariants({ size: "sm" }))}
-        href="https://docs.rxresume.org/"
+        href="https://doc.rxresume.org/"
         target="_blank"
         rel="noopener noreferrer nofollow"
       >
