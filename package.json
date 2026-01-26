@@ -144,7 +144,7 @@
     "@nestjs/platform-express": "^10.4.15",
     "@nestjs/serve-static": "^4.0.2",
     "@nestjs/swagger": "^7.4.2",
-    "@nestjs/terminus": "^10.3.0",
+    "@nestjs/terminus": "^11.0.0",
     "@paralleldrive/cuid2": "^2.2.2",
     "@phosphor-icons/react": "^2.1.7",
     "@prisma/client": "^5.22.0",
