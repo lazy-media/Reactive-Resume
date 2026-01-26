@@ -38,7 +38,7 @@ msgstr ""
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>我知道这个应用程序并不完美，但我希望它能日趋完善。</0> <1>如果您在创建简历时遇到任何问题，或者有有助于您和其他用户更轻松地创建简历的想法，请在仓库中提出问题或向我发送有关的电子邮件。</1>"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:210
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:312
 msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
 msgstr "<0>注意：</0>使用 OpenAI API 即表示您承认并接受 OpenAI 的<1>使用条款</1>和<2>隐私政策</2>。请注意，Reactive Resume 对任何不当或未经授权的服务使用不承担任何责任，由此产生的任何影响或责任仅由用户承担。"
 
@@ -199,6 +199,26 @@ msgstr "有 {languagesCount} 种语言可用"
 msgid "Awarder"
 msgstr "授予者"
 
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:271
+msgid "Azure API Version"
+msgstr ""
+
+#: apps/client/src/services/openai/client.ts:25
+msgid "Azure OpenAI API version is required when using Azure OpenAI."
+msgstr ""
+
+#: apps/client/src/services/openai/client.ts:17
+msgid "Azure OpenAI Base URL is required when using Azure OpenAI."
+msgstr ""
+
+#: apps/client/src/services/openai/client.ts:21
+msgid "Azure OpenAI deployment name (model) is required when using Azure OpenAI."
+msgstr ""
+
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:196
+msgid "Azure OpenAI Resource URL"
+msgstr ""
+
 #: apps/client/src/pages/auth/backup-otp/page.tsx:99
 #: apps/client/src/pages/auth/forgot-password/page.tsx:100
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:243
@@ -217,7 +237,7 @@ msgstr "备份码"
 msgid "Backup Codes may contain only lowercase letters or numbers, and must be exactly 10 characters."
 msgstr "备份码只包含小写字母或数字，而且必须正好是 10 个字符。"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:141
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:196
 msgid "Base URL"
 msgstr "基础 URL"
 
@@ -424,6 +444,10 @@ msgstr "删除"
 msgid "Delete Account"
 msgstr "删除账户"
 
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:218
+msgid "Deployment Name"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:95
 #: apps/client/src/pages/builder/sidebars/left/dialogs/languages.tsx:50
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:87
@@ -605,7 +629,7 @@ msgstr "字体变体"
 msgid "For example, information regarding which companies you sent this resume to or the links to the job descriptions can be noted down here."
 msgstr "例如，您可以在此处注明您发送给的公司或者职位描述的链接。"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:191
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:293
 msgid "Forget"
 msgstr "遗弃"
 
@@ -958,7 +982,7 @@ msgstr "2023 年 3 月至今"
 msgid "Margin"
 msgstr "边距"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:167
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:231
 msgid "Max Tokens"
 msgstr "最大 Token 数"
 
@@ -966,7 +990,7 @@ msgstr "最大 Token 数"
 msgid "MIT License"
 msgstr "MIT 许可证"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:154
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:218
 msgid "Model"
 msgstr "模型"
 
@@ -1049,12 +1073,12 @@ msgstr "OpenAI 没有为您的文本返回任何选项。"
 msgid "OpenAI Integration"
 msgstr "集成 OpenAI"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:128
-msgid "OpenAI/OpenWebUI API Key"
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:120
+msgid "OpenAI/Azure OpenAI/Ollama Integration"
 msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:84
-msgid "OpenAI/OpenWebUI Integration"
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:182
+msgid "OpenAI/Ollama API Key"
 msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
@@ -1279,11 +1303,11 @@ msgstr "圆角"
 msgid "Save Changes"
 msgstr "保存更改"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:185
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:287
 msgid "Save Locally"
 msgstr "保存到本地"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:185
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:287
 msgid "Saved"
 msgstr "已保存"
 
@@ -1670,6 +1694,10 @@ msgstr ""
 msgid "URL must start with https://"
 msgstr "URL 需要以 https:// 开头"
 
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:260
+msgid "Use Azure OpenAI"
+msgstr ""
+
 #: apps/client/src/components/theme-switch.tsx:30
 msgid "Use System Theme"
 msgstr ""
@@ -1771,13 +1799,21 @@ msgstr "您可以通过用逗号或回车分隔来添加多个关键字。"
 msgid "You can also enter your username."
 msgstr "您还可以输入您的用户名。"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:108
-msgid "You can also integrate with OpenWebUI by setting your API key. 1) Login to your local OpenWebUI instance. 2) Click on your name in the bottom left corner. 3) Click on Settings. 4) Click on Account. 5) Show and copy your API Key. It should look something like `sk-1234567890abcdef`. Fill in the Base URL to your OpenWebUI Instance, (i.e. `https://localhost:8080/api`). <0>This must connect over HTTPS and to OpenWebUI, not Ollama.</0>You can also pick and choose models (i.e. `llama3.2:latest`) and set the max tokens as per your preference."
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:144
+msgid "You can also integrate with Azure OpenAI by enabling the \"Use Azure OpenAI\" checkbox and setting the Resource URL to your Azure OpenAI resource (e.g.,<0>https://your-resource.openai.azure.com</0>). Set the deployment name in the Model field and specify the appropriate API version for your Azure deployment."
 msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:86
-msgid "You can make use of the OpenAI API to help you generate content, or improve your writing while composing your resume."
-msgstr "您可以利用 OpenAI API 来帮助您生成内容，或在撰写简历时提高写作水平。"
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:166
+msgid "You can integrate with Ollama simply by setting the API key to<0>sk-1234567890abcdef</0> and the Base URL to your Ollama URL, i.e.<1>http://localhost:11434/v1</1>. You can also pick and choose models and set the max tokens as per your preference."
+msgstr ""
+
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:153
+msgid "You can integrate with OpenWebUI by setting your API key. 1) Login to your local OpenWebUI instance. 2) Click on your name in the bottom left corner. 3) Click on Settings. 4) Click on Account. 5) Show and copy your API Key. It should look something like `sk-1234567890abcdef`. Fill in the Base URL to your OpenWebUI Instance, (i.e.<0>https://localhost:8080/api</0>). <1>This must connect over HTTPS and to OpenWebUI, not Ollama.</1>You can also pick and choose models (i.e. <2>llama3.2:latest</2>) and set the max tokens as per your preference."
+msgstr ""
+
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:122
+msgid "You can make use of the OpenAI API, Azure OpenAI, or Ollama to help you generate content, or improve your writing while composing your resume."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:40
 msgid "You can track the number of views your resume has received, or how many people have downloaded the resume by enabling public sharing."
@@ -1787,7 +1823,7 @@ msgstr "您可以跟踪简历的浏览量，或通过启用公开共享功能跟
 msgid "You don't have permission to access this page."
 msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:92
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:128
 msgid "You have the option to <0>obtain your own OpenAI API key</0>. This key empowers you to leverage the API as you see fit. Alternatively, if you wish to disable the AI features in Reactive Resume altogether, you can simply remove the key from your settings."
 msgstr "您可以选择<0>获取您自己的 OpenAI API 密钥</0>，此密钥使您能够根据需要使用 API。或者，如果您希望完全禁用 Reactive Resume 中的 AI 功能，只需从设置中删除密钥即可。"
 
@@ -1804,7 +1840,7 @@ msgstr "您有新邮件！"
 msgid "Your account and all your data has been deleted successfully. Goodbye!"
 msgstr "已成功删除您的账户和所有数据。再见！"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:200
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:302
 msgid "Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services."
 msgstr "您的 API 密钥安全地存储在浏览器的本地存储中，并且仅会在通过官方 SDK 向 OpenAI 发出请求时使用。请放心，除非与 OpenAI 进行服务交互，否则您的密钥不会传输到任何外部服务器。"
 
